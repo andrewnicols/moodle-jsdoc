@@ -1,0 +1,786 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>lib/yui/src/notification/js/dialogue.js - Moodle</title>
+    <link rel="stylesheet" href="http://yui.yahooapis.com/3.9.1/build/cssgrids/cssgrids-min.css">
+    <link rel="stylesheet" href="../assets/vendor/prettify/prettify-min.css">
+    <link rel="stylesheet" href="../assets/css/main.css" id="site_styles">
+    <link rel="shortcut icon" type="image/png" href="../assets/favicon.png">
+    <script src="http://yui.yahooapis.com/combo?3.9.1/build/yui/yui-min.js"></script>
+</head>
+<body class="yui3-skin-sam">
+
+<div id="doc">
+    <div id="hd" class="yui3-g header">
+        <div class="yui3-u-3-4">
+            
+                <h1><img src="../assets/css/logo.png" title="Moodle"></h1>
+            
+        </div>
+        <div class="yui3-u-1-4 version">
+            <em>API Docs for: 2.6.2+ (Build: 20140320)</em>
+        </div>
+    </div>
+    <div id="bd" class="yui3-g">
+
+        <div class="yui3-u-1-4">
+            <div id="docs-sidebar" class="sidebar apidocs">
+                <div id="api-list">
+    <h2 class="off-left">APIs</h2>
+    <div id="api-tabview" class="tabview">
+        <ul class="tabs">
+            <li><a href="#api-classes">Classes</a></li>
+            <li><a href="#api-modules">Modules</a></li>
+        </ul>
+
+        <div id="api-tabview-filter">
+            <input type="search" id="api-filter" placeholder="Type to filter APIs">
+        </div>
+
+        <div id="api-tabview-panel">
+            <ul id="api-classes" class="apis classes">
+            
+                <li><a href="../classes/Bootstrap.Collapse.html">Bootstrap.Collapse</a></li>
+            
+                <li><a href="../classes/Bootstrap.Dropdown.html">Bootstrap.Dropdown</a></li>
+            
+                <li><a href="../classes/M.assignfeedback_editpdf.annotationhighlight.html">M.assignfeedback_editpdf.annotationhighlight</a></li>
+            
+                <li><a href="../classes/M.assignfeedback_editpdf.annotationline.html">M.assignfeedback_editpdf.annotationline</a></li>
+            
+                <li><a href="../classes/M.assignfeedback_editpdf.annotationoval.html">M.assignfeedback_editpdf.annotationoval</a></li>
+            
+                <li><a href="../classes/M.assignfeedback_editpdf.annotationpen.html">M.assignfeedback_editpdf.annotationpen</a></li>
+            
+                <li><a href="../classes/M.assignfeedback_editpdf.annotationrectangle.html">M.assignfeedback_editpdf.annotationrectangle</a></li>
+            
+                <li><a href="../classes/M.assignfeedback_editpdf.annotationstamp.html">M.assignfeedback_editpdf.annotationstamp</a></li>
+            
+                <li><a href="../classes/M.assignfeedback_editpdf.colourpicker.dropdown.html">M.assignfeedback_editpdf.colourpicker.dropdown</a></li>
+            
+                <li><a href="../classes/M.assignfeedback_editpdf.comment.html">M.assignfeedback_editpdf.comment</a></li>
+            
+                <li><a href="../classes/M.assignfeedback_editpdf.drawable.html">M.assignfeedback_editpdf.drawable</a></li>
+            
+                <li><a href="../classes/M.assignfeedback_editpdf.edit.html">M.assignfeedback_editpdf.edit</a></li>
+            
+                <li><a href="../classes/M.assignfeedback_editpdf.editor.assignfeedback_editpdf.html">M.assignfeedback_editpdf.editor.assignfeedback_editpdf</a></li>
+            
+                <li><a href="../classes/M.assignfeedback_editpdf.editor.commentmenu.html">M.assignfeedback_editpdf.editor.commentmenu</a></li>
+            
+                <li><a href="../classes/M.assignfeedback_editpdf.editor.commentsearch.html">M.assignfeedback_editpdf.editor.commentsearch</a></li>
+            
+                <li><a href="../classes/M.assignfeedback_editpdf.editor.Editor.html">M.assignfeedback_editpdf.editor.Editor</a></li>
+            
+                <li><a href="../classes/M.assignfeedback_editpdf.editor.editor.html">M.assignfeedback_editpdf.editor.editor</a></li>
+            
+                <li><a href="../classes/M.assignfeedback_editpdf.point.html">M.assignfeedback_editpdf.point</a></li>
+            
+                <li><a href="../classes/M.assignfeedback_editpdf.quickcomment.html">M.assignfeedback_editpdf.quickcomment</a></li>
+            
+                <li><a href="../classes/M.assignfeedback_editpdf.quickcommentlist.html">M.assignfeedback_editpdf.quickcommentlist</a></li>
+            
+                <li><a href="../classes/M.assignfeedback_editpdf.rect.html">M.assignfeedback_editpdf.rect</a></li>
+            
+                <li><a href="../classes/M.assignfeedback_editpdf.stamppicker.dropdown.html">M.assignfeedback_editpdf.stamppicker.dropdown</a></li>
+            
+                <li><a href="../classes/M.assignfeedback_editpdf.widget.dropdown.dropdown.html">M.assignfeedback_editpdf.widget.dropdown.dropdown</a></li>
+            
+                <li><a href="../classes/M.block_navigation.html">M.block_navigation</a></li>
+            
+                <li><a href="../classes/M.block_navigation.ActionKey.html">M.block_navigation.ActionKey</a></li>
+            
+                <li><a href="../classes/M.block_navigation.Branch.html">M.block_navigation.Branch</a></li>
+            
+                <li><a href="../classes/M.block_navigation.Tree.html">M.block_navigation.Tree</a></li>
+            
+                <li><a href="../classes/M.core.html">M.core</a></li>
+            
+                <li><a href="../classes/M.core.actionmenu.html">M.core.actionmenu</a></li>
+            
+                <li><a href="../classes/M.core.actionmenu.ActionMenu.html">M.core.actionmenu.ActionMenu</a></li>
+            
+                <li><a href="../classes/M.core.ajaxException.html">M.core.ajaxException</a></li>
+            
+                <li><a href="../classes/M.core.alert.html">M.core.alert</a></li>
+            
+                <li><a href="../classes/M.core.blockdraganddrop.html">M.core.blockdraganddrop</a></li>
+            
+                <li><a href="../classes/M.core.blockdraganddrop.BlockRegion.html">M.core.blockdraganddrop.BlockRegion</a></li>
+            
+                <li><a href="../classes/M.core.blockdraganddrop.LegacyManager.html">M.core.blockdraganddrop.LegacyManager</a></li>
+            
+                <li><a href="../classes/M.core.blockdraganddrop.Manager.html">M.core.blockdraganddrop.Manager</a></li>
+            
+                <li><a href="../classes/M.core.confirm.html">M.core.confirm</a></li>
+            
+                <li><a href="../classes/M.core.core.html">M.core.core</a></li>
+            
+                <li><a href="../classes/M.core.dialogue.html">M.core.dialogue</a></li>
+            
+                <li><a href="../classes/M.core.dock.html">M.core.dock</a></li>
+            
+                <li><a href="../classes/M.core.dock.ActionKey.html">M.core.dock.ActionKey</a></li>
+            
+                <li><a href="../classes/M.core.dock.Block.html">M.core.dock.Block</a></li>
+            
+                <li><a href="../classes/M.core.dock.Dock.html">M.core.dock.Dock</a></li>
+            
+                <li><a href="../classes/M.core.dock.DockedItem.html">M.core.dock.DockedItem</a></li>
+            
+                <li><a href="../classes/M.core.dock.Loader.html">M.core.dock.Loader</a></li>
+            
+                <li><a href="../classes/M.core.dock.Panel.html">M.core.dock.Panel</a></li>
+            
+                <li><a href="../classes/M.core.dock.TabHeightManager.html">M.core.dock.TabHeightManager</a></li>
+            
+                <li><a href="../classes/M.core.exception.html">M.core.exception</a></li>
+            
+                <li><a href="../classes/M.core.LockScroll.html">M.core.LockScroll</a></li>
+            
+                <li><a href="../classes/M.core.notification.html">M.core.notification</a></li>
+            
+                <li><a href="../classes/M.core.tooltip.html">M.core.tooltip</a></li>
+            
+                <li><a href="../classes/M.course.management.Category.html">M.course.management.Category</a></li>
+            
+                <li><a href="../classes/M.course.management.Console.html">M.course.management.Console</a></li>
+            
+                <li><a href="../classes/M.course.management.Course.html">M.course.management.Course</a></li>
+            
+                <li><a href="../classes/M.course.management.DragDrop.html">M.course.management.DragDrop</a></li>
+            
+                <li><a href="../classes/M.course.management.Item.html">M.course.management.Item</a></li>
+            
+                <li><a href="../classes/M.tool_capability.search.Search.html">M.tool_capability.search.Search</a></li>
+            
+                <li><a href="../classes/M.tool_capability.search.tool_capability.html">M.tool_capability.search.tool_capability</a></li>
+            
+                <li><a href="../classes/Moodle.core_course.util.html">Moodle.core_course.util</a></li>
+            
+                <li><a href="../classes/Moodle.core_course.util.cm.html">Moodle.core_course.util.cm</a></li>
+            
+                <li><a href="../classes/Moodle.core_course.util.section.html">Moodle.core_course.util.section</a></li>
+            
+                <li><a href="../classes/Moodle.theme_bootstrapbase.bootstrap.html">Moodle.theme_bootstrapbase.bootstrap</a></li>
+            
+                <li><a href="../classes/TreeView.html">TreeView</a></li>
+            
+                <li><a href="../classes/TreeView.Sortable.html">TreeView.Sortable</a></li>
+            
+                <li><a href="../classes/Y.BootstrapEngine.html">Y.BootstrapEngine</a></li>
+            
+                <li><a href="../classes/Y.Moodle.course.categoryexpander.html">Y.Moodle.course.categoryexpander</a></li>
+            
+            </ul>
+
+            <ul id="api-modules" class="apis modules">
+            
+                <li><a href="../modules/gallery-bootstrap-collapse.html">gallery-bootstrap-collapse</a></li>
+            
+                <li><a href="../modules/gallery-bootstrap-dropdown.html">gallery-bootstrap-dropdown</a></li>
+            
+                <li><a href="../modules/gallery-bootstrap-engine.html">gallery-bootstrap-engine</a></li>
+            
+                <li><a href="../modules/gallery-sm-treeview.html">gallery-sm-treeview</a></li>
+            
+                <li><a href="../modules/gallery-sm-treeview-sortable.html">gallery-sm-treeview-sortable</a></li>
+            
+                <li><a href="../modules/moodle-assignfeedback_editpdf-editor.html">moodle-assignfeedback_editpdf-editor</a></li>
+            
+                <li><a href="../modules/moodle-block_navigation-navigation.html">moodle-block_navigation-navigation</a></li>
+            
+                <li><a href="../modules/moodle-core-actionmenu.html">moodle-core-actionmenu</a></li>
+            
+                <li><a href="../modules/moodle-core-blockdraganddrop.html">moodle-core-blockdraganddrop</a></li>
+            
+                <li><a href="../modules/moodle-core-dock.html">moodle-core-dock</a></li>
+            
+                <li><a href="../modules/moodle-core-lockscroll.html">moodle-core-lockscroll</a></li>
+            
+                <li><a href="../modules/moodle-core-notification.html">moodle-core-notification</a></li>
+            
+                <li><a href="../modules/moodle-core-notification-ajaxexception.html">moodle-core-notification-ajaxexception</a></li>
+            
+                <li><a href="../modules/moodle-core-notification-alert.html">moodle-core-notification-alert</a></li>
+            
+                <li><a href="../modules/moodle-core-notification-confirm.html">moodle-core-notification-confirm</a></li>
+            
+                <li><a href="../modules/moodle-core-notification-dialogue.html">moodle-core-notification-dialogue</a></li>
+            
+                <li><a href="../modules/moodle-core-notification-exception.html">moodle-core-notification-exception</a></li>
+            
+                <li><a href="../modules/moodle-core-tooltip.html">moodle-core-tooltip</a></li>
+            
+                <li><a href="../modules/moodle-course-categoryexpander.html">moodle-course-categoryexpander</a></li>
+            
+                <li><a href="../modules/moodle-course-management.html">moodle-course-management</a></li>
+            
+                <li><a href="../modules/moodle-course-util.html">moodle-course-util</a></li>
+            
+                <li><a href="../modules/moodle-course-util-cm.html">moodle-course-util-cm</a></li>
+            
+                <li><a href="../modules/moodle-course-util-section.html">moodle-course-util-section</a></li>
+            
+                <li><a href="../modules/moodle-tool_capability-search.html">moodle-tool_capability-search</a></li>
+            
+                <li><a href="../modules/theme_bootstrapbase-bootstrap.html">theme_bootstrapbase-bootstrap</a></li>
+            
+            </ul>
+        </div>
+    </div>
+</div>
+
+            </div>
+        </div>
+        <div class="yui3-u-3-4">
+                <div id="api-options">
+        Show:
+        <label for="api-show-inherited">
+            <input type="checkbox" id="api-show-inherited" checked>
+            Inherited
+        </label>
+
+        <label for="api-show-protected">
+            <input type="checkbox" id="api-show-protected">
+            Protected
+        </label>
+
+        <label for="api-show-private">
+            <input type="checkbox" id="api-show-private">
+            Private
+        </label>
+        <label for="api-show-deprecated">
+            <input type="checkbox" id="api-show-deprecated">
+            Deprecated
+        </label>
+
+    </div>
+
+
+            <div class="apidocs">
+                <div id="docs-main">
+                    <div class="content">
+                        <h1 class="file-heading">File: lib/yui/src/notification/js/dialogue.js</h1>
+
+<div class="file">
+    <pre class="code prettyprint linenums">
+/**
+ * The generic dialogue class for use in Moodle.
+ *
+ * @module moodle-core-notification
+ * @submodule moodle-core-notification-dialogue
+ */
+
+var DIALOGUE_NAME = &#x27;Moodle dialogue&#x27;,
+    DIALOGUE,
+    DIALOGUE_FULLSCREEN_CLASS = DIALOGUE_PREFIX + &#x27;-fullscreen&#x27;,
+    DIALOGUE_HIDDEN_CLASS = DIALOGUE_PREFIX + &#x27;-hidden&#x27;,
+    DIALOGUE_SELECTOR =&#x27; [role=dialog]&#x27;,
+    MENUBAR_SELECTOR = &#x27;[role=menubar]&#x27;,
+    HAS_ZINDEX = &#x27;.moodle-has-zindex&#x27;,
+    CAN_RECEIVE_FOCUS_SELECTOR = &#x27;input:not([type=&quot;hidden&quot;]), a[href], button, textarea, select, [tabindex]&#x27;;
+
+/**
+ * A re-usable dialogue box with Moodle classes applied.
+ *
+ * @param {Object} c Object literal specifying the dialogue configuration properties.
+ * @constructor
+ * @class M.core.dialogue
+ * @extends Y.Panel
+ */
+DIALOGUE = function(c) {
+    var config = Y.clone(c);
+    config.COUNT = Y.stamp(this);
+    var id = &#x27;moodle-dialogue-&#x27; + config.COUNT;
+    config.notificationBase =
+        Y.Node.create(&#x27;&lt;div class=&quot;&#x27;+CSS.BASE+&#x27;&quot;&gt;&#x27;)
+              .append(Y.Node.create(&#x27;&lt;div id=&quot;&#x27;+id+&#x27;&quot; role=&quot;dialog&quot; aria-labelledby=&quot;&#x27;+id+&#x27;-header-text&quot; class=&quot;&#x27;+CSS.WRAP+&#x27;&quot;&gt;&lt;/div&gt;&#x27;)
+              .append(Y.Node.create(&#x27;&lt;div id=&quot;&#x27;+id+&#x27;-header-text&quot; class=&quot;&#x27;+CSS.HEADER+&#x27; yui3-widget-hd&quot;&gt;&lt;/div&gt;&#x27;))
+              .append(Y.Node.create(&#x27;&lt;div class=&quot;&#x27;+CSS.BODY+&#x27; yui3-widget-bd&quot;&gt;&lt;/div&gt;&#x27;))
+              .append(Y.Node.create(&#x27;&lt;div class=&quot;&#x27;+CSS.FOOTER+&#x27; yui3-widget-ft&quot;&gt;&lt;/div&gt;&#x27;)));
+    Y.one(document.body).append(config.notificationBase);
+
+    if (config.additionalBaseClass) {
+        config.notificationBase.addClass(config.additionalBaseClass);
+    }
+
+    config.srcNode =    &#x27;#&#x27;+id;
+    config.render =     (typeof config.render !== &#x27;undefined&#x27;) ? config.render : true;
+    config.width =      config.width || &#x27;400px&#x27;;
+    if (typeof config.center === &#x27;undefined&#x27;) {
+        config.center = true;
+    } else {
+        config.center = config.centered &amp;&amp; true;
+    }
+    config.centered =   false;
+
+    if (config.width === &#x27;auto&#x27;) {
+        delete config.width;
+    }
+
+    // lightbox param to keep the stable versions API.
+    if (config.lightbox !== false) {
+        config.modal = true;
+    }
+    delete config.lightbox;
+
+    // closeButton param to keep the stable versions API.
+    if (config.closeButton === false) {
+        config.buttons = null;
+    } else {
+        config.buttons = [
+            {
+                section: Y.WidgetStdMod.HEADER,
+                classNames: &#x27;closebutton&#x27;,
+                action: function () {
+                    this.hide();
+                }
+            }
+        ];
+    }
+    DIALOGUE.superclass.constructor.apply(this, [config]);
+
+    if (config.closeButton !== false) {
+        // The buttons constructor does not allow custom attributes
+        this.get(&#x27;buttons&#x27;).header[0].setAttribute(&#x27;title&#x27;, this.get(&#x27;closeButtonTitle&#x27;));
+    }
+};
+Y.extend(DIALOGUE, Y.Panel, {
+    // Window resize event listener.
+    _resizeevent : null,
+    // Orientation change event listener.
+    _orientationevent : null,
+    _calculatedzindex : false,
+    /**
+     * Initialise the dialogue.
+     *
+     * @method initializer
+     * @return void
+     */
+    initializer : function() {
+        var bb;
+
+        if (this.get(&#x27;render&#x27;) &amp;&amp; !this.get(&#x27;rendered&#x27;)) {
+            this.render();
+        }
+
+        this.makeResponsive();
+        this.after(&#x27;visibleChange&#x27;, this.visibilityChanged, this);
+        if (this.get(&#x27;center&#x27;)) {
+            this.centerDialogue();
+        }
+
+        if (this.get(&#x27;modal&#x27;)) {
+            this.plug(Y.M.core.LockScroll);
+        }
+
+        // Workaround upstream YUI bug http://yuilibrary.com/projects/yui3/ticket/2532507
+        // and allow setting of z-index in theme.
+        bb = this.get(&#x27;boundingBox&#x27;);
+
+        // Add any additional classes that were specified.
+        Y.Array.each(this.get(&#x27;extraClasses&#x27;), bb.addClass, bb);
+
+        if (this.get(&#x27;visible&#x27;)) {
+            this.applyZIndex();
+        }
+        // Recalculate the zIndex every time the modal is altered.
+        this.on(&#x27;maskShow&#x27;, this.applyZIndex);
+        // We must show - after the dialogue has been positioned,
+        // either by centerDialogue or makeResonsive. This is because the show() will trigger
+        // a focus on the dialogue, which will scroll the page. If the dialogue has not
+        // been positioned it will scroll back to the top of the page.
+        if (this.get(&#x27;visible&#x27;)) {
+            this.show();
+            this.keyDelegation();
+        }
+    },
+
+    /**
+     * Either set the zindex to the supplied value, or set it to one more than the highest existing
+     * dialog in the page.
+     *
+     * @method visibilityChanged
+     * @return void
+     */
+    applyZIndex : function() {
+        var highestzindex = 1,
+            zindexvalue = 1,
+            bb = this.get(&#x27;boundingBox&#x27;),
+            ol = this.get(&#x27;maskNode&#x27;),
+            zindex = this.get(&#x27;zIndex&#x27;);
+        if (zindex !== 0 &amp;&amp; !this._calculatedzindex) {
+            // The zindex was specified so we should use that.
+            bb.setStyle(&#x27;zIndex&#x27;, zindex);
+        } else {
+            // Determine the correct zindex by looking at all existing dialogs and menubars in the page.
+            Y.all(DIALOGUE_SELECTOR+&#x27;, &#x27;+MENUBAR_SELECTOR+&#x27;, &#x27;+HAS_ZINDEX).each(function (node) {
+                var zindex = this.findZIndex(node);
+                if (zindex &gt; highestzindex) {
+                    highestzindex = zindex;
+                }
+            }, this);
+            // Only set the zindex if we found a wrapper.
+            zindexvalue = (highestzindex + 1).toString();
+            bb.setStyle(&#x27;zIndex&#x27;, zindexvalue);
+            ol.setStyle(&#x27;zIndex&#x27;, zindexvalue);
+            this.set(&#x27;zIndex&#x27;, zindexvalue);
+            this._calculatedzindex = true;
+        }
+    },
+
+    /**
+     * Finds the zIndex of the given node or its parent.
+     *
+     * @method findZIndex
+     * @param Node node
+     * @returns int Return either the zIndex of 0 if one was not found.
+     */
+    findZIndex : function(node) {
+        // In most cases the zindex is set on the parent of the dialog.
+        var zindex = node.getStyle(&#x27;zIndex&#x27;) || node.ancestor().getStyle(&#x27;zIndex&#x27;);
+        if (zindex) {
+            return parseInt(zindex, 10);
+        }
+        return 0;
+    },
+
+    /**
+     * Event listener for the visibility changed event.
+     *
+     * @method visibilityChanged
+     * @return void
+     */
+    visibilityChanged : function(e) {
+        var titlebar, bb;
+        if (e.attrName === &#x27;visible&#x27;) {
+            this.get(&#x27;maskNode&#x27;).addClass(CSS.LIGHTBOX);
+            if (e.prevVal &amp;&amp; !e.newVal) {
+                bb = this.get(&#x27;boundingBox&#x27;);
+                if (this._resizeevent) {
+                    this._resizeevent.detach();
+                    this._resizeevent = null;
+                }
+                if (this._orientationevent) {
+                    this._orientationevent.detach();
+                    this._orientationevent = null;
+                }
+                bb.detach(&#x27;key&#x27;, this.keyDelegation);
+            }
+            if (!e.prevVal &amp;&amp; e.newVal) {
+                // This needs to be done each time the dialog is shown as new dialogs may have been opened.
+                this.applyZIndex();
+                // This needs to be done each time the dialog is shown as the window may have been resized.
+                this.makeResponsive();
+                if (!this.shouldResizeFullscreen()) {
+                    if (this.get(&#x27;draggable&#x27;)) {
+                        titlebar = &#x27;#&#x27; + this.get(&#x27;id&#x27;) + &#x27; .&#x27; + CSS.HEADER;
+                        this.plug(Y.Plugin.Drag, {handles : [titlebar]});
+                        Y.one(titlebar).setStyle(&#x27;cursor&#x27;, &#x27;move&#x27;);
+                    }
+                }
+                this.keyDelegation();
+            }
+            if (this.get(&#x27;center&#x27;) &amp;&amp; !e.prevVal &amp;&amp; e.newVal) {
+                this.centerDialogue();
+            }
+        }
+    },
+    /**
+     * If the responsive attribute is set on the dialog, and the window size is
+     * smaller than the responsive width - make the dialog fullscreen.
+     *
+     * @method makeResponsive
+     * @return void
+     */
+    makeResponsive : function() {
+        var bb = this.get(&#x27;boundingBox&#x27;),
+            content;
+
+        if (this.shouldResizeFullscreen()) {
+            // Make this dialogue fullscreen on a small screen.
+            // Disable the page scrollbars.
+
+            // Size and position the fullscreen dialog.
+
+            bb.addClass(DIALOGUE_FULLSCREEN_CLASS);
+            bb.setStyles({&#x27;left&#x27; : null,
+                          &#x27;top&#x27; : null,
+                          &#x27;width&#x27; : null,
+                          &#x27;height&#x27; : null,
+                          &#x27;right&#x27; : null,
+                          &#x27;bottom&#x27; : null});
+
+            content = Y.one(&#x27;#&#x27; + this.get(&#x27;id&#x27;) + &#x27; .&#x27; + CSS.BODY);
+        } else {
+            if (this.get(&#x27;responsive&#x27;)) {
+                // We must reset any of the fullscreen changes.
+                bb.removeClass(DIALOGUE_FULLSCREEN_CLASS)
+                    .setStyles({&#x27;width&#x27; : this.get(&#x27;width&#x27;),
+                                &#x27;height&#x27; : this.get(&#x27;height&#x27;)});
+                content = Y.one(&#x27;#&#x27; + this.get(&#x27;id&#x27;) + &#x27; .&#x27; + CSS.BODY);
+            }
+        }
+    },
+    /**
+     * Center the dialog on the screen.
+     *
+     * @method centerDialogue
+     * @return void
+     */
+    centerDialogue : function() {
+        var bb = this.get(&#x27;boundingBox&#x27;),
+            hidden = bb.hasClass(DIALOGUE_HIDDEN_CLASS),
+            x,
+            y;
+
+        // Don&#x27;t adjust the position if we are in full screen mode.
+        if (this.shouldResizeFullscreen()) {
+            return;
+        }
+        if (hidden) {
+            bb.setStyle(&#x27;top&#x27;, &#x27;-1000px&#x27;).removeClass(DIALOGUE_HIDDEN_CLASS);
+        }
+        x = Math.max(Math.round((bb.get(&#x27;winWidth&#x27;) - bb.get(&#x27;offsetWidth&#x27;))/2), 15);
+        y = Math.max(Math.round((bb.get(&#x27;winHeight&#x27;) - bb.get(&#x27;offsetHeight&#x27;))/2), 15) + Y.one(window).get(&#x27;scrollTop&#x27;);
+        bb.setStyles({ &#x27;left&#x27; : x, &#x27;top&#x27; : y});
+
+        if (hidden) {
+            bb.addClass(DIALOGUE_HIDDEN_CLASS);
+        }
+    },
+    /**
+     * Return if this dialogue should be fullscreen or not.
+     * Responsive attribute must be true and we should not be in an iframe and the screen width should
+     * be less than the responsive width.
+     *
+     * @method shouldResizeFullscreen
+     * @return Boolean
+     */
+    shouldResizeFullscreen : function() {
+        return (window === window.parent) &amp;&amp; this.get(&#x27;responsive&#x27;) &amp;&amp;
+               Math.floor(Y.one(document.body).get(&#x27;winWidth&#x27;)) &lt; this.get(&#x27;responsiveWidth&#x27;);
+    },
+
+    /**
+     * Override the show method to set keyboard focus on the dialogue.
+     *
+     * @method show
+     * @return void
+     */
+    show : function() {
+        var result = null,
+            header = this.headerNode,
+            content = this.bodyNode;
+
+        result = DIALOGUE.superclass.show.call(this);
+
+        // Lock scroll if the plugin is present.
+        if (this.lockScroll) {
+            // We need to force the scroll locking for full screen dialogues, even if they have a small vertical size to
+            // prevent the background scrolling while the dialogue is open.
+            this.lockScroll.enableScrollLock(this.shouldResizeFullscreen());
+        }
+
+        if (header &amp;&amp; header !== &#x27;&#x27;) {
+            header.focus();
+        } else if (content &amp;&amp; content !== &#x27;&#x27;) {
+            content.focus();
+        }
+        return result;
+    },
+
+    hide: function(e) {
+        if (e) {
+            // If the event was closed by an escape key event, then we need to check that this
+            // dialogue is currently focused to prevent closing all dialogues in the stack.
+            if (e.type === &#x27;key&#x27; &amp;&amp; e.keyCode === 27 &amp;&amp; !this.get(&#x27;focused&#x27;)) {
+                return;
+            }
+        }
+
+        // Unlock scroll if the plugin is present.
+        if (this.lockScroll) {
+            this.lockScroll.disableScrollLock();
+        }
+
+        return DIALOGUE.superclass.hide.call(this, arguments);
+    },
+    /**
+     * Setup key delegation to keep tabbing within the open dialogue.
+     *
+     * @method keyDelegation
+     */
+    keyDelegation : function() {
+        var bb = this.get(&#x27;boundingBox&#x27;);
+        bb.delegate(&#x27;key&#x27;, function(e){
+            var target = e.target;
+            var direction = &#x27;forward&#x27;;
+            if (e.shiftKey) {
+                direction = &#x27;backward&#x27;;
+            }
+            if (this.trapFocus(target, direction)) {
+                e.preventDefault();
+            }
+        }, &#x27;down:9&#x27;, CAN_RECEIVE_FOCUS_SELECTOR, this);
+    },
+    /**
+     * Trap the tab focus within the open modal.
+     *
+     * @param string target the element target
+     * @param string direction tab key for forward and tab+shift for backward
+     * @returns bool
+     */
+    trapFocus : function(target, direction) {
+        var bb = this.get(&#x27;boundingBox&#x27;),
+            firstitem = bb.one(CAN_RECEIVE_FOCUS_SELECTOR),
+            lastitem = bb.all(CAN_RECEIVE_FOCUS_SELECTOR).pop();
+
+        if (target === lastitem &amp;&amp; direction === &#x27;forward&#x27;) { // Tab key.
+            return firstitem.focus();
+        } else if (target === firstitem &amp;&amp; direction === &#x27;backward&#x27;) {  // Tab+shift key.
+            return lastitem.focus();
+        }
+    }
+}, {
+    NAME : DIALOGUE_NAME,
+    CSS_PREFIX : DIALOGUE_PREFIX,
+    ATTRS : {
+        notificationBase : {
+
+        },
+
+        /**
+         * Whether to display the dialogue modally and with a
+         * lightbox style.
+         *
+         * @attribute lightbox
+         * @type Boolean
+         * @default true
+         */
+        lightbox : {
+            validator : Y.Lang.isBoolean,
+            value : true
+        },
+
+        /**
+         * Whether to display a close button on the dialogue.
+         *
+         * Note, we do not recommend hiding the close button as this has
+         * potential accessibility concerns.
+         *
+         * @attribute closeButton
+         * @type Boolean
+         * @default true
+         */
+        closeButton : {
+            validator : Y.Lang.isBoolean,
+            value : true
+        },
+
+        /**
+         * The title for the close button if one is to be shown.
+         *
+         * @attribute closeButtonTitle
+         * @type String
+         * @default &#x27;Close&#x27;
+         */
+        closeButtonTitle : {
+            validator : Y.Lang.isString,
+            value : &#x27;Close&#x27;
+        },
+
+        /**
+         * Whether to display the dialogue centrally on the screen.
+         *
+         * @attribute center
+         * @type Boolean
+         * @default true
+         */
+        center : {
+            validator : Y.Lang.isBoolean,
+            value : true
+        },
+
+        /**
+         * Whether to make the dialogue movable around the page.
+         *
+         * @attribute draggable
+         * @type Boolean
+         * @default false
+         */
+        draggable : {
+            validator : Y.Lang.isBoolean,
+            value : false
+        },
+
+        /**
+         * Used to generate a unique id for the dialogue.
+         *
+         * @attribute COUNT
+         * @type String
+         * @default null
+         */
+        COUNT: {
+            value: null
+        },
+
+        /**
+         * Used to disable the fullscreen resizing behaviour if required.
+         *
+         * @attribute responsive
+         * @type Boolean
+         * @default true
+         */
+        responsive : {
+            validator : Y.Lang.isBoolean,
+            value : true
+        },
+
+        /**
+         * The width that this dialogue should be resized to fullscreen.
+         *
+         * @attribute responsiveWidth
+         * @type Integer
+         * @default 768
+         */
+        responsiveWidth : {
+            value : 768
+        },
+
+        /**
+         * Any additional classes to add to the boundingBox.
+         *
+         * @attributes extraClasses
+         * @type Array
+         * @default []
+         */
+        extraClasses: {
+            value: []
+        }
+    }
+});
+
+M.core.dialogue = DIALOGUE;
+
+    </pre>
+</div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="../assets/vendor/prettify/prettify-min.js"></script>
+<script>prettyPrint();</script>
+<script src="../assets/js/yui-prettify.js"></script>
+<script src="../assets/../api.js"></script>
+<script src="../assets/js/api-filter.js"></script>
+<script src="../assets/js/api-list.js"></script>
+<script src="../assets/js/api-search.js"></script>
+<script src="../assets/js/apidocs.js"></script>
+</body>
+</html>

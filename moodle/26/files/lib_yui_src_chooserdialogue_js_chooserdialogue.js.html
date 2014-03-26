@@ -1,0 +1,596 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>lib/yui/src/chooserdialogue/js/chooserdialogue.js - Moodle</title>
+    <link rel="stylesheet" href="http://yui.yahooapis.com/3.9.1/build/cssgrids/cssgrids-min.css">
+    <link rel="stylesheet" href="../assets/vendor/prettify/prettify-min.css">
+    <link rel="stylesheet" href="../assets/css/main.css" id="site_styles">
+    <link rel="shortcut icon" type="image/png" href="../assets/favicon.png">
+    <script src="http://yui.yahooapis.com/combo?3.9.1/build/yui/yui-min.js"></script>
+</head>
+<body class="yui3-skin-sam">
+
+<div id="doc">
+    <div id="hd" class="yui3-g header">
+        <div class="yui3-u-3-4">
+            
+                <h1><img src="../assets/css/logo.png" title="Moodle"></h1>
+            
+        </div>
+        <div class="yui3-u-1-4 version">
+            <em>API Docs for: 2.6.2+ (Build: 20140320)</em>
+        </div>
+    </div>
+    <div id="bd" class="yui3-g">
+
+        <div class="yui3-u-1-4">
+            <div id="docs-sidebar" class="sidebar apidocs">
+                <div id="api-list">
+    <h2 class="off-left">APIs</h2>
+    <div id="api-tabview" class="tabview">
+        <ul class="tabs">
+            <li><a href="#api-classes">Classes</a></li>
+            <li><a href="#api-modules">Modules</a></li>
+        </ul>
+
+        <div id="api-tabview-filter">
+            <input type="search" id="api-filter" placeholder="Type to filter APIs">
+        </div>
+
+        <div id="api-tabview-panel">
+            <ul id="api-classes" class="apis classes">
+            
+                <li><a href="../classes/Bootstrap.Collapse.html">Bootstrap.Collapse</a></li>
+            
+                <li><a href="../classes/Bootstrap.Dropdown.html">Bootstrap.Dropdown</a></li>
+            
+                <li><a href="../classes/M.assignfeedback_editpdf.annotationhighlight.html">M.assignfeedback_editpdf.annotationhighlight</a></li>
+            
+                <li><a href="../classes/M.assignfeedback_editpdf.annotationline.html">M.assignfeedback_editpdf.annotationline</a></li>
+            
+                <li><a href="../classes/M.assignfeedback_editpdf.annotationoval.html">M.assignfeedback_editpdf.annotationoval</a></li>
+            
+                <li><a href="../classes/M.assignfeedback_editpdf.annotationpen.html">M.assignfeedback_editpdf.annotationpen</a></li>
+            
+                <li><a href="../classes/M.assignfeedback_editpdf.annotationrectangle.html">M.assignfeedback_editpdf.annotationrectangle</a></li>
+            
+                <li><a href="../classes/M.assignfeedback_editpdf.annotationstamp.html">M.assignfeedback_editpdf.annotationstamp</a></li>
+            
+                <li><a href="../classes/M.assignfeedback_editpdf.colourpicker.dropdown.html">M.assignfeedback_editpdf.colourpicker.dropdown</a></li>
+            
+                <li><a href="../classes/M.assignfeedback_editpdf.comment.html">M.assignfeedback_editpdf.comment</a></li>
+            
+                <li><a href="../classes/M.assignfeedback_editpdf.drawable.html">M.assignfeedback_editpdf.drawable</a></li>
+            
+                <li><a href="../classes/M.assignfeedback_editpdf.edit.html">M.assignfeedback_editpdf.edit</a></li>
+            
+                <li><a href="../classes/M.assignfeedback_editpdf.editor.assignfeedback_editpdf.html">M.assignfeedback_editpdf.editor.assignfeedback_editpdf</a></li>
+            
+                <li><a href="../classes/M.assignfeedback_editpdf.editor.commentmenu.html">M.assignfeedback_editpdf.editor.commentmenu</a></li>
+            
+                <li><a href="../classes/M.assignfeedback_editpdf.editor.commentsearch.html">M.assignfeedback_editpdf.editor.commentsearch</a></li>
+            
+                <li><a href="../classes/M.assignfeedback_editpdf.editor.Editor.html">M.assignfeedback_editpdf.editor.Editor</a></li>
+            
+                <li><a href="../classes/M.assignfeedback_editpdf.editor.editor.html">M.assignfeedback_editpdf.editor.editor</a></li>
+            
+                <li><a href="../classes/M.assignfeedback_editpdf.point.html">M.assignfeedback_editpdf.point</a></li>
+            
+                <li><a href="../classes/M.assignfeedback_editpdf.quickcomment.html">M.assignfeedback_editpdf.quickcomment</a></li>
+            
+                <li><a href="../classes/M.assignfeedback_editpdf.quickcommentlist.html">M.assignfeedback_editpdf.quickcommentlist</a></li>
+            
+                <li><a href="../classes/M.assignfeedback_editpdf.rect.html">M.assignfeedback_editpdf.rect</a></li>
+            
+                <li><a href="../classes/M.assignfeedback_editpdf.stamppicker.dropdown.html">M.assignfeedback_editpdf.stamppicker.dropdown</a></li>
+            
+                <li><a href="../classes/M.assignfeedback_editpdf.widget.dropdown.dropdown.html">M.assignfeedback_editpdf.widget.dropdown.dropdown</a></li>
+            
+                <li><a href="../classes/M.block_navigation.html">M.block_navigation</a></li>
+            
+                <li><a href="../classes/M.block_navigation.ActionKey.html">M.block_navigation.ActionKey</a></li>
+            
+                <li><a href="../classes/M.block_navigation.Branch.html">M.block_navigation.Branch</a></li>
+            
+                <li><a href="../classes/M.block_navigation.Tree.html">M.block_navigation.Tree</a></li>
+            
+                <li><a href="../classes/M.core.html">M.core</a></li>
+            
+                <li><a href="../classes/M.core.actionmenu.html">M.core.actionmenu</a></li>
+            
+                <li><a href="../classes/M.core.actionmenu.ActionMenu.html">M.core.actionmenu.ActionMenu</a></li>
+            
+                <li><a href="../classes/M.core.ajaxException.html">M.core.ajaxException</a></li>
+            
+                <li><a href="../classes/M.core.alert.html">M.core.alert</a></li>
+            
+                <li><a href="../classes/M.core.blockdraganddrop.html">M.core.blockdraganddrop</a></li>
+            
+                <li><a href="../classes/M.core.blockdraganddrop.BlockRegion.html">M.core.blockdraganddrop.BlockRegion</a></li>
+            
+                <li><a href="../classes/M.core.blockdraganddrop.LegacyManager.html">M.core.blockdraganddrop.LegacyManager</a></li>
+            
+                <li><a href="../classes/M.core.blockdraganddrop.Manager.html">M.core.blockdraganddrop.Manager</a></li>
+            
+                <li><a href="../classes/M.core.confirm.html">M.core.confirm</a></li>
+            
+                <li><a href="../classes/M.core.core.html">M.core.core</a></li>
+            
+                <li><a href="../classes/M.core.dialogue.html">M.core.dialogue</a></li>
+            
+                <li><a href="../classes/M.core.dock.html">M.core.dock</a></li>
+            
+                <li><a href="../classes/M.core.dock.ActionKey.html">M.core.dock.ActionKey</a></li>
+            
+                <li><a href="../classes/M.core.dock.Block.html">M.core.dock.Block</a></li>
+            
+                <li><a href="../classes/M.core.dock.Dock.html">M.core.dock.Dock</a></li>
+            
+                <li><a href="../classes/M.core.dock.DockedItem.html">M.core.dock.DockedItem</a></li>
+            
+                <li><a href="../classes/M.core.dock.Loader.html">M.core.dock.Loader</a></li>
+            
+                <li><a href="../classes/M.core.dock.Panel.html">M.core.dock.Panel</a></li>
+            
+                <li><a href="../classes/M.core.dock.TabHeightManager.html">M.core.dock.TabHeightManager</a></li>
+            
+                <li><a href="../classes/M.core.exception.html">M.core.exception</a></li>
+            
+                <li><a href="../classes/M.core.LockScroll.html">M.core.LockScroll</a></li>
+            
+                <li><a href="../classes/M.core.notification.html">M.core.notification</a></li>
+            
+                <li><a href="../classes/M.core.tooltip.html">M.core.tooltip</a></li>
+            
+                <li><a href="../classes/M.course.management.Category.html">M.course.management.Category</a></li>
+            
+                <li><a href="../classes/M.course.management.Console.html">M.course.management.Console</a></li>
+            
+                <li><a href="../classes/M.course.management.Course.html">M.course.management.Course</a></li>
+            
+                <li><a href="../classes/M.course.management.DragDrop.html">M.course.management.DragDrop</a></li>
+            
+                <li><a href="../classes/M.course.management.Item.html">M.course.management.Item</a></li>
+            
+                <li><a href="../classes/M.tool_capability.search.Search.html">M.tool_capability.search.Search</a></li>
+            
+                <li><a href="../classes/M.tool_capability.search.tool_capability.html">M.tool_capability.search.tool_capability</a></li>
+            
+                <li><a href="../classes/Moodle.core_course.util.html">Moodle.core_course.util</a></li>
+            
+                <li><a href="../classes/Moodle.core_course.util.cm.html">Moodle.core_course.util.cm</a></li>
+            
+                <li><a href="../classes/Moodle.core_course.util.section.html">Moodle.core_course.util.section</a></li>
+            
+                <li><a href="../classes/Moodle.theme_bootstrapbase.bootstrap.html">Moodle.theme_bootstrapbase.bootstrap</a></li>
+            
+                <li><a href="../classes/TreeView.html">TreeView</a></li>
+            
+                <li><a href="../classes/TreeView.Sortable.html">TreeView.Sortable</a></li>
+            
+                <li><a href="../classes/Y.BootstrapEngine.html">Y.BootstrapEngine</a></li>
+            
+                <li><a href="../classes/Y.Moodle.course.categoryexpander.html">Y.Moodle.course.categoryexpander</a></li>
+            
+            </ul>
+
+            <ul id="api-modules" class="apis modules">
+            
+                <li><a href="../modules/gallery-bootstrap-collapse.html">gallery-bootstrap-collapse</a></li>
+            
+                <li><a href="../modules/gallery-bootstrap-dropdown.html">gallery-bootstrap-dropdown</a></li>
+            
+                <li><a href="../modules/gallery-bootstrap-engine.html">gallery-bootstrap-engine</a></li>
+            
+                <li><a href="../modules/gallery-sm-treeview.html">gallery-sm-treeview</a></li>
+            
+                <li><a href="../modules/gallery-sm-treeview-sortable.html">gallery-sm-treeview-sortable</a></li>
+            
+                <li><a href="../modules/moodle-assignfeedback_editpdf-editor.html">moodle-assignfeedback_editpdf-editor</a></li>
+            
+                <li><a href="../modules/moodle-block_navigation-navigation.html">moodle-block_navigation-navigation</a></li>
+            
+                <li><a href="../modules/moodle-core-actionmenu.html">moodle-core-actionmenu</a></li>
+            
+                <li><a href="../modules/moodle-core-blockdraganddrop.html">moodle-core-blockdraganddrop</a></li>
+            
+                <li><a href="../modules/moodle-core-dock.html">moodle-core-dock</a></li>
+            
+                <li><a href="../modules/moodle-core-lockscroll.html">moodle-core-lockscroll</a></li>
+            
+                <li><a href="../modules/moodle-core-notification.html">moodle-core-notification</a></li>
+            
+                <li><a href="../modules/moodle-core-notification-ajaxexception.html">moodle-core-notification-ajaxexception</a></li>
+            
+                <li><a href="../modules/moodle-core-notification-alert.html">moodle-core-notification-alert</a></li>
+            
+                <li><a href="../modules/moodle-core-notification-confirm.html">moodle-core-notification-confirm</a></li>
+            
+                <li><a href="../modules/moodle-core-notification-dialogue.html">moodle-core-notification-dialogue</a></li>
+            
+                <li><a href="../modules/moodle-core-notification-exception.html">moodle-core-notification-exception</a></li>
+            
+                <li><a href="../modules/moodle-core-tooltip.html">moodle-core-tooltip</a></li>
+            
+                <li><a href="../modules/moodle-course-categoryexpander.html">moodle-course-categoryexpander</a></li>
+            
+                <li><a href="../modules/moodle-course-management.html">moodle-course-management</a></li>
+            
+                <li><a href="../modules/moodle-course-util.html">moodle-course-util</a></li>
+            
+                <li><a href="../modules/moodle-course-util-cm.html">moodle-course-util-cm</a></li>
+            
+                <li><a href="../modules/moodle-course-util-section.html">moodle-course-util-section</a></li>
+            
+                <li><a href="../modules/moodle-tool_capability-search.html">moodle-tool_capability-search</a></li>
+            
+                <li><a href="../modules/theme_bootstrapbase-bootstrap.html">theme_bootstrapbase-bootstrap</a></li>
+            
+            </ul>
+        </div>
+    </div>
+</div>
+
+            </div>
+        </div>
+        <div class="yui3-u-3-4">
+                <div id="api-options">
+        Show:
+        <label for="api-show-inherited">
+            <input type="checkbox" id="api-show-inherited" checked>
+            Inherited
+        </label>
+
+        <label for="api-show-protected">
+            <input type="checkbox" id="api-show-protected">
+            Protected
+        </label>
+
+        <label for="api-show-private">
+            <input type="checkbox" id="api-show-private">
+            Private
+        </label>
+        <label for="api-show-deprecated">
+            <input type="checkbox" id="api-show-deprecated">
+            Deprecated
+        </label>
+
+    </div>
+
+
+            <div class="apidocs">
+                <div id="docs-main">
+                    <div class="content">
+                        <h1 class="file-heading">File: lib/yui/src/chooserdialogue/js/chooserdialogue.js</h1>
+
+<div class="file">
+    <pre class="code prettyprint linenums">
+var CHOOSERDIALOGUE = function() {
+    CHOOSERDIALOGUE.superclass.constructor.apply(this, arguments);
+};
+
+Y.extend(CHOOSERDIALOGUE, Y.Base, {
+    // The panel widget
+    panel: null,
+
+    // The submit button - we disable this until an element is set
+    submitbutton : null,
+
+    // The chooserdialogue container
+    container : null,
+
+    // Any event listeners we may need to cancel later
+    listenevents : [],
+
+    bodycontent : null,
+    headercontent : null,
+    instanceconfig : null,
+
+    setup_chooser_dialogue : function(bodycontent, headercontent, config) {
+        this.bodycontent = bodycontent;
+        this.headercontent = headercontent;
+        this.instanceconfig = config;
+    },
+
+    prepare_chooser : function () {
+        if (this.panel) {
+            return;
+        }
+
+        // Set Default options
+        var paramkey,
+            params = {
+            bodyContent : this.bodycontent.get(&#x27;innerHTML&#x27;),
+            headerContent : this.headercontent.get(&#x27;innerHTML&#x27;),
+            width : &#x27;540px&#x27;,
+            draggable : true,
+            visible : false, // Hide by default
+            zindex : 100, // Display in front of other items
+            lightbox : true, // This dialogue should be modal
+            shim : true,
+            render : false,
+            closeButtonTitle : this.get(&#x27;closeButtonTitle&#x27;)
+        };
+
+        // Override with additional options
+        for (paramkey in this.instanceconfig) {
+          params[paramkey] = this.instanceconfig[paramkey];
+        }
+
+        // Create the panel
+        this.panel = new M.core.dialogue(params);
+
+        // Remove the template for the chooser
+        this.bodycontent.remove();
+        this.headercontent.remove();
+
+        // Hide and then render the panel
+        this.panel.hide();
+        this.panel.render();
+
+        // Set useful links
+        this.container = this.panel.get(&#x27;boundingBox&#x27;).one(&#x27;.choosercontainer&#x27;);
+        this.options = this.container.all(&#x27;.option input[type=radio]&#x27;);
+
+        // Add the chooserdialogue class to the container for styling
+        this.panel.get(&#x27;boundingBox&#x27;).addClass(&#x27;chooserdialogue&#x27;);
+    },
+
+    /**
+      * Display the module chooser
+      *
+      * @param e Event Triggering Event
+      * @return void
+      */
+    display_chooser : function (e) {
+        var bb, dialogue, thisevent;
+        this.prepare_chooser();
+
+        // Stop the default event actions before we proceed
+        e.preventDefault();
+
+        bb = this.panel.get(&#x27;boundingBox&#x27;);
+        dialogue = this.container.one(&#x27;.alloptions&#x27;);
+
+        // This will detect a change in orientation and retrigger centering
+        thisevent = Y.one(&#x27;document&#x27;).on(&#x27;orientationchange&#x27;, function() {
+            this.center_dialogue(dialogue);
+        }, this);
+        this.listenevents.push(thisevent);
+
+        // Detect window resizes (most browsers)
+        thisevent = Y.one(&#x27;window&#x27;).on(&#x27;resize&#x27;, function() {
+            this.center_dialogue(dialogue);
+        }, this);
+        this.listenevents.push(thisevent);
+
+        // These will trigger a check_options call to display the correct help
+        thisevent = this.container.on(&#x27;click&#x27;, this.check_options, this);
+        this.listenevents.push(thisevent);
+        thisevent = this.container.on(&#x27;key_up&#x27;, this.check_options, this);
+        this.listenevents.push(thisevent);
+        thisevent = this.container.on(&#x27;dblclick&#x27;, function(e) {
+            if (e.target.ancestor(&#x27;div.option&#x27;)) {
+                this.check_options();
+
+                // Prevent duplicate submissions
+                this.submitbutton.setAttribute(&#x27;disabled&#x27;, &#x27;disabled&#x27;);
+                this.options.setAttribute(&#x27;disabled&#x27;, &#x27;disabled&#x27;);
+                this.cancel_listenevents();
+
+                this.container.one(&#x27;form&#x27;).submit();
+            }
+        }, this);
+        this.listenevents.push(thisevent);
+
+        this.container.one(&#x27;form&#x27;).on(&#x27;submit&#x27;, function() {
+            // Prevent duplicate submissions on submit
+            this.submitbutton.setAttribute(&#x27;disabled&#x27;, &#x27;disabled&#x27;);
+            this.options.setAttribute(&#x27;disabled&#x27;, &#x27;disabled&#x27;);
+            this.cancel_listenevents();
+        }, this);
+
+        // Hook onto the cancel button to hide the form
+        thisevent = this.container.one(&#x27;.addcancel&#x27;).on(&#x27;click&#x27;, this.cancel_popup, this);
+        this.listenevents.push(thisevent);
+
+        // Hide will be managed by cancel_popup after restoring the body overflow
+        thisevent = bb.one(&#x27;button.closebutton&#x27;).on(&#x27;click&#x27;, this.cancel_popup, this);
+        this.listenevents.push(thisevent);
+
+        // Grab global keyup events and handle them
+        thisevent = Y.one(&#x27;document&#x27;).on(&#x27;keydown&#x27;, this.handle_key_press, this);
+        this.listenevents.push(thisevent);
+
+        // Add references to various elements we adjust
+        this.jumplink     = this.container.one(&#x27;.jump&#x27;);
+        this.submitbutton = this.container.one(&#x27;.submitbutton&#x27;);
+
+        // Disable the submit element until the user makes a selection
+        this.submitbutton.set(&#x27;disabled&#x27;, &#x27;true&#x27;);
+
+        // Ensure that the options are shown
+        this.options.removeAttribute(&#x27;disabled&#x27;);
+
+        // Display the panel
+        this.panel.show();
+
+        // Re-centre the dialogue after we&#x27;ve shown it.
+        this.center_dialogue(dialogue);
+
+        // Finally, focus the first radio element - this enables form selection via the keyboard
+        this.container.one(&#x27;.option input[type=radio]&#x27;).focus();
+
+        // Trigger check_options to set the initial jumpurl
+        this.check_options();
+    },
+
+    /**
+      * Cancel any listen events in the listenevents queue
+      *
+      * Several locations add event handlers which should only be called before the form is submitted. This provides
+      * a way of cancelling those events.
+      *
+      * @return void
+      */
+    cancel_listenevents : function () {
+        // Detach all listen events to prevent duplicate triggers
+        var thisevent;
+        while (this.listenevents.length) {
+            thisevent = this.listenevents.shift();
+            thisevent.detach();
+        }
+    },
+
+    /**
+      * Calculate the optimum height of the chooser dialogue
+      *
+      * This tries to set a sensible maximum and minimum to ensure that some options are always shown, and preferably
+      * all, whilst fitting the box within the current viewport.
+      *
+      * @param dialogue Y.Node The dialogue
+      * @return void
+      */
+    center_dialogue : function(dialogue) {
+        var bb = this.panel.get(&#x27;boundingBox&#x27;),
+            winheight = bb.get(&#x27;winHeight&#x27;),
+            newheight, totalheight;
+
+        if (this.panel.shouldResizeFullscreen()) {
+            // No custom sizing required for a fullscreen dialog.
+            return;
+        }
+
+        // Try and set a sensible max-height -- this must be done before setting the top
+        // Set a default height of 640px
+        newheight = this.get(&#x27;maxheight&#x27;);
+        if (winheight &lt;= newheight) {
+            // Deal with smaller window sizes
+            if (winheight &lt;= this.get(&#x27;minheight&#x27;)) {
+                newheight = this.get(&#x27;minheight&#x27;);
+            } else {
+                newheight = winheight;
+            }
+        }
+
+        // If the dialogue is larger than a reasonable minimum height, we
+        // disable the page scrollbars.
+        if (newheight &gt; this.get(&#x27;minheight&#x27;)) {
+            // Disable the page scrollbars.
+            if (this.panel.lockScroll &amp;&amp; !this.panel.lockScroll.isActive()) {
+                this.panel.lockScroll.enableScrollLock(true);
+            }
+        } else {
+            // Re-enable the page scrollbars.
+            if (this.panel.lockScroll &amp;&amp; this.panel.lockScroll.isActive()) {
+                this.panel.lockScroll.disableScrollLock();
+            }
+        }
+
+        // Take off 15px top and bottom for borders, plus 40px each for the title and button area before setting the
+        // new max-height
+        totalheight = newheight;
+        newheight = newheight - (15 + 15 + 40 + 40);
+        dialogue.setStyle(&#x27;maxHeight&#x27;, newheight + &#x27;px&#x27;);
+
+        dialogueheight = bb.getStyle(&#x27;height&#x27;);
+        if (dialogueheight.match(/.*px$/)) {
+            dialogueheight = dialogueheight.replace(/px$/, &#x27;&#x27;);
+        } else {
+            dialogueheight = totalheight;
+        }
+
+        if (dialogueheight &lt; this.get(&#x27;baseheight&#x27;)) {
+            dialogueheight = this.get(&#x27;baseheight&#x27;);
+            dialogue.setStyle(&#x27;height&#x27;, dialogueheight + &#x27;px&#x27;);
+        }
+
+        this.panel.centerDialogue();
+    },
+
+    handle_key_press : function(e) {
+        if (e.keyCode === 27) {
+            this.cancel_popup(e);
+        }
+    },
+
+    cancel_popup : function (e) {
+        // Prevent normal form submission before hiding
+        e.preventDefault();
+        this.hide();
+    },
+
+    hide : function() {
+        // Cancel all listen events
+        this.cancel_listenevents();
+
+        this.container.detachAll();
+        this.panel.hide();
+    },
+
+    check_options : function() {
+        // Check which options are set, and change the parent class
+        // to show/hide help as required
+        this.options.each(function(thisoption) {
+            var optiondiv = thisoption.get(&#x27;parentNode&#x27;).get(&#x27;parentNode&#x27;);
+            if (thisoption.get(&#x27;checked&#x27;)) {
+                optiondiv.addClass(&#x27;selected&#x27;);
+
+                // Trigger any events for this option
+                this.option_selected(thisoption);
+
+                // Ensure that the form may be submitted
+                this.submitbutton.removeAttribute(&#x27;disabled&#x27;);
+
+                // Ensure that the radio remains focus so that keyboard navigation is still possible
+                thisoption.focus();
+            } else {
+                optiondiv.removeClass(&#x27;selected&#x27;);
+            }
+        }, this);
+    },
+
+    option_selected : function() {
+    }
+},
+{
+    NAME : &#x27;moodle-core-chooserdialogue&#x27;,
+    ATTRS : {
+        minheight : {
+            value : 300
+        },
+        baseheight: {
+            value : 400
+        },
+        maxheight : {
+            value : 660
+        },
+        closeButtonTitle : {
+            validator : Y.Lang.isString,
+            value : &#x27;Close&#x27;
+        }
+    }
+});
+M.core = M.core || {};
+M.core.chooserdialogue = CHOOSERDIALOGUE;
+
+    </pre>
+</div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="../assets/vendor/prettify/prettify-min.js"></script>
+<script>prettyPrint();</script>
+<script src="../assets/js/yui-prettify.js"></script>
+<script src="../assets/../api.js"></script>
+<script src="../assets/js/api-filter.js"></script>
+<script src="../assets/js/api-list.js"></script>
+<script src="../assets/js/api-search.js"></script>
+<script src="../assets/js/apidocs.js"></script>
+</body>
+</html>

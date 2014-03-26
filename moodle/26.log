@@ -1,0 +1,170 @@
+[37;40minfo:[0m[35m (yuidoc):[0m [32mStarting YUIDoc@0.3.49 using YUI@3.14.1 with NodeJS@0.10.26[0m
+[37;40minfo:[0m[35m (yuidoc):[0m [32mScanning for yuidoc.json file.[0m
+[37;40minfo:[0m[35m (yuidoc):[0m [32mLoading yuidoc.json data from: /private/srv/www/loganberry.local/data/doc_26/moodle/lib/yui/common/yuidoc.json[0m
+[37;40minfo:[0m[35m (yuidoc):[0m [32mStarting YUIDoc with the following options:[0m
+[37;40minfo:[0m[35m (yuidoc):[0m [32m
+{ external: { data: 'http://yuilibrary.com/yui/docs/api/data.json' },
+  linkNatives: true,
+  attributesEmit: 'true',
+  selleck: 'true',
+  outdir: '/Users/nicols/git/moodle-jsdoc/moodle/26/',
+  paths: 
+   [ 'admin/tool/capability/yui/src/search',
+     'blocks/navigation/yui/src/navigation',
+     'calendar/yui/src/eventmanager',
+     'course/yui/src/categoryexpander',
+     'course/yui/src/management',
+     '<paths truncated>',
+     'lib/yui/src/tooltip',
+     'mod/assign/feedback/editpdf/yui/src/editor',
+     'mod/quiz/yui/src/autosave',
+     'mod/scorm/yui/src/treeview',
+     'theme/bootstrapbase/yui/src/bootstrap' ],
+  port: 3000,
+  nocode: false,
+  project: 
+   { name: 'Moodle',
+     description: 'YUI documentation for Moodle',
+     url: 'https://moodle.org',
+     version: '2.6.2+ (Build: 20140320)' } }[0m
+[37;40minfo:[0m[35m (yuidoc):[0m [32mYUIDoc Starting from: admin/tool/capability/yui/src/search,blocks/navigation/yui/src/navigation,calendar/yui/src/eventmanager,course/yui/src/categoryexpander,course/yui/src/management,course/yui/src/util,filter/glossary/yui/src/autolinker,lib/yui/src/actionmenu,lib/yui/src/blocks,lib/yui/src/chooserdialogue,lib/yui/src/dock,lib/yui/src/formautosubmit,lib/yui/src/formchangechecker,lib/yui/src/lockscroll,lib/yui/src/notification,lib/yui/src/popuphelp,lib/yui/src/tooltip,mod/assign/feedback/editpdf/yui/src/editor,mod/quiz/yui/src/autosave,mod/scorm/yui/src/treeview,theme/bootstrapbase/yui/src/bootstrap[0m
+[33mwarn:[0m[35m (docparser):[0m [32mreplacing incorrect tag: returns with return:  course/yui/src/management/js/category.js:76[0m
+[33mwarn:[0m[35m (docparser):[0m [32mreplacing incorrect tag: returns with return:  course/yui/src/management/js/category.js:96[0m
+[33mwarn:[0m[35m (docparser):[0m [32mreplacing incorrect tag: returns with return:  course/yui/src/management/js/category.js:265[0m
+[33mwarn:[0m[35m (docparser):[0m [32mreplacing incorrect tag: returns with return:  course/yui/src/management/js/category.js:319[0m
+[33mwarn:[0m[35m (docparser):[0m [32mreplacing incorrect tag: returns with return:  course/yui/src/management/js/category.js:351[0m
+[33mwarn:[0m[35m (docparser):[0m [32mreplacing incorrect tag: returns with return:  course/yui/src/management/js/console.js:242[0m
+[33mwarn:[0m[35m (docparser):[0m [32mreplacing incorrect tag: returns with return:  course/yui/src/management/js/console.js:286[0m
+[33mwarn:[0m[35m (docparser):[0m [32mreplacing incorrect tag: returns with return:  course/yui/src/management/js/console.js:480[0m
+[33mwarn:[0m[35m (docparser):[0m [32mreplacing incorrect tag: returns with return:  course/yui/src/management/js/console.js:502[0m
+[33mwarn:[0m[35m (docparser):[0m [32mreplacing incorrect tag: returns with return:  course/yui/src/management/js/course.js:77[0m
+[33mwarn:[0m[35m (docparser):[0m [32mreplacing incorrect tag: returns with return:  course/yui/src/management/js/course.js:86[0m
+[33mwarn:[0m[35m (docparser):[0m [32mreplacing incorrect tag: returns with return:  course/yui/src/management/js/course.js:156[0m
+[33mwarn:[0m[35m (docparser):[0m [32munknown tag: abstract, course/yui/src/management/js/item.js:1[0m
+[33mwarn:[0m[35m (docparser):[0m [32mreplacing incorrect tag: returns with return:  course/yui/src/management/js/item.js:50[0m
+[33mwarn:[0m[35m (docparser):[0m [32mreplacing incorrect tag: returns with return:  course/yui/src/management/js/item.js:79[0m
+[33mwarn:[0m[35m (docparser):[0m [32mreplacing incorrect tag: returns with return:  course/yui/src/management/js/item.js:147[0m
+[33mwarn:[0m[35m (docparser):[0m [32mreplacing incorrect tag: returns with return:  course/yui/src/management/js/item.js:215[0m
+[33mwarn:[0m[35m (docparser):[0m [32mreplacing incorrect tag: returns with return:  course/yui/src/management/js/item.js:251[0m
+[33mwarn:[0m[35m (docparser):[0m [32mreplacing incorrect tag: returns with return:  lib/yui/src/actionmenu/js/actionmenu.js:129[0m
+[33mwarn:[0m[35m (docparser):[0m [32mreplacing incorrect tag: returns with return:  lib/yui/src/actionmenu/js/actionmenu.js:411[0m
+[33mwarn:[0m[35m (docparser):[0m [32mreplacing incorrect tag: returns with return:  lib/yui/src/actionmenu/js/actionmenu.js:599[0m
+[33mwarn:[0m[35m (docparser):[0m [32mreplacing incorrect tag: returns with return:  lib/yui/src/blocks/js/manager.js:119[0m
+[33mwarn:[0m[35m (docparser):[0m [32mreplacing incorrect tag: returns with return:  lib/yui/src/blocks/js/manager.js:129[0m
+[33mwarn:[0m[35m (docparser):[0m [32mreplacing incorrect tag: returns with return:  lib/yui/src/blocks/js/manager.js:142[0m
+[33mwarn:[0m[35m (docparser):[0m [32mreplacing incorrect tag: returns with return:  lib/yui/src/blocks/js/manager.js:152[0m
+[33mwarn:[0m[35m (docparser):[0m [32mreplacing incorrect tag: returns with return:  lib/yui/src/blocks/js/manager.js:164[0m
+[33mwarn:[0m[35m (docparser):[0m [32mreplacing incorrect tag: returns with return:  lib/yui/src/blocks/js/manager.js:176[0m
+[33mwarn:[0m[35m (docparser):[0m [32mreplacing incorrect tag: returns with return:  lib/yui/src/blocks/js/manager.js:198[0m
+[33mwarn:[0m[35m (docparser):[0m [32mreplacing incorrect tag: returns with return:  lib/yui/src/blocks/js/manager.js:216[0m
+[33mwarn:[0m[35m (docparser):[0m [32mreplacing incorrect tag: returns with return:  lib/yui/src/blocks/js/manager.js:228[0m
+[33mwarn:[0m[35m (docparser):[0m [32mreplacing incorrect tag: returns with return:  lib/yui/src/blocks/js/manager.js:241[0m
+[33mwarn:[0m[35m (docparser):[0m [32mreplacing incorrect tag: returns with return:  lib/yui/src/notification/js/dialogue.js:166[0m
+[33mwarn:[0m[35m (docparser):[0m [32mreplacing incorrect tag: returns with return:  lib/yui/src/notification/js/dialogue.js:361[0m
+[33mwarn:[0m[35m (docparser):[0m [32munknown tag: attributes, lib/yui/src/notification/js/dialogue.js:485[0m
+[33mwarn:[0m[35m (docparser):[0m [32munknown tag: package, mod/quiz/yui/src/autosave/js/autosave.js:17[0m
+[33mwarn:[0m[35m (docparser):[0m [32munknown tag: copyright, mod/quiz/yui/src/autosave/js/autosave.js:17[0m
+[33mwarn:[0m[35m (docparser):[0m [32munknown tag: license, mod/quiz/yui/src/autosave/js/autosave.js:17[0m
+[33mwarn:[0m[35m (docparser):[0m [32munknown tag: readyonly, theme/bootstrapbase/yui/src/bootstrap/js/bootstrapengine.js:68[0m
+[33mwarn:[0m[35m (docparser):[0m [32munknown tag: readyonly, theme/bootstrapbase/yui/src/bootstrap/js/bootstrapengine.js:80[0m
+[33mwarn:[0m[35m (docparser):[0m [32munknown tag: readyonly, theme/bootstrapbase/yui/src/bootstrap/js/bootstrapengine.js:89[0m
+[33mwarn:[0m[35m (docparser):[0m [32mMissing item type:  blocks/navigation/yui/src/navigation/js/navigation.js:406[0m
+[33mwarn:[0m[35m (docparser):[0m [32m		The navigation tree block instance.[0m
+[33mwarn:[0m[35m (docparser):[0m [32mMissing item type:  course/yui/src/management/js/console.js:579[0m
+[33mwarn:[0m[35m (docparser):[0m [32m		Initalises the course management console.[0m
+[33mwarn:[0m[35m (docparser):[0m [32mMissing item type:  lib/yui/src/actionmenu/js/actionmenu.js:69[0m
+[33mwarn:[0m[35m (docparser):[0m [32m		The node that owns the currently displayed menu.[0m
+[33mwarn:[0m[35m (docparser):[0m [32mMissing item type:  lib/yui/src/actionmenu/js/actionmenu.js:129[0m
+[33mwarn:[0m[35m (docparser):[0m [32m		Enhances a menu adding aria attributes and flagging it as functional.[0m
+[33mwarn:[0m[35m (docparser):[0m [32mMissing item type:  lib/yui/src/actionmenu/js/actionmenu.js:411[0m
+[33mwarn:[0m[35m (docparser):[0m [32m		Displays the menu with the given content and alignment.[0m
+[33mwarn:[0m[35m (docparser):[0m [32mMissing item type:  lib/yui/src/actionmenu/js/actionmenu.js:599[0m
+[33mwarn:[0m[35m (docparser):[0m [32m		Registers a new DOM node with the action menu causing it to be enhanced if required.[0m
+[33mwarn:[0m[35m (docparser):[0m [32mMissing item type:  lib/yui/src/blocks/js/blocks.js:378[0m
+[33mwarn:[0m[35m (docparser):[0m [32m		Legacy code to keep things working.[0m
+[33mwarn:[0m[35m (docparser):[0m [32mMissing item type:  lib/yui/src/chooserdialogue/js/chooserdialogue.js:72[0m
+[33mwarn:[0m[35m (docparser):[0m [32m		Display the module chooser[0m
+[33mwarn:[0m[35m (docparser):[0m [32mMissing item type:  lib/yui/src/chooserdialogue/js/chooserdialogue.js:161[0m
+[33mwarn:[0m[35m (docparser):[0m [32m
+		Cancel any listen events in the listenevents queue
+
+Several locations add event handlers which should only be called before the form is submitted. This provides
+a way of cancelling those events.[0m
+[33mwarn:[0m[35m (docparser):[0m [32mMissing item type:  lib/yui/src/chooserdialogue/js/chooserdialogue.js:178[0m
+[33mwarn:[0m[35m (docparser):[0m [32m
+		Calculate the optimum height of the chooser dialogue
+
+This tries to set a sensible maximum and minimum to ensure that some options are always shown, and preferably
+all, whilst fitting the box within the current viewport.[0m
+[33mwarn:[0m[35m (docparser):[0m [32mMissing item type:  lib/yui/src/formautosubmit/js/formautosubmit.js:17[0m
+[33mwarn:[0m[35m (docparser):[0m [32m		Initialize the module[0m
+[33mwarn:[0m[35m (docparser):[0m [32mMissing item type:  lib/yui/src/formautosubmit/js/formautosubmit.js:57[0m
+[33mwarn:[0m[35m (docparser):[0m [32m		Check whether the select element was changed[0m
+[33mwarn:[0m[35m (docparser):[0m [32mMissing item type:  lib/yui/src/formautosubmit/js/formautosubmit.js:89[0m
+[33mwarn:[0m[35m (docparser):[0m [32m		Process any changes[0m
+[33mwarn:[0m[35m (docparser):[0m [32mMissing item type:  lib/yui/src/formchangechecker/js/formchangechecker.js:12[0m
+[33mwarn:[0m[35m (docparser):[0m [32m		Initialize the module[0m
+[33mwarn:[0m[35m (docparser):[0m [32mMissing item type:  lib/yui/src/formchangechecker/js/formchangechecker.js:42[0m
+[33mwarn:[0m[35m (docparser):[0m [32m
+		Store the initial value of the currently focussed element
+
+If an element has been focussed and changed but not yet blurred, the on change
+event won't be fired. We need to store it's initial value to compare it in the
+get_form_dirty_state function later.[0m
+[33mwarn:[0m[35m (docparser):[0m [32mMissing item type:  lib/yui/src/formchangechecker/js/formchangechecker.js:96[0m
+[33mwarn:[0m[35m (docparser):[0m [32m		Set the form changed state to true[0m
+[33mwarn:[0m[35m (docparser):[0m [32mMissing item type:  lib/yui/src/formchangechecker/js/formchangechecker.js:111[0m
+[33mwarn:[0m[35m (docparser):[0m [32m		Set the form submitted state to true[0m
+[33mwarn:[0m[35m (docparser):[0m [32mMissing item type:  lib/yui/src/formchangechecker/js/formchangechecker.js:118[0m
+[33mwarn:[0m[35m (docparser):[0m [32m
+		Attempt to determine whether the form has been modified in any way and
+is thus 'dirty'[0m
+[33mwarn:[0m[35m (docparser):[0m [32mMissing item type:  lib/yui/src/formchangechecker/js/formchangechecker.js:161[0m
+[33mwarn:[0m[35m (docparser):[0m [32m		Return a suitable message if changes have been made to a form[0m
+[33mwarn:[0m[35m (docparser):[0m [32mMissing item type:  lib/yui/src/notification/js/dialogue.js:361[0m
+[33mwarn:[0m[35m (docparser):[0m [32m		Trap the tab focus within the open modal.[0m
+[33mwarn:[0m[35m (docparser):[0m [32mMissing item type:  lib/yui/src/notification/js/dialogue.js:485[0m
+[33mwarn:[0m[35m (docparser):[0m [32m		Any additional classes to add to the boundingBox.[0m
+[33mwarn:[0m[35m (docparser):[0m [32mMissing item type:  lib/yui/src/popuphelp/js/popuphelp.js:41[0m
+[33mwarn:[0m[35m (docparser):[0m [32m		Override the footer handler to add a 'More help' link where relevant.[0m
+[33mwarn:[0m[35m (docparser):[0m [32mMissing item type:  mod/quiz/yui/src/autosave/js/autosave.js:17[0m
+[33mwarn:[0m[35m (docparser):[0m [32m		Auto-save functionality for during quiz attempts.[0m
+[33mwarn:[0m[35m (docparser):[0m [32mMissing item type:  mod/quiz/yui/src/autosave/js/autosave.js:27[0m
+[33mwarn:[0m[35m (docparser):[0m [32mMissing item type:  mod/quiz/yui/src/autosave/js/autosave.js:34[0m
+[33mwarn:[0m[35m (docparser):[0m [32mMissing item type:  mod/quiz/yui/src/autosave/js/autosave.js:44[0m
+[33mwarn:[0m[35m (docparser):[0m [32mMissing item type:  mod/quiz/yui/src/autosave/js/autosave.js:47[0m
+[33mwarn:[0m[35m (docparser):[0m [32mMissing item type:  mod/quiz/yui/src/autosave/js/autosave.js:50[0m
+[33mwarn:[0m[35m (docparser):[0m [32mMissing item type:  mod/quiz/yui/src/autosave/js/autosave.js:53[0m
+[33mwarn:[0m[35m (docparser):[0m [32mMissing item type:  mod/quiz/yui/src/autosave/js/autosave.js:56[0m
+[33mwarn:[0m[35m (docparser):[0m [32mMissing item type:  mod/quiz/yui/src/autosave/js/autosave.js:59[0m
+[33mwarn:[0m[35m (docparser):[0m [32mMissing item type:  mod/quiz/yui/src/autosave/js/autosave.js:62[0m
+[33mwarn:[0m[35m (docparser):[0m [32mMissing item type:  mod/quiz/yui/src/autosave/js/autosave.js:65[0m
+[33mwarn:[0m[35m (docparser):[0m [32mMissing item type:  mod/quiz/yui/src/autosave/js/autosave.js:68[0m
+[33mwarn:[0m[35m (docparser):[0m [32mMissing item type:  mod/quiz/yui/src/autosave/js/autosave.js:71[0m
+[33mwarn:[0m[35m (docparser):[0m [32m		Initialise the autosave code.[0m
+[33mwarn:[0m[35m (docparser):[0m [32mMissing item type:  mod/quiz/yui/src/autosave/js/autosave.js:124[0m
+[33mwarn:[0m[35m (docparser):[0m [32mMissing item type:  mod/quiz/yui/src/autosave/js/autosave.js:144[0m
+[33mwarn:[0m[35m (yuidoc):[0m [32mFound out dir, deleting: /Users/nicols/git/moodle-jsdoc/moodle/26/[0m
+[37;40minfo:[0m[35m (yuidoc):[0m [32mMaking out dir: /Users/nicols/git/moodle-jsdoc/moodle/26/[0m
+[37;40minfo:[0m[35m (yuidoc):[0m [32mParsed 67 files in 0.104 seconds[0m
+[37;40minfo:[0m[35m (builder):[0m [32mBuilding..[0m
+[37;40minfo:[0m[35m (builder):[0m [32mCompiling Templates[0m
+[37;40minfo:[0m[35m (builder):[0m [32mImporting external documentation data.[0m
+[37;40minfo:[0m[35m (builder):[0m [32mFetching: http://yuilibrary.com/yui/docs/api/data.json[0m
+[37;40minfo:[0m[35m (builder):[0m [32mReceived: http://yuilibrary.com/yui/docs/api/data.json[0m
+[37;40minfo:[0m[35m (builder):[0m [32mFinished fetching remote data[0m
+[37;40minfo:[0m[35m (builder):[0m [32mExternal data received, mixing[0m
+[37;40minfo:[0m[35m (builder):[0m [32mMaking default directories: classes,modules,files[0m
+[37;40minfo:[0m[35m (builder):[0m [32mCopying Assets[0m
+[37;40minfo:[0m[35m (builder):[0m [32mRendering and writing 25 modules pages.[0m
+[37;40minfo:[0m[35m (builder):[0m [32mLoading theme from /usr/local/lib/node_modules/yuidocjs/themes/default/theme.json[0m
+[37;40minfo:[0m[35m (builder):[0m [32mPreparing index.html[0m
+[37;40minfo:[0m[35m (builder):[0m [32mWriting API Meta Data[0m
+[37;40minfo:[0m[35m (builder):[0m [32mFinished writing module files[0m
+[37;40minfo:[0m[35m (builder):[0m [32mRendering and writing 66 class pages.[0m
+[37;40minfo:[0m[35m (builder):[0m [32mWriting index.html[0m
+[37;40minfo:[0m[35m (builder):[0m [32mFinished writing class files[0m
+[37;40minfo:[0m[35m (builder):[0m [32mRendering and writing 62 source files.[0m
+[37;40minfo:[0m[35m (builder):[0m [32mFinished writing source files[0m
+[37;40minfo:[0m[35m (builder):[0m [32mFinished writing 154 files in 33.095 seconds[0m
+[37;40minfo:[0m[35m (yuidoc):[0m [32mCompleted in 33.701 seconds[0m

@@ -1,0 +1,897 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>lib/yui/src/actionmenu/js/actionmenu.js - Moodle</title>
+    <link rel="stylesheet" href="http://yui.yahooapis.com/3.9.1/build/cssgrids/cssgrids-min.css">
+    <link rel="stylesheet" href="../assets/vendor/prettify/prettify-min.css">
+    <link rel="stylesheet" href="../assets/css/main.css" id="site_styles">
+    <link rel="shortcut icon" type="image/png" href="../assets/favicon.png">
+    <script src="http://yui.yahooapis.com/combo?3.9.1/build/yui/yui-min.js"></script>
+</head>
+<body class="yui3-skin-sam">
+
+<div id="doc">
+    <div id="hd" class="yui3-g header">
+        <div class="yui3-u-3-4">
+            
+                <h1><img src="../assets/css/logo.png" title="Moodle"></h1>
+            
+        </div>
+        <div class="yui3-u-1-4 version">
+            <em>API Docs for: 2.6.2+ (Build: 20140320)</em>
+        </div>
+    </div>
+    <div id="bd" class="yui3-g">
+
+        <div class="yui3-u-1-4">
+            <div id="docs-sidebar" class="sidebar apidocs">
+                <div id="api-list">
+    <h2 class="off-left">APIs</h2>
+    <div id="api-tabview" class="tabview">
+        <ul class="tabs">
+            <li><a href="#api-classes">Classes</a></li>
+            <li><a href="#api-modules">Modules</a></li>
+        </ul>
+
+        <div id="api-tabview-filter">
+            <input type="search" id="api-filter" placeholder="Type to filter APIs">
+        </div>
+
+        <div id="api-tabview-panel">
+            <ul id="api-classes" class="apis classes">
+            
+                <li><a href="../classes/Bootstrap.Collapse.html">Bootstrap.Collapse</a></li>
+            
+                <li><a href="../classes/Bootstrap.Dropdown.html">Bootstrap.Dropdown</a></li>
+            
+                <li><a href="../classes/M.assignfeedback_editpdf.annotationhighlight.html">M.assignfeedback_editpdf.annotationhighlight</a></li>
+            
+                <li><a href="../classes/M.assignfeedback_editpdf.annotationline.html">M.assignfeedback_editpdf.annotationline</a></li>
+            
+                <li><a href="../classes/M.assignfeedback_editpdf.annotationoval.html">M.assignfeedback_editpdf.annotationoval</a></li>
+            
+                <li><a href="../classes/M.assignfeedback_editpdf.annotationpen.html">M.assignfeedback_editpdf.annotationpen</a></li>
+            
+                <li><a href="../classes/M.assignfeedback_editpdf.annotationrectangle.html">M.assignfeedback_editpdf.annotationrectangle</a></li>
+            
+                <li><a href="../classes/M.assignfeedback_editpdf.annotationstamp.html">M.assignfeedback_editpdf.annotationstamp</a></li>
+            
+                <li><a href="../classes/M.assignfeedback_editpdf.colourpicker.dropdown.html">M.assignfeedback_editpdf.colourpicker.dropdown</a></li>
+            
+                <li><a href="../classes/M.assignfeedback_editpdf.comment.html">M.assignfeedback_editpdf.comment</a></li>
+            
+                <li><a href="../classes/M.assignfeedback_editpdf.drawable.html">M.assignfeedback_editpdf.drawable</a></li>
+            
+                <li><a href="../classes/M.assignfeedback_editpdf.edit.html">M.assignfeedback_editpdf.edit</a></li>
+            
+                <li><a href="../classes/M.assignfeedback_editpdf.editor.assignfeedback_editpdf.html">M.assignfeedback_editpdf.editor.assignfeedback_editpdf</a></li>
+            
+                <li><a href="../classes/M.assignfeedback_editpdf.editor.commentmenu.html">M.assignfeedback_editpdf.editor.commentmenu</a></li>
+            
+                <li><a href="../classes/M.assignfeedback_editpdf.editor.commentsearch.html">M.assignfeedback_editpdf.editor.commentsearch</a></li>
+            
+                <li><a href="../classes/M.assignfeedback_editpdf.editor.Editor.html">M.assignfeedback_editpdf.editor.Editor</a></li>
+            
+                <li><a href="../classes/M.assignfeedback_editpdf.editor.editor.html">M.assignfeedback_editpdf.editor.editor</a></li>
+            
+                <li><a href="../classes/M.assignfeedback_editpdf.point.html">M.assignfeedback_editpdf.point</a></li>
+            
+                <li><a href="../classes/M.assignfeedback_editpdf.quickcomment.html">M.assignfeedback_editpdf.quickcomment</a></li>
+            
+                <li><a href="../classes/M.assignfeedback_editpdf.quickcommentlist.html">M.assignfeedback_editpdf.quickcommentlist</a></li>
+            
+                <li><a href="../classes/M.assignfeedback_editpdf.rect.html">M.assignfeedback_editpdf.rect</a></li>
+            
+                <li><a href="../classes/M.assignfeedback_editpdf.stamppicker.dropdown.html">M.assignfeedback_editpdf.stamppicker.dropdown</a></li>
+            
+                <li><a href="../classes/M.assignfeedback_editpdf.widget.dropdown.dropdown.html">M.assignfeedback_editpdf.widget.dropdown.dropdown</a></li>
+            
+                <li><a href="../classes/M.block_navigation.html">M.block_navigation</a></li>
+            
+                <li><a href="../classes/M.block_navigation.ActionKey.html">M.block_navigation.ActionKey</a></li>
+            
+                <li><a href="../classes/M.block_navigation.Branch.html">M.block_navigation.Branch</a></li>
+            
+                <li><a href="../classes/M.block_navigation.Tree.html">M.block_navigation.Tree</a></li>
+            
+                <li><a href="../classes/M.core.html">M.core</a></li>
+            
+                <li><a href="../classes/M.core.actionmenu.html">M.core.actionmenu</a></li>
+            
+                <li><a href="../classes/M.core.actionmenu.ActionMenu.html">M.core.actionmenu.ActionMenu</a></li>
+            
+                <li><a href="../classes/M.core.ajaxException.html">M.core.ajaxException</a></li>
+            
+                <li><a href="../classes/M.core.alert.html">M.core.alert</a></li>
+            
+                <li><a href="../classes/M.core.blockdraganddrop.html">M.core.blockdraganddrop</a></li>
+            
+                <li><a href="../classes/M.core.blockdraganddrop.BlockRegion.html">M.core.blockdraganddrop.BlockRegion</a></li>
+            
+                <li><a href="../classes/M.core.blockdraganddrop.LegacyManager.html">M.core.blockdraganddrop.LegacyManager</a></li>
+            
+                <li><a href="../classes/M.core.blockdraganddrop.Manager.html">M.core.blockdraganddrop.Manager</a></li>
+            
+                <li><a href="../classes/M.core.confirm.html">M.core.confirm</a></li>
+            
+                <li><a href="../classes/M.core.core.html">M.core.core</a></li>
+            
+                <li><a href="../classes/M.core.dialogue.html">M.core.dialogue</a></li>
+            
+                <li><a href="../classes/M.core.dock.html">M.core.dock</a></li>
+            
+                <li><a href="../classes/M.core.dock.ActionKey.html">M.core.dock.ActionKey</a></li>
+            
+                <li><a href="../classes/M.core.dock.Block.html">M.core.dock.Block</a></li>
+            
+                <li><a href="../classes/M.core.dock.Dock.html">M.core.dock.Dock</a></li>
+            
+                <li><a href="../classes/M.core.dock.DockedItem.html">M.core.dock.DockedItem</a></li>
+            
+                <li><a href="../classes/M.core.dock.Loader.html">M.core.dock.Loader</a></li>
+            
+                <li><a href="../classes/M.core.dock.Panel.html">M.core.dock.Panel</a></li>
+            
+                <li><a href="../classes/M.core.dock.TabHeightManager.html">M.core.dock.TabHeightManager</a></li>
+            
+                <li><a href="../classes/M.core.exception.html">M.core.exception</a></li>
+            
+                <li><a href="../classes/M.core.LockScroll.html">M.core.LockScroll</a></li>
+            
+                <li><a href="../classes/M.core.notification.html">M.core.notification</a></li>
+            
+                <li><a href="../classes/M.core.tooltip.html">M.core.tooltip</a></li>
+            
+                <li><a href="../classes/M.course.management.Category.html">M.course.management.Category</a></li>
+            
+                <li><a href="../classes/M.course.management.Console.html">M.course.management.Console</a></li>
+            
+                <li><a href="../classes/M.course.management.Course.html">M.course.management.Course</a></li>
+            
+                <li><a href="../classes/M.course.management.DragDrop.html">M.course.management.DragDrop</a></li>
+            
+                <li><a href="../classes/M.course.management.Item.html">M.course.management.Item</a></li>
+            
+                <li><a href="../classes/M.tool_capability.search.Search.html">M.tool_capability.search.Search</a></li>
+            
+                <li><a href="../classes/M.tool_capability.search.tool_capability.html">M.tool_capability.search.tool_capability</a></li>
+            
+                <li><a href="../classes/Moodle.core_course.util.html">Moodle.core_course.util</a></li>
+            
+                <li><a href="../classes/Moodle.core_course.util.cm.html">Moodle.core_course.util.cm</a></li>
+            
+                <li><a href="../classes/Moodle.core_course.util.section.html">Moodle.core_course.util.section</a></li>
+            
+                <li><a href="../classes/Moodle.theme_bootstrapbase.bootstrap.html">Moodle.theme_bootstrapbase.bootstrap</a></li>
+            
+                <li><a href="../classes/TreeView.html">TreeView</a></li>
+            
+                <li><a href="../classes/TreeView.Sortable.html">TreeView.Sortable</a></li>
+            
+                <li><a href="../classes/Y.BootstrapEngine.html">Y.BootstrapEngine</a></li>
+            
+                <li><a href="../classes/Y.Moodle.course.categoryexpander.html">Y.Moodle.course.categoryexpander</a></li>
+            
+            </ul>
+
+            <ul id="api-modules" class="apis modules">
+            
+                <li><a href="../modules/gallery-bootstrap-collapse.html">gallery-bootstrap-collapse</a></li>
+            
+                <li><a href="../modules/gallery-bootstrap-dropdown.html">gallery-bootstrap-dropdown</a></li>
+            
+                <li><a href="../modules/gallery-bootstrap-engine.html">gallery-bootstrap-engine</a></li>
+            
+                <li><a href="../modules/gallery-sm-treeview.html">gallery-sm-treeview</a></li>
+            
+                <li><a href="../modules/gallery-sm-treeview-sortable.html">gallery-sm-treeview-sortable</a></li>
+            
+                <li><a href="../modules/moodle-assignfeedback_editpdf-editor.html">moodle-assignfeedback_editpdf-editor</a></li>
+            
+                <li><a href="../modules/moodle-block_navigation-navigation.html">moodle-block_navigation-navigation</a></li>
+            
+                <li><a href="../modules/moodle-core-actionmenu.html">moodle-core-actionmenu</a></li>
+            
+                <li><a href="../modules/moodle-core-blockdraganddrop.html">moodle-core-blockdraganddrop</a></li>
+            
+                <li><a href="../modules/moodle-core-dock.html">moodle-core-dock</a></li>
+            
+                <li><a href="../modules/moodle-core-lockscroll.html">moodle-core-lockscroll</a></li>
+            
+                <li><a href="../modules/moodle-core-notification.html">moodle-core-notification</a></li>
+            
+                <li><a href="../modules/moodle-core-notification-ajaxexception.html">moodle-core-notification-ajaxexception</a></li>
+            
+                <li><a href="../modules/moodle-core-notification-alert.html">moodle-core-notification-alert</a></li>
+            
+                <li><a href="../modules/moodle-core-notification-confirm.html">moodle-core-notification-confirm</a></li>
+            
+                <li><a href="../modules/moodle-core-notification-dialogue.html">moodle-core-notification-dialogue</a></li>
+            
+                <li><a href="../modules/moodle-core-notification-exception.html">moodle-core-notification-exception</a></li>
+            
+                <li><a href="../modules/moodle-core-tooltip.html">moodle-core-tooltip</a></li>
+            
+                <li><a href="../modules/moodle-course-categoryexpander.html">moodle-course-categoryexpander</a></li>
+            
+                <li><a href="../modules/moodle-course-management.html">moodle-course-management</a></li>
+            
+                <li><a href="../modules/moodle-course-util.html">moodle-course-util</a></li>
+            
+                <li><a href="../modules/moodle-course-util-cm.html">moodle-course-util-cm</a></li>
+            
+                <li><a href="../modules/moodle-course-util-section.html">moodle-course-util-section</a></li>
+            
+                <li><a href="../modules/moodle-tool_capability-search.html">moodle-tool_capability-search</a></li>
+            
+                <li><a href="../modules/theme_bootstrapbase-bootstrap.html">theme_bootstrapbase-bootstrap</a></li>
+            
+            </ul>
+        </div>
+    </div>
+</div>
+
+            </div>
+        </div>
+        <div class="yui3-u-3-4">
+                <div id="api-options">
+        Show:
+        <label for="api-show-inherited">
+            <input type="checkbox" id="api-show-inherited" checked>
+            Inherited
+        </label>
+
+        <label for="api-show-protected">
+            <input type="checkbox" id="api-show-protected">
+            Protected
+        </label>
+
+        <label for="api-show-private">
+            <input type="checkbox" id="api-show-private">
+            Private
+        </label>
+        <label for="api-show-deprecated">
+            <input type="checkbox" id="api-show-deprecated">
+            Deprecated
+        </label>
+
+    </div>
+
+
+            <div class="apidocs">
+                <div id="docs-main">
+                    <div class="content">
+                        <h1 class="file-heading">File: lib/yui/src/actionmenu/js/actionmenu.js</h1>
+
+<div class="file">
+    <pre class="code prettyprint linenums">
+/**
+ * Provides drop down menus for list of action links.
+ *
+ * @module moodle-core-actionmenu
+ */
+
+var BODY = Y.one(Y.config.doc.body),
+    CSS = {
+        MENUSHOWN : &#x27;action-menu-shown&#x27;
+    },
+    SELECTOR = {
+        CAN_RECEIVE_FOCUS_SELECTOR: &#x27;input:not([type=&quot;hidden&quot;]), a[href], button, textarea, select, [tabindex]&#x27;,
+        MENU : &#x27;.moodle-actionmenu[data-enhance=moodle-core-actionmenu]&#x27;,
+        MENUBAR: &#x27;[role=&quot;menubar&quot;]&#x27;,
+        MENUITEM: &#x27;[role=&quot;menuitem&quot;]&#x27;,
+        MENUCONTENT : &#x27;.menu[data-rel=menu-content]&#x27;,
+        MENUCONTENTCHILD: &#x27;li a&#x27;,
+        MENUCHILD: &#x27;.menu li a&#x27;,
+        TOGGLE : &#x27;.toggle-display&#x27;,
+        KEEPOPEN: &#x27;[data-keepopen=&quot;1&quot;]&#x27;,
+        MENUBARITEMS: [
+            &#x27;[role=&quot;menubar&quot;] &gt; [role=&quot;menuitem&quot;]&#x27;,
+            &#x27;[role=&quot;menubar&quot;] &gt; [role=&quot;presentation&quot;] &gt; [role=&quot;menuitem&quot;]&#x27;
+        ],
+        MENUITEMS: [
+            &#x27;&gt; [role=&quot;menuitem&quot;]&#x27;,
+            &#x27;&gt; [role=&quot;presentation&quot;] &gt; [role=&quot;menuitem&quot;]&#x27;
+        ]
+    },
+    ACTIONMENU,
+    ALIGN = {
+        TL : &#x27;tl&#x27;,
+        TR : &#x27;tr&#x27;,
+        BL : &#x27;bl&#x27;,
+        BR : &#x27;br&#x27;
+    };
+
+/**
+ * Action menu support.
+ * This converts a generic list of links into a drop down menu opened by hovering or clicking
+ * on a menu icon.
+ *
+ * @namespace M.core.actionmenu
+ * @class ActionMenu
+ * @constructor
+ * @extends Y.Base
+ */
+ACTIONMENU = function() {
+    ACTIONMENU.superclass.constructor.apply(this, arguments);
+};
+ACTIONMENU.prototype = {
+
+    /**
+     * The dialogue used for all action menu displays.
+     * @property type
+     * @type M.core.dialogue
+     * @protected
+     */
+    dialogue : null,
+
+    /**
+     * An array of events attached during the display of the dialogue.
+     * @property events
+     * @type Object
+     * @protected
+     */
+    events : [],
+
+    /**
+     * The node that owns the currently displayed menu.
+     */
+    owner : null,
+
+    /**
+     * The menu button that toggles this open.
+     *
+     * @property menulink
+     * @type Node
+     * @protected
+     */
+    menulink: null,
+
+    /**
+     * The set of menu nodes.
+     *
+     * @property menuChildren
+     * @type NodeList
+     * @protected
+     */
+    menuChildren: null,
+
+    /**
+     * The first menu item.
+     *
+     * @property firstMenuChild
+     * @type Node
+     * @protected
+     */
+    firstMenuChild: null,
+
+    /**
+     * The last menu item.
+     *
+     * @property lastMenuChild
+     * @type Node
+     * @protected
+     */
+    lastMenuChild: null,
+
+    /**
+     * Called during the initialisation process of the object.
+     * @method initializer
+     */
+    initializer : function() {
+        Y.log(&#x27;Initialising the action menu manager&#x27;, &#x27;debug&#x27;, ACTIONMENU.NAME);
+        Y.all(SELECTOR.MENU).each(this.enhance, this);
+        BODY.delegate(&#x27;key&#x27;, this.moveMenuItem, &#x27;down:37,39&#x27;, SELECTOR.MENUBARITEMS.join(&#x27;,&#x27;), this);
+
+        BODY.delegate(&#x27;click&#x27;, this.toggleMenu, SELECTOR.MENU + &#x27; &#x27; + SELECTOR.TOGGLE, this);
+        BODY.delegate(&#x27;key&#x27;, this.showIfHidden, &#x27;down:enter,38,40&#x27;, SELECTOR.MENU + &#x27; &#x27; + SELECTOR.TOGGLE, this);
+
+        // Ensure that we toggle on menuitems when the spacebar is pressed.
+        BODY.delegate(&#x27;key&#x27;, function(e) {
+            e.currentTarget.simulate(&#x27;click&#x27;);
+            e.preventDefault();
+        }, &#x27;down:32&#x27;, SELECTOR.MENUBARITEMS.join(&#x27;,&#x27;));
+    },
+
+    /**
+     * Enhances a menu adding aria attributes and flagging it as functional.
+     *
+     * @param {Node} menu
+     * @returns {boolean}
+     */
+    enhance : function(menu) {
+        var menucontent = menu.one(SELECTOR.MENUCONTENT),
+            align;
+        if (!menucontent) {
+            return false;
+        }
+        align = menucontent.getData(&#x27;align&#x27;) || this.get(&#x27;align&#x27;).join(&#x27;-&#x27;);
+        menu.one(SELECTOR.TOGGLE).set(&#x27;aria-haspopup&#x27;, true);
+        menucontent.set(&#x27;aria-hidden&#x27;, true);
+        if (!menucontent.hasClass(&#x27;align-&#x27;+align)) {
+            menucontent.addClass(&#x27;align-&#x27;+align);
+        }
+        if (menucontent.hasChildNodes()) {
+            menu.setAttribute(&#x27;data-enhanced&#x27;, &#x27;1&#x27;);
+        }
+    },
+
+    /**
+     * Handle movement between menu items in a menubar.
+     *
+     * @method moveMenuItem
+     * @param {EventFacade} e The event generating the move request
+     * @chainable
+     */
+    moveMenuItem: function(e) {
+        var nextFocus,
+            menuitem = e.target.ancestor(SELECTOR.MENUITEM, true);
+
+        if (e.keyCode === 37) {
+            nextFocus = this.getMenuItem(menuitem, true);
+        } else if (e.keyCode === 39) {
+            nextFocus = this.getMenuItem(menuitem);
+        }
+
+        if (nextFocus) {
+            nextFocus.focus();
+        }
+        return this;
+    },
+
+    /**
+     * Get the next menuitem in a menubar.
+     *
+     * @method getMenuItem
+     * @param {Node} currentItem The currently focused item in the menubar
+     * @param {Boolean} [previous=false] Move backwards in the menubar instead of forwards
+     * @return {Node|null} The next item, or null if none was found
+     */
+    getMenuItem: function(currentItem, previous) {
+        var menubar = currentItem.ancestor(SELECTOR.MENUBAR),
+            menuitems;
+
+        if (!menubar) {
+            return null;
+        }
+
+        menuitems = menubar.all(SELECTOR.MENUITEMS.join(&#x27;,&#x27;));
+
+        if (!menuitems) {
+            return null;
+        }
+
+        var childCount = menuitems.size();
+
+        if (childCount === 1) {
+            // Only one item, exit now because we should already be on it.
+            return null;
+        }
+
+        // Determine the next child.
+        var index = 0,
+            direction = 1,
+            checkCount = 0;
+
+        // Work out the index of the currently selected item.
+        for (index = 0; index &lt; childCount; index++) {
+            if (menuitems.item(index) === currentItem) {
+                break;
+            }
+        }
+
+        // Check that the menu item was found - otherwise return null.
+        if (menuitems.item(index) !== currentItem) {
+            return null;
+        }
+
+        // Reverse the direction if we want the previous item.
+        if (previous) {
+            direction = -1;
+        }
+
+        do {
+            // Update the index in the direction of travel.
+            index += direction;
+
+            next = menuitems.item(index);
+
+            // Check that we don&#x27;t loop multiple times.
+            checkCount++;
+        } while (next &amp;&amp; next.hasAttribute(&#x27;hidden&#x27;));
+
+        return next;
+    },
+
+    /**
+     * Hides the menu if it is visible.
+     * @method hideMenu
+     */
+    hideMenu : function() {
+        if (this.dialogue) {
+            Y.log(&#x27;Hiding an action menu&#x27;, &#x27;debug&#x27;, ACTIONMENU.NAME);
+            this.dialogue.removeClass(&#x27;show&#x27;);
+            this.dialogue.one(SELECTOR.MENUCONTENT).set(&#x27;aria-hidden&#x27;, true);
+            this.dialogue = null;
+        }
+        for (var i in this.events) {
+            if (this.events[i].detach) {
+                this.events[i].detach();
+            }
+        }
+        this.events = [];
+        if (this.owner) {
+            this.owner.removeClass(CSS.MENUSHOWN);
+            this.owner = null;
+        }
+
+        if (this.menulink) {
+            this.menulink.focus();
+            this.menulink = null;
+        }
+    },
+
+    showIfHidden: function(e) {
+        var menu = e.target.ancestor(SELECTOR.MENU),
+            menuvisible = (menu.hasClass(&#x27;show&#x27;));
+
+        if (!menuvisible) {
+            e.preventDefault();
+            this.showMenu(e, menu);
+        }
+        return this;
+    },
+
+    /**
+     * Toggles the display of the menu.
+     * @method toggleMenu
+     * @param {EventFacade} e
+     */
+    toggleMenu : function(e) {
+        var menu = e.target.ancestor(SELECTOR.MENU),
+            menuvisible = (menu.hasClass(&#x27;show&#x27;));
+
+        // Prevent event propagation as it will trigger the hideIfOutside event handler in certain situations.
+        e.halt(true);
+        this.hideMenu();
+        if (menuvisible) {
+            // The menu was visible and the user has clicked to toggle it again.
+            return;
+        }
+        this.showMenu(e, menu);
+    },
+
+    /**
+     * Handle keyboard events when the menu is open. We respond to:
+     * * escape (exit)
+     * * tab (move to next menu item)
+     * * up/down (move to previous/next menu item)
+     *
+     * @method handleKeyboardEvent
+     * @param {EventFacade} e The key event
+     */
+    handleKeyboardEvent: function(e) {
+        var next;
+
+        // Handle when the menu is still selected.
+        if (e.currentTarget.ancestor(SELECTOR.TOGGLE, true)) {
+            if ((e.keyCode === 40 || (e.keyCode === 9 &amp;&amp; !e.shiftKey)) &amp;&amp; this.firstMenuChild) {
+                this.firstMenuChild.focus();
+                e.preventDefault();
+            } else if (e.keyCode === 38 &amp;&amp; this.lastMenuChild) {
+                this.lastMenuChild.focus();
+                e.preventDefault();
+            } else if (e.keyCode === 9 &amp;&amp; e.shiftKey) {
+                this.hideMenu();
+                e.preventDefault();
+            }
+            return this;
+        }
+
+        if (e.keyCode === 27) {
+            // The escape key was pressed so close the menu.
+            this.hideMenu();
+            e.preventDefault();
+
+        } else if (e.keyCode === 32) {
+            // The space bar was pressed. Trigger a click.
+            e.preventDefault();
+            e.currentTarget.simulate(&#x27;click&#x27;);
+        } else if (e.keyCode === 9) {
+            // The tab key was pressed. Tab moves forwards, Shift + Tab moves backwards through the menu options.
+            // We only override the Shift + Tab on the first option, and Tab on the last option to change where the focus is moved to.
+            if (e.target === this.firstMenuChild &amp;&amp; e.shiftKey) {
+                this.hideMenu();
+                e.preventDefault();
+            } else if (e.target === this.lastMenuChild &amp;&amp; !e.shiftKey) {
+                if (this.hideMenu()) {
+                    // Determine the next selector and focus on it.
+                    next = this.menulink.next(SELECTOR.CAN_RECEIVE_FOCUS_SELECTOR);
+                    if (next) {
+                        next.focus();
+                    }
+                }
+            }
+
+        } else if (e.keyCode === 38 || e.keyCode === 40) {
+            // The up (38) or down (40) key was pushed.
+            // On cursor moves we loops through the menu rather than exiting it as in the tab behaviour.
+            var found = false,
+                index = 0,
+                direction = 1,
+                checkCount = 0;
+
+            // Determine which menu item is currently selected.
+            while (!found &amp;&amp; index &lt; this.menuChildren.size()) {
+                if (this.menuChildren.item(index) === e.currentTarget) {
+                    found = true;
+                } else {
+                    index++;
+                }
+            }
+
+            if (!found) {
+                Y.log(&quot;Unable to find this menu item in the list of menu children&quot;, &#x27;debug&#x27;, &#x27;moodle-core-actionmenu&#x27;);
+                return;
+            }
+
+            if (e.keyCode === 38) {
+                // Moving up so reverse the direction.
+                direction = -1;
+            }
+
+            // Try to find the next
+            do {
+                index += direction;
+                if (index &lt; 0) {
+                    index = this.menuChildren.size() - 1;
+                } else if (index &gt;= this.menuChildren.size()) {
+                    // Handle wrapping.
+                    index = 0;
+                }
+                next = this.menuChildren.item(index);
+
+                // Add a counter to ensure we don&#x27;t get stuck in a loop if there&#x27;s only one visible menu item.
+                checkCount++;
+            } while (checkCount &lt; this.menuChildren.size() &amp;&amp; next !== e.currentTarget &amp;&amp; next.hasClass(&#x27;hidden&#x27;));
+
+            if (next) {
+                next.focus();
+                e.preventDefault();
+            }
+        }
+    },
+
+    /**
+     * Hides the menu if the event happened outside the menu.
+     *
+     * @protected
+     * @method hideIfOutside
+     * @param {EventFacade} e
+     */
+    hideIfOutside : function(e) {
+        if (!e.target.ancestor(SELECTOR.MENUCHILD, true)) {
+            this.hideMenu();
+        }
+    },
+
+    /**
+     * Displays the menu with the given content and alignment.
+     * @param {EventFacade} e
+     * @param {Node} menu
+     * @returns {M.core.dialogue|dialogue}
+     */
+    showMenu : function(e, menu) {
+        Y.log(&#x27;Displaying an action menu&#x27;, &#x27;debug&#x27;, ACTIONMENU.NAME);
+        var ownerselector = menu.getData(&#x27;owner&#x27;),
+            menucontent = menu.one(SELECTOR.MENUCONTENT);
+        this.owner = (ownerselector) ? menu.ancestor(ownerselector) : null;
+        this.dialogue = menu;
+        menu.addClass(&#x27;show&#x27;);
+        if (this.owner) {
+            this.owner.addClass(CSS.MENUSHOWN);
+            this.menulink = this.owner.one(SELECTOR.TOGGLE);
+        } else {
+            this.menulink = e.target.ancestor(SELECTOR.TOGGLE, true);
+        }
+        this.constrain(menucontent.set(&#x27;aria-hidden&#x27;, false));
+
+        this.menuChildren = this.dialogue.all(SELECTOR.MENUCHILD);
+        if (this.menuChildren) {
+            this.firstMenuChild = this.menuChildren.item(0);
+            this.lastMenuChild  = this.menuChildren.item(this.menuChildren.size() - 1);
+
+            this.firstMenuChild.focus();
+        }
+
+        // Close the menu if the user presses escape.
+        this.events.push(BODY.on(&#x27;key&#x27;, this.hideMenu, &#x27;esc&#x27;, this));
+
+        // Close the menu if the user clicks outside the menu.
+        this.events.push(BODY.on(&#x27;click&#x27;, this.hideIfOutside, this));
+
+        // Close the menu if the user focuses outside the menu.
+        this.events.push(BODY.delegate(&#x27;focus&#x27;, this.hideIfOutside, &#x27;*&#x27;, this));
+
+        // Check keyboard changes.
+        this.events.push(menu.delegate(&#x27;key&#x27;, this.handleKeyboardEvent, &#x27;down:9, 27, 38, 40, 32&#x27;, SELECTOR.MENUCHILD + &#x27;, &#x27; + SELECTOR.TOGGLE, this));
+
+        // Close the menu after a button was pushed.
+        this.events.push(menu.delegate(&#x27;click&#x27;, function(e) {
+            if (e.currentTarget.test(SELECTOR.KEEPOPEN)) {
+                return;
+            }
+            this.hideMenu();
+        }, SELECTOR.MENUCHILD, this));
+
+        return true;
+    },
+
+    /**
+     * Constrains the node to its the page width.
+     *
+     * @method constrain
+     * @param {Node} node
+     */
+    constrain : function(node) {
+        var selector = node.getData(&#x27;constraint&#x27;),
+            nx = node.getX(),
+            ny = node.getY(),
+            nwidth = node.get(&#x27;offsetWidth&#x27;),
+            nheight = node.get(&#x27;offsetHeight&#x27;),
+            cx = 0,
+            cy = 0,
+            cwidth,
+            cheight,
+            coverflow = &#x27;auto&#x27;,
+            newwidth = null,
+            newheight = null,
+            newleft = null,
+            newtop = null,
+            boxshadow = null;
+
+        if (selector) {
+            selector = node.ancestor(selector);
+        }
+        if (selector) {
+            cwidth = selector.get(&#x27;offsetWidth&#x27;);
+            cheight = selector.get(&#x27;offsetHeight&#x27;);
+            cx = selector.getX();
+            cy = selector.getY();
+            coverflow = selector.getStyle(&#x27;overflow&#x27;) || &#x27;auto&#x27;;
+        } else {
+            cwidth = node.get(&#x27;docWidth&#x27;);
+            cheight = node.get(&#x27;docHeight&#x27;);
+        }
+
+        // Constrain X.
+        // First up if the width is more than the constrain its easily full width + full height.
+        if (nwidth &gt; cwidth) {
+            // The width of the constraint.
+            newwidth = nwidth = cwidth;
+            // The constraints xpoint.
+            newleft = nx = cx;
+        } else {
+            if (nx &lt; cx) {
+                // If nx is less than cx we need to move it right.
+                newleft = nx = cx;
+            } else if (nx + nwidth &gt;= cx + cwidth) {
+                // The top right of the node is outside of the constraint, move it in.
+                newleft = cx + cwidth - nwidth;
+            }
+        }
+
+        // Constrain Y.
+        if (nheight &gt; cheight &amp;&amp; coverflow.toLowerCase() === &#x27;hidden&#x27;) {
+            // The node extends over the constrained area and would be clipped.
+            // Reduce the height of the node and force its overflow to scroll.
+            newheight = nheight = cheight;
+            node.setStyle(&#x27;overflow&#x27;, &#x27;auto&#x27;);
+        }
+        // If the node is below the top of the constraint AND
+        //    the node is longer than the constraint allows.
+        if (ny &gt;= cy &amp;&amp; ny + nheight &gt; cy + cheight) {
+            // Move it up.
+            newtop = cy + cheight - nheight;
+            try {
+                boxshadow = node.getStyle(&#x27;boxShadow&#x27;).replace(/.*? (\d+)px \d+px$/, &#x27;$1&#x27;);
+                if (new RegExp(/^\d+$/).test(boxshadow) &amp;&amp; newtop - cy &gt; boxshadow) {
+                    newtop -= boxshadow;
+                }
+            } catch (ex) {
+                Y.log(&#x27;Failed to determine box-shadow margin.&#x27;, &#x27;warn&#x27;, ACTIONMENU.NAME);
+            }
+        }
+
+        if (newleft !== null) {
+            node.setX(newleft);
+        }
+        if (newtop !== null) {
+            node.setY(newtop);
+        }
+        if (newwidth !== null) {
+            node.setStyle(&#x27;width&#x27;, newwidth.toString() + &#x27;px&#x27;);
+        }
+        if (newheight !== null) {
+            node.setStyle(&#x27;height&#x27;, newheight.toString() + &#x27;px&#x27;);
+        }
+    }
+};
+
+Y.extend(ACTIONMENU, Y.Base, ACTIONMENU.prototype, {
+    NAME : &#x27;moodle-core-actionmenu&#x27;,
+    ATTRS : {
+        align : {
+            value : [
+                ALIGN.TR, // The dialogue.
+                ALIGN.BR  // The button
+            ]
+        }
+    }
+});
+
+/**
+ * Core namespace.
+ * @static
+ * @class core
+ */
+M.core = M.core || {};
+
+/**
+ * Actionmenu namespace.
+ * @namespace M.core
+ * @class actionmenu
+ * @static
+ */
+M.core.actionmenu = M.core.actionmenu || {};
+
+/**
+ *
+ * @static
+ * @property instance
+ * @type {ACTIONMENU}
+ */
+M.core.actionmenu.instance = null;
+
+/**
+ * Init function - will only ever create one instance of the actionmenu class.
+ * @method init
+ * @static
+ * @param {Object} params
+ */
+M.core.actionmenu.init = M.core.actionmenu.init || function(params) {
+    M.core.actionmenu.instance = M.core.actionmenu.instance || new ACTIONMENU(params);
+};
+
+/**
+ * Registers a new DOM node with the action menu causing it to be enhanced if required.
+ * @param node
+ * @returns {boolean}
+ */
+M.core.actionmenu.newDOMNode = function(node) {
+    if (M.core.actionmenu.instance === null) {
+        return true;
+    }
+    node.all(SELECTOR.MENU).each(M.core.actionmenu.instance.enhance, M.core.actionmenu.instance);
+};
+
+    </pre>
+</div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="../assets/vendor/prettify/prettify-min.js"></script>
+<script>prettyPrint();</script>
+<script src="../assets/js/yui-prettify.js"></script>
+<script src="../assets/../api.js"></script>
+<script src="../assets/js/api-filter.js"></script>
+<script src="../assets/js/api-list.js"></script>
+<script src="../assets/js/api-search.js"></script>
+<script src="../assets/js/apidocs.js"></script>
+</body>
+</html>

@@ -1,0 +1,741 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>course/yui/src/categoryexpander/js/categoryexpander.js - Moodle</title>
+    <link rel="stylesheet" href="http://yui.yahooapis.com/3.9.1/build/cssgrids/cssgrids-min.css">
+    <link rel="stylesheet" href="../assets/vendor/prettify/prettify-min.css">
+    <link rel="stylesheet" href="../assets/css/main.css" id="site_styles">
+    <link rel="shortcut icon" type="image/png" href="../assets/favicon.png">
+    <script src="http://yui.yahooapis.com/combo?3.9.1/build/yui/yui-min.js"></script>
+</head>
+<body class="yui3-skin-sam">
+
+<div id="doc">
+    <div id="hd" class="yui3-g header">
+        <div class="yui3-u-3-4">
+            
+                <h1><img src="../assets/css/logo.png" title="Moodle"></h1>
+            
+        </div>
+        <div class="yui3-u-1-4 version">
+            <em>API Docs for: 2.6.2+ (Build: 20140320)</em>
+        </div>
+    </div>
+    <div id="bd" class="yui3-g">
+
+        <div class="yui3-u-1-4">
+            <div id="docs-sidebar" class="sidebar apidocs">
+                <div id="api-list">
+    <h2 class="off-left">APIs</h2>
+    <div id="api-tabview" class="tabview">
+        <ul class="tabs">
+            <li><a href="#api-classes">Classes</a></li>
+            <li><a href="#api-modules">Modules</a></li>
+        </ul>
+
+        <div id="api-tabview-filter">
+            <input type="search" id="api-filter" placeholder="Type to filter APIs">
+        </div>
+
+        <div id="api-tabview-panel">
+            <ul id="api-classes" class="apis classes">
+            
+                <li><a href="../classes/Bootstrap.Collapse.html">Bootstrap.Collapse</a></li>
+            
+                <li><a href="../classes/Bootstrap.Dropdown.html">Bootstrap.Dropdown</a></li>
+            
+                <li><a href="../classes/M.assignfeedback_editpdf.annotationhighlight.html">M.assignfeedback_editpdf.annotationhighlight</a></li>
+            
+                <li><a href="../classes/M.assignfeedback_editpdf.annotationline.html">M.assignfeedback_editpdf.annotationline</a></li>
+            
+                <li><a href="../classes/M.assignfeedback_editpdf.annotationoval.html">M.assignfeedback_editpdf.annotationoval</a></li>
+            
+                <li><a href="../classes/M.assignfeedback_editpdf.annotationpen.html">M.assignfeedback_editpdf.annotationpen</a></li>
+            
+                <li><a href="../classes/M.assignfeedback_editpdf.annotationrectangle.html">M.assignfeedback_editpdf.annotationrectangle</a></li>
+            
+                <li><a href="../classes/M.assignfeedback_editpdf.annotationstamp.html">M.assignfeedback_editpdf.annotationstamp</a></li>
+            
+                <li><a href="../classes/M.assignfeedback_editpdf.colourpicker.dropdown.html">M.assignfeedback_editpdf.colourpicker.dropdown</a></li>
+            
+                <li><a href="../classes/M.assignfeedback_editpdf.comment.html">M.assignfeedback_editpdf.comment</a></li>
+            
+                <li><a href="../classes/M.assignfeedback_editpdf.drawable.html">M.assignfeedback_editpdf.drawable</a></li>
+            
+                <li><a href="../classes/M.assignfeedback_editpdf.edit.html">M.assignfeedback_editpdf.edit</a></li>
+            
+                <li><a href="../classes/M.assignfeedback_editpdf.editor.assignfeedback_editpdf.html">M.assignfeedback_editpdf.editor.assignfeedback_editpdf</a></li>
+            
+                <li><a href="../classes/M.assignfeedback_editpdf.editor.commentmenu.html">M.assignfeedback_editpdf.editor.commentmenu</a></li>
+            
+                <li><a href="../classes/M.assignfeedback_editpdf.editor.commentsearch.html">M.assignfeedback_editpdf.editor.commentsearch</a></li>
+            
+                <li><a href="../classes/M.assignfeedback_editpdf.editor.Editor.html">M.assignfeedback_editpdf.editor.Editor</a></li>
+            
+                <li><a href="../classes/M.assignfeedback_editpdf.editor.editor.html">M.assignfeedback_editpdf.editor.editor</a></li>
+            
+                <li><a href="../classes/M.assignfeedback_editpdf.point.html">M.assignfeedback_editpdf.point</a></li>
+            
+                <li><a href="../classes/M.assignfeedback_editpdf.quickcomment.html">M.assignfeedback_editpdf.quickcomment</a></li>
+            
+                <li><a href="../classes/M.assignfeedback_editpdf.quickcommentlist.html">M.assignfeedback_editpdf.quickcommentlist</a></li>
+            
+                <li><a href="../classes/M.assignfeedback_editpdf.rect.html">M.assignfeedback_editpdf.rect</a></li>
+            
+                <li><a href="../classes/M.assignfeedback_editpdf.stamppicker.dropdown.html">M.assignfeedback_editpdf.stamppicker.dropdown</a></li>
+            
+                <li><a href="../classes/M.assignfeedback_editpdf.widget.dropdown.dropdown.html">M.assignfeedback_editpdf.widget.dropdown.dropdown</a></li>
+            
+                <li><a href="../classes/M.block_navigation.html">M.block_navigation</a></li>
+            
+                <li><a href="../classes/M.block_navigation.ActionKey.html">M.block_navigation.ActionKey</a></li>
+            
+                <li><a href="../classes/M.block_navigation.Branch.html">M.block_navigation.Branch</a></li>
+            
+                <li><a href="../classes/M.block_navigation.Tree.html">M.block_navigation.Tree</a></li>
+            
+                <li><a href="../classes/M.core.html">M.core</a></li>
+            
+                <li><a href="../classes/M.core.actionmenu.html">M.core.actionmenu</a></li>
+            
+                <li><a href="../classes/M.core.actionmenu.ActionMenu.html">M.core.actionmenu.ActionMenu</a></li>
+            
+                <li><a href="../classes/M.core.ajaxException.html">M.core.ajaxException</a></li>
+            
+                <li><a href="../classes/M.core.alert.html">M.core.alert</a></li>
+            
+                <li><a href="../classes/M.core.blockdraganddrop.html">M.core.blockdraganddrop</a></li>
+            
+                <li><a href="../classes/M.core.blockdraganddrop.BlockRegion.html">M.core.blockdraganddrop.BlockRegion</a></li>
+            
+                <li><a href="../classes/M.core.blockdraganddrop.LegacyManager.html">M.core.blockdraganddrop.LegacyManager</a></li>
+            
+                <li><a href="../classes/M.core.blockdraganddrop.Manager.html">M.core.blockdraganddrop.Manager</a></li>
+            
+                <li><a href="../classes/M.core.confirm.html">M.core.confirm</a></li>
+            
+                <li><a href="../classes/M.core.core.html">M.core.core</a></li>
+            
+                <li><a href="../classes/M.core.dialogue.html">M.core.dialogue</a></li>
+            
+                <li><a href="../classes/M.core.dock.html">M.core.dock</a></li>
+            
+                <li><a href="../classes/M.core.dock.ActionKey.html">M.core.dock.ActionKey</a></li>
+            
+                <li><a href="../classes/M.core.dock.Block.html">M.core.dock.Block</a></li>
+            
+                <li><a href="../classes/M.core.dock.Dock.html">M.core.dock.Dock</a></li>
+            
+                <li><a href="../classes/M.core.dock.DockedItem.html">M.core.dock.DockedItem</a></li>
+            
+                <li><a href="../classes/M.core.dock.Loader.html">M.core.dock.Loader</a></li>
+            
+                <li><a href="../classes/M.core.dock.Panel.html">M.core.dock.Panel</a></li>
+            
+                <li><a href="../classes/M.core.dock.TabHeightManager.html">M.core.dock.TabHeightManager</a></li>
+            
+                <li><a href="../classes/M.core.exception.html">M.core.exception</a></li>
+            
+                <li><a href="../classes/M.core.LockScroll.html">M.core.LockScroll</a></li>
+            
+                <li><a href="../classes/M.core.notification.html">M.core.notification</a></li>
+            
+                <li><a href="../classes/M.core.tooltip.html">M.core.tooltip</a></li>
+            
+                <li><a href="../classes/M.course.management.Category.html">M.course.management.Category</a></li>
+            
+                <li><a href="../classes/M.course.management.Console.html">M.course.management.Console</a></li>
+            
+                <li><a href="../classes/M.course.management.Course.html">M.course.management.Course</a></li>
+            
+                <li><a href="../classes/M.course.management.DragDrop.html">M.course.management.DragDrop</a></li>
+            
+                <li><a href="../classes/M.course.management.Item.html">M.course.management.Item</a></li>
+            
+                <li><a href="../classes/M.tool_capability.search.Search.html">M.tool_capability.search.Search</a></li>
+            
+                <li><a href="../classes/M.tool_capability.search.tool_capability.html">M.tool_capability.search.tool_capability</a></li>
+            
+                <li><a href="../classes/Moodle.core_course.util.html">Moodle.core_course.util</a></li>
+            
+                <li><a href="../classes/Moodle.core_course.util.cm.html">Moodle.core_course.util.cm</a></li>
+            
+                <li><a href="../classes/Moodle.core_course.util.section.html">Moodle.core_course.util.section</a></li>
+            
+                <li><a href="../classes/Moodle.theme_bootstrapbase.bootstrap.html">Moodle.theme_bootstrapbase.bootstrap</a></li>
+            
+                <li><a href="../classes/TreeView.html">TreeView</a></li>
+            
+                <li><a href="../classes/TreeView.Sortable.html">TreeView.Sortable</a></li>
+            
+                <li><a href="../classes/Y.BootstrapEngine.html">Y.BootstrapEngine</a></li>
+            
+                <li><a href="../classes/Y.Moodle.course.categoryexpander.html">Y.Moodle.course.categoryexpander</a></li>
+            
+            </ul>
+
+            <ul id="api-modules" class="apis modules">
+            
+                <li><a href="../modules/gallery-bootstrap-collapse.html">gallery-bootstrap-collapse</a></li>
+            
+                <li><a href="../modules/gallery-bootstrap-dropdown.html">gallery-bootstrap-dropdown</a></li>
+            
+                <li><a href="../modules/gallery-bootstrap-engine.html">gallery-bootstrap-engine</a></li>
+            
+                <li><a href="../modules/gallery-sm-treeview.html">gallery-sm-treeview</a></li>
+            
+                <li><a href="../modules/gallery-sm-treeview-sortable.html">gallery-sm-treeview-sortable</a></li>
+            
+                <li><a href="../modules/moodle-assignfeedback_editpdf-editor.html">moodle-assignfeedback_editpdf-editor</a></li>
+            
+                <li><a href="../modules/moodle-block_navigation-navigation.html">moodle-block_navigation-navigation</a></li>
+            
+                <li><a href="../modules/moodle-core-actionmenu.html">moodle-core-actionmenu</a></li>
+            
+                <li><a href="../modules/moodle-core-blockdraganddrop.html">moodle-core-blockdraganddrop</a></li>
+            
+                <li><a href="../modules/moodle-core-dock.html">moodle-core-dock</a></li>
+            
+                <li><a href="../modules/moodle-core-lockscroll.html">moodle-core-lockscroll</a></li>
+            
+                <li><a href="../modules/moodle-core-notification.html">moodle-core-notification</a></li>
+            
+                <li><a href="../modules/moodle-core-notification-ajaxexception.html">moodle-core-notification-ajaxexception</a></li>
+            
+                <li><a href="../modules/moodle-core-notification-alert.html">moodle-core-notification-alert</a></li>
+            
+                <li><a href="../modules/moodle-core-notification-confirm.html">moodle-core-notification-confirm</a></li>
+            
+                <li><a href="../modules/moodle-core-notification-dialogue.html">moodle-core-notification-dialogue</a></li>
+            
+                <li><a href="../modules/moodle-core-notification-exception.html">moodle-core-notification-exception</a></li>
+            
+                <li><a href="../modules/moodle-core-tooltip.html">moodle-core-tooltip</a></li>
+            
+                <li><a href="../modules/moodle-course-categoryexpander.html">moodle-course-categoryexpander</a></li>
+            
+                <li><a href="../modules/moodle-course-management.html">moodle-course-management</a></li>
+            
+                <li><a href="../modules/moodle-course-util.html">moodle-course-util</a></li>
+            
+                <li><a href="../modules/moodle-course-util-cm.html">moodle-course-util-cm</a></li>
+            
+                <li><a href="../modules/moodle-course-util-section.html">moodle-course-util-section</a></li>
+            
+                <li><a href="../modules/moodle-tool_capability-search.html">moodle-tool_capability-search</a></li>
+            
+                <li><a href="../modules/theme_bootstrapbase-bootstrap.html">theme_bootstrapbase-bootstrap</a></li>
+            
+            </ul>
+        </div>
+    </div>
+</div>
+
+            </div>
+        </div>
+        <div class="yui3-u-3-4">
+                <div id="api-options">
+        Show:
+        <label for="api-show-inherited">
+            <input type="checkbox" id="api-show-inherited" checked>
+            Inherited
+        </label>
+
+        <label for="api-show-protected">
+            <input type="checkbox" id="api-show-protected">
+            Protected
+        </label>
+
+        <label for="api-show-private">
+            <input type="checkbox" id="api-show-private">
+            Private
+        </label>
+        <label for="api-show-deprecated">
+            <input type="checkbox" id="api-show-deprecated">
+            Deprecated
+        </label>
+
+    </div>
+
+
+            <div class="apidocs">
+                <div id="docs-main">
+                    <div class="content">
+                        <h1 class="file-heading">File: course/yui/src/categoryexpander/js/categoryexpander.js</h1>
+
+<div class="file">
+    <pre class="code prettyprint linenums">
+/**
+ * Adds toggling of subcategory with automatic loading using AJAX.
+ *
+ * This also includes application of an animation to improve user experience.
+ *
+ * @module moodle-course-categoryexpander
+ */
+
+/**
+ * The course category expander.
+ *
+ * @constructor
+ * @class Y.Moodle.course.categoryexpander
+ */
+
+var CSS = {
+        CONTENTNODE: &#x27;content&#x27;,
+        COLLAPSEALL: &#x27;collapse-all&#x27;,
+        DISABLED: &#x27;disabled&#x27;,
+        LOADED: &#x27;loaded&#x27;,
+        NOTLOADED: &#x27;notloaded&#x27;,
+        SECTIONCOLLAPSED: &#x27;collapsed&#x27;,
+        HASCHILDREN: &#x27;with_children&#x27;
+    },
+    SELECTORS = {
+        LOADEDTREES: &#x27;.with_children.loaded&#x27;,
+        CONTENTNODE: &#x27;.content&#x27;,
+        CATEGORYLISTENLINK: &#x27;.category .info .categoryname&#x27;,
+        CATEGORYSPINNERLOCATION: &#x27;.categoryname&#x27;,
+        CATEGORYWITHCOLLAPSEDLOADEDCHILDREN: &#x27;.category.with_children.loaded.collapsed&#x27;,
+        CATEGORYWITHMAXIMISEDLOADEDCHILDREN: &#x27;.category.with_children.loaded:not(.collapsed)&#x27;,
+        COLLAPSEEXPAND: &#x27;.collapseexpand&#x27;,
+        COURSEBOX: &#x27;.coursebox&#x27;,
+        COURSEBOXLISTENLINK: &#x27;.coursebox .moreinfo&#x27;,
+        COURSEBOXSPINNERLOCATION: &#x27;.coursename a&#x27;,
+        COURSECATEGORYTREE: &#x27;.course_category_tree&#x27;,
+        PARENTWITHCHILDREN: &#x27;.category&#x27;
+    },
+    NS = Y.namespace(&#x27;Moodle.course.categoryexpander&#x27;),
+    TYPE_CATEGORY = 0,
+    TYPE_COURSE = 1,
+    URL = M.cfg.wwwroot + &#x27;/course/category.ajax.php&#x27;;
+
+/**
+ * Set up the category expander.
+ *
+ * No arguments are required.
+ *
+ * @method init
+ */
+NS.init = function() {
+    var doc = Y.one(Y.config.doc);
+    doc.delegate(&#x27;click&#x27;, this.toggle_category_expansion, SELECTORS.CATEGORYLISTENLINK, this);
+    doc.delegate(&#x27;click&#x27;, this.toggle_coursebox_expansion, SELECTORS.COURSEBOXLISTENLINK, this);
+    doc.delegate(&#x27;click&#x27;, this.collapse_expand_all, SELECTORS.COLLAPSEEXPAND, this);
+
+    // Only set up they keybaord listeners when tab is first pressed - it
+    // may never happen and modifying the DOM on a large number of nodes
+    // can be very expensive.
+    doc.once(&#x27;key&#x27;, this.setup_keyboard_listeners, &#x27;tab&#x27;, this);
+};
+
+/**
+ * Set up keyboard expansion for course content.
+ *
+ * This includes setting up the delegation but also adding the nodes to the
+ * tabflow.
+ *
+ * @method setup_keyboard_listeners
+ */
+NS.setup_keyboard_listeners = function() {
+    var doc = Y.one(Y.config.doc);
+
+    Y.log(&#x27;Setting the tabindex for all expandable course nodes&#x27;, &#x27;info&#x27;, &#x27;moodle-course-categoryexpander&#x27;);
+    doc.all(SELECTORS.CATEGORYLISTENLINK, SELECTORS.COURSEBOXLISTENLINK, SELECTORS.COLLAPSEEXPAND).setAttribute(&#x27;tabindex&#x27;, &#x27;0&#x27;);
+
+
+    Y.one(Y.config.doc).delegate(&#x27;key&#x27;, this.toggle_category_expansion, &#x27;enter&#x27;, SELECTORS.CATEGORYLISTENLINK, this);
+    Y.one(Y.config.doc).delegate(&#x27;key&#x27;, this.toggle_coursebox_expansion, &#x27;enter&#x27;, SELECTORS.COURSEBOXLISTENLINK, this);
+    Y.one(Y.config.doc).delegate(&#x27;key&#x27;, this.collapse_expand_all, &#x27;enter&#x27;, SELECTORS.COLLAPSEEXPAND, this);
+};
+
+/**
+ * Toggle the animation of the clicked category node.
+ *
+ * @method toggle_category_expansion
+ * @private
+ * @param {EventFacade} e
+ */
+NS.toggle_category_expansion = function(e) {
+    // Load the actual dependencies now that we&#x27;ve been called.
+    Y.use(&#x27;io-base&#x27;, &#x27;json-parse&#x27;, &#x27;moodle-core-notification&#x27;, &#x27;anim-node-plugin&#x27;, function() {
+        // Overload the toggle_category_expansion with the _toggle_category_expansion function to ensure that
+        // this function isn&#x27;t called in the future, and call it for the first time.
+        NS.toggle_category_expansion = NS._toggle_category_expansion;
+        NS.toggle_category_expansion(e);
+    });
+};
+
+/**
+ * Toggle the animation of the clicked coursebox node.
+ *
+ * @method toggle_coursebox_expansion
+ * @private
+ * @param {EventFacade} e
+ */
+NS.toggle_coursebox_expansion = function(e) {
+    // Load the actual dependencies now that we&#x27;ve been called.
+    Y.use(&#x27;io-base&#x27;, &#x27;json-parse&#x27;, &#x27;moodle-core-notification&#x27;, &#x27;anim-node-plugin&#x27;, function() {
+        // Overload the toggle_coursebox_expansion with the _toggle_coursebox_expansion function to ensure that
+        // this function isn&#x27;t called in the future, and call it for the first time.
+        NS.toggle_coursebox_expansion = NS._toggle_coursebox_expansion;
+        NS.toggle_coursebox_expansion(e);
+    });
+
+    e.preventDefault();
+};
+
+NS._toggle_coursebox_expansion = function(e) {
+    var courseboxnode;
+
+    // Grab the parent category container - this is where the new content will be added.
+    courseboxnode = e.target.ancestor(SELECTORS.COURSEBOX, true);
+    e.preventDefault();
+
+    if (courseboxnode.hasClass(CSS.LOADED)) {
+        // We&#x27;ve already loaded this content so we just need to toggle the view of it.
+        this.run_expansion(courseboxnode);
+        return;
+    }
+
+    this._toggle_generic_expansion({
+        parentnode: courseboxnode,
+        childnode: courseboxnode.one(SELECTORS.CONTENTNODE),
+        spinnerhandle: SELECTORS.COURSEBOXSPINNERLOCATION,
+        data: {
+            courseid: courseboxnode.getData(&#x27;courseid&#x27;),
+            type: TYPE_COURSE
+        }
+    });
+};
+
+NS._toggle_category_expansion = function(e) {
+    var categorynode,
+        categoryid,
+        depth;
+
+    if (e.target.test(&#x27;a&#x27;) || e.target.test(&#x27;img&#x27;)) {
+        // Return early if either an anchor or an image were clicked.
+        return;
+    }
+
+    // Grab the parent category container - this is where the new content will be added.
+    categorynode = e.target.ancestor(SELECTORS.PARENTWITHCHILDREN, true);
+
+    if (!categorynode.hasClass(CSS.HASCHILDREN)) {
+        // Nothing to do here - this category has no children.
+        return;
+    }
+
+    if (categorynode.hasClass(CSS.LOADED)) {
+        // We&#x27;ve already loaded this content so we just need to toggle the view of it.
+        this.run_expansion(categorynode);
+        return;
+    }
+
+    // We use Data attributes to store the category.
+    categoryid = categorynode.getData(&#x27;categoryid&#x27;);
+    depth = categorynode.getData(&#x27;depth&#x27;);
+    if (typeof categoryid === &quot;undefined&quot; || typeof depth === &quot;undefined&quot;) {
+        return;
+    }
+
+    this._toggle_generic_expansion({
+        parentnode: categorynode,
+        childnode: categorynode.one(SELECTORS.CONTENTNODE),
+        spinnerhandle: SELECTORS.CATEGORYSPINNERLOCATION,
+        data: {
+            categoryid: categoryid,
+            depth: depth,
+            showcourses: categorynode.getData(&#x27;showcourses&#x27;),
+            type: TYPE_CATEGORY
+        }
+    });
+};
+
+/**
+ * Wrapper function to handle toggling of generic types.
+ *
+ * @method _toggle_generic_expansion
+ * @private
+ * @param {Object} config
+ */
+NS._toggle_generic_expansion = function(config) {
+    if (config.spinnerhandle) {
+      // Add a spinner to give some feedback to the user.
+      spinner = M.util.add_spinner(Y, config.parentnode.one(config.spinnerhandle)).show();
+    }
+
+    // Fetch the data.
+    Y.io(URL, {
+        method: &#x27;POST&#x27;,
+        context: this,
+        on: {
+            complete: this.process_results
+        },
+        data: config.data,
+        &quot;arguments&quot;: {
+            parentnode: config.parentnode,
+            childnode: config.childnode,
+            spinner: spinner
+        }
+    });
+};
+
+/**
+ * Apply the animation on the supplied node.
+ *
+ * @method run_expansion
+ * @private
+ * @param {Node} categorynode The node to apply the animation to
+ */
+NS.run_expansion = function(categorynode) {
+    var categorychildren = categorynode.one(SELECTORS.CONTENTNODE),
+        self = this,
+        ancestor = categorynode.ancestor(SELECTORS.COURSECATEGORYTREE);
+
+    // Add our animation to the categorychildren.
+    this.add_animation(categorychildren);
+
+
+    // If we already have the class, remove it before showing otherwise we perform the
+    // animation whilst the node is hidden.
+    if (categorynode.hasClass(CSS.SECTIONCOLLAPSED)) {
+        // To avoid a jump effect, we need to set the height of the children to 0 here before removing the SECTIONCOLLAPSED class.
+        categorychildren.setStyle(&#x27;height&#x27;, &#x27;0&#x27;);
+        categorynode.removeClass(CSS.SECTIONCOLLAPSED);
+        categorynode.setAttribute(&#x27;aria-expanded&#x27;, &#x27;true&#x27;);
+        categorychildren.fx.set(&#x27;reverse&#x27;, false);
+    } else {
+        categorychildren.fx.set(&#x27;reverse&#x27;, true);
+        categorychildren.fx.once(&#x27;end&#x27;, function(e, categorynode) {
+            categorynode.addClass(CSS.SECTIONCOLLAPSED);
+            categorynode.setAttribute(&#x27;aria-expanded&#x27;, &#x27;false&#x27;);
+        }, this, categorynode);
+    }
+
+    categorychildren.fx.once(&#x27;end&#x27;, function(e, categorychildren) {
+        // Remove the styles that the animation has set.
+        categorychildren.setStyles({
+            height: &#x27;&#x27;,
+            opacity: &#x27;&#x27;
+        });
+
+        // To avoid memory gobbling, remove the animation. It will be added back if called again.
+        this.destroy();
+        self.update_collapsible_actions(ancestor);
+    }, categorychildren.fx, categorychildren);
+
+    // Now that everything has been set up, run the animation.
+    categorychildren.fx.run();
+};
+
+/**
+ * Toggle collapsing of all nodes.
+ *
+ * @method collapse_expand_all
+ * @private
+ * @param {EventFacade} e
+ */
+NS.collapse_expand_all = function(e) {
+    // Load the actual dependencies now that we&#x27;ve been called.
+    Y.use(&#x27;io-base&#x27;, &#x27;json-parse&#x27;, &#x27;moodle-core-notification&#x27;, &#x27;anim-node-plugin&#x27;, function() {
+        // Overload the collapse_expand_all with the _collapse_expand_all function to ensure that
+        // this function isn&#x27;t called in the future, and call it for the first time.
+        NS.collapse_expand_all = NS._collapse_expand_all;
+        NS.collapse_expand_all(e);
+    });
+
+    e.preventDefault();
+};
+
+NS._collapse_expand_all = function(e) {
+    // The collapse/expand button has no actual target but we need to prevent it&#x27;s default
+    // action to ensure we don&#x27;t make the page reload/jump.
+    e.preventDefault();
+
+    if (e.currentTarget.hasClass(CSS.DISABLED)) {
+        // The collapse/expand is currently disabled.
+        return;
+    }
+
+    var ancestor = e.currentTarget.ancestor(SELECTORS.COURSECATEGORYTREE);
+    if (!ancestor) {
+        return;
+    }
+
+    var collapseall = ancestor.one(SELECTORS.COLLAPSEEXPAND);
+    if (collapseall.hasClass(CSS.COLLAPSEALL)) {
+        this.collapse_all(ancestor);
+    } else {
+        this.expand_all(ancestor);
+    }
+    this.update_collapsible_actions(ancestor);
+};
+
+NS.expand_all = function(ancestor) {
+    var finalexpansions = [];
+
+    ancestor.all(SELECTORS.CATEGORYWITHCOLLAPSEDLOADEDCHILDREN)
+        .each(function(c) {
+        if (c.ancestor(SELECTORS.CATEGORYWITHCOLLAPSEDLOADEDCHILDREN)) {
+            // Expand the hidden children first without animation.
+            c.removeClass(CSS.SECTIONCOLLAPSED);
+            c.all(SELECTORS.LOADEDTREES).removeClass(CSS.SECTIONCOLLAPSED);
+        } else {
+            finalexpansions.push(c);
+        }
+    }, this);
+
+    // Run the final expansion with animation on the visible items.
+    Y.all(finalexpansions).each(function(c) {
+        this.run_expansion(c);
+    }, this);
+
+};
+
+NS.collapse_all = function(ancestor) {
+    var finalcollapses = [];
+
+    ancestor.all(SELECTORS.CATEGORYWITHMAXIMISEDLOADEDCHILDREN)
+        .each(function(c) {
+        if (c.ancestor(SELECTORS.CATEGORYWITHMAXIMISEDLOADEDCHILDREN)) {
+            finalcollapses.push(c);
+        } else {
+            // Collapse the visible items first
+            this.run_expansion(c);
+        }
+    }, this);
+
+    // Run the final collapses now that the these are hidden hidden.
+    Y.all(finalcollapses).each(function(c) {
+        c.addClass(CSS.SECTIONCOLLAPSED);
+        c.all(SELECTORS.LOADEDTREES).addClass(CSS.SECTIONCOLLAPSED);
+    }, this);
+};
+
+NS.update_collapsible_actions = function(ancestor) {
+    var foundmaximisedchildren = false,
+        // Grab the anchor for the collapseexpand all link.
+        togglelink = ancestor.one(SELECTORS.COLLAPSEEXPAND);
+
+    if (!togglelink) {
+        // We should always have a togglelink but ensure.
+        return;
+    }
+
+    // Search for any visibly expanded children.
+    ancestor.all(SELECTORS.CATEGORYWITHMAXIMISEDLOADEDCHILDREN).each(function(n) {
+        // If we can find any collapsed ancestors, skip.
+        if (n.ancestor(SELECTORS.CATEGORYWITHCOLLAPSEDLOADEDCHILDREN)) {
+            return false;
+        }
+        foundmaximisedchildren = true;
+        return true;
+    });
+
+    if (foundmaximisedchildren) {
+        // At least one maximised child found. Show the collapseall.
+        togglelink.setHTML(M.util.get_string(&#x27;collapseall&#x27;, &#x27;moodle&#x27;))
+            .addClass(CSS.COLLAPSEALL)
+            .removeClass(CSS.DISABLED);
+    } else {
+        // No maximised children found but there are collapsed children. Show the expandall.
+        togglelink.setHTML(M.util.get_string(&#x27;expandall&#x27;, &#x27;moodle&#x27;))
+            .removeClass(CSS.COLLAPSEALL)
+            .removeClass(CSS.DISABLED);
+    }
+};
+
+/**
+ * Process the data returned by Y.io.
+ * This includes appending it to the relevant part of the DOM, and applying our animations.
+ *
+ * @method process_results
+ * @private
+ * @param {String} tid The Transaction ID
+ * @param {Object} response The Reponse returned by Y.IO
+ * @param {Object} ioargs The additional arguments provided by Y.IO
+ */
+NS.process_results = function(tid, response, args) {
+    var newnode,
+        data;
+    try {
+        data = Y.JSON.parse(response.responseText);
+        if (data.error) {
+            return new M.core.ajaxException(data);
+        }
+    } catch (e) {
+        return new M.core.exception(e);
+    }
+
+    // Insert the returned data into a new Node.
+    newnode = Y.Node.create(data);
+
+    // Append to the existing child location.
+    args.childnode.appendChild(newnode);
+
+    // Now that we have content, we can swap the classes on the toggled container.
+    args.parentnode
+        .addClass(CSS.LOADED)
+        .removeClass(CSS.NOTLOADED);
+
+    // Toggle the open/close status of the node now that it&#x27;s content has been loaded.
+    this.run_expansion(args.parentnode);
+
+    // Remove the spinner now that we&#x27;ve started to show the content.
+    if (args.spinner) {
+        args.spinner.hide().destroy();
+    }
+};
+
+/**
+ * Add our animation to the Node.
+ *
+ * @method add_animation
+ * @private
+ * @param {Node} childnode
+ */
+NS.add_animation = function(childnode) {
+    if (typeof childnode.fx !== &quot;undefined&quot;) {
+        // The animation has already been plugged to this node.
+        return childnode;
+    }
+
+    childnode.plug(Y.Plugin.NodeFX, {
+        from: {
+            height: 0,
+            opacity: 0
+        },
+        to: {
+            // This sets a dynamic height in case the node content changes.
+            height: function(node) {
+                // Get expanded height (offsetHeight may be zero).
+                return node.get(&#x27;scrollHeight&#x27;);
+            },
+            opacity: 1
+        },
+        duration: 0.2
+    });
+
+    return childnode;
+};
+
+    </pre>
+</div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="../assets/vendor/prettify/prettify-min.js"></script>
+<script>prettyPrint();</script>
+<script src="../assets/js/yui-prettify.js"></script>
+<script src="../assets/../api.js"></script>
+<script src="../assets/js/api-filter.js"></script>
+<script src="../assets/js/api-list.js"></script>
+<script src="../assets/js/api-search.js"></script>
+<script src="../assets/js/apidocs.js"></script>
+</body>
+</html>
