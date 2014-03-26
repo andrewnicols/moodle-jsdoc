@@ -1,0 +1,130 @@
+[37;40minfo:[0m[35m (yuidoc):[0m [32mStarting YUIDoc@0.3.49 using YUI@3.14.1 with NodeJS@0.10.26[0m
+[37;40minfo:[0m[35m (yuidoc):[0m [32mScanning for yuidoc.json file.[0m
+[37;40minfo:[0m[35m (yuidoc):[0m [32mLoading yuidoc.json data from: /private/srv/www/loganberry.local/data/doc_master/moodle/lib/yui/common/yuidoc.json[0m
+[37;40minfo:[0m[35m (yuidoc):[0m [32mStarting YUIDoc with the following options:[0m
+[37;40minfo:[0m[35m (yuidoc):[0m [32m
+{ external: { data: 'http://yuilibrary.com/yui/docs/api/data.json' },
+  linkNatives: true,
+  attributesEmit: 'true',
+  selleck: 'true',
+  outdir: '/Users/nicols/git/moodle-jsdoc/moodle/master/',
+  paths: 
+   [ 'admin/tool/capability/yui/src/search',
+     'backup/util/ui/yui/src/backupselectall',
+     'backup/util/ui/yui/src/confirmcancel',
+     'blocks/navigation/yui/src/navigation',
+     'calendar/yui/src/eventmanager',
+     '<paths truncated>',
+     'mod/assign/yui/src/history',
+     'mod/quiz/yui/src/autosave',
+     'question/yui/src/preview',
+     'question/yui/src/searchform',
+     'theme/bootstrapbase/yui/src/bootstrap' ],
+  port: 3000,
+  nocode: false,
+  project: 
+   { name: 'Moodle',
+     description: 'YUI documentation for Moodle',
+     url: 'https://moodle.org',
+     version: '2.7dev (Build: 20140320)' } }[0m
+[37;40minfo:[0m[35m (yuidoc):[0m [32mYUIDoc Starting from: admin/tool/capability/yui/src/search,backup/util/ui/yui/src/backupselectall,backup/util/ui/yui/src/confirmcancel,blocks/navigation/yui/src/navigation,calendar/yui/src/eventmanager,course/yui/src/categoryexpander,course/yui/src/coursebase,course/yui/src/dragdrop,course/yui/src/formatchooser,course/yui/src/management,course/yui/src/modchooser,course/yui/src/toolboxes,course/yui/src/util,filter/glossary/yui/src/autolinker,lib/editor/atto/plugins/accessibilitychecker/yui/src/button,lib/editor/atto/plugins/accessibilityhelper/yui/src/button,lib/editor/atto/plugins/align/yui/src/button,lib/editor/atto/plugins/backcolor/yui/src/button,lib/editor/atto/plugins/bold/yui/src/button,lib/editor/atto/plugins/charmap/yui/src/button,lib/editor/atto/plugins/clear/yui/src/button,lib/editor/atto/plugins/collapse/yui/src/button,lib/editor/atto/plugins/emoticon/yui/src/button,lib/editor/atto/plugins/equation/yui/src/button,lib/editor/atto/plugins/fontcolor/yui/src/button,lib/editor/atto/plugins/html/yui/src/button,lib/editor/atto/plugins/image/yui/src/button,lib/editor/atto/plugins/indent/yui/src/button,lib/editor/atto/plugins/italic/yui/src/button,lib/editor/atto/plugins/link/yui/src/button,lib/editor/atto/plugins/managefiles/yui/src/button,lib/editor/atto/plugins/managefiles/yui/src/usedfiles,lib/editor/atto/plugins/media/yui/src/button,lib/editor/atto/plugins/noautolink/yui/src/button,lib/editor/atto/plugins/orderedlist/yui/src/button,lib/editor/atto/plugins/rtl/yui/src/button,lib/editor/atto/plugins/strike/yui/src/button,lib/editor/atto/plugins/subscript/yui/src/button,lib/editor/atto/plugins/superscript/yui/src/button,lib/editor/atto/plugins/table/yui/src/button,lib/editor/atto/plugins/title/yui/src/button,lib/editor/atto/plugins/underline/yui/src/button,lib/editor/atto/plugins/undo/yui/src/button,lib/editor/atto/plugins/unlink/yui/src/button,lib/editor/atto/plugins/unorderedlist/yui/src/button,lib/editor/atto/yui/src/editor,lib/editor/atto/yui/src/rangy,lib/form/yui/src/passwordunmask,lib/form/yui/src/shortforms,lib/form/yui/src/showadvanced,lib/yui/src/actionmenu,lib/yui/src/blocks,lib/yui/src/chooserdialogue,lib/yui/src/dock,lib/yui/src/dragdrop,lib/yui/src/formautosubmit,lib/yui/src/formchangechecker,lib/yui/src/handlebars,lib/yui/src/lockscroll,lib/yui/src/maintenancemodetimer,lib/yui/src/notification,lib/yui/src/popuphelp,lib/yui/src/tooltip,lib/yui/src/widget-focusafterclose,mod/assign/feedback/editpdf/yui/src/editor,mod/assign/yui/src/history,mod/quiz/yui/src/autosave,question/yui/src/preview,question/yui/src/searchform,theme/bootstrapbase/yui/src/bootstrap[0m
+[33mwarn:[0m[35m (docparser):[0m [32munknown tag: package, lib/editor/atto/plugins/equation/yui/src/button/js/button.js:16[0m
+[33mwarn:[0m[35m (docparser):[0m [32munknown tag: copyright, lib/editor/atto/plugins/equation/yui/src/button/js/button.js:16[0m
+[33mwarn:[0m[35m (docparser):[0m [32munknown tag: license, lib/editor/atto/plugins/equation/yui/src/button/js/button.js:16[0m
+[33mwarn:[0m[35m (docparser):[0m [32munknown tag: package, lib/editor/atto/plugins/managefiles/yui/src/button/js/button.js:16[0m
+[33mwarn:[0m[35m (docparser):[0m [32munknown tag: copyright, lib/editor/atto/plugins/managefiles/yui/src/button/js/button.js:16[0m
+[33mwarn:[0m[35m (docparser):[0m [32munknown tag: license, lib/editor/atto/plugins/managefiles/yui/src/button/js/button.js:16[0m
+[33mwarn:[0m[35m (docparser):[0m [32munknown tag: package, lib/editor/atto/plugins/managefiles/yui/src/usedfiles/js/usedfiles.js:16[0m
+[33mwarn:[0m[35m (docparser):[0m [32munknown tag: copyright, lib/editor/atto/plugins/managefiles/yui/src/usedfiles/js/usedfiles.js:16[0m
+[33mwarn:[0m[35m (docparser):[0m [32munknown tag: license, lib/editor/atto/plugins/managefiles/yui/src/usedfiles/js/usedfiles.js:16[0m
+[33mwarn:[0m[35m (docparser):[0m [32munknown tag: package, lib/editor/atto/plugins/table/yui/src/button/js/button.js:16[0m
+[33mwarn:[0m[35m (docparser):[0m [32munknown tag: copyright, lib/editor/atto/plugins/table/yui/src/button/js/button.js:16[0m
+[33mwarn:[0m[35m (docparser):[0m [32munknown tag: license, lib/editor/atto/plugins/table/yui/src/button/js/button.js:16[0m
+[33mwarn:[0m[35m (docparser):[0m [32munknown tag: component, lib/editor/atto/plugins/undo/yui/src/button/js/button.js:16[0m
+[33mwarn:[0m[35m (docparser):[0m [32munknown tag: copyright, lib/editor/atto/plugins/undo/yui/src/button/js/button.js:16[0m
+[33mwarn:[0m[35m (docparser):[0m [32munknown tag: license, lib/editor/atto/plugins/undo/yui/src/button/js/button.js:16[0m
+[33mwarn:[0m[35m (docparser):[0m [32munknown tag: package, lib/editor/atto/yui/src/editor/js/editor-plugin.js:16[0m
+[33mwarn:[0m[35m (docparser):[0m [32munknown tag: copyright, lib/editor/atto/yui/src/editor/js/editor-plugin.js:16[0m
+[33mwarn:[0m[35m (docparser):[0m [32munknown tag: license, lib/editor/atto/yui/src/editor/js/editor-plugin.js:16[0m
+[33mwarn:[0m[35m (docparser):[0m [32munknown tag: package, lib/editor/atto/yui/src/editor/js/editor.js:16[0m
+[33mwarn:[0m[35m (docparser):[0m [32munknown tag: copyright, lib/editor/atto/yui/src/editor/js/editor.js:16[0m
+[33mwarn:[0m[35m (docparser):[0m [32munknown tag: license, lib/editor/atto/yui/src/editor/js/editor.js:16[0m
+[33mwarn:[0m[35m (docparser):[0m [32munknown tag: package, lib/editor/atto/yui/src/editor/js/menu.js:16[0m
+[33mwarn:[0m[35m (docparser):[0m [32munknown tag: copyright, lib/editor/atto/yui/src/editor/js/menu.js:16[0m
+[33mwarn:[0m[35m (docparser):[0m [32munknown tag: license, lib/editor/atto/yui/src/editor/js/menu.js:16[0m
+[33mwarn:[0m[35m (docparser):[0m [32munknown tag: license, lib/editor/atto/yui/src/rangy/js/rangy-core.js:1[0m
+[33mwarn:[0m[35m (docparser):[0m [32munknown tag: license, lib/editor/atto/yui/src/rangy/js/rangy-cssclassapplier.js:1[0m
+[33mwarn:[0m[35m (docparser):[0m [32munknown tag: license, lib/editor/atto/yui/src/rangy/js/rangy-selectionsaverestore.js:1[0m
+[33mwarn:[0m[35m (docparser):[0m [32munknown tag: license, lib/editor/atto/yui/src/rangy/js/rangy-serializer.js:1[0m
+[33mwarn:[0m[35m (docparser):[0m [32munknown tag: readyonly, theme/bootstrapbase/yui/src/bootstrap/js/bootstrapengine.js:68[0m
+[33mwarn:[0m[35m (docparser):[0m [32munknown tag: readyonly, theme/bootstrapbase/yui/src/bootstrap/js/bootstrapengine.js:80[0m
+[33mwarn:[0m[35m (docparser):[0m [32munknown tag: readyonly, theme/bootstrapbase/yui/src/bootstrap/js/bootstrapengine.js:89[0m
+[33mwarn:[0m[35m (docparser):[0m [32mMissing item type:  lib/editor/atto/plugins/equation/yui/src/button/js/button.js:16[0m
+[33mwarn:[0m[35m (docparser):[0m [32mMissing item type:  lib/editor/atto/plugins/equation/yui/src/button/js/button.js:22[0m
+[33mwarn:[0m[35m (docparser):[0m [32m		Atto text editor equation plugin.[0m
+[33mwarn:[0m[35m (docparser):[0m [32mMissing item type:  lib/editor/atto/plugins/image/yui/src/button/js/button.js:169[0m
+[33mwarn:[0m[35m (docparser):[0m [32m		The most recently selected image.[0m
+[33mwarn:[0m[35m (docparser):[0m [32mMissing item type:  lib/editor/atto/plugins/image/yui/src/button/js/button.js:178[0m
+[33mwarn:[0m[35m (docparser):[0m [32m		A reference to the currently open form.[0m
+[33mwarn:[0m[35m (docparser):[0m [32mMissing item type:  lib/editor/atto/plugins/managefiles/yui/src/button/js/button.js:16[0m
+[33mwarn:[0m[35m (docparser):[0m [32mMissing item type:  lib/editor/atto/plugins/managefiles/yui/src/button/js/button.js:103[0m
+[33mwarn:[0m[35m (docparser):[0m [32m		Returns the URL to the file manager.[0m
+[33mwarn:[0m[35m (docparser):[0m [32mMissing item type:  lib/editor/atto/plugins/managefiles/yui/src/usedfiles/js/usedfiles.js:16[0m
+[33mwarn:[0m[35m (docparser):[0m [32mMissing item type:  lib/editor/atto/plugins/managefiles/yui/src/usedfiles/js/usedfiles.js:34[0m
+[33mwarn:[0m[35m (docparser):[0m [32m		CSS constants.[0m
+[33mwarn:[0m[35m (docparser):[0m [32mMissing item type:  lib/editor/atto/plugins/managefiles/yui/src/usedfiles/js/usedfiles.js:44[0m
+[33mwarn:[0m[35m (docparser):[0m [32m		Selectors constants.[0m
+[33mwarn:[0m[35m (docparser):[0m [32mMissing item type:  lib/editor/atto/plugins/managefiles/yui/src/usedfiles/js/usedfiles.js:85[0m
+[33mwarn:[0m[35m (docparser):[0m [32m		Init function.[0m
+[33mwarn:[0m[35m (docparser):[0m [32mMissing item type:  lib/editor/atto/plugins/managefiles/yui/src/usedfiles/js/usedfiles.js:163[0m
+[33mwarn:[0m[35m (docparser):[0m [32m		Return an array of unused files.[0m
+[33mwarn:[0m[35m (docparser):[0m [32mMissing item type:  lib/editor/atto/plugins/managefiles/yui/src/usedfiles/js/usedfiles.js:181[0m
+[33mwarn:[0m[35m (docparser):[0m [32m		Return an array of missing files.[0m
+[33mwarn:[0m[35m (docparser):[0m [32mMissing item type:  lib/editor/atto/plugins/table/yui/src/button/js/button.js:16[0m
+[33mwarn:[0m[35m (docparser):[0m [32mMissing item type:  lib/editor/atto/plugins/undo/yui/src/button/js/button.js:16[0m
+[33mwarn:[0m[35m (docparser):[0m [32mMissing item type:  lib/editor/atto/yui/src/editor/js/clean.js:36[0m
+[33mwarn:[0m[35m (docparser):[0m [32m
+		Clean the generated HTML content without modifying the editor content.
+
+This includes removes all YUI ids from the generated content.[0m
+[33mwarn:[0m[35m (docparser):[0m [32mMissing item type:  lib/editor/atto/yui/src/rangy/js/rangy-core.js:1[0m
+[33mwarn:[0m[35m (docparser):[0m [32mMissing item type:  lib/editor/atto/yui/src/rangy/js/rangy-core.js:206[0m
+[33mwarn:[0m[35m (docparser):[0m [32mMissing item type:  lib/editor/atto/yui/src/rangy/js/rangy-core.js:554[0m
+[33mwarn:[0m[35m (docparser):[0m [32mMissing item type:  lib/editor/atto/yui/src/rangy/js/rangy-core.js:596[0m
+[33mwarn:[0m[35m (docparser):[0m [32mMissing item type:  lib/editor/atto/yui/src/rangy/js/rangy-core.js:614[0m
+[33mwarn:[0m[35m (docparser):[0m [32mMissing item type:  lib/editor/atto/yui/src/rangy/js/rangy-core.js:831[0m
+[33mwarn:[0m[35m (docparser):[0m [32mMissing item type:  lib/editor/atto/yui/src/rangy/js/rangy-core.js:958[0m
+[33mwarn:[0m[35m (docparser):[0m [32mMissing item type:  lib/editor/atto/yui/src/rangy/js/rangy-core.js:978[0m
+[33mwarn:[0m[35m (docparser):[0m [32m
+		Currently iterates through all nodes in the range on creation until I think of a decent way to do it
+TODO: Look into making this a proper iterator, not requiring preloading everything first[0m
+[33mwarn:[0m[35m (docparser):[0m [32mMissing item type:  lib/editor/atto/yui/src/rangy/js/rangy-core.js:1832[0m
+[33mwarn:[0m[35m (docparser):[0m [32mMissing item type:  lib/editor/atto/yui/src/rangy/js/rangy-core.js:1869[0m
+[33mwarn:[0m[35m (docparser):[0m [32mMissing item type:  lib/editor/atto/yui/src/rangy/js/rangy-core.js:2734[0m
+[33mwarn:[0m[35m (docparser):[0m [32mMissing item type:  lib/editor/atto/yui/src/rangy/js/rangy-cssclassapplier.js:1[0m
+[33mwarn:[0m[35m (docparser):[0m [32mMissing item type:  lib/editor/atto/yui/src/rangy/js/rangy-selectionsaverestore.js:1[0m
+[33mwarn:[0m[35m (docparser):[0m [32mMissing item type:  lib/editor/atto/yui/src/rangy/js/rangy-serializer.js:1[0m
+[33mwarn:[0m[35m (yuidoc):[0m [32mFound out dir, deleting: /Users/nicols/git/moodle-jsdoc/moodle/master/[0m
+[37;40minfo:[0m[35m (yuidoc):[0m [32mMaking out dir: /Users/nicols/git/moodle-jsdoc/moodle/master/[0m
+[37;40minfo:[0m[35m (yuidoc):[0m [32mParsed 136 files in 0.204 seconds[0m
+[37;40minfo:[0m[35m (builder):[0m [32mBuilding..[0m
+[37;40minfo:[0m[35m (builder):[0m [32mCompiling Templates[0m
+[37;40minfo:[0m[35m (builder):[0m [32mImporting external documentation data.[0m
+[37;40minfo:[0m[35m (builder):[0m [32mFetching: http://yuilibrary.com/yui/docs/api/data.json[0m
+[37;40minfo:[0m[35m (builder):[0m [32mReceived: http://yuilibrary.com/yui/docs/api/data.json[0m
+[37;40minfo:[0m[35m (builder):[0m [32mFinished fetching remote data[0m
+[37;40minfo:[0m[35m (builder):[0m [32mExternal data received, mixing[0m
+[37;40minfo:[0m[35m (builder):[0m [32mMaking default directories: classes,modules,files[0m
+[37;40minfo:[0m[35m (builder):[0m [32mCopying Assets[0m
+[37;40minfo:[0m[35m (builder):[0m [32mRendering and writing 81 modules pages.[0m
+[37;40minfo:[0m[35m (builder):[0m [32mLoading theme from /usr/local/lib/node_modules/yuidocjs/themes/default/theme.json[0m
+[37;40minfo:[0m[35m (builder):[0m [32mPreparing index.html[0m
+[37;40minfo:[0m[35m (builder):[0m [32mWriting API Meta Data[0m
+[37;40minfo:[0m[35m (builder):[0m [32mWriting index.html[0m
+[37;40minfo:[0m[35m (builder):[0m [32mFinished writing module files[0m
+[37;40minfo:[0m[35m (builder):[0m [32mRendering and writing 117 class pages.[0m
+[37;40minfo:[0m[35m (builder):[0m [32mFinished writing class files[0m
+[37;40minfo:[0m[35m (builder):[0m [32mRendering and writing 123 source files.[0m
+[37;40minfo:[0m[35m (builder):[0m [32mFinished writing source files[0m
+[37;40minfo:[0m[35m (builder):[0m [32mFinished writing 322 files in 35.152 seconds[0m
+[37;40minfo:[0m[35m (yuidoc):[0m [32mCompleted in 35.902 seconds[0m

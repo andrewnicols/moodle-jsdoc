@@ -2,7 +2,8 @@
     "project": {
         "name": "Moodle",
         "description": "YUI documentation for Moodle",
-        "url": "https://moodle.org"
+        "url": "https://moodle.org",
+        "version": "2.7dev (Build: 20140320)"
     },
     "files": {
         "admin/tool/capability/yui/src/search/js/search.js": {
