@@ -106,7 +106,7 @@ TODO: Look into making this a proper iterator, not requiring preloading everythi
 [33mwarn:[0m[35m (docparser):[0m [32mMissing item type:  lib/editor/atto/yui/src/rangy/js/rangy-serializer.js:1[0m
 [33mwarn:[0m[35m (yuidoc):[0m [32mFound out dir, deleting: /Users/nicols/git/moodle-jsdoc/moodle/master/[0m
 [37;40minfo:[0m[35m (yuidoc):[0m [32mMaking out dir: /Users/nicols/git/moodle-jsdoc/moodle/master/[0m
-[37;40minfo:[0m[35m (yuidoc):[0m [32mParsed 136 files in 0.204 seconds[0m
+[37;40minfo:[0m[35m (yuidoc):[0m [32mParsed 136 files in 0.263 seconds[0m
 [37;40minfo:[0m[35m (builder):[0m [32mBuilding..[0m
 [37;40minfo:[0m[35m (builder):[0m [32mCompiling Templates[0m
 [37;40minfo:[0m[35m (builder):[0m [32mImporting external documentation data.[0m
@@ -120,11 +120,11 @@ TODO: Look into making this a proper iterator, not requiring preloading everythi
 [37;40minfo:[0m[35m (builder):[0m [32mLoading theme from /usr/local/lib/node_modules/yuidocjs/themes/default/theme.json[0m
 [37;40minfo:[0m[35m (builder):[0m [32mPreparing index.html[0m
 [37;40minfo:[0m[35m (builder):[0m [32mWriting API Meta Data[0m
-[37;40minfo:[0m[35m (builder):[0m [32mWriting index.html[0m
 [37;40minfo:[0m[35m (builder):[0m [32mFinished writing module files[0m
 [37;40minfo:[0m[35m (builder):[0m [32mRendering and writing 117 class pages.[0m
+[37;40minfo:[0m[35m (builder):[0m [32mWriting index.html[0m
 [37;40minfo:[0m[35m (builder):[0m [32mFinished writing class files[0m
 [37;40minfo:[0m[35m (builder):[0m [32mRendering and writing 123 source files.[0m
 [37;40minfo:[0m[35m (builder):[0m [32mFinished writing source files[0m
-[37;40minfo:[0m[35m (builder):[0m [32mFinished writing 322 files in 35.152 seconds[0m
-[37;40minfo:[0m[35m (yuidoc):[0m [32mCompleted in 35.902 seconds[0m
+[37;40minfo:[0m[35m (builder):[0m [32mFinished writing 322 files in 40.132 seconds[0m
+[37;40minfo:[0m[35m (yuidoc):[0m [32mCompleted in 40.986 seconds[0m
