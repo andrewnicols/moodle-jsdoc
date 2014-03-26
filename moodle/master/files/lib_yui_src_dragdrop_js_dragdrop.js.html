@@ -1,0 +1,1181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>lib/yui/src/dragdrop/js/dragdrop.js - Moodle</title>
+    <link rel="stylesheet" href="http://yui.yahooapis.com/3.9.1/build/cssgrids/cssgrids-min.css">
+    <link rel="stylesheet" href="../assets/vendor/prettify/prettify-min.css">
+    <link rel="stylesheet" href="../assets/css/main.css" id="site_styles">
+    <link rel="shortcut icon" type="image/png" href="../assets/favicon.png">
+    <script src="http://yui.yahooapis.com/combo?3.9.1/build/yui/yui-min.js"></script>
+</head>
+<body class="yui3-skin-sam">
+
+<div id="doc">
+    <div id="hd" class="yui3-g header">
+        <div class="yui3-u-3-4">
+            
+                <h1><img src="../assets/css/logo.png" title="Moodle"></h1>
+            
+        </div>
+        <div class="yui3-u-1-4 version">
+            <em>API Docs for: </em>
+        </div>
+    </div>
+    <div id="bd" class="yui3-g">
+
+        <div class="yui3-u-1-4">
+            <div id="docs-sidebar" class="sidebar apidocs">
+                <div id="api-list">
+    <h2 class="off-left">APIs</h2>
+    <div id="api-tabview" class="tabview">
+        <ul class="tabs">
+            <li><a href="#api-classes">Classes</a></li>
+            <li><a href="#api-modules">Modules</a></li>
+        </ul>
+
+        <div id="api-tabview-filter">
+            <input type="search" id="api-filter" placeholder="Type to filter APIs">
+        </div>
+
+        <div id="api-tabview-panel">
+            <ul id="api-classes" class="apis classes">
+            
+                <li><a href="../classes/Bootstrap.Collapse.html">Bootstrap.Collapse</a></li>
+            
+                <li><a href="../classes/Bootstrap.Dropdown.html">Bootstrap.Dropdown</a></li>
+            
+                <li><a href="../classes/M.assignfeedback_editpdf.annotation.html">M.assignfeedback_editpdf.annotation</a></li>
+            
+                <li><a href="../classes/M.assignfeedback_editpdf.annotationhighlight.html">M.assignfeedback_editpdf.annotationhighlight</a></li>
+            
+                <li><a href="../classes/M.assignfeedback_editpdf.annotationline.html">M.assignfeedback_editpdf.annotationline</a></li>
+            
+                <li><a href="../classes/M.assignfeedback_editpdf.annotationoval.html">M.assignfeedback_editpdf.annotationoval</a></li>
+            
+                <li><a href="../classes/M.assignfeedback_editpdf.annotationpen.html">M.assignfeedback_editpdf.annotationpen</a></li>
+            
+                <li><a href="../classes/M.assignfeedback_editpdf.annotationrectangle.html">M.assignfeedback_editpdf.annotationrectangle</a></li>
+            
+                <li><a href="../classes/M.assignfeedback_editpdf.annotationstamp.html">M.assignfeedback_editpdf.annotationstamp</a></li>
+            
+                <li><a href="../classes/M.assignfeedback_editpdf.colourpicker.html">M.assignfeedback_editpdf.colourpicker</a></li>
+            
+                <li><a href="../classes/M.assignfeedback_editpdf.comment.html">M.assignfeedback_editpdf.comment</a></li>
+            
+                <li><a href="../classes/M.assignfeedback_editpdf.commentmenu.html">M.assignfeedback_editpdf.commentmenu</a></li>
+            
+                <li><a href="../classes/M.assignfeedback_editpdf.commentsearch.html">M.assignfeedback_editpdf.commentsearch</a></li>
+            
+                <li><a href="../classes/M.assignfeedback_editpdf.drawable.html">M.assignfeedback_editpdf.drawable</a></li>
+            
+                <li><a href="../classes/M.assignfeedback_editpdf.dropdown.html">M.assignfeedback_editpdf.dropdown</a></li>
+            
+                <li><a href="../classes/M.assignfeedback_editpdf.edit.html">M.assignfeedback_editpdf.edit</a></li>
+            
+                <li><a href="../classes/M.assignfeedback_editpdf.editor.html">M.assignfeedback_editpdf.editor</a></li>
+            
+                <li><a href="../classes/M.assignfeedback_editpdf.point.html">M.assignfeedback_editpdf.point</a></li>
+            
+                <li><a href="../classes/M.assignfeedback_editpdf.quickcomment.html">M.assignfeedback_editpdf.quickcomment</a></li>
+            
+                <li><a href="../classes/M.assignfeedback_editpdf.quickcommentlist.html">M.assignfeedback_editpdf.quickcommentlist</a></li>
+            
+                <li><a href="../classes/M.assignfeedback_editpdf.rect.html">M.assignfeedback_editpdf.rect</a></li>
+            
+                <li><a href="../classes/M.assignfeedback_editpdf.stamppicker.html">M.assignfeedback_editpdf.stamppicker</a></li>
+            
+                <li><a href="../classes/M.atto_accessibilitychecker.Button.html">M.atto_accessibilitychecker.Button</a></li>
+            
+                <li><a href="../classes/M.atto_accessibilityhelper.Button.html">M.atto_accessibilityhelper.Button</a></li>
+            
+                <li><a href="../classes/M.atto_align.button.html">M.atto_align.button</a></li>
+            
+                <li><a href="../classes/M.atto_backcolor.button.html">M.atto_backcolor.button</a></li>
+            
+                <li><a href="../classes/M.atto_bold.button.html">M.atto_bold.button</a></li>
+            
+                <li><a href="../classes/M.atto_charmap.button.html">M.atto_charmap.button</a></li>
+            
+                <li><a href="../classes/M.atto_clear.button.html">M.atto_clear.button</a></li>
+            
+                <li><a href="../classes/M.atto_collapse.button.html">M.atto_collapse.button</a></li>
+            
+                <li><a href="../classes/M.atto_emoticon.button.html">M.atto_emoticon.button</a></li>
+            
+                <li><a href="../classes/M.atto_equation.Button.html">M.atto_equation.Button</a></li>
+            
+                <li><a href="../classes/M.atto_fontcolor.button.html">M.atto_fontcolor.button</a></li>
+            
+                <li><a href="../classes/M.atto_html.button.html">M.atto_html.button</a></li>
+            
+                <li><a href="../classes/M.atto_image.Button.html">M.atto_image.Button</a></li>
+            
+                <li><a href="../classes/M.atto_indent.button.html">M.atto_indent.button</a></li>
+            
+                <li><a href="../classes/M.atto_italic.button.html">M.atto_italic.button</a></li>
+            
+                <li><a href="../classes/M.atto_link.button.html">M.atto_link.button</a></li>
+            
+                <li><a href="../classes/M.atto_managefiles.usedfiles.html">M.atto_managefiles.usedfiles</a></li>
+            
+                <li><a href="../classes/M.atto_media.Button.html">M.atto_media.Button</a></li>
+            
+                <li><a href="../classes/M.atto_noautolink.button.html">M.atto_noautolink.button</a></li>
+            
+                <li><a href="../classes/M.atto_orderedlist.button.html">M.atto_orderedlist.button</a></li>
+            
+                <li><a href="../classes/M.atto_rtl.button.html">M.atto_rtl.button</a></li>
+            
+                <li><a href="../classes/M.atto_strike.button.html">M.atto_strike.button</a></li>
+            
+                <li><a href="../classes/M.atto_subscript.button.html">M.atto_subscript.button</a></li>
+            
+                <li><a href="../classes/M.atto_superscript.button.html">M.atto_superscript.button</a></li>
+            
+                <li><a href="../classes/M.atto_table.Button.html">M.atto_table.Button</a></li>
+            
+                <li><a href="../classes/M.atto_title.button.html">M.atto_title.button</a></li>
+            
+                <li><a href="../classes/M.atto_underline.button.html">M.atto_underline.button</a></li>
+            
+                <li><a href="../classes/M.atto_undo.button.html">M.atto_undo.button</a></li>
+            
+                <li><a href="../classes/M.atto_unlink.button.html">M.atto_unlink.button</a></li>
+            
+                <li><a href="../classes/M.atto_unorderedlist.button.html">M.atto_unorderedlist.button</a></li>
+            
+                <li><a href="../classes/M.block_navigation.html">M.block_navigation</a></li>
+            
+                <li><a href="../classes/M.block_navigation.ActionKey.html">M.block_navigation.ActionKey</a></li>
+            
+                <li><a href="../classes/M.block_navigation.Branch.html">M.block_navigation.Branch</a></li>
+            
+                <li><a href="../classes/M.block_navigation.Tree.html">M.block_navigation.Tree</a></li>
+            
+                <li><a href="../classes/M.core.actionmenu.ActionMenu.html">M.core.actionmenu.ActionMenu</a></li>
+            
+                <li><a href="../classes/M.core.ajaxException.html">M.core.ajaxException</a></li>
+            
+                <li><a href="../classes/M.core.alert.html">M.core.alert</a></li>
+            
+                <li><a href="../classes/M.core.blockdraganddrop.BlockRegion.html">M.core.blockdraganddrop.BlockRegion</a></li>
+            
+                <li><a href="../classes/M.core.blockdraganddrop.LegacyManager.html">M.core.blockdraganddrop.LegacyManager</a></li>
+            
+                <li><a href="../classes/M.core.blockdraganddrop.Manager.html">M.core.blockdraganddrop.Manager</a></li>
+            
+                <li><a href="../classes/M.core.chooserdialogue.html">M.core.chooserdialogue</a></li>
+            
+                <li><a href="../classes/M.core.confirm.html">M.core.confirm</a></li>
+            
+                <li><a href="../classes/M.core.dialogue.html">M.core.dialogue</a></li>
+            
+                <li><a href="../classes/M.core.dock.ActionKey.html">M.core.dock.ActionKey</a></li>
+            
+                <li><a href="../classes/M.core.dock.Block.html">M.core.dock.Block</a></li>
+            
+                <li><a href="../classes/M.core.dock.Dock.html">M.core.dock.Dock</a></li>
+            
+                <li><a href="../classes/M.core.dock.DockedItem.html">M.core.dock.DockedItem</a></li>
+            
+                <li><a href="../classes/M.core.dock.Loader.html">M.core.dock.Loader</a></li>
+            
+                <li><a href="../classes/M.core.dock.Panel.html">M.core.dock.Panel</a></li>
+            
+                <li><a href="../classes/M.core.dock.TabHeightManager.html">M.core.dock.TabHeightManager</a></li>
+            
+                <li><a href="../classes/M.core.dragdrop.html">M.core.dragdrop</a></li>
+            
+                <li><a href="../classes/M.core.exception.html">M.core.exception</a></li>
+            
+                <li><a href="../classes/M.core.formchangechecker.html">M.core.formchangechecker</a></li>
+            
+                <li><a href="../classes/M.core.LockScroll.html">M.core.LockScroll</a></li>
+            
+                <li><a href="../classes/M.core.notification.html">M.core.notification</a></li>
+            
+                <li><a href="../classes/M.core.notification.info.html">M.core.notification.info</a></li>
+            
+                <li><a href="../classes/M.core.popuphelp.html">M.core.popuphelp</a></li>
+            
+                <li><a href="../classes/M.core.tooltip.html">M.core.tooltip</a></li>
+            
+                <li><a href="../classes/M.core.WidgetFocusAfterHide.html">M.core.WidgetFocusAfterHide</a></li>
+            
+                <li><a href="../classes/M.core_backup.backupselectall.html">M.core_backup.backupselectall</a></li>
+            
+                <li><a href="../classes/M.core_backup.confirmcancel.html">M.core_backup.confirmcancel</a></li>
+            
+                <li><a href="../classes/M.course.coursebase.html">M.course.coursebase</a></li>
+            
+                <li><a href="../classes/M.course.dragdrop.resource.html">M.course.dragdrop.resource</a></li>
+            
+                <li><a href="../classes/M.course.dragdrop.section.html">M.course.dragdrop.section</a></li>
+            
+                <li><a href="../classes/M.course.management.Category.html">M.course.management.Category</a></li>
+            
+                <li><a href="../classes/M.course.management.Console.html">M.course.management.Console</a></li>
+            
+                <li><a href="../classes/M.course.management.Course.html">M.course.management.Course</a></li>
+            
+                <li><a href="../classes/M.course.management.DragDrop.html">M.course.management.DragDrop</a></li>
+            
+                <li><a href="../classes/M.course.management.Item.html">M.course.management.Item</a></li>
+            
+                <li><a href="../classes/M.course.modchooser.html">M.course.modchooser</a></li>
+            
+                <li><a href="../classes/M.course.toolboxes.resources.html">M.course.toolboxes.resources</a></li>
+            
+                <li><a href="../classes/M.course.toolboxes.section.html">M.course.toolboxes.section</a></li>
+            
+                <li><a href="../classes/M.course.toolboxes.toolbox.html">M.course.toolboxes.toolbox</a></li>
+            
+                <li><a href="../classes/M.editor_atto.Editor.html">M.editor_atto.Editor</a></li>
+            
+                <li><a href="../classes/M.editor_atto.EditorClean.html">M.editor_atto.EditorClean</a></li>
+            
+                <li><a href="../classes/M.editor_atto.EditorFilepicker.html">M.editor_atto.EditorFilepicker</a></li>
+            
+                <li><a href="../classes/M.editor_atto.EditorPlugin.html">M.editor_atto.EditorPlugin</a></li>
+            
+                <li><a href="../classes/M.editor_atto.EditorPluginButtons.html">M.editor_atto.EditorPluginButtons</a></li>
+            
+                <li><a href="../classes/M.editor_atto.EditorPluginDialogue.html">M.editor_atto.EditorPluginDialogue</a></li>
+            
+                <li><a href="../classes/M.editor_atto.EditorSelection.html">M.editor_atto.EditorSelection</a></li>
+            
+                <li><a href="../classes/M.editor_atto.EditorStyling.html">M.editor_atto.EditorStyling</a></li>
+            
+                <li><a href="../classes/M.editor_atto.EditorTextArea.html">M.editor_atto.EditorTextArea</a></li>
+            
+                <li><a href="../classes/M.editor_atto.EditorToolbar.html">M.editor_atto.EditorToolbar</a></li>
+            
+                <li><a href="../classes/M.editor_atto.EditorToolbarNav.html">M.editor_atto.EditorToolbarNav</a></li>
+            
+                <li><a href="../classes/M.editor_atto.Menu.html">M.editor_atto.Menu</a></li>
+            
+                <li><a href="../classes/M.form.shortforms.html">M.form.shortforms</a></li>
+            
+                <li><a href="../classes/M.form.showadvanced.html">M.form.showadvanced</a></li>
+            
+                <li><a href="../classes/M.mod_quiz.autosave.html">M.mod_quiz.autosave</a></li>
+            
+                <li><a href="../classes/M.tool_capability.Search.html">M.tool_capability.Search</a></li>
+            
+                <li><a href="../classes/Moodle.core_course.util.html">Moodle.core_course.util</a></li>
+            
+                <li><a href="../classes/Moodle.core_course.util.cm.html">Moodle.core_course.util.cm</a></li>
+            
+                <li><a href="../classes/Moodle.core_course.util.section.html">Moodle.core_course.util.section</a></li>
+            
+                <li><a href="../classes/Moodle.theme_bootstrapbase.bootstrap.html">Moodle.theme_bootstrapbase.bootstrap</a></li>
+            
+                <li><a href="../classes/Y.BootstrapEngine.html">Y.BootstrapEngine</a></li>
+            
+                <li><a href="../classes/Y.Moodle.course.categoryexpander.html">Y.Moodle.course.categoryexpander</a></li>
+            
+            </ul>
+
+            <ul id="api-modules" class="apis modules">
+            
+                <li><a href="../modules/buttons.html">buttons</a></li>
+            
+                <li><a href="../modules/clean.html">clean</a></li>
+            
+                <li><a href="../modules/dialogue.html">dialogue</a></li>
+            
+                <li><a href="../modules/filepicker.html">filepicker</a></li>
+            
+                <li><a href="../modules/gallery-bootstrap-collapse.html">gallery-bootstrap-collapse</a></li>
+            
+                <li><a href="../modules/gallery-bootstrap-dropdown.html">gallery-bootstrap-dropdown</a></li>
+            
+                <li><a href="../modules/gallery-bootstrap-engine.html">gallery-bootstrap-engine</a></li>
+            
+                <li><a href="../modules/menu-base.html">menu-base</a></li>
+            
+                <li><a href="../modules/moodle-assignfeedback_editpdf-editor.html">moodle-assignfeedback_editpdf-editor</a></li>
+            
+                <li><a href="../modules/moodle-atto-managefiles-button.html">moodle-atto-managefiles-button</a></li>
+            
+                <li><a href="../modules/moodle-atto_accessibilitychecker-button.html">moodle-atto_accessibilitychecker-button</a></li>
+            
+                <li><a href="../modules/moodle-atto_accessibilityhelper-button.html">moodle-atto_accessibilityhelper-button</a></li>
+            
+                <li><a href="../modules/moodle-atto_align-button.html">moodle-atto_align-button</a></li>
+            
+                <li><a href="../modules/moodle-atto_backcolor-button.html">moodle-atto_backcolor-button</a></li>
+            
+                <li><a href="../modules/moodle-atto_bold-button.html">moodle-atto_bold-button</a></li>
+            
+                <li><a href="../modules/moodle-atto_charmap-button.html">moodle-atto_charmap-button</a></li>
+            
+                <li><a href="../modules/moodle-atto_clear-button.html">moodle-atto_clear-button</a></li>
+            
+                <li><a href="../modules/moodle-atto_collapse-button.html">moodle-atto_collapse-button</a></li>
+            
+                <li><a href="../modules/moodle-atto_emoticon-button.html">moodle-atto_emoticon-button</a></li>
+            
+                <li><a href="../modules/moodle-atto_html-button.html">moodle-atto_html-button</a></li>
+            
+                <li><a href="../modules/moodle-atto_image_alignment-button.html">moodle-atto_image_alignment-button</a></li>
+            
+                <li><a href="../modules/moodle-atto_indent-button.html">moodle-atto_indent-button</a></li>
+            
+                <li><a href="../modules/moodle-atto_italic-button.html">moodle-atto_italic-button</a></li>
+            
+                <li><a href="../modules/moodle-atto_link-button.html">moodle-atto_link-button</a></li>
+            
+                <li><a href="../modules/moodle-atto_managefiles-usedfiles.html">moodle-atto_managefiles-usedfiles</a></li>
+            
+                <li><a href="../modules/moodle-atto_media-button.html">moodle-atto_media-button</a></li>
+            
+                <li><a href="../modules/moodle-atto_noautolink-button.html">moodle-atto_noautolink-button</a></li>
+            
+                <li><a href="../modules/moodle-atto_orderedlist-button.html">moodle-atto_orderedlist-button</a></li>
+            
+                <li><a href="../modules/moodle-atto_rtl-button.html">moodle-atto_rtl-button</a></li>
+            
+                <li><a href="../modules/moodle-atto_strike-button.html">moodle-atto_strike-button</a></li>
+            
+                <li><a href="../modules/moodle-atto_subscript-button.html">moodle-atto_subscript-button</a></li>
+            
+                <li><a href="../modules/moodle-atto_superscript-button.html">moodle-atto_superscript-button</a></li>
+            
+                <li><a href="../modules/moodle-atto_table-button.html">moodle-atto_table-button</a></li>
+            
+                <li><a href="../modules/moodle-atto_title-button.html">moodle-atto_title-button</a></li>
+            
+                <li><a href="../modules/moodle-atto_underline-button.html">moodle-atto_underline-button</a></li>
+            
+                <li><a href="../modules/moodle-atto_undo-button.html">moodle-atto_undo-button</a></li>
+            
+                <li><a href="../modules/moodle-atto_unlink-button.html">moodle-atto_unlink-button</a></li>
+            
+                <li><a href="../modules/moodle-atto_unorderedlist-button.html">moodle-atto_unorderedlist-button</a></li>
+            
+                <li><a href="../modules/moodle-backup-backupselectall.html">moodle-backup-backupselectall</a></li>
+            
+                <li><a href="../modules/moodle-backup-confirmcancel.html">moodle-backup-confirmcancel</a></li>
+            
+                <li><a href="../modules/moodle-block_navigation-navigation.html">moodle-block_navigation-navigation</a></li>
+            
+                <li><a href="../modules/moodle-core-actionmenu.html">moodle-core-actionmenu</a></li>
+            
+                <li><a href="../modules/moodle-core-blockdraganddrop.html">moodle-core-blockdraganddrop</a></li>
+            
+                <li><a href="../modules/moodle-core-chooserdialogue.html">moodle-core-chooserdialogue</a></li>
+            
+                <li><a href="../modules/moodle-core-dock.html">moodle-core-dock</a></li>
+            
+                <li><a href="../modules/moodle-core-dragdrop.html">moodle-core-dragdrop</a></li>
+            
+                <li><a href="../modules/moodle-core-formchangechecker.html">moodle-core-formchangechecker</a></li>
+            
+                <li><a href="../modules/moodle-core-lockscroll.html">moodle-core-lockscroll</a></li>
+            
+                <li><a href="../modules/moodle-core-maintenancemodetimer.html">moodle-core-maintenancemodetimer</a></li>
+            
+                <li><a href="../modules/moodle-core-notification.html">moodle-core-notification</a></li>
+            
+                <li><a href="../modules/moodle-core-notification-ajaxexception.html">moodle-core-notification-ajaxexception</a></li>
+            
+                <li><a href="../modules/moodle-core-notification-alert.html">moodle-core-notification-alert</a></li>
+            
+                <li><a href="../modules/moodle-core-notification-confirm.html">moodle-core-notification-confirm</a></li>
+            
+                <li><a href="../modules/moodle-core-notification-dialogue.html">moodle-core-notification-dialogue</a></li>
+            
+                <li><a href="../modules/moodle-core-notification-exception.html">moodle-core-notification-exception</a></li>
+            
+                <li><a href="../modules/moodle-core-popuphelp.html">moodle-core-popuphelp</a></li>
+            
+                <li><a href="../modules/moodle-core-tooltip.html">moodle-core-tooltip</a></li>
+            
+                <li><a href="../modules/moodle-core-widget-focusafterhide.html">moodle-core-widget-focusafterhide</a></li>
+            
+                <li><a href="../modules/moodle-course-categoryexpander.html">moodle-course-categoryexpander</a></li>
+            
+                <li><a href="../modules/moodle-course-coursebase.html">moodle-course-coursebase</a></li>
+            
+                <li><a href="../modules/moodle-course-dragdrop.html">moodle-course-dragdrop</a></li>
+            
+                <li><a href="../modules/moodle-course-management.html">moodle-course-management</a></li>
+            
+                <li><a href="../modules/moodle-course-modchooser.html">moodle-course-modchooser</a></li>
+            
+                <li><a href="../modules/moodle-course-toolboxes.html">moodle-course-toolboxes</a></li>
+            
+                <li><a href="../modules/moodle-course-util.html">moodle-course-util</a></li>
+            
+                <li><a href="../modules/moodle-course-util-cm.html">moodle-course-util-cm</a></li>
+            
+                <li><a href="../modules/moodle-course-util-section.html">moodle-course-util-section</a></li>
+            
+                <li><a href="../modules/moodle-editor_atto-editor.html">moodle-editor_atto-editor</a></li>
+            
+                <li><a href="../modules/moodle-editor_atto-menu.html">moodle-editor_atto-menu</a></li>
+            
+                <li><a href="../modules/moodle-editor_atto-plugin.html">moodle-editor_atto-plugin</a></li>
+            
+                <li><a href="../modules/moodle-form-shortforms.html">moodle-form-shortforms</a></li>
+            
+                <li><a href="../modules/moodle-form-showadvanced.html">moodle-form-showadvanced</a></li>
+            
+                <li><a href="../modules/moodle-mod_quiz-autosave.html">moodle-mod_quiz-autosave</a></li>
+            
+                <li><a href="../modules/moodle-question-preview.html">moodle-question-preview</a></li>
+            
+                <li><a href="../modules/moodle-tool_capability-search.html">moodle-tool_capability-search</a></li>
+            
+                <li><a href="../modules/plugin-base.html">plugin-base</a></li>
+            
+                <li><a href="../modules/styling.html">styling</a></li>
+            
+                <li><a href="../modules/textarea.html">textarea</a></li>
+            
+                <li><a href="../modules/theme_bootstrapbase-bootstrap.html">theme_bootstrapbase-bootstrap</a></li>
+            
+                <li><a href="../modules/toolbar.html">toolbar</a></li>
+            
+                <li><a href="../modules/toolbarnav.html">toolbarnav</a></li>
+            
+            </ul>
+        </div>
+    </div>
+</div>
+
+            </div>
+        </div>
+        <div class="yui3-u-3-4">
+                <div id="api-options">
+        Show:
+        <label for="api-show-inherited">
+            <input type="checkbox" id="api-show-inherited" checked>
+            Inherited
+        </label>
+
+        <label for="api-show-protected">
+            <input type="checkbox" id="api-show-protected">
+            Protected
+        </label>
+
+        <label for="api-show-private">
+            <input type="checkbox" id="api-show-private">
+            Private
+        </label>
+        <label for="api-show-deprecated">
+            <input type="checkbox" id="api-show-deprecated">
+            Deprecated
+        </label>
+
+    </div>
+
+
+            <div class="apidocs">
+                <div id="docs-main">
+                    <div class="content">
+                        <h1 class="file-heading">File: lib/yui/src/dragdrop/js/dragdrop.js</h1>
+
+<div class="file">
+    <pre class="code prettyprint linenums">
+/**
+ * The core drag and drop module for Moodle which extends the YUI drag and
+ * drop functionality with additional features.
+ *
+ * @module moodle-core-dragdrop
+ */
+var MOVEICON = {
+    pix: &quot;i/move_2d&quot;,
+    largepix: &quot;i/dragdrop&quot;,
+    component: &#x27;moodle&#x27;,
+    cssclass: &#x27;moodle-core-dragdrop-draghandle&#x27;
+};
+
+/**
+ * General DRAGDROP class, this should not be used directly,
+ * it is supposed to be extended by your class
+ *
+ * @class M.core.dragdrop
+ * @constructor
+ * @extends Base
+ */
+var DRAGDROP = function() {
+    DRAGDROP.superclass.constructor.apply(this, arguments);
+};
+
+Y.extend(DRAGDROP, Y.Base, {
+    /**
+     * Whether the item is being moved upwards compared with the last
+     * location.
+     *
+     * @property goingup
+     * @type Boolean
+     * @default null
+     */
+    goingup: null,
+
+    /**
+     * Whether the item is being moved upwards compared with the start
+     * point.
+     *
+     * @property absgoingup
+     * @type Boolean
+     * @default null
+     */
+    absgoingup: null,
+
+    /**
+     * The class for the object.
+     *
+     * @property samenodeclass
+     * @type String
+     * @default null
+     */
+    samenodeclass: null,
+
+    /**
+     * The class on the parent of the item being moved.
+     *
+     * @property parentnodeclass
+     * @type String
+     * @default
+     */
+    parentnodeclass: null,
+
+    /**
+     * The label to use with keyboard drag/drop to describe items of the same Node.
+     *
+     * @property samenodelabel
+     * @type Object
+     * @default null
+     */
+    samenodelabel : null,
+
+    /**
+     * The label to use with keyboard drag/drop to describe items of the parent Node.
+     *
+     * @property samenodelabel
+     * @type Object
+     * @default null
+     */
+    parentnodelabel : null,
+
+    /**
+     * The groups for this instance.
+     *
+     * @property groups
+     * @type Array
+     * @default []
+     */
+    groups: [],
+
+    /**
+     * The previous drop location.
+     *
+     * @property lastdroptarget
+     * @type Node
+     * @default null
+     */
+    lastdroptarget: null,
+
+    /**
+     * The initializer which sets up the move action.
+     *
+     * @method initializer
+     * @protected
+     */
+    initializer: function() {
+        // Listen for all drag:start events.
+        Y.DD.DDM.on(&#x27;drag:start&#x27;, this.global_drag_start, this);
+
+        // Listen for all drag:end events.
+        Y.DD.DDM.on(&#x27;drag:end&#x27;, this.global_drag_end, this);
+
+        // Listen for all drag:drag events.
+        Y.DD.DDM.on(&#x27;drag:drag&#x27;, this.global_drag_drag, this);
+
+        // Listen for all drop:over events.
+        Y.DD.DDM.on(&#x27;drop:over&#x27;, this.global_drop_over, this);
+
+        // Listen for all drop:hit events.
+        Y.DD.DDM.on(&#x27;drop:hit&#x27;, this.global_drop_hit, this);
+
+        // Listen for all drop:miss events.
+        Y.DD.DDM.on(&#x27;drag:dropmiss&#x27;, this.global_drag_dropmiss, this);
+
+        // Add keybaord listeners for accessible drag/drop
+        Y.one(Y.config.doc.body).delegate(&#x27;key&#x27;, this.global_keydown,
+                &#x27;down:32, enter, esc&#x27;, &#x27;.&#x27; + MOVEICON.cssclass, this);
+
+        // Make the accessible drag/drop respond to a single click.
+        Y.one(Y.config.doc.body).delegate(&#x27;click&#x27;, this.global_keydown,
+                &#x27;.&#x27; + MOVEICON.cssclass , this);
+    },
+
+    /**
+     * Build a new drag handle Node.
+     *
+     * @method get_drag_handle
+     * @param {String} title The title on the drag handle
+     * @param {String} classname The name of the class to add to the node
+     * wrapping the drag icon
+     * @param {String} [iconclass] The class to add to the icon
+     * @param {Boolean} [large=false] whether to use the larger version of
+     * the drag icon
+     * @return Node The built drag handle.
+     */
+    get_drag_handle: function(title, classname, iconclass, large) {
+        var iconname = MOVEICON.pix;
+        if (large) {
+            iconname = MOVEICON.largepix;
+        }
+        var dragicon = Y.Node.create(&#x27;&lt;img /&gt;&#x27;)
+            .setStyle(&#x27;cursor&#x27;, &#x27;move&#x27;)
+            .setAttrs({
+                &#x27;src&#x27;: M.util.image_url(iconname, MOVEICON.component),
+                &#x27;alt&#x27;: title
+            });
+        if (iconclass) {
+            dragicon.addClass(iconclass);
+        }
+
+        var dragelement = Y.Node.create(&#x27;&lt;span&gt;&lt;/span&gt;&#x27;)
+            .addClass(classname)
+            .setAttribute(&#x27;title&#x27;, title)
+            .setAttribute(&#x27;tabIndex&#x27;, 0)
+            .setAttribute(&#x27;data-draggroups&#x27;, this.groups)
+            .setAttribute(&#x27;role&#x27;, &#x27;button&#x27;);
+        dragelement.appendChild(dragicon);
+        dragelement.addClass(MOVEICON.cssclass);
+
+        return dragelement;
+    },
+
+    lock_drag_handle: function(drag, classname) {
+        drag.removeHandle(&#x27;.&#x27;+classname);
+    },
+
+    unlock_drag_handle: function(drag, classname) {
+        drag.addHandle(&#x27;.&#x27;+classname);
+        drag.get(&#x27;activeHandle&#x27;).focus();
+    },
+
+    ajax_failure: function(response) {
+        var e = {
+            name: response.status+&#x27; &#x27;+response.statusText,
+            message: response.responseText
+        };
+        return new M.core.exception(e);
+    },
+
+    in_group: function(target) {
+        var ret = false;
+        Y.each(this.groups, function(v) {
+            if (target._groups[v]) {
+                ret = true;
+            }
+        }, this);
+        return ret;
+    },
+    /*
+        * Drag-dropping related functions
+        */
+    global_drag_start: function(e) {
+        // Get our drag object
+        var drag = e.target;
+        // Check that drag object belongs to correct group
+        if (!this.in_group(drag)) {
+            return;
+        }
+        // Set some general styles here
+        drag.get(&#x27;node&#x27;).setStyle(&#x27;opacity&#x27;, &#x27;.25&#x27;);
+        drag.get(&#x27;dragNode&#x27;).setStyles({
+            opacity: &#x27;.75&#x27;,
+            borderColor: drag.get(&#x27;node&#x27;).getStyle(&#x27;borderColor&#x27;),
+            backgroundColor: drag.get(&#x27;node&#x27;).getStyle(&#x27;backgroundColor&#x27;)
+        });
+        drag.get(&#x27;dragNode&#x27;).empty();
+        this.drag_start(e);
+    },
+
+    global_drag_end: function(e) {
+        var drag = e.target;
+        // Check that drag object belongs to correct group
+        if (!this.in_group(drag)) {
+            return;
+        }
+        //Put our general styles back
+        drag.get(&#x27;node&#x27;).setStyles({
+            visibility: &#x27;&#x27;,
+            opacity: &#x27;1&#x27;
+        });
+        this.drag_end(e);
+    },
+
+    global_drag_drag: function(e) {
+        var drag = e.target,
+            info = e.info;
+
+        // Check that drag object belongs to correct group
+        if (!this.in_group(drag)) {
+            return;
+        }
+
+        // Note, we test both &lt; and &gt; situations here. We don&#x27;t want to
+        // effect a change in direction if the user is only moving side
+        // to side with no Y position change.
+
+        // Detect changes in the position relative to the start point.
+        if (info.start[1] &lt; info.xy[1]) {
+            // We are going up if our final position is higher than our start position.
+            this.absgoingup = true;
+
+        } else if (info.start[1] &gt; info.xy[1]) {
+            // Otherwise we&#x27;re going down.
+            this.absgoingup = false;
+        }
+
+        // Detect changes in the position relative to the last movement.
+        if (info.delta[1] &lt; 0) {
+            // We are going up if our final position is higher than our start position.
+            this.goingup = true;
+
+        } else if (info.delta[1] &gt; 0) {
+            // Otherwise we&#x27;re going down.
+            this.goingup = false;
+        }
+
+        this.drag_drag(e);
+    },
+
+    global_drop_over: function(e) {
+        // Check that drop object belong to correct group.
+        if (!e.drop || !e.drop.inGroup(this.groups)) {
+            return;
+        }
+
+        // Get a reference to our drag and drop nodes.
+        var drag = e.drag.get(&#x27;node&#x27;),
+            drop = e.drop.get(&#x27;node&#x27;);
+
+        // Save last drop target for the case of missed target processing.
+        this.lastdroptarget = e.drop;
+
+        // Are we dropping within the same parent node?
+        if (drop.hasClass(this.samenodeclass)) {
+            var where;
+
+            if (this.goingup) {
+                where = &quot;before&quot;;
+            } else {
+                where = &quot;after&quot;;
+            }
+
+            // Add the node contents so that it&#x27;s moved, otherwise only the drag handle is moved.
+            drop.insert(drag, where);
+        } else if ((drop.hasClass(this.parentnodeclass) || drop.test(&#x27;[data-droptarget=&quot;1&quot;]&#x27;)) &amp;&amp; !drop.contains(drag)) {
+            // We are dropping on parent node and it is empty
+            if (this.goingup) {
+                drop.append(drag);
+            } else {
+                drop.prepend(drag);
+            }
+        }
+        this.drop_over(e);
+    },
+
+    global_drag_dropmiss: function(e) {
+        // drag:dropmiss does not have e.drag and e.drop properties
+        // we substitute them for the ease of use. For e.drop we use,
+        // this.lastdroptarget (ghost node we use for indicating where to drop)
+        e.drag = e.target;
+        e.drop = this.lastdroptarget;
+        // Check that drag object belongs to correct group
+        if (!this.in_group(e.drag)) {
+            return;
+        }
+        // Check that drop object belong to correct group
+        if (!e.drop || !e.drop.inGroup(this.groups)) {
+            return;
+        }
+        this.drag_dropmiss(e);
+    },
+
+    global_drop_hit: function(e) {
+        // Check that drop object belong to correct group
+        if (!e.drop || !e.drop.inGroup(this.groups)) {
+            return;
+        }
+        this.drop_hit(e);
+    },
+
+    /**
+     * This is used to build the text for the heading of the keyboard
+     * drag drop menu and the text for the nodes in the list.
+     * @method find_element_text
+     * @param {Node} n The node to start searching for a valid text node.
+     * @return {string} The text of the first text-like child node of n.
+     */
+    find_element_text: function(n) {
+        // The valid node types to get text from.
+        var nodes = n.all(&#x27;h2, h3, h4, h5, span, p, div.no-overflow, div.dimmed_text&#x27;);
+        var text = &#x27;&#x27;;
+
+        nodes.each(function () {
+            if (text === &#x27;&#x27;) {
+                if (Y.Lang.trim(this.get(&#x27;text&#x27;)) !== &#x27;&#x27;) {
+                    text = this.get(&#x27;text&#x27;);
+                }
+            }
+        });
+
+        if (text !== &#x27;&#x27;) {
+            return text;
+        }
+        return M.util.get_string(&#x27;emptydragdropregion&#x27;, &#x27;moodle&#x27;);
+    },
+
+    /**
+     * This is used to initiate a keyboard version of a drag and drop.
+     * A dialog will open listing all the valid drop targets that can be selected
+     * using tab, tab, tab, enter.
+     * @method global_start_keyboard_drag
+     * @param {Event} e The keydown / click event on the grab handle.
+     * @param {Node} dragcontainer The resolved draggable node (an ancestor of the drag handle).
+     * @param {Node} draghandle The node that triggered this action.
+     */
+    global_start_keyboard_drag: function(e, draghandle, dragcontainer) {
+        M.core.dragdrop.keydragcontainer = dragcontainer;
+        M.core.dragdrop.keydraghandle = draghandle;
+
+        // Get the name of the thing to move.
+        var nodetitle = this.find_element_text(dragcontainer);
+        var dialogtitle = M.util.get_string(&#x27;movecontent&#x27;, &#x27;moodle&#x27;, nodetitle);
+
+        // Build the list of drop targets.
+        var droplist = Y.Node.create(&#x27;&lt;ul&gt;&lt;/ul&gt;&#x27;);
+        droplist.addClass(&#x27;dragdrop-keyboard-drag&#x27;);
+        var listitem;
+        var listitemtext;
+
+        // Search for possible drop targets.
+        var droptargets = Y.all(&#x27;.&#x27; + this.samenodeclass + &#x27;, .&#x27; + this.parentnodeclass);
+
+        droptargets.each(function (node) {
+            var validdrop = false, labelroot = node;
+            if (node.drop &amp;&amp; node.drop.inGroup(this.groups) &amp;&amp; node.drop.get(&#x27;node&#x27;) !== dragcontainer) {
+                // This is a drag and drop target with the same class as the grabbed node.
+                validdrop = true;
+            } else {
+                var elementgroups = node.getAttribute(&#x27;data-draggroups&#x27;).split(&#x27; &#x27;);
+                var i, j;
+                for (i = 0; i &lt; elementgroups.length; i++) {
+                    for (j = 0; j &lt; this.groups.length; j++) {
+                        if (elementgroups[i] === this.groups[j]) {
+                            // This is a parent node of the grabbed node (used for dropping in empty sections).
+                            validdrop = true;
+                            // This node will have no text - so we get the first valid text from the parent.
+                            labelroot = node.get(&#x27;parentNode&#x27;);
+                            break;
+                        }
+                    }
+                    if (validdrop) {
+                        break;
+                    }
+                }
+            }
+
+            if (validdrop) {
+                // It is a valid drop target - create a list item for it.
+                listitem = Y.Node.create(&#x27;&lt;li&gt;&lt;/li&gt;&#x27;);
+                listlink = Y.Node.create(&#x27;&lt;a&gt;&lt;/a&gt;&#x27;);
+                nodetitle = this.find_element_text(labelroot);
+
+                if (this.samenodelabel &amp;&amp; node.hasClass(this.samenodeclass)) {
+                    listitemtext = M.util.get_string(this.samenodelabel.identifier, this.samenodelabel.component, nodetitle);
+                } else if (this.parentnodelabel &amp;&amp; node.hasClass(this.parentnodeclass)) {
+                    listitemtext = M.util.get_string(this.parentnodelabel.identifier, this.parentnodelabel.component, nodetitle);
+                } else {
+                    listitemtext = M.util.get_string(&#x27;tocontent&#x27;, &#x27;moodle&#x27;, nodetitle);
+                }
+                listlink.setContent(listitemtext);
+
+                // Add a data attribute so we can get the real drop target.
+                listlink.setAttribute(&#x27;data-drop-target&#x27;, node.get(&#x27;id&#x27;));
+                // Allow tabbing to the link.
+                listlink.setAttribute(&#x27;tabindex&#x27;, &#x27;0&#x27;);
+
+                // Set the event listeners for enter, space or click.
+                listlink.on(&#x27;click&#x27;, this.global_keyboard_drop, this);
+                listlink.on(&#x27;key&#x27;, this.global_keyboard_drop, &#x27;down:enter,32&#x27;, this);
+
+                // Add to the list or drop targets.
+                listitem.append(listlink);
+                droplist.append(listitem);
+            }
+        }, this);
+
+        // Create the dialog for the interaction.
+        M.core.dragdrop.dropui = new M.core.dialogue({
+            headerContent: dialogtitle,
+            bodyContent: droplist,
+            draggable: true,
+            visible: true,
+            center: true,
+            modal: true
+        });
+
+        M.core.dragdrop.dropui.after(&#x27;visibleChange&#x27;, function(e) {
+            // After the dialogue has been closed, we call the cancel function. This will
+            // ensure that tidying up happens (e.g. focusing on the start Node).
+            if (e.prevVal &amp;&amp; !e.newVal) {
+                this.global_cancel_keyboard_drag();
+            }
+        }, this);
+
+        // Focus the first drop target.
+        if (droplist.one(&#x27;a&#x27;)) {
+            droplist.one(&#x27;a&#x27;).focus();
+        }
+    },
+
+    /**
+     * This is used as a simulated drag/drop event in order to prevent any
+     * subtle bugs from creating a real instance of a drag drop event. This means
+     * there are no state changes in the Y.DD.DDM and any undefined functions
+     * will trigger an obvious and fatal error.
+     * The end result is that we call all our drag/drop handlers but do not bubble the
+     * event to anyone else.
+     *
+     * The functions/properties implemented in the wrapper are:
+     * e.target
+     * e.drag
+     * e.drop
+     * e.drag.get(&#x27;node&#x27;)
+     * e.drop.get(&#x27;node&#x27;)
+     * e.drag.addHandle()
+     * e.drag.removeHandle()
+     *
+     * @method simulated_drag_drop_event
+     * @param {Node} dragnode The drag container node
+     * @param {Node} dropnode The node to initiate the drop on
+     */
+    simulated_drag_drop_event: function(dragnode, dropnode) {
+
+        // Subclass for wrapping both drag and drop.
+        var DragDropWrapper = function(node) {
+            this.node = node;
+        };
+
+        // Method e.drag.get() - get the node.
+        DragDropWrapper.prototype.get = function(param) {
+            if (param === &#x27;node&#x27; || param === &#x27;dragNode&#x27; || param === &#x27;dropNode&#x27;) {
+                return this.node;
+            }
+            if (param === &#x27;activeHandle&#x27;) {
+                return this.node.one(&#x27;.editing_move&#x27;);
+            }
+            return null;
+        };
+
+        // Method e.drag.inGroup() - we have already run the group checks before triggering the event.
+        DragDropWrapper.prototype.inGroup = function() {
+            return true;
+        };
+
+        // Method e.drag.addHandle() - we don&#x27;t want to run this.
+        DragDropWrapper.prototype.addHandle = function() {};
+        // Method e.drag.removeHandle() - we don&#x27;t want to run this.
+        DragDropWrapper.prototype.removeHandle = function() {};
+
+        // Create instances of the DragDropWrapper.
+        this.drop = new DragDropWrapper(dropnode);
+        this.drag = new DragDropWrapper(dragnode);
+        this.target = this.drop;
+    },
+
+    /**
+     * This is used to complete a keyboard version of a drag and drop.
+     * A drop event will be simulated based on the drag and drop nodes.
+     * @method global_keyboard_drop
+     * @param {Event} e The keydown / click event on the proxy drop node.
+     */
+    global_keyboard_drop: function(e) {
+        // The drag node was saved.
+        var dragcontainer = M.core.dragdrop.keydragcontainer;
+        // The real drop node is stored in an attribute of the proxy.
+        var droptarget = Y.one(&#x27;#&#x27; + e.target.getAttribute(&#x27;data-drop-target&#x27;));
+
+        // Close the dialog.
+        M.core.dragdrop.dropui.hide();
+        // Cancel the event.
+        e.preventDefault();
+        // Convert to drag drop events.
+        var dragevent = new this.simulated_drag_drop_event(dragcontainer, dragcontainer);
+        var dropevent = new this.simulated_drag_drop_event(dragcontainer, droptarget);
+        // Simulate the full sequence.
+        this.drag_start(dragevent);
+        this.global_drop_over(dropevent);
+
+        if (droptarget.hasClass(this.parentnodeclass) &amp;&amp; droptarget.contains(dragcontainer)) {
+            // The global_drop_over function does not handle the case where an item was moved up, without the
+            // &#x27;goingup&#x27; variable being set, as is the case wih keyboard drag/drop. We must detect this case and
+            // apply it after the drop_over, but before the drop_hit event in order for it to be moved to the
+            // correct location.
+            droptarget.prepend(dragcontainer);
+        }
+
+        this.global_drop_hit(dropevent);
+    },
+
+    /**
+     * This is used to cancel a keyboard version of a drag and drop.
+     *
+     * @method global_cancel_keyboard_drag
+     */
+    global_cancel_keyboard_drag: function() {
+        if (M.core.dragdrop.keydragcontainer) {
+            // Focus on the node which was being dragged.
+            M.core.dragdrop.keydraghandle.focus();
+            M.core.dragdrop.keydragcontainer = null;
+        }
+    },
+
+    /**
+     * Process key events on the drag handles.
+     *
+     * @method global_keydown
+     * @param {EventFacade} e The keydown / click event on the drag handle.
+     */
+    global_keydown: function(e) {
+        var draghandle = e.target.ancestor(&#x27;.&#x27; + MOVEICON.cssclass, true),
+            dragcontainer,
+            draggroups;
+
+        if (draghandle === null) {
+            // The element clicked did not have a a draghandle in it&#x27;s lineage.
+            return;
+        }
+
+        if (e.keyCode === 27 ) {
+            // Escape to cancel from anywhere.
+            this.global_cancel_keyboard_drag();
+            e.preventDefault();
+            return;
+        }
+
+        // Only process events on a drag handle.
+        if (!draghandle.hasClass(MOVEICON.cssclass)) {
+            return;
+        }
+
+        // Do nothing if not space or enter.
+        if (e.keyCode !== 13 &amp;&amp; e.keyCode !== 32 &amp;&amp; e.type !== &#x27;click&#x27;) {
+            return;
+        }
+
+        // Check the drag groups to see if we are the handler for this node.
+        draggroups = draghandle.getAttribute(&#x27;data-draggroups&#x27;).split(&#x27; &#x27;);
+        var i, j, validgroup = false;
+
+        for (i = 0; i &lt; draggroups.length; i++) {
+            for (j = 0; j &lt; this.groups.length; j++) {
+                if (draggroups[i] === this.groups[j]) {
+                    validgroup = true;
+                    break;
+                }
+            }
+            if (validgroup) {
+                break;
+            }
+        }
+        if (!validgroup) {
+            return;
+        }
+
+        // Valid event - start the keyboard drag.
+        dragcontainer = draghandle.ancestor(&#x27;.yui3-dd-drop&#x27;);
+        this.global_start_keyboard_drag(e, draghandle, dragcontainer);
+
+        e.preventDefault();
+    },
+
+
+    // Abstract functions definitions.
+
+    /**
+     * Callback to use when dragging starts.
+     *
+     * @method drag_start
+     * @param {EventFacade} e
+     */
+    drag_start: function() {},
+
+    /**
+     * Callback to use when dragging ends.
+     *
+     * @method drag_end
+     * @param {EventFacade} e
+     */
+    drag_end: function() {},
+
+    /**
+     * Callback to use during dragging.
+     *
+     * @method drag_drag
+     * @param {EventFacade} e
+     */
+    drag_drag: function() {},
+
+    /**
+     * Callback to use when dragging ends and is not over a drop target.
+     *
+     * @method drag_dropmiss
+     * @param {EventFacade} e
+     */
+    drag_dropmiss: function() {},
+
+    /**
+     * Callback to use when a drop over event occurs.
+     *
+     * @method drop_over
+     * @param {EventFacade} e
+     */
+    drop_over: function() {},
+
+    /**
+     * Callback to use on drop:hit.
+     *
+     * @method drop_hit
+     * @param {EventFacade} e
+     */
+    drop_hit: function() {}
+}, {
+    NAME: &#x27;dragdrop&#x27;,
+    ATTRS: {}
+});
+
+M.core = M.core || {};
+M.core.dragdrop = DRAGDROP;
+
+    </pre>
+</div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="../assets/vendor/prettify/prettify-min.js"></script>
+<script>prettyPrint();</script>
+<script src="../assets/js/yui-prettify.js"></script>
+<script src="../assets/../api.js"></script>
+<script src="../assets/js/api-filter.js"></script>
+<script src="../assets/js/api-list.js"></script>
+<script src="../assets/js/api-search.js"></script>
+<script src="../assets/js/apidocs.js"></script>
+</body>
+</html>

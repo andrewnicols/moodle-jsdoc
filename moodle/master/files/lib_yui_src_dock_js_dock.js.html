@@ -1,0 +1,1605 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>lib/yui/src/dock/js/dock.js - Moodle</title>
+    <link rel="stylesheet" href="http://yui.yahooapis.com/3.9.1/build/cssgrids/cssgrids-min.css">
+    <link rel="stylesheet" href="../assets/vendor/prettify/prettify-min.css">
+    <link rel="stylesheet" href="../assets/css/main.css" id="site_styles">
+    <link rel="shortcut icon" type="image/png" href="../assets/favicon.png">
+    <script src="http://yui.yahooapis.com/combo?3.9.1/build/yui/yui-min.js"></script>
+</head>
+<body class="yui3-skin-sam">
+
+<div id="doc">
+    <div id="hd" class="yui3-g header">
+        <div class="yui3-u-3-4">
+            
+                <h1><img src="../assets/css/logo.png" title="Moodle"></h1>
+            
+        </div>
+        <div class="yui3-u-1-4 version">
+            <em>API Docs for: </em>
+        </div>
+    </div>
+    <div id="bd" class="yui3-g">
+
+        <div class="yui3-u-1-4">
+            <div id="docs-sidebar" class="sidebar apidocs">
+                <div id="api-list">
+    <h2 class="off-left">APIs</h2>
+    <div id="api-tabview" class="tabview">
+        <ul class="tabs">
+            <li><a href="#api-classes">Classes</a></li>
+            <li><a href="#api-modules">Modules</a></li>
+        </ul>
+
+        <div id="api-tabview-filter">
+            <input type="search" id="api-filter" placeholder="Type to filter APIs">
+        </div>
+
+        <div id="api-tabview-panel">
+            <ul id="api-classes" class="apis classes">
+            
+                <li><a href="../classes/Bootstrap.Collapse.html">Bootstrap.Collapse</a></li>
+            
+                <li><a href="../classes/Bootstrap.Dropdown.html">Bootstrap.Dropdown</a></li>
+            
+                <li><a href="../classes/M.assignfeedback_editpdf.annotation.html">M.assignfeedback_editpdf.annotation</a></li>
+            
+                <li><a href="../classes/M.assignfeedback_editpdf.annotationhighlight.html">M.assignfeedback_editpdf.annotationhighlight</a></li>
+            
+                <li><a href="../classes/M.assignfeedback_editpdf.annotationline.html">M.assignfeedback_editpdf.annotationline</a></li>
+            
+                <li><a href="../classes/M.assignfeedback_editpdf.annotationoval.html">M.assignfeedback_editpdf.annotationoval</a></li>
+            
+                <li><a href="../classes/M.assignfeedback_editpdf.annotationpen.html">M.assignfeedback_editpdf.annotationpen</a></li>
+            
+                <li><a href="../classes/M.assignfeedback_editpdf.annotationrectangle.html">M.assignfeedback_editpdf.annotationrectangle</a></li>
+            
+                <li><a href="../classes/M.assignfeedback_editpdf.annotationstamp.html">M.assignfeedback_editpdf.annotationstamp</a></li>
+            
+                <li><a href="../classes/M.assignfeedback_editpdf.colourpicker.html">M.assignfeedback_editpdf.colourpicker</a></li>
+            
+                <li><a href="../classes/M.assignfeedback_editpdf.comment.html">M.assignfeedback_editpdf.comment</a></li>
+            
+                <li><a href="../classes/M.assignfeedback_editpdf.commentmenu.html">M.assignfeedback_editpdf.commentmenu</a></li>
+            
+                <li><a href="../classes/M.assignfeedback_editpdf.commentsearch.html">M.assignfeedback_editpdf.commentsearch</a></li>
+            
+                <li><a href="../classes/M.assignfeedback_editpdf.drawable.html">M.assignfeedback_editpdf.drawable</a></li>
+            
+                <li><a href="../classes/M.assignfeedback_editpdf.dropdown.html">M.assignfeedback_editpdf.dropdown</a></li>
+            
+                <li><a href="../classes/M.assignfeedback_editpdf.edit.html">M.assignfeedback_editpdf.edit</a></li>
+            
+                <li><a href="../classes/M.assignfeedback_editpdf.editor.html">M.assignfeedback_editpdf.editor</a></li>
+            
+                <li><a href="../classes/M.assignfeedback_editpdf.point.html">M.assignfeedback_editpdf.point</a></li>
+            
+                <li><a href="../classes/M.assignfeedback_editpdf.quickcomment.html">M.assignfeedback_editpdf.quickcomment</a></li>
+            
+                <li><a href="../classes/M.assignfeedback_editpdf.quickcommentlist.html">M.assignfeedback_editpdf.quickcommentlist</a></li>
+            
+                <li><a href="../classes/M.assignfeedback_editpdf.rect.html">M.assignfeedback_editpdf.rect</a></li>
+            
+                <li><a href="../classes/M.assignfeedback_editpdf.stamppicker.html">M.assignfeedback_editpdf.stamppicker</a></li>
+            
+                <li><a href="../classes/M.atto_accessibilitychecker.Button.html">M.atto_accessibilitychecker.Button</a></li>
+            
+                <li><a href="../classes/M.atto_accessibilityhelper.Button.html">M.atto_accessibilityhelper.Button</a></li>
+            
+                <li><a href="../classes/M.atto_align.button.html">M.atto_align.button</a></li>
+            
+                <li><a href="../classes/M.atto_backcolor.button.html">M.atto_backcolor.button</a></li>
+            
+                <li><a href="../classes/M.atto_bold.button.html">M.atto_bold.button</a></li>
+            
+                <li><a href="../classes/M.atto_charmap.button.html">M.atto_charmap.button</a></li>
+            
+                <li><a href="../classes/M.atto_clear.button.html">M.atto_clear.button</a></li>
+            
+                <li><a href="../classes/M.atto_collapse.button.html">M.atto_collapse.button</a></li>
+            
+                <li><a href="../classes/M.atto_emoticon.button.html">M.atto_emoticon.button</a></li>
+            
+                <li><a href="../classes/M.atto_equation.Button.html">M.atto_equation.Button</a></li>
+            
+                <li><a href="../classes/M.atto_fontcolor.button.html">M.atto_fontcolor.button</a></li>
+            
+                <li><a href="../classes/M.atto_html.button.html">M.atto_html.button</a></li>
+            
+                <li><a href="../classes/M.atto_image.Button.html">M.atto_image.Button</a></li>
+            
+                <li><a href="../classes/M.atto_indent.button.html">M.atto_indent.button</a></li>
+            
+                <li><a href="../classes/M.atto_italic.button.html">M.atto_italic.button</a></li>
+            
+                <li><a href="../classes/M.atto_link.button.html">M.atto_link.button</a></li>
+            
+                <li><a href="../classes/M.atto_managefiles.usedfiles.html">M.atto_managefiles.usedfiles</a></li>
+            
+                <li><a href="../classes/M.atto_media.Button.html">M.atto_media.Button</a></li>
+            
+                <li><a href="../classes/M.atto_noautolink.button.html">M.atto_noautolink.button</a></li>
+            
+                <li><a href="../classes/M.atto_orderedlist.button.html">M.atto_orderedlist.button</a></li>
+            
+                <li><a href="../classes/M.atto_rtl.button.html">M.atto_rtl.button</a></li>
+            
+                <li><a href="../classes/M.atto_strike.button.html">M.atto_strike.button</a></li>
+            
+                <li><a href="../classes/M.atto_subscript.button.html">M.atto_subscript.button</a></li>
+            
+                <li><a href="../classes/M.atto_superscript.button.html">M.atto_superscript.button</a></li>
+            
+                <li><a href="../classes/M.atto_table.Button.html">M.atto_table.Button</a></li>
+            
+                <li><a href="../classes/M.atto_title.button.html">M.atto_title.button</a></li>
+            
+                <li><a href="../classes/M.atto_underline.button.html">M.atto_underline.button</a></li>
+            
+                <li><a href="../classes/M.atto_undo.button.html">M.atto_undo.button</a></li>
+            
+                <li><a href="../classes/M.atto_unlink.button.html">M.atto_unlink.button</a></li>
+            
+                <li><a href="../classes/M.atto_unorderedlist.button.html">M.atto_unorderedlist.button</a></li>
+            
+                <li><a href="../classes/M.block_navigation.html">M.block_navigation</a></li>
+            
+                <li><a href="../classes/M.block_navigation.ActionKey.html">M.block_navigation.ActionKey</a></li>
+            
+                <li><a href="../classes/M.block_navigation.Branch.html">M.block_navigation.Branch</a></li>
+            
+                <li><a href="../classes/M.block_navigation.Tree.html">M.block_navigation.Tree</a></li>
+            
+                <li><a href="../classes/M.core.actionmenu.ActionMenu.html">M.core.actionmenu.ActionMenu</a></li>
+            
+                <li><a href="../classes/M.core.ajaxException.html">M.core.ajaxException</a></li>
+            
+                <li><a href="../classes/M.core.alert.html">M.core.alert</a></li>
+            
+                <li><a href="../classes/M.core.blockdraganddrop.BlockRegion.html">M.core.blockdraganddrop.BlockRegion</a></li>
+            
+                <li><a href="../classes/M.core.blockdraganddrop.LegacyManager.html">M.core.blockdraganddrop.LegacyManager</a></li>
+            
+                <li><a href="../classes/M.core.blockdraganddrop.Manager.html">M.core.blockdraganddrop.Manager</a></li>
+            
+                <li><a href="../classes/M.core.chooserdialogue.html">M.core.chooserdialogue</a></li>
+            
+                <li><a href="../classes/M.core.confirm.html">M.core.confirm</a></li>
+            
+                <li><a href="../classes/M.core.dialogue.html">M.core.dialogue</a></li>
+            
+                <li><a href="../classes/M.core.dock.ActionKey.html">M.core.dock.ActionKey</a></li>
+            
+                <li><a href="../classes/M.core.dock.Block.html">M.core.dock.Block</a></li>
+            
+                <li><a href="../classes/M.core.dock.Dock.html">M.core.dock.Dock</a></li>
+            
+                <li><a href="../classes/M.core.dock.DockedItem.html">M.core.dock.DockedItem</a></li>
+            
+                <li><a href="../classes/M.core.dock.Loader.html">M.core.dock.Loader</a></li>
+            
+                <li><a href="../classes/M.core.dock.Panel.html">M.core.dock.Panel</a></li>
+            
+                <li><a href="../classes/M.core.dock.TabHeightManager.html">M.core.dock.TabHeightManager</a></li>
+            
+                <li><a href="../classes/M.core.dragdrop.html">M.core.dragdrop</a></li>
+            
+                <li><a href="../classes/M.core.exception.html">M.core.exception</a></li>
+            
+                <li><a href="../classes/M.core.formchangechecker.html">M.core.formchangechecker</a></li>
+            
+                <li><a href="../classes/M.core.LockScroll.html">M.core.LockScroll</a></li>
+            
+                <li><a href="../classes/M.core.notification.html">M.core.notification</a></li>
+            
+                <li><a href="../classes/M.core.notification.info.html">M.core.notification.info</a></li>
+            
+                <li><a href="../classes/M.core.popuphelp.html">M.core.popuphelp</a></li>
+            
+                <li><a href="../classes/M.core.tooltip.html">M.core.tooltip</a></li>
+            
+                <li><a href="../classes/M.core.WidgetFocusAfterHide.html">M.core.WidgetFocusAfterHide</a></li>
+            
+                <li><a href="../classes/M.core_backup.backupselectall.html">M.core_backup.backupselectall</a></li>
+            
+                <li><a href="../classes/M.core_backup.confirmcancel.html">M.core_backup.confirmcancel</a></li>
+            
+                <li><a href="../classes/M.course.coursebase.html">M.course.coursebase</a></li>
+            
+                <li><a href="../classes/M.course.dragdrop.resource.html">M.course.dragdrop.resource</a></li>
+            
+                <li><a href="../classes/M.course.dragdrop.section.html">M.course.dragdrop.section</a></li>
+            
+                <li><a href="../classes/M.course.management.Category.html">M.course.management.Category</a></li>
+            
+                <li><a href="../classes/M.course.management.Console.html">M.course.management.Console</a></li>
+            
+                <li><a href="../classes/M.course.management.Course.html">M.course.management.Course</a></li>
+            
+                <li><a href="../classes/M.course.management.DragDrop.html">M.course.management.DragDrop</a></li>
+            
+                <li><a href="../classes/M.course.management.Item.html">M.course.management.Item</a></li>
+            
+                <li><a href="../classes/M.course.modchooser.html">M.course.modchooser</a></li>
+            
+                <li><a href="../classes/M.course.toolboxes.resources.html">M.course.toolboxes.resources</a></li>
+            
+                <li><a href="../classes/M.course.toolboxes.section.html">M.course.toolboxes.section</a></li>
+            
+                <li><a href="../classes/M.course.toolboxes.toolbox.html">M.course.toolboxes.toolbox</a></li>
+            
+                <li><a href="../classes/M.editor_atto.Editor.html">M.editor_atto.Editor</a></li>
+            
+                <li><a href="../classes/M.editor_atto.EditorClean.html">M.editor_atto.EditorClean</a></li>
+            
+                <li><a href="../classes/M.editor_atto.EditorFilepicker.html">M.editor_atto.EditorFilepicker</a></li>
+            
+                <li><a href="../classes/M.editor_atto.EditorPlugin.html">M.editor_atto.EditorPlugin</a></li>
+            
+                <li><a href="../classes/M.editor_atto.EditorPluginButtons.html">M.editor_atto.EditorPluginButtons</a></li>
+            
+                <li><a href="../classes/M.editor_atto.EditorPluginDialogue.html">M.editor_atto.EditorPluginDialogue</a></li>
+            
+                <li><a href="../classes/M.editor_atto.EditorSelection.html">M.editor_atto.EditorSelection</a></li>
+            
+                <li><a href="../classes/M.editor_atto.EditorStyling.html">M.editor_atto.EditorStyling</a></li>
+            
+                <li><a href="../classes/M.editor_atto.EditorTextArea.html">M.editor_atto.EditorTextArea</a></li>
+            
+                <li><a href="../classes/M.editor_atto.EditorToolbar.html">M.editor_atto.EditorToolbar</a></li>
+            
+                <li><a href="../classes/M.editor_atto.EditorToolbarNav.html">M.editor_atto.EditorToolbarNav</a></li>
+            
+                <li><a href="../classes/M.editor_atto.Menu.html">M.editor_atto.Menu</a></li>
+            
+                <li><a href="../classes/M.form.shortforms.html">M.form.shortforms</a></li>
+            
+                <li><a href="../classes/M.form.showadvanced.html">M.form.showadvanced</a></li>
+            
+                <li><a href="../classes/M.mod_quiz.autosave.html">M.mod_quiz.autosave</a></li>
+            
+                <li><a href="../classes/M.tool_capability.Search.html">M.tool_capability.Search</a></li>
+            
+                <li><a href="../classes/Moodle.core_course.util.html">Moodle.core_course.util</a></li>
+            
+                <li><a href="../classes/Moodle.core_course.util.cm.html">Moodle.core_course.util.cm</a></li>
+            
+                <li><a href="../classes/Moodle.core_course.util.section.html">Moodle.core_course.util.section</a></li>
+            
+                <li><a href="../classes/Moodle.theme_bootstrapbase.bootstrap.html">Moodle.theme_bootstrapbase.bootstrap</a></li>
+            
+                <li><a href="../classes/Y.BootstrapEngine.html">Y.BootstrapEngine</a></li>
+            
+                <li><a href="../classes/Y.Moodle.course.categoryexpander.html">Y.Moodle.course.categoryexpander</a></li>
+            
+            </ul>
+
+            <ul id="api-modules" class="apis modules">
+            
+                <li><a href="../modules/buttons.html">buttons</a></li>
+            
+                <li><a href="../modules/clean.html">clean</a></li>
+            
+                <li><a href="../modules/dialogue.html">dialogue</a></li>
+            
+                <li><a href="../modules/filepicker.html">filepicker</a></li>
+            
+                <li><a href="../modules/gallery-bootstrap-collapse.html">gallery-bootstrap-collapse</a></li>
+            
+                <li><a href="../modules/gallery-bootstrap-dropdown.html">gallery-bootstrap-dropdown</a></li>
+            
+                <li><a href="../modules/gallery-bootstrap-engine.html">gallery-bootstrap-engine</a></li>
+            
+                <li><a href="../modules/menu-base.html">menu-base</a></li>
+            
+                <li><a href="../modules/moodle-assignfeedback_editpdf-editor.html">moodle-assignfeedback_editpdf-editor</a></li>
+            
+                <li><a href="../modules/moodle-atto-managefiles-button.html">moodle-atto-managefiles-button</a></li>
+            
+                <li><a href="../modules/moodle-atto_accessibilitychecker-button.html">moodle-atto_accessibilitychecker-button</a></li>
+            
+                <li><a href="../modules/moodle-atto_accessibilityhelper-button.html">moodle-atto_accessibilityhelper-button</a></li>
+            
+                <li><a href="../modules/moodle-atto_align-button.html">moodle-atto_align-button</a></li>
+            
+                <li><a href="../modules/moodle-atto_backcolor-button.html">moodle-atto_backcolor-button</a></li>
+            
+                <li><a href="../modules/moodle-atto_bold-button.html">moodle-atto_bold-button</a></li>
+            
+                <li><a href="../modules/moodle-atto_charmap-button.html">moodle-atto_charmap-button</a></li>
+            
+                <li><a href="../modules/moodle-atto_clear-button.html">moodle-atto_clear-button</a></li>
+            
+                <li><a href="../modules/moodle-atto_collapse-button.html">moodle-atto_collapse-button</a></li>
+            
+                <li><a href="../modules/moodle-atto_emoticon-button.html">moodle-atto_emoticon-button</a></li>
+            
+                <li><a href="../modules/moodle-atto_html-button.html">moodle-atto_html-button</a></li>
+            
+                <li><a href="../modules/moodle-atto_image_alignment-button.html">moodle-atto_image_alignment-button</a></li>
+            
+                <li><a href="../modules/moodle-atto_indent-button.html">moodle-atto_indent-button</a></li>
+            
+                <li><a href="../modules/moodle-atto_italic-button.html">moodle-atto_italic-button</a></li>
+            
+                <li><a href="../modules/moodle-atto_link-button.html">moodle-atto_link-button</a></li>
+            
+                <li><a href="../modules/moodle-atto_managefiles-usedfiles.html">moodle-atto_managefiles-usedfiles</a></li>
+            
+                <li><a href="../modules/moodle-atto_media-button.html">moodle-atto_media-button</a></li>
+            
+                <li><a href="../modules/moodle-atto_noautolink-button.html">moodle-atto_noautolink-button</a></li>
+            
+                <li><a href="../modules/moodle-atto_orderedlist-button.html">moodle-atto_orderedlist-button</a></li>
+            
+                <li><a href="../modules/moodle-atto_rtl-button.html">moodle-atto_rtl-button</a></li>
+            
+                <li><a href="../modules/moodle-atto_strike-button.html">moodle-atto_strike-button</a></li>
+            
+                <li><a href="../modules/moodle-atto_subscript-button.html">moodle-atto_subscript-button</a></li>
+            
+                <li><a href="../modules/moodle-atto_superscript-button.html">moodle-atto_superscript-button</a></li>
+            
+                <li><a href="../modules/moodle-atto_table-button.html">moodle-atto_table-button</a></li>
+            
+                <li><a href="../modules/moodle-atto_title-button.html">moodle-atto_title-button</a></li>
+            
+                <li><a href="../modules/moodle-atto_underline-button.html">moodle-atto_underline-button</a></li>
+            
+                <li><a href="../modules/moodle-atto_undo-button.html">moodle-atto_undo-button</a></li>
+            
+                <li><a href="../modules/moodle-atto_unlink-button.html">moodle-atto_unlink-button</a></li>
+            
+                <li><a href="../modules/moodle-atto_unorderedlist-button.html">moodle-atto_unorderedlist-button</a></li>
+            
+                <li><a href="../modules/moodle-backup-backupselectall.html">moodle-backup-backupselectall</a></li>
+            
+                <li><a href="../modules/moodle-backup-confirmcancel.html">moodle-backup-confirmcancel</a></li>
+            
+                <li><a href="../modules/moodle-block_navigation-navigation.html">moodle-block_navigation-navigation</a></li>
+            
+                <li><a href="../modules/moodle-core-actionmenu.html">moodle-core-actionmenu</a></li>
+            
+                <li><a href="../modules/moodle-core-blockdraganddrop.html">moodle-core-blockdraganddrop</a></li>
+            
+                <li><a href="../modules/moodle-core-chooserdialogue.html">moodle-core-chooserdialogue</a></li>
+            
+                <li><a href="../modules/moodle-core-dock.html">moodle-core-dock</a></li>
+            
+                <li><a href="../modules/moodle-core-dragdrop.html">moodle-core-dragdrop</a></li>
+            
+                <li><a href="../modules/moodle-core-formchangechecker.html">moodle-core-formchangechecker</a></li>
+            
+                <li><a href="../modules/moodle-core-lockscroll.html">moodle-core-lockscroll</a></li>
+            
+                <li><a href="../modules/moodle-core-maintenancemodetimer.html">moodle-core-maintenancemodetimer</a></li>
+            
+                <li><a href="../modules/moodle-core-notification.html">moodle-core-notification</a></li>
+            
+                <li><a href="../modules/moodle-core-notification-ajaxexception.html">moodle-core-notification-ajaxexception</a></li>
+            
+                <li><a href="../modules/moodle-core-notification-alert.html">moodle-core-notification-alert</a></li>
+            
+                <li><a href="../modules/moodle-core-notification-confirm.html">moodle-core-notification-confirm</a></li>
+            
+                <li><a href="../modules/moodle-core-notification-dialogue.html">moodle-core-notification-dialogue</a></li>
+            
+                <li><a href="../modules/moodle-core-notification-exception.html">moodle-core-notification-exception</a></li>
+            
+                <li><a href="../modules/moodle-core-popuphelp.html">moodle-core-popuphelp</a></li>
+            
+                <li><a href="../modules/moodle-core-tooltip.html">moodle-core-tooltip</a></li>
+            
+                <li><a href="../modules/moodle-core-widget-focusafterhide.html">moodle-core-widget-focusafterhide</a></li>
+            
+                <li><a href="../modules/moodle-course-categoryexpander.html">moodle-course-categoryexpander</a></li>
+            
+                <li><a href="../modules/moodle-course-coursebase.html">moodle-course-coursebase</a></li>
+            
+                <li><a href="../modules/moodle-course-dragdrop.html">moodle-course-dragdrop</a></li>
+            
+                <li><a href="../modules/moodle-course-management.html">moodle-course-management</a></li>
+            
+                <li><a href="../modules/moodle-course-modchooser.html">moodle-course-modchooser</a></li>
+            
+                <li><a href="../modules/moodle-course-toolboxes.html">moodle-course-toolboxes</a></li>
+            
+                <li><a href="../modules/moodle-course-util.html">moodle-course-util</a></li>
+            
+                <li><a href="../modules/moodle-course-util-cm.html">moodle-course-util-cm</a></li>
+            
+                <li><a href="../modules/moodle-course-util-section.html">moodle-course-util-section</a></li>
+            
+                <li><a href="../modules/moodle-editor_atto-editor.html">moodle-editor_atto-editor</a></li>
+            
+                <li><a href="../modules/moodle-editor_atto-menu.html">moodle-editor_atto-menu</a></li>
+            
+                <li><a href="../modules/moodle-editor_atto-plugin.html">moodle-editor_atto-plugin</a></li>
+            
+                <li><a href="../modules/moodle-form-shortforms.html">moodle-form-shortforms</a></li>
+            
+                <li><a href="../modules/moodle-form-showadvanced.html">moodle-form-showadvanced</a></li>
+            
+                <li><a href="../modules/moodle-mod_quiz-autosave.html">moodle-mod_quiz-autosave</a></li>
+            
+                <li><a href="../modules/moodle-question-preview.html">moodle-question-preview</a></li>
+            
+                <li><a href="../modules/moodle-tool_capability-search.html">moodle-tool_capability-search</a></li>
+            
+                <li><a href="../modules/plugin-base.html">plugin-base</a></li>
+            
+                <li><a href="../modules/styling.html">styling</a></li>
+            
+                <li><a href="../modules/textarea.html">textarea</a></li>
+            
+                <li><a href="../modules/theme_bootstrapbase-bootstrap.html">theme_bootstrapbase-bootstrap</a></li>
+            
+                <li><a href="../modules/toolbar.html">toolbar</a></li>
+            
+                <li><a href="../modules/toolbarnav.html">toolbarnav</a></li>
+            
+            </ul>
+        </div>
+    </div>
+</div>
+
+            </div>
+        </div>
+        <div class="yui3-u-3-4">
+                <div id="api-options">
+        Show:
+        <label for="api-show-inherited">
+            <input type="checkbox" id="api-show-inherited" checked>
+            Inherited
+        </label>
+
+        <label for="api-show-protected">
+            <input type="checkbox" id="api-show-protected">
+            Protected
+        </label>
+
+        <label for="api-show-private">
+            <input type="checkbox" id="api-show-private">
+            Private
+        </label>
+        <label for="api-show-deprecated">
+            <input type="checkbox" id="api-show-deprecated">
+            Deprecated
+        </label>
+
+    </div>
+
+
+            <div class="apidocs">
+                <div id="docs-main">
+                    <div class="content">
+                        <h1 class="file-heading">File: lib/yui/src/dock/js/dock.js</h1>
+
+<div class="file">
+    <pre class="code prettyprint linenums">
+/**
+ * Dock JS.
+ *
+ * This file contains the DOCK object and all dock related global namespace methods and properties.
+ *
+ * @module moodle-core-dock
+ */
+
+
+var LOGNS = &#x27;moodle-core-dock&#x27;,
+    BODY = Y.one(Y.config.doc.body),
+    CSS = {
+        dock: &#x27;dock&#x27;,                    // CSS Class applied to the dock box
+        dockspacer: &#x27;dockspacer&#x27;,        // CSS class applied to the dockspacer
+        controls: &#x27;controls&#x27;,            // CSS class applied to the controls box
+        body: &#x27;has_dock&#x27;,                // CSS class added to the body when there is a dock
+        buttonscontainer: &#x27;buttons_container&#x27;,
+        dockeditem: &#x27;dockeditem&#x27;,        // CSS class added to each item in the dock
+        dockeditemcontainer: &#x27;dockeditem_container&#x27;,
+        dockedtitle: &#x27;dockedtitle&#x27;,      // CSS class added to the item&#x27;s title in each dock
+        activeitem: &#x27;activeitem&#x27;,        // CSS class added to the active item
+        contentonly: &#x27;content-only&#x27;,
+        dockonload: &#x27;dock_on_load&#x27;
+    },
+    SELECTOR = {
+        dockableblock: &#x27;.block[data-instanceid][data-dockable]&#x27;,
+        blockmoveto: &#x27;.block[data-instanceid][data-dockable] .moveto&#x27;,
+        panelmoveto: &#x27;#dockeditempanel .commands a.moveto&#x27;,
+        dockonload: &#x27;.block.&#x27;+CSS.dockonload,
+        blockregion: &#x27;[data-blockregion]&#x27;
+    },
+    DOCK,
+    DOCKPANEL,
+    TABHEIGHTMANAGER,
+    BLOCK,
+    DOCKEDITEM;
+
+M.core = M.core || {};
+M.core.dock = M.core.dock || {};
+
+/**
+ * The dock - once initialised.
+ *
+ * @private
+ * @property _dock
+ * @type DOCK
+ */
+M.core.dock._dock = null;
+
+/**
+ * An associative array of dockable blocks.
+ * @property _dockableblocks
+ * @type {Array} An array of BLOCK objects organised by instanceid.
+ * @private
+ */
+M.core.dock._dockableblocks = {};
+
+/**
+ * Initialises the dock.
+ * This method registers dockable blocks, and creates delegations to dock them.
+ * @static
+ * @method init
+ */
+M.core.dock.init = function() {
+    Y.all(SELECTOR.dockableblock).each(M.core.dock.registerDockableBlock);
+    BODY.delegate(&#x27;click&#x27;, M.core.dock.dockBlock, SELECTOR.blockmoveto);
+    BODY.delegate(&#x27;key&#x27;, M.core.dock.dockBlock, SELECTOR.blockmoveto, &#x27;enter&#x27;);
+};
+
+/**
+ * Returns an instance of the dock.
+ * Initialises one if one hasn&#x27;t already being initialised.
+ *
+ * @static
+ * @method get
+ * @return DOCK
+ */
+M.core.dock.get = function() {
+    if (this._dock === null) {
+        this._dock = new DOCK();
+    }
+    return this._dock;
+};
+
+/**
+ * Registers a dockable block with the dock.
+ *
+ * @static
+ * @method registerDockableBlock
+ * @param {int} id The block instance ID.
+ * @return void
+ */
+M.core.dock.registerDockableBlock = function(id) {
+    if (typeof id === &#x27;object&#x27; &amp;&amp; typeof id.getData === &#x27;function&#x27;) {
+        id = id.getData(&#x27;instanceid&#x27;);
+    }
+    M.core.dock._dockableblocks[id] = new BLOCK({id : id});
+};
+
+/**
+ * Docks a block given either its instanceid, its node, or an event fired from within the block.
+ * @static
+ * @method dockBlockByInstanceID
+ * @param id
+ * @return void
+ */
+M.core.dock.dockBlock = function(id) {
+    if (typeof id === &#x27;object&#x27; &amp;&amp; id.target !== &#x27;undefined&#x27;) {
+        id = id.target;
+    }
+    if (typeof id === &quot;object&quot;) {
+        if (!id.test(SELECTOR.dockableblock)) {
+            id = id.ancestor(SELECTOR.dockableblock);
+        }
+        if (typeof id === &#x27;object&#x27; &amp;&amp; typeof id.getData === &#x27;function&#x27; &amp;&amp; !id.ancestor(&#x27;.&#x27;+CSS.dock)) {
+            id = id.getData(&#x27;instanceid&#x27;);
+        } else {
+            Y.log(&#x27;Invalid instanceid given to dockBlockByInstanceID&#x27;, &#x27;warn&#x27;, LOADERNAME);
+            return;
+        }
+    }
+    var block = M.core.dock._dockableblocks[id];
+    if (block) {
+        block.moveToDock();
+    }
+};
+
+/**
+ * Fixes the title orientation. Rotating it if required.
+ *
+ * @static
+ * @method fixTitleOrientation
+ * @param {Node} title The title node we are looking at.
+ * @param {String} text The string to use as the title.
+ * @return {Node} The title node to use.
+ */
+M.core.dock.fixTitleOrientation = function(title, text) {
+    var dock = M.core.dock.get(),
+        fontsize = &#x27;11px&#x27;,
+        transform = &#x27;rotate(270deg)&#x27;,
+        test,
+        width,
+        height,
+        container;
+    title = Y.one(title);
+
+    if (dock.get(&#x27;orientation&#x27;) !== &#x27;vertical&#x27;) {
+        // If the dock isn&#x27;t vertical don&#x27;t adjust it!
+        title.set(&#x27;innerHTML&#x27;, text);
+        return title;
+    }
+
+    if (Y.UA.ie &gt; 0 &amp;&amp; Y.UA.ie &lt; 8) {
+        // IE 6/7 can&#x27;t rotate text so force ver
+        M.str.langconfig.thisdirectionvertical = &#x27;ver&#x27;;
+    }
+
+    switch (M.str.langconfig.thisdirectionvertical) {
+        case &#x27;ver&#x27;:
+            // Stacked is easy
+            return title.set(&#x27;innerHTML&#x27;, text.split(&#x27;&#x27;).join(&#x27;&lt;br /&gt;&#x27;));
+        case &#x27;ttb&#x27;:
+            transform = &#x27;rotate(90deg)&#x27;;
+            break;
+        case &#x27;btt&#x27;:
+            // Nothing to do here. transform default is good.
+            break;
+    }
+
+    if (Y.UA.ie === 8) {
+        // IE8 can flip the text via CSS but not handle transform. IE9+ can handle the CSS3 transform attribute.
+        title.set(&#x27;innerHTML&#x27;, text);
+        title.setAttribute(&#x27;style&#x27;, &#x27;writing-mode: tb-rl; filter: flipV flipH;display:inline;&#x27;);
+        title.addClass(&#x27;filterrotate&#x27;);
+        return title;
+    }
+
+    // We need to fix a font-size - sorry theme designers.
+    test = Y.Node.create(&#x27;&lt;h2 class=&quot;transform-test-heading&quot;&gt;&lt;span class=&quot;transform-test-node&quot; style=&quot;font-size:&#x27;+fontsize+&#x27;;&quot;&gt;&#x27;+text+&#x27;&lt;/span&gt;&lt;/h2&gt;&#x27;);
+    BODY.insert(test, 0);
+    width = test.one(&#x27;span&#x27;).get(&#x27;offsetWidth&#x27;) * 1.2;
+    height = test.one(&#x27;span&#x27;).get(&#x27;offsetHeight&#x27;);
+    test.remove();
+
+    title.set(&#x27;innerHTML&#x27;, text);
+    title.addClass(&#x27;css3transform&#x27;);
+
+    // Move the title into position
+    title.setStyles({
+        &#x27;position&#x27; : &#x27;relative&#x27;,
+        &#x27;fontSize&#x27; : fontsize,
+        &#x27;width&#x27; : width,
+        &#x27;top&#x27; : (width - height)/2
+    });
+
+    // Positioning is different when in RTL mode.
+    if (right_to_left()) {
+        title.setStyle(&#x27;left&#x27;, width/2 - height);
+    } else {
+        title.setStyle(&#x27;right&#x27;, width/2 - height);
+    }
+
+    // Rotate the text
+    title.setStyles({
+        &#x27;transform&#x27; : transform,
+        &#x27;-ms-transform&#x27; : transform,
+        &#x27;-moz-transform&#x27; : transform,
+        &#x27;-webkit-transform&#x27; : transform,
+        &#x27;-o-transform&#x27; : transform
+    });
+
+    container = Y.Node.create(&#x27;&lt;div&gt;&lt;/div&gt;&#x27;);
+    container.append(title);
+    container.setStyles({
+        height : width + (width / 4),
+        position : &#x27;relative&#x27;
+    });
+    return container;
+};
+
+/**
+ * Informs the dock that the content of the block has changed.
+ * This should be called by the blocks JS code if its content has been updated dynamically.
+ * This method ensure the dock resizes if need be.
+ *
+ * @static
+ * @method notifyBlockChange
+ * @param {Number} instanceid
+ * @return void
+ */
+M.core.dock.notifyBlockChange = function(instanceid) {
+    if (this._dock !== null) {
+        var dock = M.core.dock.get(),
+            activeitem = dock.getActiveItem();
+        if (activeitem &amp;&amp; activeitem.get(&#x27;blockinstanceid&#x27;) === parseInt(instanceid, 10)) {
+            dock.resizePanelIfRequired();
+        }
+    }
+};
+
+/**
+ * The Dock.
+ *
+ * @namespace M.core.dock
+ * @class Dock
+ * @constructor
+ * @extends Base
+ * @uses EventTarget
+ */
+DOCK = function() {
+    DOCK.superclass.constructor.apply(this, arguments);
+};
+DOCK.prototype = {
+    /**
+     * Tab height manager used to ensure tabs are always visible.
+     * @protected
+     * @property tabheightmanager
+     * @type TABHEIGHTMANAGER
+     */
+    tabheightmanager : null,
+    /**
+     * Will be an eventtype if there is an eventype to prevent.
+     * @protected
+     * @property preventevent
+     * @type String
+     */
+    preventevent : null,
+    /**
+     * Will be an object if there is a delayed event in effect.
+     * @protected
+     * @property delayedevent
+     * @type {Object}
+     */
+    delayedevent : null,
+    /**
+     * An array of currently docked items.
+     * @protected
+     * @property dockeditems
+     * @type Array
+     */
+    dockeditems : [],
+    /**
+     * Set to true once the dock has been drawn.
+     * @protected
+     * @property dockdrawn
+     * @type Boolean
+     */
+    dockdrawn : false,
+    /**
+     * The number of blocks that are currently docked.
+     * @protected
+     * @property count
+     * @type Number
+     */
+    count : 0,
+    /**
+     * The total number of blocks that have been docked.
+     * @protected
+     * @property totalcount
+     * @type Number
+     */
+    totalcount : 0,
+    /**
+     * A hidden node used as a holding area for DOM objects used by blocks that have been docked.
+     * @protected
+     * @property holdingareanode
+     * @type Node
+     */
+    holdingareanode : null,
+    /**
+     * Called during the initialisation process of the object.
+     * @method initializer
+     */
+    initializer : function() {
+        Y.log(&#x27;Dock initialising&#x27;, &#x27;debug&#x27;, LOGNS);
+
+        // Publish the events the dock has
+        /**
+         * Fired when the dock first starts initialising.
+         * @event dock:starting
+         */
+        this.publish(&#x27;dock:starting&#x27;, {prefix: &#x27;dock&#x27;,broadcast:  2,emitFacade: true, fireOnce:true});
+        /**
+         * Fired after the dock is initialised for the first time.
+         * @event dock:initialised
+         */
+        this.publish(&#x27;dock:initialised&#x27;, {prefix: &#x27;dock&#x27;,broadcast:  2,emitFacade: true, fireOnce:true});
+        /**
+         * Fired before the dock structure and content is first created.
+         * @event dock:beforedraw
+         */
+        this.publish(&#x27;dock:beforedraw&#x27;, {prefix:&#x27;dock&#x27;, fireOnce:true});
+        /**
+         * Fired before the dock is changed from hidden to visible.
+         * @event dock:beforeshow
+         */
+        this.publish(&#x27;dock:beforeshow&#x27;, {prefix:&#x27;dock&#x27;});
+        /**
+         * Fires after the dock has been changed from hidden to visible.
+         * @event dock:shown
+         */
+        this.publish(&#x27;dock:shown&#x27;, {prefix:&#x27;dock&#x27;});
+        /**
+         * Fired after the dock has been changed from visible to hidden.
+         * @event dock:hidden
+         */
+        this.publish(&#x27;dock:hidden&#x27;, {prefix:&#x27;dock&#x27;});
+        /**
+         * Fires when an item is added to the dock.
+         * @event dock:itemadded
+         */
+        this.publish(&#x27;dock:itemadded&#x27;, {prefix:&#x27;dock&#x27;});
+        /**
+         * Fires when an item is removed from the dock.
+         * @event dock:itemremoved
+         */
+        this.publish(&#x27;dock:itemremoved&#x27;, {prefix:&#x27;dock&#x27;});
+        /**
+         * Fires when a block is added or removed from the dock.
+         * This happens after the itemadded and itemremoved events have been called.
+         * @event dock:itemschanged
+         */
+        this.publish(&#x27;dock:itemschanged&#x27;, {prefix:&#x27;dock&#x27;});
+        /**
+         * Fires once when the docks panel is first initialised.
+         * @event dock:panelgenerated
+         */
+        this.publish(&#x27;dock:panelgenerated&#x27;, {prefix:&#x27;dock&#x27;, fireOnce:true});
+        /**
+         * Fires when the dock panel is about to be resized.
+         * @event dock:panelresizestart
+         */
+        this.publish(&#x27;dock:panelresizestart&#x27;, {prefix:&#x27;dock&#x27;});
+        /**
+         * Fires after the dock panel has been resized.
+         * @event dock:resizepanelcomplete
+         */
+        this.publish(&#x27;dock:resizepanelcomplete&#x27;, {prefix:&#x27;dock&#x27;});
+
+        // Apply theme customisations here before we do any real work.
+        this._applyThemeCustomisation();
+        // Inform everyone we are now about to initialise.
+        this.fire(&#x27;dock:starting&#x27;);
+        this._ensureDockDrawn();
+        // Inform everyone the dock has been initialised
+        this.fire(&#x27;dock:initialised&#x27;);
+    },
+    /**
+     * Ensures that the dock has been drawn.
+     * @private
+     * @method _ensureDockDrawn
+     * @return {Boolean}
+     */
+    _ensureDockDrawn : function() {
+        if (this.dockdrawn === true) {
+            return true;
+        }
+        var dock = this._initialiseDockNode(),
+            clickargs = {
+                cssselector:&#x27;.&#x27;+CSS.dockedtitle,
+                delay:0
+            },
+            mouseenterargs = {
+                cssselector:&#x27;.&#x27;+CSS.dockedtitle,
+                delay:0.5,
+                iscontained:true,
+                preventevent:&#x27;click&#x27;,
+                preventdelay:3
+            };
+        if (Y.UA.ie &gt; 0 &amp;&amp; Y.UA.ie &lt; 7) {
+            // Adjust for IE 6 (can&#x27;t handle fixed pos)
+            dock.setStyle(&#x27;height&#x27;, dock.get(&#x27;winHeight&#x27;)+&#x27;px&#x27;);
+        }
+
+        this.fire(&#x27;dock:beforedraw&#x27;);
+
+        this._initialiseDockControls();
+
+        this.tabheightmanager = new TABHEIGHTMANAGER({dock:this});
+
+        // Attach the required event listeners
+        // We use delegate here as that way a handful of events are created for the dock
+        // and all items rather than the same number for the dock AND every item individually
+        Y.delegate(&#x27;click&#x27;, this.handleEvent, this.get(&#x27;dockNode&#x27;), &#x27;.&#x27;+CSS.dockedtitle, this, clickargs);
+        Y.delegate(&#x27;mouseenter&#x27;, this.handleEvent, this.get(&#x27;dockNode&#x27;), &#x27;.&#x27;+CSS.dockedtitle, this, mouseenterargs);
+        this.get(&#x27;dockNode&#x27;).on(&#x27;mouseleave&#x27;, this.handleEvent, this, {cssselector:&#x27;#dock&#x27;, delay:0.5, iscontained:false});
+
+        Y.delegate(&#x27;click&#x27;, this.handleReturnToBlock, this.get(&#x27;dockNode&#x27;), SELECTOR.panelmoveto, this);
+        Y.delegate(&#x27;click&#x27;, this.handleReturnToBlock, this.get(&#x27;dockNode&#x27;), SELECTOR.panelmoveto, this);
+        Y.delegate(&#x27;dock:actionkey&#x27;, this.handleDockedItemEvent, this.get(&#x27;dockNode&#x27;), &#x27;.&#x27;+CSS.dockeditem, this);
+
+        BODY.on(&#x27;click&#x27;, this.handleEvent, this,  {cssselector:&#x27;body&#x27;, delay:0});
+        this.on(&#x27;dock:itemschanged&#x27;, this.resizeBlockSpace, this);
+        this.on(&#x27;dock:itemschanged&#x27;, this.checkDockVisibility, this);
+        this.on(&#x27;dock:itemschanged&#x27;, this.resetFirstItem, this);
+        this.dockdrawn = true;
+        return true;
+    },
+    /**
+     * Handles an actionkey event on the dock.
+     * @param {EventFacade} e
+     * @method handleDockedItemEvent
+     * @return {Boolean}
+     */
+    handleDockedItemEvent : function(e) {
+        if (e.type !== &#x27;dock:actionkey&#x27;) {
+            return false;
+        }
+        var target = e.target,
+            dockeditem = &#x27;.&#x27;+CSS.dockeditem;
+        if (!target.test(dockeditem)) {
+            target = target.ancestor(dockeditem);
+        }
+        if (!target) {
+            return false;
+        }
+        e.halt();
+        this.dockeditems[target.getAttribute(&#x27;rel&#x27;)].toggle(e.action);
+    },
+    /**
+     * Call the theme customisation method &quot;customise_dock_for_theme&quot; if it exists.
+     * @private
+     * @method _applyThemeCustomisation
+     */
+    _applyThemeCustomisation : function() {
+        // Check if there is a customisation function
+        if (typeof(customise_dock_for_theme) === &#x27;function&#x27;) {
+            // First up pre the legacy object.
+            M.core_dock = this;
+            M.core_dock.cfg = {
+                buffer : null,
+                orientation : null,
+                position : null,
+                spacebeforefirstitem : null,
+                removeallicon : null
+            };
+            M.core_dock.css = {
+                dock : null,
+                dockspacer : null,
+                controls : null,
+                body : null,
+                buttonscontainer : null,
+                dockeditem : null,
+                dockeditemcontainer : null,
+                dockedtitle : null,
+                activeitem : null
+            };
+            try {
+                // Run the customisation function
+                customise_dock_for_theme(this);
+            } catch (exception) {
+                // Do nothing at the moment.
+                Y.log(&#x27;Exception while attempting to apply theme customisations.&#x27;, &#x27;error&#x27;, LOGNS);
+            }
+            // Now to work out what they did.
+            var key, value,
+                warned = false,
+                cfgmap = {
+                    buffer : &#x27;bufferPanel&#x27;,
+                    orientation : &#x27;orientation&#x27;,
+                    position : &#x27;position&#x27;,
+                    spacebeforefirstitem : &#x27;bufferBeforeFirstItem&#x27;,
+                    removeallicon : &#x27;undockAllIconUrl&#x27;
+                };
+            // Check for and apply any legacy configuration.
+            for (key in M.core_dock.cfg) {
+                if (Y.Lang.isString(key) &amp;&amp; cfgmap[key]) {
+                    value = M.core_dock.cfg[key];
+                    if (value === null) {
+                        continue;
+                    }
+                    if (!warned) {
+                        Y.log(&#x27;Warning: customise_dock_for_theme has changed. Please update your code.&#x27;, &#x27;warn&#x27;, LOGNS);
+                        warned = true;
+                    }
+                    // Damn, the&#x27;ve set something.
+                    Y.log(&#x27;Note for customise_dock_for_theme code: M.core_dock.cfg.&#x27;+key+&#x27; is now dock.set(\&#x27;&#x27;+key+&#x27;\&#x27;, value)&#x27;, &#x27;debug&#x27;, LOGNS);
+                    this.set(cfgmap[key], value);
+                }
+            }
+            // Check for and apply any legacy CSS changes..
+            for (key in M.core_dock.css) {
+                if (Y.Lang.isString(key)) {
+                    value = M.core_dock.css[key];
+                    if (value === null) {
+                        continue;
+                    }
+                    if (!warned) {
+                        Y.log(&#x27;Warning: customise_dock_for_theme has changed. Please update your code.&#x27;, &#x27;warn&#x27;, LOGNS);
+                        warned = true;
+                    }
+                    // Damn, they&#x27;ve set something.
+                    Y.log(&#x27;Note for customise_dock_for_theme code: M.core_dock.css.&#x27;+key+&#x27; is now CSS.&#x27;+key+&#x27; = value&#x27;, &#x27;debug&#x27;, LOGNS);
+                    CSS[key] = value;
+                }
+            }
+        }
+    },
+    /**
+     * Initialises the dock node, creating it and its content if required.
+     *
+     * @private
+     * @method _initialiseDockNode
+     * @return {Node} The dockNode
+     */
+    _initialiseDockNode : function() {
+        var dock = this.get(&#x27;dockNode&#x27;),
+            positionorientationclass = CSS.dock+&#x27;_&#x27;+this.get(&#x27;position&#x27;)+&#x27;_&#x27;+this.get(&#x27;orientation&#x27;),
+            holdingarea = Y.Node.create(&#x27;&lt;div&gt;&lt;/div&gt;&#x27;).setStyles({display:&#x27;none&#x27;}),
+            buttons = this.get(&#x27;buttonsNode&#x27;),
+            container = this.get(&#x27;itemContainerNode&#x27;);
+
+        if (!dock) {
+            dock = Y.one(&#x27;#&#x27;+CSS.dock);
+        }
+        if (!dock) {
+            dock = Y.Node.create(&#x27;&lt;div id=&quot;&#x27;+CSS.dock+&#x27;&quot;&gt;&lt;/div&gt;&#x27;);
+            BODY.append(dock);
+        }
+        dock.setAttribute(&#x27;role&#x27;, &#x27;menubar&#x27;).addClass(positionorientationclass);
+        if (Y.all(SELECTOR.dockonload).size() === 0) {
+            // Nothing on the dock... hide it using CSS
+            dock.addClass(&#x27;nothingdocked&#x27;);
+        } else {
+            positionorientationclass = CSS.body+&#x27;_&#x27;+this.get(&#x27;position&#x27;)+&#x27;_&#x27;+this.get(&#x27;orientation&#x27;);
+            BODY.addClass(CSS.body).addClass();
+        }
+
+        if (!buttons) {
+            buttons = dock.one(&#x27;.&#x27;+CSS.buttonscontainer);
+        }
+        if (!buttons) {
+            buttons = Y.Node.create(&#x27;&lt;div class=&quot;&#x27;+CSS.buttonscontainer+&#x27;&quot;&gt;&lt;/div&gt;&#x27;);
+            dock.append(buttons);
+        }
+
+        if (!container) {
+            container = dock.one(&#x27;.&#x27;+CSS.dockeditemcontainer);
+        }
+        if (!container) {
+            container = Y.Node.create(&#x27;&lt;div class=&quot;&#x27;+CSS.dockeditemcontainer+&#x27;&quot;&gt;&lt;/div&gt;&#x27;);
+            buttons.append(container);
+        }
+
+        BODY.append(holdingarea);
+        this.holdingareanode = holdingarea;
+
+        this.set(&#x27;dockNode&#x27;, dock);
+        this.set(&#x27;buttonsNode&#x27;, buttons);
+        this.set(&#x27;itemContainerNode&#x27;, container);
+
+        return dock;
+    },
+    /**
+     * Initialises the dock controls.
+     *
+     * @private
+     * @method _initialiseDockControls
+     */
+    _initialiseDockControls : function() {
+        // Add a removeall button
+        // Must set the image src seperatly of we get an error with XML strict headers
+
+        var removeall = Y.Node.create(&#x27;&lt;img alt=&quot;&#x27;+M.util.get_string(&#x27;undockall&#x27;, &#x27;block&#x27;)+&#x27;&quot; tabindex=&quot;0&quot; /&gt;&#x27;);
+        removeall.setAttribute(&#x27;src&#x27;,this.get(&#x27;undockAllIconUrl&#x27;));
+        removeall.on(&#x27;removeall|click&#x27;, this.removeAll, this);
+        removeall.on(&#x27;dock:actionkey&#x27;, this.removeAll, this, {actions:{enter:true}});
+        this.get(&#x27;buttonsNode&#x27;).append(Y.Node.create(&#x27;&lt;div class=&quot;&#x27;+CSS.controls+&#x27;&quot;&gt;&lt;/div&gt;&#x27;).append(removeall));
+    },
+    /**
+     * Returns the dock panel. Initialising it if it hasn&#x27;t already been initialised.
+     * @method getPanel
+     * @return {DOCKPANEL}
+     */
+    getPanel : function() {
+        var panel = this.get(&#x27;panel&#x27;);
+        if (!panel) {
+            panel = new DOCKPANEL({dock:this});
+            panel.on(&#x27;panel:visiblechange&#x27;, this.resize, this);
+            Y.on(&#x27;windowresize&#x27;, this.resize, this);
+            // Initialise the dockpanel .. should only happen once
+            this.set(&#x27;panel&#x27;, panel);
+            this.fire(&#x27;dock:panelgenerated&#x27;);
+        }
+        return panel;
+    },
+    /**
+     * Resizes the dock panel if required.
+     * @method resizePanelIfRequired
+     */
+    resizePanelIfRequired : function() {
+        this.resize();
+        var panel = this.get(&#x27;panel&#x27;);
+        if (panel) {
+            panel.correctWidth();
+        }
+    },
+    /**
+     * Handles a dock event sending it to the right place.
+     *
+     * @method handleEvent
+     * @param {EventFacade} e
+     * @param {Object} options
+     * @return {Boolean}
+     */
+    handleEvent : function(e, options) {
+        var item = this.getActiveItem(),
+            target,
+            targetid,
+            regex = /^dock_item_(\d+)_title$/,
+            self = this;
+        if (options.cssselector === &#x27;body&#x27;) {
+            if (!this.get(&#x27;dockNode&#x27;).contains(e.target)) {
+                if (item) {
+                    item.hide();
+                }
+            }
+        } else {
+            if (e.target.test(options.cssselector)) {
+                target = e.target;
+            } else {
+                target = e.target.ancestor(options.cssselector);
+            }
+            if (!target) {
+                return true;
+            }
+            if (this.preventevent !== null &amp;&amp; e.type === this.preventevent) {
+                return true;
+            }
+            if (options.preventevent) {
+                this.preventevent = options.preventevent;
+                if (options.preventdelay) {
+                    setTimeout(function(){
+                        self.preventevent = null;
+                    }, options.preventdelay * 1000);
+                }
+            }
+            if (this.delayedevent &amp;&amp; this.delayedevent.timeout) {
+                clearTimeout(this.delayedevent.timeout);
+                this.delayedevent.event.detach();
+                this.delayedevent = null;
+            }
+            if (options.delay &gt; 0) {
+                return this.delayEvent(e, options, target);
+            }
+            targetid = target.get(&#x27;id&#x27;);
+            if (targetid.match(regex)) {
+                item = this.dockeditems[targetid.replace(regex, &#x27;$1&#x27;)];
+                if (item.active) {
+                    item.hide();
+                } else {
+                    item.show();
+                }
+            } else if (item) {
+                item.hide();
+            }
+        }
+        return true;
+    },
+    /**
+     * Delays an event.
+     *
+     * @method delayEvent
+     * @param {EventFacade} event
+     * @param {Object} options
+     * @param {Node} target
+     * @return {Boolean}
+     */
+    delayEvent : function(event, options, target) {
+        var self = this;
+        self.delayedevent = (function(){
+            return {
+                target : target,
+                event : BODY.on(&#x27;mousemove&#x27;, function(e){
+                    self.delayedevent.target = e.target;
+                }),
+                timeout : null
+            };
+        })(self);
+        self.delayedevent.timeout = setTimeout(function(){
+            self.delayedevent.timeout = null;
+            self.delayedevent.event.detach();
+            if (options.iscontained === self.get(&#x27;dockNode&#x27;).contains(self.delayedevent.target)) {
+                self.handleEvent(event, {cssselector:options.cssselector, delay:0, iscontained:options.iscontained});
+            }
+        }, options.delay*1000);
+        return true;
+    },
+    /**
+     * Resizes block spaces.
+     * @method resizeBlockSpace
+     */
+    resizeBlockSpace : function() {
+        if (Y.all(SELECTOR.dockonload).size() &gt; 0) {
+            // Do not resize during initial load
+            return;
+        }
+        var blockregions = [],
+            populatedblockregions = 0,
+            allnewregions = true,
+            showregions = false,
+            i;
+        // First look for understood regions.
+        Y.all(SELECTOR.blockregion).each(function(region){
+            var regionname = region.getData(&#x27;blockregion&#x27;);
+            if (region.all(&#x27;.block&#x27;).size() &gt; 0) {
+                populatedblockregions++;
+                BODY.addClass(&#x27;used-region-&#x27;+regionname);
+                BODY.removeClass(&#x27;empty-region-&#x27;+regionname);
+                BODY.removeClass(&#x27;docked-region-&#x27;+regionname);
+            } else {
+                BODY.addClass(&#x27;empty-region-&#x27;+regionname);
+                BODY.addClass(&#x27;docked-region-&#x27;+regionname);
+                BODY.removeClass(&#x27;used-region-&#x27;+regionname);
+            }
+        });
+        // Next check for legacy regions.
+        Y.all(&#x27;.block-region&#x27;).each(function(region){
+            if (region.test(SELECTOR.blockregion)) {
+                // This is a new region, we&#x27;ve already processed it.
+                return;
+            }
+            var hasblocks = (region.all(&#x27;.block&#x27;).size() &gt; 0);
+            if (hasblocks) {
+                populatedblockregions++;
+            }
+            allnewregions = false;
+            blockregions[region.get(&#x27;id&#x27;)] = {
+                hasblocks : hasblocks,
+                bodyclass : region.get(&#x27;id&#x27;).replace(/^region\-/, &#x27;side-&#x27;)+&#x27;-only&#x27;
+            };
+        });
+        if (BODY.hasClass(&#x27;blocks-moving&#x27;)) {
+            // open up blocks during blocks positioning
+            showregions = true;
+        }
+        if (populatedblockregions === 0 &amp;&amp; showregions === false) {
+            BODY.addClass(CSS.contentonly);
+        } else {
+            BODY.removeClass(CSS.contentonly);
+        }
+
+        if (!allnewregions) {
+            if (populatedblockregions === 0 &amp;&amp; showregions === false) {
+                for (i in blockregions) {
+                    if (blockregions[i].bodyclass) {
+                        BODY.removeClass(blockregions[i].bodyclass);
+                    }
+                }
+            } else if (populatedblockregions === 1 &amp;&amp; showregions === false) {
+                for (i in blockregions) {
+                    if (blockregions[i].bodyclass) {
+                        if (!blockregions[i].hasblocks) {
+                            BODY.removeClass(blockregions[i].bodyclass);
+                        } else {
+                            BODY.addClass(blockregions[i].bodyclass);
+                        }
+                    }
+                }
+            } else {
+                for (i in blockregions) {
+                    if (blockregions[i].bodyclass) {
+                        BODY.removeClass(blockregions[i].bodyclass);
+                    }
+                }
+            }
+        }
+    },
+    /**
+     * Adds an item to the dock.
+     * @method add
+     * @param {DOCKEDITEM} item
+     */
+    add : function(item) {
+        // Set the dockitem id to the total count and then increment it.
+        item.set(&#x27;id&#x27;, this.totalcount);
+        Y.log(&#x27;Adding block &#x27;+item._getLogDescription()+&#x27; to the dock.&#x27;, &#x27;debug&#x27;, LOGNS);
+        this.count++;
+        this.totalcount++;
+        this.dockeditems[item.get(&#x27;id&#x27;)] = item;
+        this.dockeditems[item.get(&#x27;id&#x27;)].draw();
+        this.fire(&#x27;dock:itemadded&#x27;, item);
+        this.fire(&#x27;dock:itemschanged&#x27;, item);
+    },
+    /**
+     * Appends an item to the dock (putting it in the item container.
+     * @method append
+     * @param {Node} docknode
+     */
+    append : function(docknode) {
+        this.get(&#x27;itemContainerNode&#x27;).append(docknode);
+    },
+    /**
+     * Handles events that require a docked block to be returned to the page./
+     * @method handleReturnToBlock
+     * @param {EventFacade} e
+     */
+    handleReturnToBlock : function(e) {
+        e.halt();
+        this.remove(this.getActiveItem().get(&#x27;id&#x27;));
+    },
+    /**
+     * Removes a docked item from the dock.
+     * @method remove
+     * @param {Number} id The docked item id.
+     * @return {Boolean}
+     */
+    remove : function(id) {
+        if (!this.dockeditems[id]) {
+            return false;
+        }
+        Y.log(&#x27;Removing block &#x27;+this.dockeditems[id]._getLogDescription()+&#x27; from the dock.&#x27;, &#x27;debug&#x27;, LOGNS);
+        this.dockeditems[id].remove();
+        delete this.dockeditems[id];
+        this.count--;
+        this.fire(&#x27;dock:itemremoved&#x27;, id);
+        this.fire(&#x27;dock:itemschanged&#x27;, id);
+        return true;
+    },
+    /**
+     * Ensures the the first item in the dock has the correct class.
+     * @method resetFirstItem
+     */
+    resetFirstItem : function() {
+        this.get(&#x27;dockNode&#x27;).all(&#x27;.&#x27;+CSS.dockeditem+&#x27;.firstdockitem&#x27;).removeClass(&#x27;firstdockitem&#x27;);
+        if (this.get(&#x27;dockNode&#x27;).one(&#x27;.&#x27;+CSS.dockeditem)) {
+            this.get(&#x27;dockNode&#x27;).one(&#x27;.&#x27;+CSS.dockeditem).addClass(&#x27;firstdockitem&#x27;);
+        }
+    },
+    /**
+     * Removes all docked blocks returning them to the page.
+     * @method removeAll
+     * @return {Boolean}
+     */
+    removeAll : function() {
+        Y.log(&#x27;Undocking all &#x27;+this.dockeditems.length+&#x27; blocks&#x27;, &#x27;debug&#x27;, LOGNS);
+        var i;
+        for (i in this.dockeditems) {
+            if (Y.Lang.isNumber(i) || Y.Lang.isString(i)) {
+                this.remove(i);
+            }
+        }
+        return true;
+    },
+    /**
+     * Hides the active item.
+     * @method hideActive
+     */
+    hideActive : function() {
+        var item = this.getActiveItem();
+        if (item) {
+            item.hide();
+        }
+    },
+    /**
+     * Checks wether the dock should be shown or hidden
+     * @method checkDockVisibility
+     */
+    checkDockVisibility : function() {
+        var bodyclass = CSS.body+&#x27;_&#x27;+this.get(&#x27;position&#x27;)+&#x27;_&#x27;+this.get(&#x27;orientation&#x27;);
+        if (!this.count) {
+            this.get(&#x27;dockNode&#x27;).addClass(&#x27;nothingdocked&#x27;);
+            BODY.removeClass(CSS.body).removeClass();
+            this.fire(&#x27;dock:hidden&#x27;);
+        } else {
+            this.fire(&#x27;dock:beforeshow&#x27;);
+            this.get(&#x27;dockNode&#x27;).removeClass(&#x27;nothingdocked&#x27;);
+            BODY.addClass(CSS.body).addClass(bodyclass);
+            this.fire(&#x27;dock:shown&#x27;);
+        }
+    },
+    /**
+     * This function checks the size and position of the panel and moves/resizes if
+     * required to keep it within the bounds of the window.
+     * @method resize
+     * @return {Boolean}
+     */
+    resize : function() {
+        var panel = this.getPanel(),
+            item = this.getActiveItem(),
+            buffer,
+            screenh,
+            docky,
+            titletop,
+            containery,
+            containerheight,
+            scrolltop,
+            panelheight,
+            dockx,
+            titleleft;
+        if (!panel.get(&#x27;visible&#x27;) || !item) {
+            return true;
+        }
+
+        this.fire(&#x27;dock:panelresizestart&#x27;);
+        if (this.get(&#x27;orientation&#x27;) === &#x27;vertical&#x27;) {
+            buffer = this.get(&#x27;bufferPanel&#x27;);
+            screenh = parseInt(BODY.get(&#x27;winHeight&#x27;), 10)-(buffer*2);
+            docky = this.get(&#x27;dockNode&#x27;).getY();
+            titletop = item.get(&#x27;dockTitleNode&#x27;).getY()-docky-buffer;
+            containery = this.get(&#x27;itemContainerNode&#x27;).getY();
+            containerheight = containery-docky+this.get(&#x27;buttonsNode&#x27;).get(&#x27;offsetHeight&#x27;);
+            scrolltop = panel.get(&#x27;bodyNode&#x27;).get(&#x27;scrollTop&#x27;);
+            panel.get(&#x27;bodyNode&#x27;).setStyle(&#x27;height&#x27;, &#x27;auto&#x27;);
+            panel.get(&#x27;node&#x27;).removeClass(&#x27;oversized_content&#x27;);
+            panelheight = panel.get(&#x27;node&#x27;).get(&#x27;offsetHeight&#x27;);
+
+            if (Y.UA.ie &gt; 0 &amp;&amp; Y.UA.ie &lt; 7) {
+                panel.setTop(item.get(&#x27;dockTitleNode&#x27;).getY());
+            } else if (panelheight &gt; screenh) {
+                panel.setTop(buffer-containerheight);
+                panel.get(&#x27;bodyNode&#x27;).setStyle(&#x27;height&#x27;, (screenh-panel.get(&#x27;headerNode&#x27;).get(&#x27;offsetHeight&#x27;))+&#x27;px&#x27;);
+                panel.get(&#x27;node&#x27;).addClass(&#x27;oversized_content&#x27;);
+            } else if (panelheight &gt; (screenh-(titletop-buffer))) {
+                panel.setTop(titletop-containerheight-(panelheight - (screenh-titletop))+buffer);
+            } else {
+                panel.setTop(titletop-containerheight+buffer);
+            }
+
+            if (scrolltop) {
+                panel.get(&#x27;bodyNode&#x27;).set(&#x27;scrollTop&#x27;, scrolltop);
+            }
+        }
+
+        if (this.get(&#x27;position&#x27;) === &#x27;right&#x27;) {
+            panel.get(&#x27;node&#x27;).setStyle(&#x27;left&#x27;, -panel.get(&#x27;offsetWidth&#x27;)+&#x27;px&#x27;);
+
+        } else if (this.get(&#x27;position&#x27;) === &#x27;top&#x27;) {
+            dockx = this.get(&#x27;dockNode&#x27;).getX();
+            titleleft = item.get(&#x27;dockTitleNode&#x27;).getX()-dockx;
+            panel.get(&#x27;node&#x27;).setStyle(&#x27;left&#x27;, titleleft+&#x27;px&#x27;);
+        }
+
+        this.fire(&#x27;dock:resizepanelcomplete&#x27;);
+        return true;
+    },
+    /**
+     * Returns the currently active dock item or false
+     * @method getActiveItem
+     * @return {DOCKEDITEM}
+     */
+    getActiveItem : function() {
+        var i;
+        for (i in this.dockeditems) {
+            if (this.dockeditems[i].active) {
+                return this.dockeditems[i];
+            }
+        }
+        return false;
+    },
+    /**
+     * Adds an item to the holding area.
+     * @method addToHoldingArea
+     * @param {Node} node
+     */
+    addToHoldingArea : function(node) {
+        this.holdingareanode.append(node);
+    }
+};
+
+Y.extend(DOCK, Y.Base, DOCK.prototype, {
+    NAME : &#x27;moodle-core-dock&#x27;,
+    ATTRS : {
+        /**
+         * The dock itself. #dock.
+         * @attribute dockNode
+         * @type Node
+         * @writeOnce
+         */
+        dockNode : {
+            writeOnce : true
+        },
+        /**
+         * The docks panel.
+         * @attribute panel
+         * @type DOCKPANEL
+         * @writeOnce
+         */
+        panel : {
+            writeOnce : true
+        },
+        /**
+         * A container within the dock used for buttons.
+         * @attribute buttonsNode
+         * @type Node
+         * @writeOnce
+         */
+        buttonsNode : {
+            writeOnce : true
+        },
+        /**
+         * A container within the dock used for docked blocks.
+         * @attribute itemContainerNode
+         * @type Node
+         * @writeOnce
+         */
+        itemContainerNode : {
+            writeOnce : true
+        },
+
+        /**
+         * Buffer used when containing a panel.
+         * @attribute bufferPanel
+         * @type Number
+         * @default 10
+         */
+        bufferPanel : {
+            value : 10,
+            validator : Y.Lang.isNumber
+        },
+
+        /**
+         * Position of the dock.
+         * @attribute position
+         * @type String
+         * @default left
+         */
+        position : {
+            value : &#x27;left&#x27;,
+            validator : Y.Lang.isString
+        },
+
+        /**
+         * vertical || horizontal determines if we change the title
+         * @attribute orientation
+         * @type String
+         * @default vertical
+         */
+        orientation : {
+            value : &#x27;vertical&#x27;,
+            validator : Y.Lang.isString,
+            setter : function(value) {
+                if (value.match(/^vertical$/i)) {
+                    return &#x27;vertical&#x27;;
+                }
+                return &#x27;horizontal&#x27;;
+            }
+        },
+
+        /**
+         * Space between the top of the dock and the first item.
+         * @attribute bufferBeforeFirstItem
+         * @type Number
+         * @default 10
+         */
+        bufferBeforeFirstItem : {
+            value : 10,
+            validator : Y.Lang.isNumber
+        },
+
+        /**
+         * Icon URL for the icon to undock all blocks
+         * @attribute undockAllIconUrl
+         * @type String
+         * @default t/dock_to_block
+         */
+        undockAllIconUrl : {
+            value : M.util.image_url(&#x27;t/dock_to_block&#x27;, &#x27;moodle&#x27;),
+            validator : Y.Lang.isString
+        }
+    }
+});
+Y.augment(DOCK, Y.EventTarget);
+
+    </pre>
+</div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="../assets/vendor/prettify/prettify-min.js"></script>
+<script>prettyPrint();</script>
+<script src="../assets/js/yui-prettify.js"></script>
+<script src="../assets/../api.js"></script>
+<script src="../assets/js/api-filter.js"></script>
+<script src="../assets/js/api-list.js"></script>
+<script src="../assets/js/api-search.js"></script>
+<script src="../assets/js/apidocs.js"></script>
+</body>
+</html>

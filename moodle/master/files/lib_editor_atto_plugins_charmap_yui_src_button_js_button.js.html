@@ -1,0 +1,914 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>lib/editor/atto/plugins/charmap/yui/src/button/js/button.js - Moodle</title>
+    <link rel="stylesheet" href="http://yui.yahooapis.com/3.9.1/build/cssgrids/cssgrids-min.css">
+    <link rel="stylesheet" href="../assets/vendor/prettify/prettify-min.css">
+    <link rel="stylesheet" href="../assets/css/main.css" id="site_styles">
+    <link rel="shortcut icon" type="image/png" href="../assets/favicon.png">
+    <script src="http://yui.yahooapis.com/combo?3.9.1/build/yui/yui-min.js"></script>
+</head>
+<body class="yui3-skin-sam">
+
+<div id="doc">
+    <div id="hd" class="yui3-g header">
+        <div class="yui3-u-3-4">
+            
+                <h1><img src="../assets/css/logo.png" title="Moodle"></h1>
+            
+        </div>
+        <div class="yui3-u-1-4 version">
+            <em>API Docs for: </em>
+        </div>
+    </div>
+    <div id="bd" class="yui3-g">
+
+        <div class="yui3-u-1-4">
+            <div id="docs-sidebar" class="sidebar apidocs">
+                <div id="api-list">
+    <h2 class="off-left">APIs</h2>
+    <div id="api-tabview" class="tabview">
+        <ul class="tabs">
+            <li><a href="#api-classes">Classes</a></li>
+            <li><a href="#api-modules">Modules</a></li>
+        </ul>
+
+        <div id="api-tabview-filter">
+            <input type="search" id="api-filter" placeholder="Type to filter APIs">
+        </div>
+
+        <div id="api-tabview-panel">
+            <ul id="api-classes" class="apis classes">
+            
+                <li><a href="../classes/Bootstrap.Collapse.html">Bootstrap.Collapse</a></li>
+            
+                <li><a href="../classes/Bootstrap.Dropdown.html">Bootstrap.Dropdown</a></li>
+            
+                <li><a href="../classes/M.assignfeedback_editpdf.annotation.html">M.assignfeedback_editpdf.annotation</a></li>
+            
+                <li><a href="../classes/M.assignfeedback_editpdf.annotationhighlight.html">M.assignfeedback_editpdf.annotationhighlight</a></li>
+            
+                <li><a href="../classes/M.assignfeedback_editpdf.annotationline.html">M.assignfeedback_editpdf.annotationline</a></li>
+            
+                <li><a href="../classes/M.assignfeedback_editpdf.annotationoval.html">M.assignfeedback_editpdf.annotationoval</a></li>
+            
+                <li><a href="../classes/M.assignfeedback_editpdf.annotationpen.html">M.assignfeedback_editpdf.annotationpen</a></li>
+            
+                <li><a href="../classes/M.assignfeedback_editpdf.annotationrectangle.html">M.assignfeedback_editpdf.annotationrectangle</a></li>
+            
+                <li><a href="../classes/M.assignfeedback_editpdf.annotationstamp.html">M.assignfeedback_editpdf.annotationstamp</a></li>
+            
+                <li><a href="../classes/M.assignfeedback_editpdf.colourpicker.html">M.assignfeedback_editpdf.colourpicker</a></li>
+            
+                <li><a href="../classes/M.assignfeedback_editpdf.comment.html">M.assignfeedback_editpdf.comment</a></li>
+            
+                <li><a href="../classes/M.assignfeedback_editpdf.commentmenu.html">M.assignfeedback_editpdf.commentmenu</a></li>
+            
+                <li><a href="../classes/M.assignfeedback_editpdf.commentsearch.html">M.assignfeedback_editpdf.commentsearch</a></li>
+            
+                <li><a href="../classes/M.assignfeedback_editpdf.drawable.html">M.assignfeedback_editpdf.drawable</a></li>
+            
+                <li><a href="../classes/M.assignfeedback_editpdf.dropdown.html">M.assignfeedback_editpdf.dropdown</a></li>
+            
+                <li><a href="../classes/M.assignfeedback_editpdf.edit.html">M.assignfeedback_editpdf.edit</a></li>
+            
+                <li><a href="../classes/M.assignfeedback_editpdf.editor.html">M.assignfeedback_editpdf.editor</a></li>
+            
+                <li><a href="../classes/M.assignfeedback_editpdf.point.html">M.assignfeedback_editpdf.point</a></li>
+            
+                <li><a href="../classes/M.assignfeedback_editpdf.quickcomment.html">M.assignfeedback_editpdf.quickcomment</a></li>
+            
+                <li><a href="../classes/M.assignfeedback_editpdf.quickcommentlist.html">M.assignfeedback_editpdf.quickcommentlist</a></li>
+            
+                <li><a href="../classes/M.assignfeedback_editpdf.rect.html">M.assignfeedback_editpdf.rect</a></li>
+            
+                <li><a href="../classes/M.assignfeedback_editpdf.stamppicker.html">M.assignfeedback_editpdf.stamppicker</a></li>
+            
+                <li><a href="../classes/M.atto_accessibilitychecker.Button.html">M.atto_accessibilitychecker.Button</a></li>
+            
+                <li><a href="../classes/M.atto_accessibilityhelper.Button.html">M.atto_accessibilityhelper.Button</a></li>
+            
+                <li><a href="../classes/M.atto_align.button.html">M.atto_align.button</a></li>
+            
+                <li><a href="../classes/M.atto_backcolor.button.html">M.atto_backcolor.button</a></li>
+            
+                <li><a href="../classes/M.atto_bold.button.html">M.atto_bold.button</a></li>
+            
+                <li><a href="../classes/M.atto_charmap.button.html">M.atto_charmap.button</a></li>
+            
+                <li><a href="../classes/M.atto_clear.button.html">M.atto_clear.button</a></li>
+            
+                <li><a href="../classes/M.atto_collapse.button.html">M.atto_collapse.button</a></li>
+            
+                <li><a href="../classes/M.atto_emoticon.button.html">M.atto_emoticon.button</a></li>
+            
+                <li><a href="../classes/M.atto_equation.Button.html">M.atto_equation.Button</a></li>
+            
+                <li><a href="../classes/M.atto_fontcolor.button.html">M.atto_fontcolor.button</a></li>
+            
+                <li><a href="../classes/M.atto_html.button.html">M.atto_html.button</a></li>
+            
+                <li><a href="../classes/M.atto_image.Button.html">M.atto_image.Button</a></li>
+            
+                <li><a href="../classes/M.atto_indent.button.html">M.atto_indent.button</a></li>
+            
+                <li><a href="../classes/M.atto_italic.button.html">M.atto_italic.button</a></li>
+            
+                <li><a href="../classes/M.atto_link.button.html">M.atto_link.button</a></li>
+            
+                <li><a href="../classes/M.atto_managefiles.usedfiles.html">M.atto_managefiles.usedfiles</a></li>
+            
+                <li><a href="../classes/M.atto_media.Button.html">M.atto_media.Button</a></li>
+            
+                <li><a href="../classes/M.atto_noautolink.button.html">M.atto_noautolink.button</a></li>
+            
+                <li><a href="../classes/M.atto_orderedlist.button.html">M.atto_orderedlist.button</a></li>
+            
+                <li><a href="../classes/M.atto_rtl.button.html">M.atto_rtl.button</a></li>
+            
+                <li><a href="../classes/M.atto_strike.button.html">M.atto_strike.button</a></li>
+            
+                <li><a href="../classes/M.atto_subscript.button.html">M.atto_subscript.button</a></li>
+            
+                <li><a href="../classes/M.atto_superscript.button.html">M.atto_superscript.button</a></li>
+            
+                <li><a href="../classes/M.atto_table.Button.html">M.atto_table.Button</a></li>
+            
+                <li><a href="../classes/M.atto_title.button.html">M.atto_title.button</a></li>
+            
+                <li><a href="../classes/M.atto_underline.button.html">M.atto_underline.button</a></li>
+            
+                <li><a href="../classes/M.atto_undo.button.html">M.atto_undo.button</a></li>
+            
+                <li><a href="../classes/M.atto_unlink.button.html">M.atto_unlink.button</a></li>
+            
+                <li><a href="../classes/M.atto_unorderedlist.button.html">M.atto_unorderedlist.button</a></li>
+            
+                <li><a href="../classes/M.block_navigation.html">M.block_navigation</a></li>
+            
+                <li><a href="../classes/M.block_navigation.ActionKey.html">M.block_navigation.ActionKey</a></li>
+            
+                <li><a href="../classes/M.block_navigation.Branch.html">M.block_navigation.Branch</a></li>
+            
+                <li><a href="../classes/M.block_navigation.Tree.html">M.block_navigation.Tree</a></li>
+            
+                <li><a href="../classes/M.core.actionmenu.ActionMenu.html">M.core.actionmenu.ActionMenu</a></li>
+            
+                <li><a href="../classes/M.core.ajaxException.html">M.core.ajaxException</a></li>
+            
+                <li><a href="../classes/M.core.alert.html">M.core.alert</a></li>
+            
+                <li><a href="../classes/M.core.blockdraganddrop.BlockRegion.html">M.core.blockdraganddrop.BlockRegion</a></li>
+            
+                <li><a href="../classes/M.core.blockdraganddrop.LegacyManager.html">M.core.blockdraganddrop.LegacyManager</a></li>
+            
+                <li><a href="../classes/M.core.blockdraganddrop.Manager.html">M.core.blockdraganddrop.Manager</a></li>
+            
+                <li><a href="../classes/M.core.chooserdialogue.html">M.core.chooserdialogue</a></li>
+            
+                <li><a href="../classes/M.core.confirm.html">M.core.confirm</a></li>
+            
+                <li><a href="../classes/M.core.dialogue.html">M.core.dialogue</a></li>
+            
+                <li><a href="../classes/M.core.dock.ActionKey.html">M.core.dock.ActionKey</a></li>
+            
+                <li><a href="../classes/M.core.dock.Block.html">M.core.dock.Block</a></li>
+            
+                <li><a href="../classes/M.core.dock.Dock.html">M.core.dock.Dock</a></li>
+            
+                <li><a href="../classes/M.core.dock.DockedItem.html">M.core.dock.DockedItem</a></li>
+            
+                <li><a href="../classes/M.core.dock.Loader.html">M.core.dock.Loader</a></li>
+            
+                <li><a href="../classes/M.core.dock.Panel.html">M.core.dock.Panel</a></li>
+            
+                <li><a href="../classes/M.core.dock.TabHeightManager.html">M.core.dock.TabHeightManager</a></li>
+            
+                <li><a href="../classes/M.core.dragdrop.html">M.core.dragdrop</a></li>
+            
+                <li><a href="../classes/M.core.exception.html">M.core.exception</a></li>
+            
+                <li><a href="../classes/M.core.formchangechecker.html">M.core.formchangechecker</a></li>
+            
+                <li><a href="../classes/M.core.LockScroll.html">M.core.LockScroll</a></li>
+            
+                <li><a href="../classes/M.core.notification.html">M.core.notification</a></li>
+            
+                <li><a href="../classes/M.core.notification.info.html">M.core.notification.info</a></li>
+            
+                <li><a href="../classes/M.core.popuphelp.html">M.core.popuphelp</a></li>
+            
+                <li><a href="../classes/M.core.tooltip.html">M.core.tooltip</a></li>
+            
+                <li><a href="../classes/M.core.WidgetFocusAfterHide.html">M.core.WidgetFocusAfterHide</a></li>
+            
+                <li><a href="../classes/M.core_backup.backupselectall.html">M.core_backup.backupselectall</a></li>
+            
+                <li><a href="../classes/M.core_backup.confirmcancel.html">M.core_backup.confirmcancel</a></li>
+            
+                <li><a href="../classes/M.course.coursebase.html">M.course.coursebase</a></li>
+            
+                <li><a href="../classes/M.course.dragdrop.resource.html">M.course.dragdrop.resource</a></li>
+            
+                <li><a href="../classes/M.course.dragdrop.section.html">M.course.dragdrop.section</a></li>
+            
+                <li><a href="../classes/M.course.management.Category.html">M.course.management.Category</a></li>
+            
+                <li><a href="../classes/M.course.management.Console.html">M.course.management.Console</a></li>
+            
+                <li><a href="../classes/M.course.management.Course.html">M.course.management.Course</a></li>
+            
+                <li><a href="../classes/M.course.management.DragDrop.html">M.course.management.DragDrop</a></li>
+            
+                <li><a href="../classes/M.course.management.Item.html">M.course.management.Item</a></li>
+            
+                <li><a href="../classes/M.course.modchooser.html">M.course.modchooser</a></li>
+            
+                <li><a href="../classes/M.course.toolboxes.resources.html">M.course.toolboxes.resources</a></li>
+            
+                <li><a href="../classes/M.course.toolboxes.section.html">M.course.toolboxes.section</a></li>
+            
+                <li><a href="../classes/M.course.toolboxes.toolbox.html">M.course.toolboxes.toolbox</a></li>
+            
+                <li><a href="../classes/M.editor_atto.Editor.html">M.editor_atto.Editor</a></li>
+            
+                <li><a href="../classes/M.editor_atto.EditorClean.html">M.editor_atto.EditorClean</a></li>
+            
+                <li><a href="../classes/M.editor_atto.EditorFilepicker.html">M.editor_atto.EditorFilepicker</a></li>
+            
+                <li><a href="../classes/M.editor_atto.EditorPlugin.html">M.editor_atto.EditorPlugin</a></li>
+            
+                <li><a href="../classes/M.editor_atto.EditorPluginButtons.html">M.editor_atto.EditorPluginButtons</a></li>
+            
+                <li><a href="../classes/M.editor_atto.EditorPluginDialogue.html">M.editor_atto.EditorPluginDialogue</a></li>
+            
+                <li><a href="../classes/M.editor_atto.EditorSelection.html">M.editor_atto.EditorSelection</a></li>
+            
+                <li><a href="../classes/M.editor_atto.EditorStyling.html">M.editor_atto.EditorStyling</a></li>
+            
+                <li><a href="../classes/M.editor_atto.EditorTextArea.html">M.editor_atto.EditorTextArea</a></li>
+            
+                <li><a href="../classes/M.editor_atto.EditorToolbar.html">M.editor_atto.EditorToolbar</a></li>
+            
+                <li><a href="../classes/M.editor_atto.EditorToolbarNav.html">M.editor_atto.EditorToolbarNav</a></li>
+            
+                <li><a href="../classes/M.editor_atto.Menu.html">M.editor_atto.Menu</a></li>
+            
+                <li><a href="../classes/M.form.shortforms.html">M.form.shortforms</a></li>
+            
+                <li><a href="../classes/M.form.showadvanced.html">M.form.showadvanced</a></li>
+            
+                <li><a href="../classes/M.mod_quiz.autosave.html">M.mod_quiz.autosave</a></li>
+            
+                <li><a href="../classes/M.tool_capability.Search.html">M.tool_capability.Search</a></li>
+            
+                <li><a href="../classes/Moodle.core_course.util.html">Moodle.core_course.util</a></li>
+            
+                <li><a href="../classes/Moodle.core_course.util.cm.html">Moodle.core_course.util.cm</a></li>
+            
+                <li><a href="../classes/Moodle.core_course.util.section.html">Moodle.core_course.util.section</a></li>
+            
+                <li><a href="../classes/Moodle.theme_bootstrapbase.bootstrap.html">Moodle.theme_bootstrapbase.bootstrap</a></li>
+            
+                <li><a href="../classes/Y.BootstrapEngine.html">Y.BootstrapEngine</a></li>
+            
+                <li><a href="../classes/Y.Moodle.course.categoryexpander.html">Y.Moodle.course.categoryexpander</a></li>
+            
+            </ul>
+
+            <ul id="api-modules" class="apis modules">
+            
+                <li><a href="../modules/buttons.html">buttons</a></li>
+            
+                <li><a href="../modules/clean.html">clean</a></li>
+            
+                <li><a href="../modules/dialogue.html">dialogue</a></li>
+            
+                <li><a href="../modules/filepicker.html">filepicker</a></li>
+            
+                <li><a href="../modules/gallery-bootstrap-collapse.html">gallery-bootstrap-collapse</a></li>
+            
+                <li><a href="../modules/gallery-bootstrap-dropdown.html">gallery-bootstrap-dropdown</a></li>
+            
+                <li><a href="../modules/gallery-bootstrap-engine.html">gallery-bootstrap-engine</a></li>
+            
+                <li><a href="../modules/menu-base.html">menu-base</a></li>
+            
+                <li><a href="../modules/moodle-assignfeedback_editpdf-editor.html">moodle-assignfeedback_editpdf-editor</a></li>
+            
+                <li><a href="../modules/moodle-atto-managefiles-button.html">moodle-atto-managefiles-button</a></li>
+            
+                <li><a href="../modules/moodle-atto_accessibilitychecker-button.html">moodle-atto_accessibilitychecker-button</a></li>
+            
+                <li><a href="../modules/moodle-atto_accessibilityhelper-button.html">moodle-atto_accessibilityhelper-button</a></li>
+            
+                <li><a href="../modules/moodle-atto_align-button.html">moodle-atto_align-button</a></li>
+            
+                <li><a href="../modules/moodle-atto_backcolor-button.html">moodle-atto_backcolor-button</a></li>
+            
+                <li><a href="../modules/moodle-atto_bold-button.html">moodle-atto_bold-button</a></li>
+            
+                <li><a href="../modules/moodle-atto_charmap-button.html">moodle-atto_charmap-button</a></li>
+            
+                <li><a href="../modules/moodle-atto_clear-button.html">moodle-atto_clear-button</a></li>
+            
+                <li><a href="../modules/moodle-atto_collapse-button.html">moodle-atto_collapse-button</a></li>
+            
+                <li><a href="../modules/moodle-atto_emoticon-button.html">moodle-atto_emoticon-button</a></li>
+            
+                <li><a href="../modules/moodle-atto_html-button.html">moodle-atto_html-button</a></li>
+            
+                <li><a href="../modules/moodle-atto_image_alignment-button.html">moodle-atto_image_alignment-button</a></li>
+            
+                <li><a href="../modules/moodle-atto_indent-button.html">moodle-atto_indent-button</a></li>
+            
+                <li><a href="../modules/moodle-atto_italic-button.html">moodle-atto_italic-button</a></li>
+            
+                <li><a href="../modules/moodle-atto_link-button.html">moodle-atto_link-button</a></li>
+            
+                <li><a href="../modules/moodle-atto_managefiles-usedfiles.html">moodle-atto_managefiles-usedfiles</a></li>
+            
+                <li><a href="../modules/moodle-atto_media-button.html">moodle-atto_media-button</a></li>
+            
+                <li><a href="../modules/moodle-atto_noautolink-button.html">moodle-atto_noautolink-button</a></li>
+            
+                <li><a href="../modules/moodle-atto_orderedlist-button.html">moodle-atto_orderedlist-button</a></li>
+            
+                <li><a href="../modules/moodle-atto_rtl-button.html">moodle-atto_rtl-button</a></li>
+            
+                <li><a href="../modules/moodle-atto_strike-button.html">moodle-atto_strike-button</a></li>
+            
+                <li><a href="../modules/moodle-atto_subscript-button.html">moodle-atto_subscript-button</a></li>
+            
+                <li><a href="../modules/moodle-atto_superscript-button.html">moodle-atto_superscript-button</a></li>
+            
+                <li><a href="../modules/moodle-atto_table-button.html">moodle-atto_table-button</a></li>
+            
+                <li><a href="../modules/moodle-atto_title-button.html">moodle-atto_title-button</a></li>
+            
+                <li><a href="../modules/moodle-atto_underline-button.html">moodle-atto_underline-button</a></li>
+            
+                <li><a href="../modules/moodle-atto_undo-button.html">moodle-atto_undo-button</a></li>
+            
+                <li><a href="../modules/moodle-atto_unlink-button.html">moodle-atto_unlink-button</a></li>
+            
+                <li><a href="../modules/moodle-atto_unorderedlist-button.html">moodle-atto_unorderedlist-button</a></li>
+            
+                <li><a href="../modules/moodle-backup-backupselectall.html">moodle-backup-backupselectall</a></li>
+            
+                <li><a href="../modules/moodle-backup-confirmcancel.html">moodle-backup-confirmcancel</a></li>
+            
+                <li><a href="../modules/moodle-block_navigation-navigation.html">moodle-block_navigation-navigation</a></li>
+            
+                <li><a href="../modules/moodle-core-actionmenu.html">moodle-core-actionmenu</a></li>
+            
+                <li><a href="../modules/moodle-core-blockdraganddrop.html">moodle-core-blockdraganddrop</a></li>
+            
+                <li><a href="../modules/moodle-core-chooserdialogue.html">moodle-core-chooserdialogue</a></li>
+            
+                <li><a href="../modules/moodle-core-dock.html">moodle-core-dock</a></li>
+            
+                <li><a href="../modules/moodle-core-dragdrop.html">moodle-core-dragdrop</a></li>
+            
+                <li><a href="../modules/moodle-core-formchangechecker.html">moodle-core-formchangechecker</a></li>
+            
+                <li><a href="../modules/moodle-core-lockscroll.html">moodle-core-lockscroll</a></li>
+            
+                <li><a href="../modules/moodle-core-maintenancemodetimer.html">moodle-core-maintenancemodetimer</a></li>
+            
+                <li><a href="../modules/moodle-core-notification.html">moodle-core-notification</a></li>
+            
+                <li><a href="../modules/moodle-core-notification-ajaxexception.html">moodle-core-notification-ajaxexception</a></li>
+            
+                <li><a href="../modules/moodle-core-notification-alert.html">moodle-core-notification-alert</a></li>
+            
+                <li><a href="../modules/moodle-core-notification-confirm.html">moodle-core-notification-confirm</a></li>
+            
+                <li><a href="../modules/moodle-core-notification-dialogue.html">moodle-core-notification-dialogue</a></li>
+            
+                <li><a href="../modules/moodle-core-notification-exception.html">moodle-core-notification-exception</a></li>
+            
+                <li><a href="../modules/moodle-core-popuphelp.html">moodle-core-popuphelp</a></li>
+            
+                <li><a href="../modules/moodle-core-tooltip.html">moodle-core-tooltip</a></li>
+            
+                <li><a href="../modules/moodle-core-widget-focusafterhide.html">moodle-core-widget-focusafterhide</a></li>
+            
+                <li><a href="../modules/moodle-course-categoryexpander.html">moodle-course-categoryexpander</a></li>
+            
+                <li><a href="../modules/moodle-course-coursebase.html">moodle-course-coursebase</a></li>
+            
+                <li><a href="../modules/moodle-course-dragdrop.html">moodle-course-dragdrop</a></li>
+            
+                <li><a href="../modules/moodle-course-management.html">moodle-course-management</a></li>
+            
+                <li><a href="../modules/moodle-course-modchooser.html">moodle-course-modchooser</a></li>
+            
+                <li><a href="../modules/moodle-course-toolboxes.html">moodle-course-toolboxes</a></li>
+            
+                <li><a href="../modules/moodle-course-util.html">moodle-course-util</a></li>
+            
+                <li><a href="../modules/moodle-course-util-cm.html">moodle-course-util-cm</a></li>
+            
+                <li><a href="../modules/moodle-course-util-section.html">moodle-course-util-section</a></li>
+            
+                <li><a href="../modules/moodle-editor_atto-editor.html">moodle-editor_atto-editor</a></li>
+            
+                <li><a href="../modules/moodle-editor_atto-menu.html">moodle-editor_atto-menu</a></li>
+            
+                <li><a href="../modules/moodle-editor_atto-plugin.html">moodle-editor_atto-plugin</a></li>
+            
+                <li><a href="../modules/moodle-form-shortforms.html">moodle-form-shortforms</a></li>
+            
+                <li><a href="../modules/moodle-form-showadvanced.html">moodle-form-showadvanced</a></li>
+            
+                <li><a href="../modules/moodle-mod_quiz-autosave.html">moodle-mod_quiz-autosave</a></li>
+            
+                <li><a href="../modules/moodle-question-preview.html">moodle-question-preview</a></li>
+            
+                <li><a href="../modules/moodle-tool_capability-search.html">moodle-tool_capability-search</a></li>
+            
+                <li><a href="../modules/plugin-base.html">plugin-base</a></li>
+            
+                <li><a href="../modules/styling.html">styling</a></li>
+            
+                <li><a href="../modules/textarea.html">textarea</a></li>
+            
+                <li><a href="../modules/theme_bootstrapbase-bootstrap.html">theme_bootstrapbase-bootstrap</a></li>
+            
+                <li><a href="../modules/toolbar.html">toolbar</a></li>
+            
+                <li><a href="../modules/toolbarnav.html">toolbarnav</a></li>
+            
+            </ul>
+        </div>
+    </div>
+</div>
+
+            </div>
+        </div>
+        <div class="yui3-u-3-4">
+                <div id="api-options">
+        Show:
+        <label for="api-show-inherited">
+            <input type="checkbox" id="api-show-inherited" checked>
+            Inherited
+        </label>
+
+        <label for="api-show-protected">
+            <input type="checkbox" id="api-show-protected">
+            Protected
+        </label>
+
+        <label for="api-show-private">
+            <input type="checkbox" id="api-show-private">
+            Private
+        </label>
+        <label for="api-show-deprecated">
+            <input type="checkbox" id="api-show-deprecated">
+            Deprecated
+        </label>
+
+    </div>
+
+
+            <div class="apidocs">
+                <div id="docs-main">
+                    <div class="content">
+                        <h1 class="file-heading">File: lib/editor/atto/plugins/charmap/yui/src/button/js/button.js</h1>
+
+<div class="file">
+    <pre class="code prettyprint linenums">
+// This file is part of Moodle - http://moodle.org/
+//
+// Moodle is free software: you can redistribute it and/or modify
+// it under the terms of the GNU General Public License as published by
+// the Free Software Foundation, either version 3 of the License, or
+// (at your option) any later version.
+//
+// Moodle is distributed in the hope that it will be useful,
+// but WITHOUT ANY WARRANTY; without even the implied warranty of
+// MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+// GNU General Public License for more details.
+//
+// You should have received a copy of the GNU General Public License
+// along with Moodle.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+
+/*
+ * @package    atto_charmap
+ * @copyright  2014 Frédéric Massart
+ * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+ */
+
+/**
+ * Atto text editor character map plugin
+ *
+ * @module moodle-atto_charmap-button
+ */
+
+var COMPONENTNAME = &#x27;atto_charmap&#x27;,
+    CSS = {
+        BUTTON: &#x27;atto_charmap_character&#x27;,
+        CHARMAP: &#x27;atto_charmap_selector&#x27;
+    },
+    /*
+     * Map of special characters, kindly borrowed from TinyMCE.
+     *
+     * Each entries contains in order:
+     * - {String} HTML code
+     * - {String} HTML numerical code
+     * - {Boolean} Whether or not to include it in the list
+     * - {String} The language string key
+     *
+     * @property CHARMAP
+     * @type {Array}
+     */
+    CHARMAP = [
+        [&#x27;&amp;nbsp;&#x27;,    &#x27;&amp;#160;&#x27;,  true, &#x27;nobreakspace&#x27;],
+        [&#x27;&amp;amp;&#x27;,     &#x27;&amp;#38;&#x27;,   true, &#x27;ampersand&#x27;],
+        [&#x27;&amp;quot;&#x27;,    &#x27;&amp;#34;&#x27;,   true, &#x27;quotationmark&#x27;],
+        // Finance.
+        [&#x27;&amp;cent;&#x27;,    &#x27;&amp;#162;&#x27;,  true, &#x27;centsign&#x27;],
+        [&#x27;&amp;euro;&#x27;,    &#x27;&amp;#8364;&#x27;, true, &#x27;eurosign&#x27;],
+        [&#x27;&amp;pound;&#x27;,   &#x27;&amp;#163;&#x27;,  true, &#x27;poundsign&#x27;],
+        [&#x27;&amp;yen;&#x27;,     &#x27;&amp;#165;&#x27;,  true, &#x27;yensign&#x27;],
+        // Signs.
+        [&#x27;&amp;copy;&#x27;,    &#x27;&amp;#169;&#x27;,  true, &#x27;copyrightsign&#x27;],
+        [&#x27;&amp;reg;&#x27;,     &#x27;&amp;#174;&#x27;,  true, &#x27;registeredsign&#x27;],
+        [&#x27;&amp;trade;&#x27;,   &#x27;&amp;#8482;&#x27;, true, &#x27;trademarksign&#x27;],
+        [&#x27;&amp;permil;&#x27;,  &#x27;&amp;#8240;&#x27;, true, &#x27;permillesign&#x27;],
+        [&#x27;&amp;micro;&#x27;,   &#x27;&amp;#181;&#x27;,  true, &#x27;microsign&#x27;],
+        [&#x27;&amp;middot;&#x27;,  &#x27;&amp;#183;&#x27;,  true, &#x27;middledot&#x27;],
+        [&#x27;&amp;bull;&#x27;,    &#x27;&amp;#8226;&#x27;, true, &#x27;bullet&#x27;],
+        [&#x27;&amp;hellip;&#x27;,  &#x27;&amp;#8230;&#x27;, true, &#x27;threedotleader&#x27;],
+        [&#x27;&amp;prime;&#x27;,   &#x27;&amp;#8242;&#x27;, true, &#x27;minutesfeet&#x27;],
+        [&#x27;&amp;Prime;&#x27;,   &#x27;&amp;#8243;&#x27;, true, &#x27;secondsinches&#x27;],
+        [&#x27;&amp;sect;&#x27;,    &#x27;&amp;#167;&#x27;,  true, &#x27;sectionsign&#x27;],
+        [&#x27;&amp;para;&#x27;,    &#x27;&amp;#182;&#x27;,  true, &#x27;paragraphsign&#x27;],
+        [&#x27;&amp;szlig;&#x27;,   &#x27;&amp;#223;&#x27;,  true, &#x27;sharpsesszed&#x27;],
+        // Quotations.
+        [&#x27;&amp;lsaquo;&#x27;,  &#x27;&amp;#8249;&#x27;, true, &#x27;singleleftpointinganglequotationmark&#x27;],
+        [&#x27;&amp;rsaquo;&#x27;,  &#x27;&amp;#8250;&#x27;, true, &#x27;singlerightpointinganglequotationmark&#x27;],
+        [&#x27;&amp;laquo;&#x27;,   &#x27;&amp;#171;&#x27;,  true, &#x27;leftpointingguillemet&#x27;],
+        [&#x27;&amp;raquo;&#x27;,   &#x27;&amp;#187;&#x27;,  true, &#x27;rightpointingguillemet&#x27;],
+        [&#x27;&amp;lsquo;&#x27;,   &#x27;&amp;#8216;&#x27;, true, &#x27;leftsinglequotationmark&#x27;],
+        [&#x27;&amp;rsquo;&#x27;,   &#x27;&amp;#8217;&#x27;, true, &#x27;rightsinglequotationmark&#x27;],
+        [&#x27;&amp;ldquo;&#x27;,   &#x27;&amp;#8220;&#x27;, true, &#x27;leftdoublequotationmark&#x27;],
+        [&#x27;&amp;rdquo;&#x27;,   &#x27;&amp;#8221;&#x27;, true, &#x27;rightdoublequotationmark&#x27;],
+        [&#x27;&amp;sbquo;&#x27;,   &#x27;&amp;#8218;&#x27;, true, &#x27;singlelow9quotationmark&#x27;],
+        [&#x27;&amp;bdquo;&#x27;,   &#x27;&amp;#8222;&#x27;, true, &#x27;doublelow9quotationmark&#x27;],
+        [&#x27;&amp;lt;&#x27;,      &#x27;&amp;#60;&#x27;,   true, &#x27;lessthansign&#x27;],
+        [&#x27;&amp;gt;&#x27;,      &#x27;&amp;#62;&#x27;,   true, &#x27;greaterthansign&#x27;],
+        [&#x27;&amp;le;&#x27;,      &#x27;&amp;#8804;&#x27;, true, &#x27;lessthanorequalto&#x27;],
+        [&#x27;&amp;ge;&#x27;,      &#x27;&amp;#8805;&#x27;, true, &#x27;greaterthanorequalto&#x27;],
+        [&#x27;&amp;ndash;&#x27;,   &#x27;&amp;#8211;&#x27;, true, &#x27;endash&#x27;],
+        [&#x27;&amp;mdash;&#x27;,   &#x27;&amp;#8212;&#x27;, true, &#x27;emdash&#x27;],
+        [&#x27;&amp;macr;&#x27;,    &#x27;&amp;#175;&#x27;,  true, &#x27;macron&#x27;],
+        [&#x27;&amp;oline;&#x27;,   &#x27;&amp;#8254;&#x27;, true, &#x27;overline&#x27;],
+        [&#x27;&amp;curren;&#x27;,  &#x27;&amp;#164;&#x27;,  true, &#x27;currencysign&#x27;],
+        [&#x27;&amp;brvbar;&#x27;,  &#x27;&amp;#166;&#x27;,  true, &#x27;brokenbar&#x27;],
+        [&#x27;&amp;uml;&#x27;,     &#x27;&amp;#168;&#x27;,  true, &#x27;diaeresis&#x27;],
+        [&#x27;&amp;iexcl;&#x27;,   &#x27;&amp;#161;&#x27;,  true, &#x27;invertedexclamationmark&#x27;],
+        [&#x27;&amp;iquest;&#x27;,  &#x27;&amp;#191;&#x27;,  true, &#x27;turnedquestionmark&#x27;],
+        [&#x27;&amp;circ;&#x27;,    &#x27;&amp;#710;&#x27;,  true, &#x27;circumflexaccent&#x27;],
+        [&#x27;&amp;tilde;&#x27;,   &#x27;&amp;#732;&#x27;,  true, &#x27;smalltilde&#x27;],
+        [&#x27;&amp;deg;&#x27;,     &#x27;&amp;#176;&#x27;,  true, &#x27;degreesign&#x27;],
+        [&#x27;&amp;minus;&#x27;,   &#x27;&amp;#8722;&#x27;, true, &#x27;minussign&#x27;],
+        [&#x27;&amp;plusmn;&#x27;,  &#x27;&amp;#177;&#x27;,  true, &#x27;plusminussign&#x27;],
+        [&#x27;&amp;divide;&#x27;,  &#x27;&amp;#247;&#x27;,  true, &#x27;divisionsign&#x27;],
+        [&#x27;&amp;frasl;&#x27;,   &#x27;&amp;#8260;&#x27;, true, &#x27;fractionslash&#x27;],
+        [&#x27;&amp;times;&#x27;,   &#x27;&amp;#215;&#x27;,  true, &#x27;multiplicationsign&#x27;],
+        [&#x27;&amp;sup1;&#x27;,    &#x27;&amp;#185;&#x27;,  true, &#x27;superscriptone&#x27;],
+        [&#x27;&amp;sup2;&#x27;,    &#x27;&amp;#178;&#x27;,  true, &#x27;superscripttwo&#x27;],
+        [&#x27;&amp;sup3;&#x27;,    &#x27;&amp;#179;&#x27;,  true, &#x27;superscriptthree&#x27;],
+        [&#x27;&amp;frac14;&#x27;,  &#x27;&amp;#188;&#x27;,  true, &#x27;fractiononequarter&#x27;],
+        [&#x27;&amp;frac12;&#x27;,  &#x27;&amp;#189;&#x27;,  true, &#x27;fractiononehalf&#x27;],
+        [&#x27;&amp;frac34;&#x27;,  &#x27;&amp;#190;&#x27;,  true, &#x27;fractionthreequarters&#x27;],
+        // Math / logical.
+        [&#x27;&amp;fnof;&#x27;,    &#x27;&amp;#402;&#x27;,  true, &#x27;functionflorin&#x27;],
+        [&#x27;&amp;int;&#x27;,     &#x27;&amp;#8747;&#x27;, true, &#x27;integral&#x27;],
+        [&#x27;&amp;sum;&#x27;,     &#x27;&amp;#8721;&#x27;, true, &#x27;narysumation&#x27;],
+        [&#x27;&amp;infin;&#x27;,   &#x27;&amp;#8734;&#x27;, true, &#x27;infinity&#x27;],
+        [&#x27;&amp;radic;&#x27;,   &#x27;&amp;#8730;&#x27;, true, &#x27;squareroot&#x27;],
+        [&#x27;&amp;sim;&#x27;,     &#x27;&amp;#8764;&#x27;, false,&#x27;similarto&#x27;],
+        [&#x27;&amp;cong;&#x27;,    &#x27;&amp;#8773;&#x27;, false,&#x27;approximatelyequalto&#x27;],
+        [&#x27;&amp;asymp;&#x27;,   &#x27;&amp;#8776;&#x27;, true, &#x27;almostequalto&#x27;],
+        [&#x27;&amp;ne;&#x27;,      &#x27;&amp;#8800;&#x27;, true, &#x27;notequalto&#x27;],
+        [&#x27;&amp;equiv;&#x27;,   &#x27;&amp;#8801;&#x27;, true, &#x27;identicalto&#x27;],
+        [&#x27;&amp;isin;&#x27;,    &#x27;&amp;#8712;&#x27;, false,&#x27;elementof&#x27;],
+        [&#x27;&amp;notin;&#x27;,   &#x27;&amp;#8713;&#x27;, false,&#x27;notanelementof&#x27;],
+        [&#x27;&amp;ni;&#x27;,      &#x27;&amp;#8715;&#x27;, false,&#x27;containsasmember&#x27;],
+        [&#x27;&amp;prod;&#x27;,    &#x27;&amp;#8719;&#x27;, true, &#x27;naryproduct&#x27;],
+        [&#x27;&amp;and;&#x27;,     &#x27;&amp;#8743;&#x27;, false,&#x27;logicaland&#x27;],
+        [&#x27;&amp;or;&#x27;,      &#x27;&amp;#8744;&#x27;, false,&#x27;logicalor&#x27;],
+        [&#x27;&amp;not;&#x27;,     &#x27;&amp;#172;&#x27;,  true, &#x27;notsign&#x27;],
+        [&#x27;&amp;cap;&#x27;,     &#x27;&amp;#8745;&#x27;, true, &#x27;intersection&#x27;],
+        [&#x27;&amp;cup;&#x27;,     &#x27;&amp;#8746;&#x27;, false,&#x27;union&#x27;],
+        [&#x27;&amp;part;&#x27;,    &#x27;&amp;#8706;&#x27;, true, &#x27;partialdifferential&#x27;],
+        [&#x27;&amp;forall;&#x27;,  &#x27;&amp;#8704;&#x27;, false,&#x27;forall&#x27;],
+        [&#x27;&amp;exist;&#x27;,   &#x27;&amp;#8707;&#x27;, false,&#x27;thereexists&#x27;],
+        [&#x27;&amp;empty;&#x27;,   &#x27;&amp;#8709;&#x27;, false,&#x27;diameter&#x27;],
+        [&#x27;&amp;nabla;&#x27;,   &#x27;&amp;#8711;&#x27;, false,&#x27;backwarddifference&#x27;],
+        [&#x27;&amp;lowast;&#x27;,  &#x27;&amp;#8727;&#x27;, false,&#x27;asteriskoperator&#x27;],
+        [&#x27;&amp;prop;&#x27;,    &#x27;&amp;#8733;&#x27;, false,&#x27;proportionalto&#x27;],
+        [&#x27;&amp;ang;&#x27;,     &#x27;&amp;#8736;&#x27;, false,&#x27;angle&#x27;],
+        // Undefined.
+        [&#x27;&amp;acute;&#x27;,   &#x27;&amp;#180;&#x27;,  true, &#x27;acuteaccent&#x27;],
+        [&#x27;&amp;cedil;&#x27;,   &#x27;&amp;#184;&#x27;,  true, &#x27;cedilla&#x27;],
+        [&#x27;&amp;ordf;&#x27;,    &#x27;&amp;#170;&#x27;,  true, &#x27;feminineordinalindicator&#x27;],
+        [&#x27;&amp;ordm;&#x27;,    &#x27;&amp;#186;&#x27;,  true, &#x27;masculineordinalindicator&#x27;],
+        [&#x27;&amp;dagger;&#x27;,  &#x27;&amp;#8224;&#x27;, true, &#x27;dagger&#x27;],
+        [&#x27;&amp;Dagger;&#x27;,  &#x27;&amp;#8225;&#x27;, true, &#x27;doubledagger&#x27;],
+        // Alphabetical special chars.
+        [&#x27;&amp;Agrave;&#x27;,  &#x27;&amp;#192;&#x27;,  true, &#x27;agrave_caps&#x27;],
+        [&#x27;&amp;Aacute;&#x27;,  &#x27;&amp;#193;&#x27;,  true, &#x27;aacute_caps&#x27;],
+        [&#x27;&amp;Acirc;&#x27;,   &#x27;&amp;#194;&#x27;,  true, &#x27;acircumflex_caps&#x27;],
+        [&#x27;&amp;Atilde;&#x27;,  &#x27;&amp;#195;&#x27;,  true, &#x27;atilde_caps&#x27;],
+        [&#x27;&amp;Auml;&#x27;,    &#x27;&amp;#196;&#x27;,  true, &#x27;adiaeresis_caps&#x27;],
+        [&#x27;&amp;Aring;&#x27;,   &#x27;&amp;#197;&#x27;,  true, &#x27;aringabove_caps&#x27;],
+        [&#x27;&amp;AElig;&#x27;,   &#x27;&amp;#198;&#x27;,  true, &#x27;ligatureae_caps&#x27;],
+        [&#x27;&amp;Ccedil;&#x27;,  &#x27;&amp;#199;&#x27;,  true, &#x27;ccedilla_caps&#x27;],
+        [&#x27;&amp;Egrave;&#x27;,  &#x27;&amp;#200;&#x27;,  true, &#x27;egrave_caps&#x27;],
+        [&#x27;&amp;Eacute;&#x27;,  &#x27;&amp;#201;&#x27;,  true, &#x27;eacute_caps&#x27;],
+        [&#x27;&amp;Ecirc;&#x27;,   &#x27;&amp;#202;&#x27;,  true, &#x27;ecircumflex_caps&#x27;],
+        [&#x27;&amp;Euml;&#x27;,    &#x27;&amp;#203;&#x27;,  true, &#x27;ediaeresis_caps&#x27;],
+        [&#x27;&amp;Igrave;&#x27;,  &#x27;&amp;#204;&#x27;,  true, &#x27;igrave_caps&#x27;],
+        [&#x27;&amp;Iacute;&#x27;,  &#x27;&amp;#205;&#x27;,  true, &#x27;iacute_caps&#x27;],
+        [&#x27;&amp;Icirc;&#x27;,   &#x27;&amp;#206;&#x27;,  true, &#x27;icircumflex_caps&#x27;],
+        [&#x27;&amp;Iuml;&#x27;,    &#x27;&amp;#207;&#x27;,  true, &#x27;idiaeresis_caps&#x27;],
+        [&#x27;&amp;ETH;&#x27;,     &#x27;&amp;#208;&#x27;,  true, &#x27;eth_caps&#x27;],
+        [&#x27;&amp;Ntilde;&#x27;,  &#x27;&amp;#209;&#x27;,  true, &#x27;ntilde_caps&#x27;],
+        [&#x27;&amp;Ograve;&#x27;,  &#x27;&amp;#210;&#x27;,  true, &#x27;ograve_caps&#x27;],
+        [&#x27;&amp;Oacute;&#x27;,  &#x27;&amp;#211;&#x27;,  true, &#x27;oacute_caps&#x27;],
+        [&#x27;&amp;Ocirc;&#x27;,   &#x27;&amp;#212;&#x27;,  true, &#x27;ocircumflex_caps&#x27;],
+        [&#x27;&amp;Otilde;&#x27;,  &#x27;&amp;#213;&#x27;,  true, &#x27;otilde_caps&#x27;],
+        [&#x27;&amp;Ouml;&#x27;,    &#x27;&amp;#214;&#x27;,  true, &#x27;odiaeresis_caps&#x27;],
+        [&#x27;&amp;Oslash;&#x27;,  &#x27;&amp;#216;&#x27;,  true, &#x27;oslash_caps&#x27;],
+        [&#x27;&amp;OElig;&#x27;,   &#x27;&amp;#338;&#x27;,  true, &#x27;ligatureoe_caps&#x27;],
+        [&#x27;&amp;Scaron;&#x27;,  &#x27;&amp;#352;&#x27;,  true, &#x27;scaron_caps&#x27;],
+        [&#x27;&amp;Ugrave;&#x27;,  &#x27;&amp;#217;&#x27;,  true, &#x27;ugrave_caps&#x27;],
+        [&#x27;&amp;Uacute;&#x27;,  &#x27;&amp;#218;&#x27;,  true, &#x27;uacute_caps&#x27;],
+        [&#x27;&amp;Ucirc;&#x27;,   &#x27;&amp;#219;&#x27;,  true, &#x27;ucircumflex_caps&#x27;],
+        [&#x27;&amp;Uuml;&#x27;,    &#x27;&amp;#220;&#x27;,  true, &#x27;udiaeresis_caps&#x27;],
+        [&#x27;&amp;Yacute;&#x27;,  &#x27;&amp;#221;&#x27;,  true, &#x27;yacute_caps&#x27;],
+        [&#x27;&amp;Yuml;&#x27;,    &#x27;&amp;#376;&#x27;,  true, &#x27;ydiaeresis_caps&#x27;],
+        [&#x27;&amp;THORN;&#x27;,   &#x27;&amp;#222;&#x27;,  true, &#x27;thorn_caps&#x27;],
+        [&#x27;&amp;agrave;&#x27;,  &#x27;&amp;#224;&#x27;,  true, &#x27;agrave&#x27;],
+        [&#x27;&amp;aacute;&#x27;,  &#x27;&amp;#225;&#x27;,  true, &#x27;aacute&#x27;],
+        [&#x27;&amp;acirc;&#x27;,   &#x27;&amp;#226;&#x27;,  true, &#x27;acircumflex&#x27;],
+        [&#x27;&amp;atilde;&#x27;,  &#x27;&amp;#227;&#x27;,  true, &#x27;atilde&#x27;],
+        [&#x27;&amp;auml;&#x27;,    &#x27;&amp;#228;&#x27;,  true, &#x27;adiaeresis&#x27;],
+        [&#x27;&amp;aring;&#x27;,   &#x27;&amp;#229;&#x27;,  true, &#x27;aringabove&#x27;],
+        [&#x27;&amp;aelig;&#x27;,   &#x27;&amp;#230;&#x27;,  true, &#x27;ligatureae&#x27;],
+        [&#x27;&amp;ccedil;&#x27;,  &#x27;&amp;#231;&#x27;,  true, &#x27;ccedilla&#x27;],
+        [&#x27;&amp;egrave;&#x27;,  &#x27;&amp;#232;&#x27;,  true, &#x27;egrave&#x27;],
+        [&#x27;&amp;eacute;&#x27;,  &#x27;&amp;#233;&#x27;,  true, &#x27;eacute&#x27;],
+        [&#x27;&amp;ecirc;&#x27;,   &#x27;&amp;#234;&#x27;,  true, &#x27;ecircumflex&#x27;],
+        [&#x27;&amp;euml;&#x27;,    &#x27;&amp;#235;&#x27;,  true, &#x27;ediaeresis&#x27;],
+        [&#x27;&amp;igrave;&#x27;,  &#x27;&amp;#236;&#x27;,  true, &#x27;igrave&#x27;],
+        [&#x27;&amp;iacute;&#x27;,  &#x27;&amp;#237;&#x27;,  true, &#x27;iacute&#x27;],
+        [&#x27;&amp;icirc;&#x27;,   &#x27;&amp;#238;&#x27;,  true, &#x27;icircumflex&#x27;],
+        [&#x27;&amp;iuml;&#x27;,    &#x27;&amp;#239;&#x27;,  true, &#x27;idiaeresis&#x27;],
+        [&#x27;&amp;eth;&#x27;,     &#x27;&amp;#240;&#x27;,  true, &#x27;eth&#x27;],
+        [&#x27;&amp;ntilde;&#x27;,  &#x27;&amp;#241;&#x27;,  true, &#x27;ntilde&#x27;],
+        [&#x27;&amp;ograve;&#x27;,  &#x27;&amp;#242;&#x27;,  true, &#x27;ograve&#x27;],
+        [&#x27;&amp;oacute;&#x27;,  &#x27;&amp;#243;&#x27;,  true, &#x27;oacute&#x27;],
+        [&#x27;&amp;ocirc;&#x27;,   &#x27;&amp;#244;&#x27;,  true, &#x27;ocircumflex&#x27;],
+        [&#x27;&amp;otilde;&#x27;,  &#x27;&amp;#245;&#x27;,  true, &#x27;otilde&#x27;],
+        [&#x27;&amp;ouml;&#x27;,    &#x27;&amp;#246;&#x27;,  true, &#x27;odiaeresis&#x27;],
+        [&#x27;&amp;oslash;&#x27;,  &#x27;&amp;#248;&#x27;,  true, &#x27;oslash&#x27;],
+        [&#x27;&amp;oelig;&#x27;,   &#x27;&amp;#339;&#x27;,  true, &#x27;ligatureoe&#x27;],
+        [&#x27;&amp;scaron;&#x27;,  &#x27;&amp;#353;&#x27;,  true, &#x27;scaron&#x27;],
+        [&#x27;&amp;ugrave;&#x27;,  &#x27;&amp;#249;&#x27;,  true, &#x27;ugrave&#x27;],
+        [&#x27;&amp;uacute;&#x27;,  &#x27;&amp;#250;&#x27;,  true, &#x27;uacute&#x27;],
+        [&#x27;&amp;ucirc;&#x27;,   &#x27;&amp;#251;&#x27;,  true, &#x27;ucircumflex&#x27;],
+        [&#x27;&amp;uuml;&#x27;,    &#x27;&amp;#252;&#x27;,  true, &#x27;udiaeresis&#x27;],
+        [&#x27;&amp;yacute;&#x27;,  &#x27;&amp;#253;&#x27;,  true, &#x27;yacute&#x27;],
+        [&#x27;&amp;thorn;&#x27;,   &#x27;&amp;#254;&#x27;,  true, &#x27;thorn&#x27;],
+        [&#x27;&amp;yuml;&#x27;,    &#x27;&amp;#255;&#x27;,  true, &#x27;ydiaeresis&#x27;],
+        [&#x27;&amp;Alpha;&#x27;,   &#x27;&amp;#913;&#x27;,  true, &#x27;alpha_caps&#x27;],
+        [&#x27;&amp;Beta;&#x27;,    &#x27;&amp;#914;&#x27;,  true, &#x27;beta_caps&#x27;],
+        [&#x27;&amp;Gamma;&#x27;,   &#x27;&amp;#915;&#x27;,  true, &#x27;gamma_caps&#x27;],
+        [&#x27;&amp;Delta;&#x27;,   &#x27;&amp;#916;&#x27;,  true, &#x27;delta_caps&#x27;],
+        [&#x27;&amp;Epsilon;&#x27;, &#x27;&amp;#917;&#x27;,  true, &#x27;epsilon_caps&#x27;],
+        [&#x27;&amp;Zeta;&#x27;,    &#x27;&amp;#918;&#x27;,  true, &#x27;zeta_caps&#x27;],
+        [&#x27;&amp;Eta;&#x27;,     &#x27;&amp;#919;&#x27;,  true, &#x27;eta_caps&#x27;],
+        [&#x27;&amp;Theta;&#x27;,   &#x27;&amp;#920;&#x27;,  true, &#x27;theta_caps&#x27;],
+        [&#x27;&amp;Iota;&#x27;,    &#x27;&amp;#921;&#x27;,  true, &#x27;iota_caps&#x27;],
+        [&#x27;&amp;Kappa;&#x27;,   &#x27;&amp;#922;&#x27;,  true, &#x27;kappa_caps&#x27;],
+        [&#x27;&amp;Lambda;&#x27;,  &#x27;&amp;#923;&#x27;,  true, &#x27;lambda_caps&#x27;],
+        [&#x27;&amp;Mu;&#x27;,      &#x27;&amp;#924;&#x27;,  true, &#x27;mu_caps&#x27;],
+        [&#x27;&amp;Nu;&#x27;,      &#x27;&amp;#925;&#x27;,  true, &#x27;nu_caps&#x27;],
+        [&#x27;&amp;Xi;&#x27;,      &#x27;&amp;#926;&#x27;,  true, &#x27;xi_caps&#x27;],
+        [&#x27;&amp;Omicron;&#x27;, &#x27;&amp;#927;&#x27;,  true, &#x27;omicron_caps&#x27;],
+        [&#x27;&amp;Pi;&#x27;,      &#x27;&amp;#928;&#x27;,  true, &#x27;pi_caps&#x27;],
+        [&#x27;&amp;Rho;&#x27;,     &#x27;&amp;#929;&#x27;,  true, &#x27;rho_caps&#x27;],
+        [&#x27;&amp;Sigma;&#x27;,   &#x27;&amp;#931;&#x27;,  true, &#x27;sigma_caps&#x27;],
+        [&#x27;&amp;Tau;&#x27;,     &#x27;&amp;#932;&#x27;,  true, &#x27;tau_caps&#x27;],
+        [&#x27;&amp;Upsilon;&#x27;, &#x27;&amp;#933;&#x27;,  true, &#x27;upsilon_caps&#x27;],
+        [&#x27;&amp;Phi;&#x27;,     &#x27;&amp;#934;&#x27;,  true, &#x27;phi_caps&#x27;],
+        [&#x27;&amp;Chi;&#x27;,     &#x27;&amp;#935;&#x27;,  true, &#x27;chi_caps&#x27;],
+        [&#x27;&amp;Psi;&#x27;,     &#x27;&amp;#936;&#x27;,  true, &#x27;psi_caps&#x27;],
+        [&#x27;&amp;Omega;&#x27;,   &#x27;&amp;#937;&#x27;,  true, &#x27;omega_caps&#x27;],
+        [&#x27;&amp;alpha;&#x27;,   &#x27;&amp;#945;&#x27;,  true, &#x27;alpha&#x27;],
+        [&#x27;&amp;beta;&#x27;,    &#x27;&amp;#946;&#x27;,  true, &#x27;beta&#x27;],
+        [&#x27;&amp;gamma;&#x27;,   &#x27;&amp;#947;&#x27;,  true, &#x27;gamma&#x27;],
+        [&#x27;&amp;delta;&#x27;,   &#x27;&amp;#948;&#x27;,  true, &#x27;delta&#x27;],
+        [&#x27;&amp;epsilon;&#x27;, &#x27;&amp;#949;&#x27;,  true, &#x27;epsilon&#x27;],
+        [&#x27;&amp;zeta;&#x27;,    &#x27;&amp;#950;&#x27;,  true, &#x27;zeta&#x27;],
+        [&#x27;&amp;eta;&#x27;,     &#x27;&amp;#951;&#x27;,  true, &#x27;eta&#x27;],
+        [&#x27;&amp;theta;&#x27;,   &#x27;&amp;#952;&#x27;,  true, &#x27;theta&#x27;],
+        [&#x27;&amp;iota;&#x27;,    &#x27;&amp;#953;&#x27;,  true, &#x27;iota&#x27;],
+        [&#x27;&amp;kappa;&#x27;,   &#x27;&amp;#954;&#x27;,  true, &#x27;kappa&#x27;],
+        [&#x27;&amp;lambda;&#x27;,  &#x27;&amp;#955;&#x27;,  true, &#x27;lambda&#x27;],
+        [&#x27;&amp;mu;&#x27;,      &#x27;&amp;#956;&#x27;,  true, &#x27;mu&#x27;],
+        [&#x27;&amp;nu;&#x27;,      &#x27;&amp;#957;&#x27;,  true, &#x27;nu&#x27;],
+        [&#x27;&amp;xi;&#x27;,      &#x27;&amp;#958;&#x27;,  true, &#x27;xi&#x27;],
+        [&#x27;&amp;omicron;&#x27;, &#x27;&amp;#959;&#x27;,  true, &#x27;omicron&#x27;],
+        [&#x27;&amp;pi;&#x27;,      &#x27;&amp;#960;&#x27;,  true, &#x27;pi&#x27;],
+        [&#x27;&amp;rho;&#x27;,     &#x27;&amp;#961;&#x27;,  true, &#x27;rho&#x27;],
+        [&#x27;&amp;sigmaf;&#x27;,  &#x27;&amp;#962;&#x27;,  true, &#x27;finalsigma&#x27;],
+        [&#x27;&amp;sigma;&#x27;,   &#x27;&amp;#963;&#x27;,  true, &#x27;sigma&#x27;],
+        [&#x27;&amp;tau;&#x27;,     &#x27;&amp;#964;&#x27;,  true, &#x27;tau&#x27;],
+        [&#x27;&amp;upsilon;&#x27;, &#x27;&amp;#965;&#x27;,  true, &#x27;upsilon&#x27;],
+        [&#x27;&amp;phi;&#x27;,     &#x27;&amp;#966;&#x27;,  true, &#x27;phi&#x27;],
+        [&#x27;&amp;chi;&#x27;,     &#x27;&amp;#967;&#x27;,  true, &#x27;chi&#x27;],
+        [&#x27;&amp;psi;&#x27;,     &#x27;&amp;#968;&#x27;,  true, &#x27;psi&#x27;],
+        [&#x27;&amp;omega;&#x27;,   &#x27;&amp;#969;&#x27;,  true, &#x27;omega&#x27;],
+        // Symbols.
+        [&#x27;&amp;alefsym;&#x27;, &#x27;&amp;#8501;&#x27;, false,&#x27;alefsymbol&#x27;],
+        [&#x27;&amp;piv;&#x27;,     &#x27;&amp;#982;&#x27;,  false,&#x27;pisymbol&#x27;],
+        [&#x27;&amp;real;&#x27;,    &#x27;&amp;#8476;&#x27;, false,&#x27;realpartsymbol&#x27;],
+        [&#x27;&amp;thetasym;&#x27;,&#x27;&amp;#977;&#x27;,  false,&#x27;thetasymbol&#x27;],
+        [&#x27;&amp;upsih;&#x27;,   &#x27;&amp;#978;&#x27;,  false,&#x27;upsilonhooksymbol&#x27;],
+        [&#x27;&amp;weierp;&#x27;,  &#x27;&amp;#8472;&#x27;, false,&#x27;weierstrassp&#x27;],
+        [&#x27;&amp;image;&#x27;,   &#x27;&amp;#8465;&#x27;, false,&#x27;imaginarypart&#x27;],
+        // Arrows.
+        [&#x27;&amp;larr;&#x27;,    &#x27;&amp;#8592;&#x27;, true, &#x27;leftwardsarrow&#x27;],
+        [&#x27;&amp;uarr;&#x27;,    &#x27;&amp;#8593;&#x27;, true, &#x27;upwardsarrow&#x27;],
+        [&#x27;&amp;rarr;&#x27;,    &#x27;&amp;#8594;&#x27;, true, &#x27;rightwardsarrow&#x27;],
+        [&#x27;&amp;darr;&#x27;,    &#x27;&amp;#8595;&#x27;, true, &#x27;downwardsarrow&#x27;],
+        [&#x27;&amp;harr;&#x27;,    &#x27;&amp;#8596;&#x27;, true, &#x27;leftrightarrow&#x27;],
+        [&#x27;&amp;crarr;&#x27;,   &#x27;&amp;#8629;&#x27;, false,&#x27;carriagereturn&#x27;],
+        [&#x27;&amp;lArr;&#x27;,    &#x27;&amp;#8656;&#x27;, false,&#x27;leftwardsdoublearrow&#x27;],
+        [&#x27;&amp;uArr;&#x27;,    &#x27;&amp;#8657;&#x27;, false,&#x27;upwardsdoublearrow&#x27;],
+        [&#x27;&amp;rArr;&#x27;,    &#x27;&amp;#8658;&#x27;, false,&#x27;rightwardsdoublearrow&#x27;],
+        [&#x27;&amp;dArr;&#x27;,    &#x27;&amp;#8659;&#x27;, false,&#x27;downwardsdoublearrow&#x27;],
+        [&#x27;&amp;hArr;&#x27;,    &#x27;&amp;#8660;&#x27;, false,&#x27;leftrightdoublearrow&#x27;],
+        [&#x27;&amp;there4;&#x27;,  &#x27;&amp;#8756;&#x27;, false,&#x27;therefore&#x27;],
+        [&#x27;&amp;sub;&#x27;,     &#x27;&amp;#8834;&#x27;, false,&#x27;subsetof&#x27;],
+        [&#x27;&amp;sup;&#x27;,     &#x27;&amp;#8835;&#x27;, false,&#x27;supersetof&#x27;],
+        [&#x27;&amp;nsub;&#x27;,    &#x27;&amp;#8836;&#x27;, false,&#x27;notasubsetof&#x27;],
+        [&#x27;&amp;sube;&#x27;,    &#x27;&amp;#8838;&#x27;, false,&#x27;subsetoforequalto&#x27;],
+        [&#x27;&amp;supe;&#x27;,    &#x27;&amp;#8839;&#x27;, false,&#x27;supersetoforequalto&#x27;],
+        [&#x27;&amp;oplus;&#x27;,   &#x27;&amp;#8853;&#x27;, false,&#x27;circledplus&#x27;],
+        [&#x27;&amp;otimes;&#x27;,  &#x27;&amp;#8855;&#x27;, false,&#x27;circledtimes&#x27;],
+        [&#x27;&amp;perp;&#x27;,    &#x27;&amp;#8869;&#x27;, false,&#x27;perpendicular&#x27;],
+        [&#x27;&amp;sdot;&#x27;,    &#x27;&amp;#8901;&#x27;, false,&#x27;dotoperator&#x27;],
+        [&#x27;&amp;lceil;&#x27;,   &#x27;&amp;#8968;&#x27;, false,&#x27;leftceiling&#x27;],
+        [&#x27;&amp;rceil;&#x27;,   &#x27;&amp;#8969;&#x27;, false,&#x27;rightceiling&#x27;],
+        [&#x27;&amp;lfloor;&#x27;,  &#x27;&amp;#8970;&#x27;, false,&#x27;leftfloor&#x27;],
+        [&#x27;&amp;rfloor;&#x27;,  &#x27;&amp;#8971;&#x27;, false,&#x27;rightfloor&#x27;],
+        [&#x27;&amp;lang;&#x27;,    &#x27;&amp;#9001;&#x27;, false,&#x27;leftpointinganglebracket&#x27;],
+        [&#x27;&amp;rang;&#x27;,    &#x27;&amp;#9002;&#x27;, false,&#x27;rightpointinganglebracket&#x27;],
+        [&#x27;&amp;loz;&#x27;,     &#x27;&amp;#9674;&#x27;, true, &#x27;lozenge&#x27;],
+        [&#x27;&amp;spades;&#x27;,  &#x27;&amp;#9824;&#x27;, true, &#x27;blackspadesuit&#x27;],
+        [&#x27;&amp;clubs;&#x27;,   &#x27;&amp;#9827;&#x27;, true, &#x27;blackclubsuit&#x27;],
+        [&#x27;&amp;hearts;&#x27;,  &#x27;&amp;#9829;&#x27;, true, &#x27;blackheartsuit&#x27;],
+        [&#x27;&amp;diams;&#x27;,   &#x27;&amp;#9830;&#x27;, true, &#x27;blackdiamondsuit&#x27;],
+        [&#x27;&amp;ensp;&#x27;,    &#x27;&amp;#8194;&#x27;, false,&#x27;enspace&#x27;],
+        [&#x27;&amp;emsp;&#x27;,    &#x27;&amp;#8195;&#x27;, false,&#x27;emspace&#x27;],
+        [&#x27;&amp;thinsp;&#x27;,  &#x27;&amp;#8201;&#x27;, false,&#x27;thinspace&#x27;],
+        [&#x27;&amp;zwnj;&#x27;,    &#x27;&amp;#8204;&#x27;, false,&#x27;zerowidthnonjoiner&#x27;],
+        [&#x27;&amp;zwj;&#x27;,     &#x27;&amp;#8205;&#x27;, false,&#x27;zerowidthjoiner&#x27;],
+        [&#x27;&amp;lrm;&#x27;,     &#x27;&amp;#8206;&#x27;, false,&#x27;lefttorightmark&#x27;],
+        [&#x27;&amp;rlm;&#x27;,     &#x27;&amp;#8207;&#x27;, false,&#x27;righttoleftmark&#x27;],
+        [&#x27;&amp;shy;&#x27;,     &#x27;&amp;#173;&#x27;,  false,&#x27;softhyphen&#x27;]
+    ];
+
+/**
+ * Atto text editor charmap plugin.
+ *
+ * @namespace M.atto_charmap
+ * @class button
+ * @extends M.editor_atto.EditorPlugin
+ */
+
+Y.namespace(&#x27;M.atto_charmap&#x27;).Button = Y.Base.create(&#x27;button&#x27;, Y.M.editor_atto.EditorPlugin, [], {
+    /**
+     * A reference to the current selection at the time that the dialogue
+     * was opened.
+     *
+     * @property _currentSelection
+     * @type Range
+     * @private
+     */
+    _currentSelection: null,
+
+    initializer: function() {
+        this.addButton({
+            icon: &#x27;e/special_character&#x27;,
+            callback: this._displayDialogue
+        });
+    },
+
+    /**
+     * Display the Character Map selector.
+     *
+     * @method _displayDialogue
+     * @private
+     */
+    _displayDialogue: function() {
+        // Store the current selection.
+        this._currentSelection = this.get(&#x27;host&#x27;).getSelection();
+        if (this._currentSelection === false) {
+            return;
+        }
+
+        var dialogue = this.getDialogue({
+            headerContent: M.util.get_string(&#x27;insertcharacter&#x27;, COMPONENTNAME),
+            focusAfterHide: true
+        }, true);
+
+        // Set the dialogue content, and then show the dialogue.
+        dialogue.set(&#x27;bodyContent&#x27;, this._getDialogueContent())
+                .show();
+    },
+
+    /**
+     * Return the dialogue content for the tool.
+     *
+     * @method _getDialogueContent
+     * @private
+     * @return {Node} The content to place in the dialogue.
+     */
+    _getDialogueContent: function() {
+        var template = Y.Handlebars.compile(
+            &#x27;&lt;div class=&quot;{{CSS.CHARMAP}}&quot;&gt;&#x27; +
+                &#x27;{{#each CHARMAP}}&#x27; +
+                    &#x27;{{#if this.[2]}}&#x27; +
+                    &#x27;&lt;button class=&quot;{{../../CSS.BUTTON}}&quot; &#x27; +
+                        &#x27;aria-label=&quot;{{get_string this.[3] ../../component}}&quot; &#x27; +
+                        &#x27;title=&quot;{{get_string this.[3] ../../component}}&quot; &#x27; +
+                        &#x27;data-character=&quot;{{this.[0]}}&quot; &#x27; +
+                    &#x27;&gt;{{{this.[0]}}}&lt;/button&gt;&#x27; +
+                    &#x27;{{/if}}&#x27; +
+                &#x27;{{/each}}&#x27; +
+            &#x27;&lt;/div&gt;&#x27;
+        );
+
+        var content = Y.Node.create(template({
+            component: COMPONENTNAME,
+            CSS: CSS,
+            CHARMAP: CHARMAP
+        }));
+
+        content.delegate(&#x27;click&#x27;, this._insertChar, &#x27;.&#x27; + CSS.BUTTON, this);
+        return content;
+    },
+
+    /**
+     * Insert the picked character into the editor.
+     *
+     * @method _insertChar
+     * @param {EventFacade} e
+     * @private
+     */
+    _insertChar: function(e) {
+        var character = e.target.getData(&#x27;character&#x27;);
+
+        // Hide the dialogue.
+        this.getDialogue({
+            focusAfterHide: null
+        }).hide();
+
+        var host = this.get(&#x27;host&#x27;);
+
+        // Focus on the last point.
+        host.setSelection(this._currentSelection);
+
+        // And add the character.
+        host.insertContentAtFocusPoint(character);
+    }
+});
+
+    </pre>
+</div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="../assets/vendor/prettify/prettify-min.js"></script>
+<script>prettyPrint();</script>
+<script src="../assets/js/yui-prettify.js"></script>
+<script src="../assets/../api.js"></script>
+<script src="../assets/js/api-filter.js"></script>
+<script src="../assets/js/api-list.js"></script>
+<script src="../assets/js/api-search.js"></script>
+<script src="../assets/js/apidocs.js"></script>
+</body>
+</html>

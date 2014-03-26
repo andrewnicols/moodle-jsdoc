@@ -1,0 +1,967 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>lib/yui/src/tooltip/js/tooltip.js - Moodle</title>
+    <link rel="stylesheet" href="http://yui.yahooapis.com/3.9.1/build/cssgrids/cssgrids-min.css">
+    <link rel="stylesheet" href="../assets/vendor/prettify/prettify-min.css">
+    <link rel="stylesheet" href="../assets/css/main.css" id="site_styles">
+    <link rel="shortcut icon" type="image/png" href="../assets/favicon.png">
+    <script src="http://yui.yahooapis.com/combo?3.9.1/build/yui/yui-min.js"></script>
+</head>
+<body class="yui3-skin-sam">
+
+<div id="doc">
+    <div id="hd" class="yui3-g header">
+        <div class="yui3-u-3-4">
+            
+                <h1><img src="../assets/css/logo.png" title="Moodle"></h1>
+            
+        </div>
+        <div class="yui3-u-1-4 version">
+            <em>API Docs for: </em>
+        </div>
+    </div>
+    <div id="bd" class="yui3-g">
+
+        <div class="yui3-u-1-4">
+            <div id="docs-sidebar" class="sidebar apidocs">
+                <div id="api-list">
+    <h2 class="off-left">APIs</h2>
+    <div id="api-tabview" class="tabview">
+        <ul class="tabs">
+            <li><a href="#api-classes">Classes</a></li>
+            <li><a href="#api-modules">Modules</a></li>
+        </ul>
+
+        <div id="api-tabview-filter">
+            <input type="search" id="api-filter" placeholder="Type to filter APIs">
+        </div>
+
+        <div id="api-tabview-panel">
+            <ul id="api-classes" class="apis classes">
+            
+                <li><a href="../classes/Bootstrap.Collapse.html">Bootstrap.Collapse</a></li>
+            
+                <li><a href="../classes/Bootstrap.Dropdown.html">Bootstrap.Dropdown</a></li>
+            
+                <li><a href="../classes/M.assignfeedback_editpdf.annotation.html">M.assignfeedback_editpdf.annotation</a></li>
+            
+                <li><a href="../classes/M.assignfeedback_editpdf.annotationhighlight.html">M.assignfeedback_editpdf.annotationhighlight</a></li>
+            
+                <li><a href="../classes/M.assignfeedback_editpdf.annotationline.html">M.assignfeedback_editpdf.annotationline</a></li>
+            
+                <li><a href="../classes/M.assignfeedback_editpdf.annotationoval.html">M.assignfeedback_editpdf.annotationoval</a></li>
+            
+                <li><a href="../classes/M.assignfeedback_editpdf.annotationpen.html">M.assignfeedback_editpdf.annotationpen</a></li>
+            
+                <li><a href="../classes/M.assignfeedback_editpdf.annotationrectangle.html">M.assignfeedback_editpdf.annotationrectangle</a></li>
+            
+                <li><a href="../classes/M.assignfeedback_editpdf.annotationstamp.html">M.assignfeedback_editpdf.annotationstamp</a></li>
+            
+                <li><a href="../classes/M.assignfeedback_editpdf.colourpicker.html">M.assignfeedback_editpdf.colourpicker</a></li>
+            
+                <li><a href="../classes/M.assignfeedback_editpdf.comment.html">M.assignfeedback_editpdf.comment</a></li>
+            
+                <li><a href="../classes/M.assignfeedback_editpdf.commentmenu.html">M.assignfeedback_editpdf.commentmenu</a></li>
+            
+                <li><a href="../classes/M.assignfeedback_editpdf.commentsearch.html">M.assignfeedback_editpdf.commentsearch</a></li>
+            
+                <li><a href="../classes/M.assignfeedback_editpdf.drawable.html">M.assignfeedback_editpdf.drawable</a></li>
+            
+                <li><a href="../classes/M.assignfeedback_editpdf.dropdown.html">M.assignfeedback_editpdf.dropdown</a></li>
+            
+                <li><a href="../classes/M.assignfeedback_editpdf.edit.html">M.assignfeedback_editpdf.edit</a></li>
+            
+                <li><a href="../classes/M.assignfeedback_editpdf.editor.html">M.assignfeedback_editpdf.editor</a></li>
+            
+                <li><a href="../classes/M.assignfeedback_editpdf.point.html">M.assignfeedback_editpdf.point</a></li>
+            
+                <li><a href="../classes/M.assignfeedback_editpdf.quickcomment.html">M.assignfeedback_editpdf.quickcomment</a></li>
+            
+                <li><a href="../classes/M.assignfeedback_editpdf.quickcommentlist.html">M.assignfeedback_editpdf.quickcommentlist</a></li>
+            
+                <li><a href="../classes/M.assignfeedback_editpdf.rect.html">M.assignfeedback_editpdf.rect</a></li>
+            
+                <li><a href="../classes/M.assignfeedback_editpdf.stamppicker.html">M.assignfeedback_editpdf.stamppicker</a></li>
+            
+                <li><a href="../classes/M.atto_accessibilitychecker.Button.html">M.atto_accessibilitychecker.Button</a></li>
+            
+                <li><a href="../classes/M.atto_accessibilityhelper.Button.html">M.atto_accessibilityhelper.Button</a></li>
+            
+                <li><a href="../classes/M.atto_align.button.html">M.atto_align.button</a></li>
+            
+                <li><a href="../classes/M.atto_backcolor.button.html">M.atto_backcolor.button</a></li>
+            
+                <li><a href="../classes/M.atto_bold.button.html">M.atto_bold.button</a></li>
+            
+                <li><a href="../classes/M.atto_charmap.button.html">M.atto_charmap.button</a></li>
+            
+                <li><a href="../classes/M.atto_clear.button.html">M.atto_clear.button</a></li>
+            
+                <li><a href="../classes/M.atto_collapse.button.html">M.atto_collapse.button</a></li>
+            
+                <li><a href="../classes/M.atto_emoticon.button.html">M.atto_emoticon.button</a></li>
+            
+                <li><a href="../classes/M.atto_equation.Button.html">M.atto_equation.Button</a></li>
+            
+                <li><a href="../classes/M.atto_fontcolor.button.html">M.atto_fontcolor.button</a></li>
+            
+                <li><a href="../classes/M.atto_html.button.html">M.atto_html.button</a></li>
+            
+                <li><a href="../classes/M.atto_image.Button.html">M.atto_image.Button</a></li>
+            
+                <li><a href="../classes/M.atto_indent.button.html">M.atto_indent.button</a></li>
+            
+                <li><a href="../classes/M.atto_italic.button.html">M.atto_italic.button</a></li>
+            
+                <li><a href="../classes/M.atto_link.button.html">M.atto_link.button</a></li>
+            
+                <li><a href="../classes/M.atto_managefiles.usedfiles.html">M.atto_managefiles.usedfiles</a></li>
+            
+                <li><a href="../classes/M.atto_media.Button.html">M.atto_media.Button</a></li>
+            
+                <li><a href="../classes/M.atto_noautolink.button.html">M.atto_noautolink.button</a></li>
+            
+                <li><a href="../classes/M.atto_orderedlist.button.html">M.atto_orderedlist.button</a></li>
+            
+                <li><a href="../classes/M.atto_rtl.button.html">M.atto_rtl.button</a></li>
+            
+                <li><a href="../classes/M.atto_strike.button.html">M.atto_strike.button</a></li>
+            
+                <li><a href="../classes/M.atto_subscript.button.html">M.atto_subscript.button</a></li>
+            
+                <li><a href="../classes/M.atto_superscript.button.html">M.atto_superscript.button</a></li>
+            
+                <li><a href="../classes/M.atto_table.Button.html">M.atto_table.Button</a></li>
+            
+                <li><a href="../classes/M.atto_title.button.html">M.atto_title.button</a></li>
+            
+                <li><a href="../classes/M.atto_underline.button.html">M.atto_underline.button</a></li>
+            
+                <li><a href="../classes/M.atto_undo.button.html">M.atto_undo.button</a></li>
+            
+                <li><a href="../classes/M.atto_unlink.button.html">M.atto_unlink.button</a></li>
+            
+                <li><a href="../classes/M.atto_unorderedlist.button.html">M.atto_unorderedlist.button</a></li>
+            
+                <li><a href="../classes/M.block_navigation.html">M.block_navigation</a></li>
+            
+                <li><a href="../classes/M.block_navigation.ActionKey.html">M.block_navigation.ActionKey</a></li>
+            
+                <li><a href="../classes/M.block_navigation.Branch.html">M.block_navigation.Branch</a></li>
+            
+                <li><a href="../classes/M.block_navigation.Tree.html">M.block_navigation.Tree</a></li>
+            
+                <li><a href="../classes/M.core.actionmenu.ActionMenu.html">M.core.actionmenu.ActionMenu</a></li>
+            
+                <li><a href="../classes/M.core.ajaxException.html">M.core.ajaxException</a></li>
+            
+                <li><a href="../classes/M.core.alert.html">M.core.alert</a></li>
+            
+                <li><a href="../classes/M.core.blockdraganddrop.BlockRegion.html">M.core.blockdraganddrop.BlockRegion</a></li>
+            
+                <li><a href="../classes/M.core.blockdraganddrop.LegacyManager.html">M.core.blockdraganddrop.LegacyManager</a></li>
+            
+                <li><a href="../classes/M.core.blockdraganddrop.Manager.html">M.core.blockdraganddrop.Manager</a></li>
+            
+                <li><a href="../classes/M.core.chooserdialogue.html">M.core.chooserdialogue</a></li>
+            
+                <li><a href="../classes/M.core.confirm.html">M.core.confirm</a></li>
+            
+                <li><a href="../classes/M.core.dialogue.html">M.core.dialogue</a></li>
+            
+                <li><a href="../classes/M.core.dock.ActionKey.html">M.core.dock.ActionKey</a></li>
+            
+                <li><a href="../classes/M.core.dock.Block.html">M.core.dock.Block</a></li>
+            
+                <li><a href="../classes/M.core.dock.Dock.html">M.core.dock.Dock</a></li>
+            
+                <li><a href="../classes/M.core.dock.DockedItem.html">M.core.dock.DockedItem</a></li>
+            
+                <li><a href="../classes/M.core.dock.Loader.html">M.core.dock.Loader</a></li>
+            
+                <li><a href="../classes/M.core.dock.Panel.html">M.core.dock.Panel</a></li>
+            
+                <li><a href="../classes/M.core.dock.TabHeightManager.html">M.core.dock.TabHeightManager</a></li>
+            
+                <li><a href="../classes/M.core.dragdrop.html">M.core.dragdrop</a></li>
+            
+                <li><a href="../classes/M.core.exception.html">M.core.exception</a></li>
+            
+                <li><a href="../classes/M.core.formchangechecker.html">M.core.formchangechecker</a></li>
+            
+                <li><a href="../classes/M.core.LockScroll.html">M.core.LockScroll</a></li>
+            
+                <li><a href="../classes/M.core.notification.html">M.core.notification</a></li>
+            
+                <li><a href="../classes/M.core.notification.info.html">M.core.notification.info</a></li>
+            
+                <li><a href="../classes/M.core.popuphelp.html">M.core.popuphelp</a></li>
+            
+                <li><a href="../classes/M.core.tooltip.html">M.core.tooltip</a></li>
+            
+                <li><a href="../classes/M.core.WidgetFocusAfterHide.html">M.core.WidgetFocusAfterHide</a></li>
+            
+                <li><a href="../classes/M.core_backup.backupselectall.html">M.core_backup.backupselectall</a></li>
+            
+                <li><a href="../classes/M.core_backup.confirmcancel.html">M.core_backup.confirmcancel</a></li>
+            
+                <li><a href="../classes/M.course.coursebase.html">M.course.coursebase</a></li>
+            
+                <li><a href="../classes/M.course.dragdrop.resource.html">M.course.dragdrop.resource</a></li>
+            
+                <li><a href="../classes/M.course.dragdrop.section.html">M.course.dragdrop.section</a></li>
+            
+                <li><a href="../classes/M.course.management.Category.html">M.course.management.Category</a></li>
+            
+                <li><a href="../classes/M.course.management.Console.html">M.course.management.Console</a></li>
+            
+                <li><a href="../classes/M.course.management.Course.html">M.course.management.Course</a></li>
+            
+                <li><a href="../classes/M.course.management.DragDrop.html">M.course.management.DragDrop</a></li>
+            
+                <li><a href="../classes/M.course.management.Item.html">M.course.management.Item</a></li>
+            
+                <li><a href="../classes/M.course.modchooser.html">M.course.modchooser</a></li>
+            
+                <li><a href="../classes/M.course.toolboxes.resources.html">M.course.toolboxes.resources</a></li>
+            
+                <li><a href="../classes/M.course.toolboxes.section.html">M.course.toolboxes.section</a></li>
+            
+                <li><a href="../classes/M.course.toolboxes.toolbox.html">M.course.toolboxes.toolbox</a></li>
+            
+                <li><a href="../classes/M.editor_atto.Editor.html">M.editor_atto.Editor</a></li>
+            
+                <li><a href="../classes/M.editor_atto.EditorClean.html">M.editor_atto.EditorClean</a></li>
+            
+                <li><a href="../classes/M.editor_atto.EditorFilepicker.html">M.editor_atto.EditorFilepicker</a></li>
+            
+                <li><a href="../classes/M.editor_atto.EditorPlugin.html">M.editor_atto.EditorPlugin</a></li>
+            
+                <li><a href="../classes/M.editor_atto.EditorPluginButtons.html">M.editor_atto.EditorPluginButtons</a></li>
+            
+                <li><a href="../classes/M.editor_atto.EditorPluginDialogue.html">M.editor_atto.EditorPluginDialogue</a></li>
+            
+                <li><a href="../classes/M.editor_atto.EditorSelection.html">M.editor_atto.EditorSelection</a></li>
+            
+                <li><a href="../classes/M.editor_atto.EditorStyling.html">M.editor_atto.EditorStyling</a></li>
+            
+                <li><a href="../classes/M.editor_atto.EditorTextArea.html">M.editor_atto.EditorTextArea</a></li>
+            
+                <li><a href="../classes/M.editor_atto.EditorToolbar.html">M.editor_atto.EditorToolbar</a></li>
+            
+                <li><a href="../classes/M.editor_atto.EditorToolbarNav.html">M.editor_atto.EditorToolbarNav</a></li>
+            
+                <li><a href="../classes/M.editor_atto.Menu.html">M.editor_atto.Menu</a></li>
+            
+                <li><a href="../classes/M.form.shortforms.html">M.form.shortforms</a></li>
+            
+                <li><a href="../classes/M.form.showadvanced.html">M.form.showadvanced</a></li>
+            
+                <li><a href="../classes/M.mod_quiz.autosave.html">M.mod_quiz.autosave</a></li>
+            
+                <li><a href="../classes/M.tool_capability.Search.html">M.tool_capability.Search</a></li>
+            
+                <li><a href="../classes/Moodle.core_course.util.html">Moodle.core_course.util</a></li>
+            
+                <li><a href="../classes/Moodle.core_course.util.cm.html">Moodle.core_course.util.cm</a></li>
+            
+                <li><a href="../classes/Moodle.core_course.util.section.html">Moodle.core_course.util.section</a></li>
+            
+                <li><a href="../classes/Moodle.theme_bootstrapbase.bootstrap.html">Moodle.theme_bootstrapbase.bootstrap</a></li>
+            
+                <li><a href="../classes/Y.BootstrapEngine.html">Y.BootstrapEngine</a></li>
+            
+                <li><a href="../classes/Y.Moodle.course.categoryexpander.html">Y.Moodle.course.categoryexpander</a></li>
+            
+            </ul>
+
+            <ul id="api-modules" class="apis modules">
+            
+                <li><a href="../modules/buttons.html">buttons</a></li>
+            
+                <li><a href="../modules/clean.html">clean</a></li>
+            
+                <li><a href="../modules/dialogue.html">dialogue</a></li>
+            
+                <li><a href="../modules/filepicker.html">filepicker</a></li>
+            
+                <li><a href="../modules/gallery-bootstrap-collapse.html">gallery-bootstrap-collapse</a></li>
+            
+                <li><a href="../modules/gallery-bootstrap-dropdown.html">gallery-bootstrap-dropdown</a></li>
+            
+                <li><a href="../modules/gallery-bootstrap-engine.html">gallery-bootstrap-engine</a></li>
+            
+                <li><a href="../modules/menu-base.html">menu-base</a></li>
+            
+                <li><a href="../modules/moodle-assignfeedback_editpdf-editor.html">moodle-assignfeedback_editpdf-editor</a></li>
+            
+                <li><a href="../modules/moodle-atto-managefiles-button.html">moodle-atto-managefiles-button</a></li>
+            
+                <li><a href="../modules/moodle-atto_accessibilitychecker-button.html">moodle-atto_accessibilitychecker-button</a></li>
+            
+                <li><a href="../modules/moodle-atto_accessibilityhelper-button.html">moodle-atto_accessibilityhelper-button</a></li>
+            
+                <li><a href="../modules/moodle-atto_align-button.html">moodle-atto_align-button</a></li>
+            
+                <li><a href="../modules/moodle-atto_backcolor-button.html">moodle-atto_backcolor-button</a></li>
+            
+                <li><a href="../modules/moodle-atto_bold-button.html">moodle-atto_bold-button</a></li>
+            
+                <li><a href="../modules/moodle-atto_charmap-button.html">moodle-atto_charmap-button</a></li>
+            
+                <li><a href="../modules/moodle-atto_clear-button.html">moodle-atto_clear-button</a></li>
+            
+                <li><a href="../modules/moodle-atto_collapse-button.html">moodle-atto_collapse-button</a></li>
+            
+                <li><a href="../modules/moodle-atto_emoticon-button.html">moodle-atto_emoticon-button</a></li>
+            
+                <li><a href="../modules/moodle-atto_html-button.html">moodle-atto_html-button</a></li>
+            
+                <li><a href="../modules/moodle-atto_image_alignment-button.html">moodle-atto_image_alignment-button</a></li>
+            
+                <li><a href="../modules/moodle-atto_indent-button.html">moodle-atto_indent-button</a></li>
+            
+                <li><a href="../modules/moodle-atto_italic-button.html">moodle-atto_italic-button</a></li>
+            
+                <li><a href="../modules/moodle-atto_link-button.html">moodle-atto_link-button</a></li>
+            
+                <li><a href="../modules/moodle-atto_managefiles-usedfiles.html">moodle-atto_managefiles-usedfiles</a></li>
+            
+                <li><a href="../modules/moodle-atto_media-button.html">moodle-atto_media-button</a></li>
+            
+                <li><a href="../modules/moodle-atto_noautolink-button.html">moodle-atto_noautolink-button</a></li>
+            
+                <li><a href="../modules/moodle-atto_orderedlist-button.html">moodle-atto_orderedlist-button</a></li>
+            
+                <li><a href="../modules/moodle-atto_rtl-button.html">moodle-atto_rtl-button</a></li>
+            
+                <li><a href="../modules/moodle-atto_strike-button.html">moodle-atto_strike-button</a></li>
+            
+                <li><a href="../modules/moodle-atto_subscript-button.html">moodle-atto_subscript-button</a></li>
+            
+                <li><a href="../modules/moodle-atto_superscript-button.html">moodle-atto_superscript-button</a></li>
+            
+                <li><a href="../modules/moodle-atto_table-button.html">moodle-atto_table-button</a></li>
+            
+                <li><a href="../modules/moodle-atto_title-button.html">moodle-atto_title-button</a></li>
+            
+                <li><a href="../modules/moodle-atto_underline-button.html">moodle-atto_underline-button</a></li>
+            
+                <li><a href="../modules/moodle-atto_undo-button.html">moodle-atto_undo-button</a></li>
+            
+                <li><a href="../modules/moodle-atto_unlink-button.html">moodle-atto_unlink-button</a></li>
+            
+                <li><a href="../modules/moodle-atto_unorderedlist-button.html">moodle-atto_unorderedlist-button</a></li>
+            
+                <li><a href="../modules/moodle-backup-backupselectall.html">moodle-backup-backupselectall</a></li>
+            
+                <li><a href="../modules/moodle-backup-confirmcancel.html">moodle-backup-confirmcancel</a></li>
+            
+                <li><a href="../modules/moodle-block_navigation-navigation.html">moodle-block_navigation-navigation</a></li>
+            
+                <li><a href="../modules/moodle-core-actionmenu.html">moodle-core-actionmenu</a></li>
+            
+                <li><a href="../modules/moodle-core-blockdraganddrop.html">moodle-core-blockdraganddrop</a></li>
+            
+                <li><a href="../modules/moodle-core-chooserdialogue.html">moodle-core-chooserdialogue</a></li>
+            
+                <li><a href="../modules/moodle-core-dock.html">moodle-core-dock</a></li>
+            
+                <li><a href="../modules/moodle-core-dragdrop.html">moodle-core-dragdrop</a></li>
+            
+                <li><a href="../modules/moodle-core-formchangechecker.html">moodle-core-formchangechecker</a></li>
+            
+                <li><a href="../modules/moodle-core-lockscroll.html">moodle-core-lockscroll</a></li>
+            
+                <li><a href="../modules/moodle-core-maintenancemodetimer.html">moodle-core-maintenancemodetimer</a></li>
+            
+                <li><a href="../modules/moodle-core-notification.html">moodle-core-notification</a></li>
+            
+                <li><a href="../modules/moodle-core-notification-ajaxexception.html">moodle-core-notification-ajaxexception</a></li>
+            
+                <li><a href="../modules/moodle-core-notification-alert.html">moodle-core-notification-alert</a></li>
+            
+                <li><a href="../modules/moodle-core-notification-confirm.html">moodle-core-notification-confirm</a></li>
+            
+                <li><a href="../modules/moodle-core-notification-dialogue.html">moodle-core-notification-dialogue</a></li>
+            
+                <li><a href="../modules/moodle-core-notification-exception.html">moodle-core-notification-exception</a></li>
+            
+                <li><a href="../modules/moodle-core-popuphelp.html">moodle-core-popuphelp</a></li>
+            
+                <li><a href="../modules/moodle-core-tooltip.html">moodle-core-tooltip</a></li>
+            
+                <li><a href="../modules/moodle-core-widget-focusafterhide.html">moodle-core-widget-focusafterhide</a></li>
+            
+                <li><a href="../modules/moodle-course-categoryexpander.html">moodle-course-categoryexpander</a></li>
+            
+                <li><a href="../modules/moodle-course-coursebase.html">moodle-course-coursebase</a></li>
+            
+                <li><a href="../modules/moodle-course-dragdrop.html">moodle-course-dragdrop</a></li>
+            
+                <li><a href="../modules/moodle-course-management.html">moodle-course-management</a></li>
+            
+                <li><a href="../modules/moodle-course-modchooser.html">moodle-course-modchooser</a></li>
+            
+                <li><a href="../modules/moodle-course-toolboxes.html">moodle-course-toolboxes</a></li>
+            
+                <li><a href="../modules/moodle-course-util.html">moodle-course-util</a></li>
+            
+                <li><a href="../modules/moodle-course-util-cm.html">moodle-course-util-cm</a></li>
+            
+                <li><a href="../modules/moodle-course-util-section.html">moodle-course-util-section</a></li>
+            
+                <li><a href="../modules/moodle-editor_atto-editor.html">moodle-editor_atto-editor</a></li>
+            
+                <li><a href="../modules/moodle-editor_atto-menu.html">moodle-editor_atto-menu</a></li>
+            
+                <li><a href="../modules/moodle-editor_atto-plugin.html">moodle-editor_atto-plugin</a></li>
+            
+                <li><a href="../modules/moodle-form-shortforms.html">moodle-form-shortforms</a></li>
+            
+                <li><a href="../modules/moodle-form-showadvanced.html">moodle-form-showadvanced</a></li>
+            
+                <li><a href="../modules/moodle-mod_quiz-autosave.html">moodle-mod_quiz-autosave</a></li>
+            
+                <li><a href="../modules/moodle-question-preview.html">moodle-question-preview</a></li>
+            
+                <li><a href="../modules/moodle-tool_capability-search.html">moodle-tool_capability-search</a></li>
+            
+                <li><a href="../modules/plugin-base.html">plugin-base</a></li>
+            
+                <li><a href="../modules/styling.html">styling</a></li>
+            
+                <li><a href="../modules/textarea.html">textarea</a></li>
+            
+                <li><a href="../modules/theme_bootstrapbase-bootstrap.html">theme_bootstrapbase-bootstrap</a></li>
+            
+                <li><a href="../modules/toolbar.html">toolbar</a></li>
+            
+                <li><a href="../modules/toolbarnav.html">toolbarnav</a></li>
+            
+            </ul>
+        </div>
+    </div>
+</div>
+
+            </div>
+        </div>
+        <div class="yui3-u-3-4">
+                <div id="api-options">
+        Show:
+        <label for="api-show-inherited">
+            <input type="checkbox" id="api-show-inherited" checked>
+            Inherited
+        </label>
+
+        <label for="api-show-protected">
+            <input type="checkbox" id="api-show-protected">
+            Protected
+        </label>
+
+        <label for="api-show-private">
+            <input type="checkbox" id="api-show-private">
+            Private
+        </label>
+        <label for="api-show-deprecated">
+            <input type="checkbox" id="api-show-deprecated">
+            Deprecated
+        </label>
+
+    </div>
+
+
+            <div class="apidocs">
+                <div id="docs-main">
+                    <div class="content">
+                        <h1 class="file-heading">File: lib/yui/src/tooltip/js/tooltip.js</h1>
+
+<div class="file">
+    <pre class="code prettyprint linenums">
+/**
+ * Provides the base tooltip class.
+ *
+ * @module moodle-core-tooltip
+ */
+
+/**
+ * A base class for a tooltip.
+ *
+ * @param {Object} config Object literal specifying tooltip configuration properties.
+ * @class M.core.tooltip
+ * @constructor
+ * @extends M.core.dialogue
+ */
+function TOOLTIP(config) {
+    if (!config) {
+        config = {};
+    }
+
+    // Override the default options provided by the parent class.
+    if (typeof config.draggable === &#x27;undefined&#x27;) {
+        config.draggable = true;
+    }
+
+    if (typeof config.constrain === &#x27;undefined&#x27;) {
+        config.constrain = true;
+    }
+
+    TOOLTIP.superclass.constructor.apply(this, [config]);
+}
+
+var SELECTORS = {
+        CLOSEBUTTON: &#x27;.closebutton&#x27;
+    },
+
+    CSS = {
+        PANELTEXT: &#x27;tooltiptext&#x27;
+    },
+    RESOURCES = {
+        WAITICON: {
+            pix: &#x27;i/loading_small&#x27;,
+            component: &#x27;moodle&#x27;
+        }
+    },
+    ATTRS = {};
+
+/**
+ * Static property provides a string to identify the JavaScript class.
+ *
+ * @property NAME
+ * @type String
+ * @static
+ */
+TOOLTIP.NAME = &#x27;moodle-core-tooltip&#x27;;
+
+/**
+ * Static property used to define the CSS prefix applied to tooltip dialogues.
+ *
+ * @property CSS_PREFIX
+ * @type String
+ * @static
+ */
+TOOLTIP.CSS_PREFIX = &#x27;moodle-dialogue&#x27;;
+
+/**
+ * Static property used to define the default attribute configuration for the Tooltip.
+ *
+ * @property ATTRS
+ * @type String
+ * @static
+ */
+TOOLTIP.ATTRS = ATTRS;
+
+/**
+ * The initial value of the header region before the content finishes loading.
+ *
+ * @attribute initialheadertext
+ * @type String
+ * @default &#x27;&#x27;
+ * @writeOnce
+ */
+ATTRS.initialheadertext = {
+    value: &#x27;&#x27;
+};
+
+/**
+  * The initial value of the body region before the content finishes loading.
+  *
+  * The supplid string will be wrapped in a div with the CSS.PANELTEXT class and a standard Moodle spinner
+  * appended.
+  *
+  * @attribute initialbodytext
+  * @type String
+  * @default &#x27;&#x27;
+  * @writeOnce
+  */
+ATTRS.initialbodytext = {
+    value: &#x27;&#x27;,
+    setter: function(content) {
+        var parentnode,
+            spinner;
+        parentnode = Y.Node.create(&#x27;&lt;div /&gt;&#x27;)
+            .addClass(CSS.PANELTEXT);
+
+        spinner = Y.Node.create(&#x27;&lt;img /&gt;&#x27;)
+            .setAttribute(&#x27;src&#x27;, M.util.image_url(RESOURCES.WAITICON.pix, RESOURCES.WAITICON.component))
+            .addClass(&#x27;spinner&#x27;);
+
+        if (content) {
+            // If we have been provided with content, add it to the parent and make
+            // the spinner appear correctly inline
+            parentnode.set(&#x27;text&#x27;, content);
+            spinner.addClass(&#x27;iconsmall&#x27;);
+        } else {
+            // If there is no loading message, just make the parent node a lightbox
+            parentnode.addClass(&#x27;content-lightbox&#x27;);
+        }
+
+        parentnode.append(spinner);
+        return parentnode;
+    }
+};
+
+/**
+ * The initial value of the footer region before the content finishes loading.
+ *
+ * If a value is supplied, it will be wrapped in a &lt;div&gt; first.
+ *
+ * @attribute initialfootertext
+ * @type String
+ * @default &#x27;&#x27;
+ * @writeOnce
+ */
+ATTRS.initialfootertext = {
+    value: null,
+    setter: function(content) {
+        if (content) {
+            return Y.Node.create(&#x27;&lt;div /&gt;&#x27;)
+                .set(&#x27;text&#x27;, content);
+        }
+    }
+};
+
+/**
+ * The function which handles setting the content of the title region.
+ * The specified function will be called with a context of the tooltip instance.
+ *
+ * The default function will simply set the value of the title to object.heading as returned by the AJAX call.
+ *
+ * @attribute headerhandler
+ * @type Function|String|null
+ * @default set_header_content
+ */
+ATTRS.headerhandler = {
+    value: &#x27;set_header_content&#x27;
+};
+
+/**
+ * The function which handles setting the content of the body region.
+ * The specified function will be called with a context of the tooltip instance.
+ *
+ * The default function will simply set the value of the body area to a div containing object.text as returned
+ * by the AJAX call.
+ *
+ * @attribute bodyhandler
+ * @type Function|String|null
+ * @default set_body_content
+ */
+ATTRS.bodyhandler = {
+    value: &#x27;set_body_content&#x27;
+};
+
+/**
+ * The function which handles setting the content of the footer region.
+ * The specified function will be called with a context of the tooltip instance.
+ *
+ * By default, the footer is not set.
+ *
+ * @attribute footerhandler
+ * @type Function|String|null
+ * @default null
+ */
+ATTRS.footerhandler = {
+    value: null
+};
+
+/**
+ * The function which handles modifying the URL that was clicked on.
+ *
+ * The default function rewrites &#x27;.php&#x27; to &#x27;_ajax.php&#x27;.
+ *
+ * @attribute urlmodifier
+ * @type Function|String|null
+ * @default null
+ */
+ATTRS.urlmodifier = {
+    value: null
+};
+
+/**
+ * Set the Y.Cache object to use.
+ *
+ * By default a new Y.Cache object will be created for each instance of the tooltip.
+ *
+ * In certain situations, where multiple tooltips may share the same cache, it may be preferable to
+ * seed this cache from the calling method.
+ *
+ * @attribute textcache
+ * @type Y.Cache|null
+ * @default null
+ */
+ATTRS.textcache = {
+    value: null
+};
+
+/**
+ * Set the default size of the Y.Cache object.
+ *
+ * This is only used if no textcache is specified.
+ *
+ * @attribute textcachesize
+ * @type Number
+ * @default 10
+ */
+ATTRS.textcachesize = {
+    value: 10
+};
+
+Y.extend(TOOLTIP, M.core.dialogue, {
+    // The bounding box.
+    bb: null,
+
+    // Any event listeners we may need to cancel later.
+    listenevents: [],
+
+    // Cache of objects we&#x27;ve already retrieved.
+    textcache: null,
+
+    // The align position. This differs for RTL languages so we calculate once and store.
+    alignpoints: [
+        Y.WidgetPositionAlign.TL,
+        Y.WidgetPositionAlign.RC
+    ],
+
+    initializer: function() {
+        // Set the initial values for the handlers.
+        // These cannot be set in the attributes section as context isn&#x27;t present at that time.
+        if (!this.get(&#x27;headerhandler&#x27;)) {
+            this.set(&#x27;headerhandler&#x27;, this.set_header_content);
+        }
+        if (!this.get(&#x27;bodyhandler&#x27;)) {
+            this.set(&#x27;bodyhandler&#x27;, this.set_body_content);
+        }
+        if (!this.get(&#x27;footerhandler&#x27;)) {
+            this.set(&#x27;footerhandler&#x27;, function() {});
+        }
+        if (!this.get(&#x27;urlmodifier&#x27;)) {
+            this.set(&#x27;urlmodifier&#x27;, this.modify_url);
+        }
+
+        // Set up the dialogue with initial content.
+        this.setAttrs({
+            headerContent: this.get(&#x27;initialheadertext&#x27;),
+            bodyContent: this.get(&#x27;initialbodytext&#x27;),
+            footerContent: this.get(&#x27;initialfootertext&#x27;)
+        });
+
+        // Hide and then render the dialogue.
+        this.hide();
+        this.render();
+
+        // Hook into a few useful areas.
+        this.bb = this.get(&#x27;boundingBox&#x27;);
+
+        // Add an additional class to the boundingbox to allow tooltip-specific style to be
+        // set.
+        this.bb.addClass(&#x27;moodle-dialogue-tooltip&#x27;);
+
+        // Change the alignment if this is an RTL language.
+        if (right_to_left()) {
+            this.alignpoints = [
+                Y.WidgetPositionAlign.TR,
+                Y.WidgetPositionAlign.LC
+            ];
+        }
+
+        // Set up the text cache if it&#x27;s not set up already.
+        if (!this.get(&#x27;textcache&#x27;)) {
+            this.set(&#x27;textcache&#x27;, new Y.Cache({
+                // Set a reasonable maximum cache size to prevent memory growth.
+                max: this.get(&#x27;textcachesize&#x27;)
+            }));
+        }
+
+        // Disable the textcache when in developerdebug.
+        if (M.cfg.developerdebug) {
+            this.get(&#x27;textcache&#x27;).set(&#x27;max&#x27;, 0);
+        }
+
+        return this;
+    },
+
+    /**
+     * Display the tooltip for the clicked link.
+     *
+     * The anchor for the clicked link is used.
+     *
+     * @method display_panel
+     * @param {EventFacade} e The event from the clicked link. This is used to determine the clicked URL.
+     */
+    display_panel: function(e) {
+        var clickedlink, thisevent, ajaxurl, config, cacheentry;
+
+        // Prevent the default click action and prevent the event triggering anything else.
+        e.preventDefault();
+
+        // Cancel any existing listeners and close the panel if it&#x27;s already open.
+        this.cancel_events();
+
+        // Grab the clickedlink - this contains the URL we fetch and we align the panel to it.
+        clickedlink = e.target.ancestor(&#x27;a&#x27;, true);
+
+        // Reset the initial text to a spinner while we retrieve the text.
+        this.setAttrs({
+            headerContent: this.get(&#x27;initialheadertext&#x27;),
+            bodyContent: this.get(&#x27;initialbodytext&#x27;),
+            footerContent: this.get(&#x27;initialfootertext&#x27;)
+        });
+
+        // Now that initial setup has begun, show the panel.
+        this.show(e);
+
+        // Align with the link that was clicked.
+        this.align(clickedlink, this.alignpoints);
+
+        // Add some listen events to close on.
+        thisevent = this.bb.delegate(&#x27;click&#x27;, this.close_panel, SELECTORS.CLOSEBUTTON, this);
+        this.listenevents.push(thisevent);
+
+        thisevent = Y.one(&#x27;body&#x27;).on(&#x27;key&#x27;, this.close_panel, &#x27;esc&#x27;, this);
+        this.listenevents.push(thisevent);
+
+        // Listen for mousedownoutside events - clickoutside is broken on IE.
+        thisevent = this.bb.on(&#x27;mousedownoutside&#x27;, this.close_panel, this);
+        this.listenevents.push(thisevent);
+
+        // Modify the URL as required.
+        ajaxurl = Y.bind(this.get(&#x27;urlmodifier&#x27;), this, clickedlink.get(&#x27;href&#x27;))();
+
+        cacheentry = this.get(&#x27;textcache&#x27;).retrieve(ajaxurl);
+        if (cacheentry) {
+            // The data from this help call was already cached so use that and avoid an AJAX call.
+            this._set_panel_contents(cacheentry.response);
+        } else {
+            // Retrieve the actual help text we should use.
+            config = {
+                method: &#x27;get&#x27;,
+                context: this,
+                sync: false,
+                on: {
+                    complete: function(tid, response) {
+                        this._set_panel_contents(response.responseText, ajaxurl);
+                    }
+                }
+            };
+
+            Y.io(ajaxurl, config);
+        }
+    },
+
+    _set_panel_contents: function(response, ajaxurl) {
+        var responseobject;
+
+        // Attempt to parse the response into an object.
+        try {
+            responseobject = Y.JSON.parse(response);
+            if (responseobject.error) {
+                this.close_panel();
+                Y.use(&#x27;moodle-core-notification-ajaxexception&#x27;, function() {
+                    return new M.core.ajaxException(responseobject).show();
+                });
+                return this;
+            }
+        } catch (error) {
+            this.close_panel();
+            Y.use(&#x27;moodle-core-notification-exception&#x27;, function() {
+                return new M.core.exception(error).show();
+            });
+            return this;
+        }
+
+        // Set the contents using various handlers.
+        // We must use Y.bind to ensure that the correct context is used when the default handlers are overridden.
+        Y.bind(this.get(&#x27;headerhandler&#x27;), this, responseobject)();
+        Y.bind(this.get(&#x27;bodyhandler&#x27;), this, responseobject)();
+        Y.bind(this.get(&#x27;footerhandler&#x27;), this, responseobject)();
+
+        if (ajaxurl) {
+            // Ensure that this data is added to the cache.
+            this.get(&#x27;textcache&#x27;).add(ajaxurl, response);
+        }
+
+        this.get(&#x27;buttons&#x27;).header[0].focus();
+    },
+
+    set_header_content: function(responseobject) {
+        this.set(&#x27;headerContent&#x27;, responseobject.heading);
+    },
+
+    set_body_content: function(responseobject) {
+        var bodycontent = Y.Node.create(&#x27;&lt;div /&gt;&#x27;)
+            .set(&#x27;innerHTML&#x27;, responseobject.text)
+            .setAttribute(&#x27;role&#x27;, &#x27;alert&#x27;)
+            .addClass(CSS.PANELTEXT);
+        this.set(&#x27;bodyContent&#x27;, bodycontent);
+    },
+
+    modify_url: function(url) {
+        return url.replace(/\.php\?/, &#x27;_ajax.php?&#x27;);
+    },
+
+    close_panel: function(e) {
+        // Hide the panel first.
+        this.hide(e);
+
+        // Cancel the listeners that we added in display_panel.
+        this.cancel_events();
+
+        // Prevent any default click that the close button may have.
+        if (e) {
+            e.preventDefault();
+        }
+    },
+
+    cancel_events: function() {
+        // Detach all listen events to prevent duplicate triggers.
+        var thisevent;
+        while (this.listenevents.length) {
+            thisevent = this.listenevents.shift();
+            thisevent.detach();
+        }
+    }
+});
+
+Y.Base.modifyAttrs(TOOLTIP, {
+    /**
+     * Whether the widget should be modal or not.
+     *
+     * Moodle override: We override this for tooltip to default it to false.
+     *
+     * @attribute Modal
+     * @type Boolean
+     * @default false
+     */
+    modal: {
+        value: false
+    },
+
+    focusOnPreviousTargetAfterHide: {
+        value: true
+    }
+});
+
+M.core = M.core || {};
+M.core.tooltip = M.core.tooltip = TOOLTIP;
+
+    </pre>
+</div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="../assets/vendor/prettify/prettify-min.js"></script>
+<script>prettyPrint();</script>
+<script src="../assets/js/yui-prettify.js"></script>
+<script src="../assets/../api.js"></script>
+<script src="../assets/js/api-filter.js"></script>
+<script src="../assets/js/api-list.js"></script>
+<script src="../assets/js/api-search.js"></script>
+<script src="../assets/js/apidocs.js"></script>
+</body>
+</html>

@@ -1,0 +1,1605 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>mod/assign/feedback/editpdf/yui/src/editor/js/editor.js - Moodle</title>
+    <link rel="stylesheet" href="http://yui.yahooapis.com/3.9.1/build/cssgrids/cssgrids-min.css">
+    <link rel="stylesheet" href="../assets/vendor/prettify/prettify-min.css">
+    <link rel="stylesheet" href="../assets/css/main.css" id="site_styles">
+    <link rel="shortcut icon" type="image/png" href="../assets/favicon.png">
+    <script src="http://yui.yahooapis.com/combo?3.9.1/build/yui/yui-min.js"></script>
+</head>
+<body class="yui3-skin-sam">
+
+<div id="doc">
+    <div id="hd" class="yui3-g header">
+        <div class="yui3-u-3-4">
+            
+                <h1><img src="../assets/css/logo.png" title="Moodle"></h1>
+            
+        </div>
+        <div class="yui3-u-1-4 version">
+            <em>API Docs for: </em>
+        </div>
+    </div>
+    <div id="bd" class="yui3-g">
+
+        <div class="yui3-u-1-4">
+            <div id="docs-sidebar" class="sidebar apidocs">
+                <div id="api-list">
+    <h2 class="off-left">APIs</h2>
+    <div id="api-tabview" class="tabview">
+        <ul class="tabs">
+            <li><a href="#api-classes">Classes</a></li>
+            <li><a href="#api-modules">Modules</a></li>
+        </ul>
+
+        <div id="api-tabview-filter">
+            <input type="search" id="api-filter" placeholder="Type to filter APIs">
+        </div>
+
+        <div id="api-tabview-panel">
+            <ul id="api-classes" class="apis classes">
+            
+                <li><a href="../classes/Bootstrap.Collapse.html">Bootstrap.Collapse</a></li>
+            
+                <li><a href="../classes/Bootstrap.Dropdown.html">Bootstrap.Dropdown</a></li>
+            
+                <li><a href="../classes/M.assignfeedback_editpdf.annotation.html">M.assignfeedback_editpdf.annotation</a></li>
+            
+                <li><a href="../classes/M.assignfeedback_editpdf.annotationhighlight.html">M.assignfeedback_editpdf.annotationhighlight</a></li>
+            
+                <li><a href="../classes/M.assignfeedback_editpdf.annotationline.html">M.assignfeedback_editpdf.annotationline</a></li>
+            
+                <li><a href="../classes/M.assignfeedback_editpdf.annotationoval.html">M.assignfeedback_editpdf.annotationoval</a></li>
+            
+                <li><a href="../classes/M.assignfeedback_editpdf.annotationpen.html">M.assignfeedback_editpdf.annotationpen</a></li>
+            
+                <li><a href="../classes/M.assignfeedback_editpdf.annotationrectangle.html">M.assignfeedback_editpdf.annotationrectangle</a></li>
+            
+                <li><a href="../classes/M.assignfeedback_editpdf.annotationstamp.html">M.assignfeedback_editpdf.annotationstamp</a></li>
+            
+                <li><a href="../classes/M.assignfeedback_editpdf.colourpicker.html">M.assignfeedback_editpdf.colourpicker</a></li>
+            
+                <li><a href="../classes/M.assignfeedback_editpdf.comment.html">M.assignfeedback_editpdf.comment</a></li>
+            
+                <li><a href="../classes/M.assignfeedback_editpdf.commentmenu.html">M.assignfeedback_editpdf.commentmenu</a></li>
+            
+                <li><a href="../classes/M.assignfeedback_editpdf.commentsearch.html">M.assignfeedback_editpdf.commentsearch</a></li>
+            
+                <li><a href="../classes/M.assignfeedback_editpdf.drawable.html">M.assignfeedback_editpdf.drawable</a></li>
+            
+                <li><a href="../classes/M.assignfeedback_editpdf.dropdown.html">M.assignfeedback_editpdf.dropdown</a></li>
+            
+                <li><a href="../classes/M.assignfeedback_editpdf.edit.html">M.assignfeedback_editpdf.edit</a></li>
+            
+                <li><a href="../classes/M.assignfeedback_editpdf.editor.html">M.assignfeedback_editpdf.editor</a></li>
+            
+                <li><a href="../classes/M.assignfeedback_editpdf.point.html">M.assignfeedback_editpdf.point</a></li>
+            
+                <li><a href="../classes/M.assignfeedback_editpdf.quickcomment.html">M.assignfeedback_editpdf.quickcomment</a></li>
+            
+                <li><a href="../classes/M.assignfeedback_editpdf.quickcommentlist.html">M.assignfeedback_editpdf.quickcommentlist</a></li>
+            
+                <li><a href="../classes/M.assignfeedback_editpdf.rect.html">M.assignfeedback_editpdf.rect</a></li>
+            
+                <li><a href="../classes/M.assignfeedback_editpdf.stamppicker.html">M.assignfeedback_editpdf.stamppicker</a></li>
+            
+                <li><a href="../classes/M.atto_accessibilitychecker.Button.html">M.atto_accessibilitychecker.Button</a></li>
+            
+                <li><a href="../classes/M.atto_accessibilityhelper.Button.html">M.atto_accessibilityhelper.Button</a></li>
+            
+                <li><a href="../classes/M.atto_align.button.html">M.atto_align.button</a></li>
+            
+                <li><a href="../classes/M.atto_backcolor.button.html">M.atto_backcolor.button</a></li>
+            
+                <li><a href="../classes/M.atto_bold.button.html">M.atto_bold.button</a></li>
+            
+                <li><a href="../classes/M.atto_charmap.button.html">M.atto_charmap.button</a></li>
+            
+                <li><a href="../classes/M.atto_clear.button.html">M.atto_clear.button</a></li>
+            
+                <li><a href="../classes/M.atto_collapse.button.html">M.atto_collapse.button</a></li>
+            
+                <li><a href="../classes/M.atto_emoticon.button.html">M.atto_emoticon.button</a></li>
+            
+                <li><a href="../classes/M.atto_equation.Button.html">M.atto_equation.Button</a></li>
+            
+                <li><a href="../classes/M.atto_fontcolor.button.html">M.atto_fontcolor.button</a></li>
+            
+                <li><a href="../classes/M.atto_html.button.html">M.atto_html.button</a></li>
+            
+                <li><a href="../classes/M.atto_image.Button.html">M.atto_image.Button</a></li>
+            
+                <li><a href="../classes/M.atto_indent.button.html">M.atto_indent.button</a></li>
+            
+                <li><a href="../classes/M.atto_italic.button.html">M.atto_italic.button</a></li>
+            
+                <li><a href="../classes/M.atto_link.button.html">M.atto_link.button</a></li>
+            
+                <li><a href="../classes/M.atto_managefiles.usedfiles.html">M.atto_managefiles.usedfiles</a></li>
+            
+                <li><a href="../classes/M.atto_media.Button.html">M.atto_media.Button</a></li>
+            
+                <li><a href="../classes/M.atto_noautolink.button.html">M.atto_noautolink.button</a></li>
+            
+                <li><a href="../classes/M.atto_orderedlist.button.html">M.atto_orderedlist.button</a></li>
+            
+                <li><a href="../classes/M.atto_rtl.button.html">M.atto_rtl.button</a></li>
+            
+                <li><a href="../classes/M.atto_strike.button.html">M.atto_strike.button</a></li>
+            
+                <li><a href="../classes/M.atto_subscript.button.html">M.atto_subscript.button</a></li>
+            
+                <li><a href="../classes/M.atto_superscript.button.html">M.atto_superscript.button</a></li>
+            
+                <li><a href="../classes/M.atto_table.Button.html">M.atto_table.Button</a></li>
+            
+                <li><a href="../classes/M.atto_title.button.html">M.atto_title.button</a></li>
+            
+                <li><a href="../classes/M.atto_underline.button.html">M.atto_underline.button</a></li>
+            
+                <li><a href="../classes/M.atto_undo.button.html">M.atto_undo.button</a></li>
+            
+                <li><a href="../classes/M.atto_unlink.button.html">M.atto_unlink.button</a></li>
+            
+                <li><a href="../classes/M.atto_unorderedlist.button.html">M.atto_unorderedlist.button</a></li>
+            
+                <li><a href="../classes/M.block_navigation.html">M.block_navigation</a></li>
+            
+                <li><a href="../classes/M.block_navigation.ActionKey.html">M.block_navigation.ActionKey</a></li>
+            
+                <li><a href="../classes/M.block_navigation.Branch.html">M.block_navigation.Branch</a></li>
+            
+                <li><a href="../classes/M.block_navigation.Tree.html">M.block_navigation.Tree</a></li>
+            
+                <li><a href="../classes/M.core.actionmenu.ActionMenu.html">M.core.actionmenu.ActionMenu</a></li>
+            
+                <li><a href="../classes/M.core.ajaxException.html">M.core.ajaxException</a></li>
+            
+                <li><a href="../classes/M.core.alert.html">M.core.alert</a></li>
+            
+                <li><a href="../classes/M.core.blockdraganddrop.BlockRegion.html">M.core.blockdraganddrop.BlockRegion</a></li>
+            
+                <li><a href="../classes/M.core.blockdraganddrop.LegacyManager.html">M.core.blockdraganddrop.LegacyManager</a></li>
+            
+                <li><a href="../classes/M.core.blockdraganddrop.Manager.html">M.core.blockdraganddrop.Manager</a></li>
+            
+                <li><a href="../classes/M.core.chooserdialogue.html">M.core.chooserdialogue</a></li>
+            
+                <li><a href="../classes/M.core.confirm.html">M.core.confirm</a></li>
+            
+                <li><a href="../classes/M.core.dialogue.html">M.core.dialogue</a></li>
+            
+                <li><a href="../classes/M.core.dock.ActionKey.html">M.core.dock.ActionKey</a></li>
+            
+                <li><a href="../classes/M.core.dock.Block.html">M.core.dock.Block</a></li>
+            
+                <li><a href="../classes/M.core.dock.Dock.html">M.core.dock.Dock</a></li>
+            
+                <li><a href="../classes/M.core.dock.DockedItem.html">M.core.dock.DockedItem</a></li>
+            
+                <li><a href="../classes/M.core.dock.Loader.html">M.core.dock.Loader</a></li>
+            
+                <li><a href="../classes/M.core.dock.Panel.html">M.core.dock.Panel</a></li>
+            
+                <li><a href="../classes/M.core.dock.TabHeightManager.html">M.core.dock.TabHeightManager</a></li>
+            
+                <li><a href="../classes/M.core.dragdrop.html">M.core.dragdrop</a></li>
+            
+                <li><a href="../classes/M.core.exception.html">M.core.exception</a></li>
+            
+                <li><a href="../classes/M.core.formchangechecker.html">M.core.formchangechecker</a></li>
+            
+                <li><a href="../classes/M.core.LockScroll.html">M.core.LockScroll</a></li>
+            
+                <li><a href="../classes/M.core.notification.html">M.core.notification</a></li>
+            
+                <li><a href="../classes/M.core.notification.info.html">M.core.notification.info</a></li>
+            
+                <li><a href="../classes/M.core.popuphelp.html">M.core.popuphelp</a></li>
+            
+                <li><a href="../classes/M.core.tooltip.html">M.core.tooltip</a></li>
+            
+                <li><a href="../classes/M.core.WidgetFocusAfterHide.html">M.core.WidgetFocusAfterHide</a></li>
+            
+                <li><a href="../classes/M.core_backup.backupselectall.html">M.core_backup.backupselectall</a></li>
+            
+                <li><a href="../classes/M.core_backup.confirmcancel.html">M.core_backup.confirmcancel</a></li>
+            
+                <li><a href="../classes/M.course.coursebase.html">M.course.coursebase</a></li>
+            
+                <li><a href="../classes/M.course.dragdrop.resource.html">M.course.dragdrop.resource</a></li>
+            
+                <li><a href="../classes/M.course.dragdrop.section.html">M.course.dragdrop.section</a></li>
+            
+                <li><a href="../classes/M.course.management.Category.html">M.course.management.Category</a></li>
+            
+                <li><a href="../classes/M.course.management.Console.html">M.course.management.Console</a></li>
+            
+                <li><a href="../classes/M.course.management.Course.html">M.course.management.Course</a></li>
+            
+                <li><a href="../classes/M.course.management.DragDrop.html">M.course.management.DragDrop</a></li>
+            
+                <li><a href="../classes/M.course.management.Item.html">M.course.management.Item</a></li>
+            
+                <li><a href="../classes/M.course.modchooser.html">M.course.modchooser</a></li>
+            
+                <li><a href="../classes/M.course.toolboxes.resources.html">M.course.toolboxes.resources</a></li>
+            
+                <li><a href="../classes/M.course.toolboxes.section.html">M.course.toolboxes.section</a></li>
+            
+                <li><a href="../classes/M.course.toolboxes.toolbox.html">M.course.toolboxes.toolbox</a></li>
+            
+                <li><a href="../classes/M.editor_atto.Editor.html">M.editor_atto.Editor</a></li>
+            
+                <li><a href="../classes/M.editor_atto.EditorClean.html">M.editor_atto.EditorClean</a></li>
+            
+                <li><a href="../classes/M.editor_atto.EditorFilepicker.html">M.editor_atto.EditorFilepicker</a></li>
+            
+                <li><a href="../classes/M.editor_atto.EditorPlugin.html">M.editor_atto.EditorPlugin</a></li>
+            
+                <li><a href="../classes/M.editor_atto.EditorPluginButtons.html">M.editor_atto.EditorPluginButtons</a></li>
+            
+                <li><a href="../classes/M.editor_atto.EditorPluginDialogue.html">M.editor_atto.EditorPluginDialogue</a></li>
+            
+                <li><a href="../classes/M.editor_atto.EditorSelection.html">M.editor_atto.EditorSelection</a></li>
+            
+                <li><a href="../classes/M.editor_atto.EditorStyling.html">M.editor_atto.EditorStyling</a></li>
+            
+                <li><a href="../classes/M.editor_atto.EditorTextArea.html">M.editor_atto.EditorTextArea</a></li>
+            
+                <li><a href="../classes/M.editor_atto.EditorToolbar.html">M.editor_atto.EditorToolbar</a></li>
+            
+                <li><a href="../classes/M.editor_atto.EditorToolbarNav.html">M.editor_atto.EditorToolbarNav</a></li>
+            
+                <li><a href="../classes/M.editor_atto.Menu.html">M.editor_atto.Menu</a></li>
+            
+                <li><a href="../classes/M.form.shortforms.html">M.form.shortforms</a></li>
+            
+                <li><a href="../classes/M.form.showadvanced.html">M.form.showadvanced</a></li>
+            
+                <li><a href="../classes/M.mod_quiz.autosave.html">M.mod_quiz.autosave</a></li>
+            
+                <li><a href="../classes/M.tool_capability.Search.html">M.tool_capability.Search</a></li>
+            
+                <li><a href="../classes/Moodle.core_course.util.html">Moodle.core_course.util</a></li>
+            
+                <li><a href="../classes/Moodle.core_course.util.cm.html">Moodle.core_course.util.cm</a></li>
+            
+                <li><a href="../classes/Moodle.core_course.util.section.html">Moodle.core_course.util.section</a></li>
+            
+                <li><a href="../classes/Moodle.theme_bootstrapbase.bootstrap.html">Moodle.theme_bootstrapbase.bootstrap</a></li>
+            
+                <li><a href="../classes/Y.BootstrapEngine.html">Y.BootstrapEngine</a></li>
+            
+                <li><a href="../classes/Y.Moodle.course.categoryexpander.html">Y.Moodle.course.categoryexpander</a></li>
+            
+            </ul>
+
+            <ul id="api-modules" class="apis modules">
+            
+                <li><a href="../modules/buttons.html">buttons</a></li>
+            
+                <li><a href="../modules/clean.html">clean</a></li>
+            
+                <li><a href="../modules/dialogue.html">dialogue</a></li>
+            
+                <li><a href="../modules/filepicker.html">filepicker</a></li>
+            
+                <li><a href="../modules/gallery-bootstrap-collapse.html">gallery-bootstrap-collapse</a></li>
+            
+                <li><a href="../modules/gallery-bootstrap-dropdown.html">gallery-bootstrap-dropdown</a></li>
+            
+                <li><a href="../modules/gallery-bootstrap-engine.html">gallery-bootstrap-engine</a></li>
+            
+                <li><a href="../modules/menu-base.html">menu-base</a></li>
+            
+                <li><a href="../modules/moodle-assignfeedback_editpdf-editor.html">moodle-assignfeedback_editpdf-editor</a></li>
+            
+                <li><a href="../modules/moodle-atto-managefiles-button.html">moodle-atto-managefiles-button</a></li>
+            
+                <li><a href="../modules/moodle-atto_accessibilitychecker-button.html">moodle-atto_accessibilitychecker-button</a></li>
+            
+                <li><a href="../modules/moodle-atto_accessibilityhelper-button.html">moodle-atto_accessibilityhelper-button</a></li>
+            
+                <li><a href="../modules/moodle-atto_align-button.html">moodle-atto_align-button</a></li>
+            
+                <li><a href="../modules/moodle-atto_backcolor-button.html">moodle-atto_backcolor-button</a></li>
+            
+                <li><a href="../modules/moodle-atto_bold-button.html">moodle-atto_bold-button</a></li>
+            
+                <li><a href="../modules/moodle-atto_charmap-button.html">moodle-atto_charmap-button</a></li>
+            
+                <li><a href="../modules/moodle-atto_clear-button.html">moodle-atto_clear-button</a></li>
+            
+                <li><a href="../modules/moodle-atto_collapse-button.html">moodle-atto_collapse-button</a></li>
+            
+                <li><a href="../modules/moodle-atto_emoticon-button.html">moodle-atto_emoticon-button</a></li>
+            
+                <li><a href="../modules/moodle-atto_html-button.html">moodle-atto_html-button</a></li>
+            
+                <li><a href="../modules/moodle-atto_image_alignment-button.html">moodle-atto_image_alignment-button</a></li>
+            
+                <li><a href="../modules/moodle-atto_indent-button.html">moodle-atto_indent-button</a></li>
+            
+                <li><a href="../modules/moodle-atto_italic-button.html">moodle-atto_italic-button</a></li>
+            
+                <li><a href="../modules/moodle-atto_link-button.html">moodle-atto_link-button</a></li>
+            
+                <li><a href="../modules/moodle-atto_managefiles-usedfiles.html">moodle-atto_managefiles-usedfiles</a></li>
+            
+                <li><a href="../modules/moodle-atto_media-button.html">moodle-atto_media-button</a></li>
+            
+                <li><a href="../modules/moodle-atto_noautolink-button.html">moodle-atto_noautolink-button</a></li>
+            
+                <li><a href="../modules/moodle-atto_orderedlist-button.html">moodle-atto_orderedlist-button</a></li>
+            
+                <li><a href="../modules/moodle-atto_rtl-button.html">moodle-atto_rtl-button</a></li>
+            
+                <li><a href="../modules/moodle-atto_strike-button.html">moodle-atto_strike-button</a></li>
+            
+                <li><a href="../modules/moodle-atto_subscript-button.html">moodle-atto_subscript-button</a></li>
+            
+                <li><a href="../modules/moodle-atto_superscript-button.html">moodle-atto_superscript-button</a></li>
+            
+                <li><a href="../modules/moodle-atto_table-button.html">moodle-atto_table-button</a></li>
+            
+                <li><a href="../modules/moodle-atto_title-button.html">moodle-atto_title-button</a></li>
+            
+                <li><a href="../modules/moodle-atto_underline-button.html">moodle-atto_underline-button</a></li>
+            
+                <li><a href="../modules/moodle-atto_undo-button.html">moodle-atto_undo-button</a></li>
+            
+                <li><a href="../modules/moodle-atto_unlink-button.html">moodle-atto_unlink-button</a></li>
+            
+                <li><a href="../modules/moodle-atto_unorderedlist-button.html">moodle-atto_unorderedlist-button</a></li>
+            
+                <li><a href="../modules/moodle-backup-backupselectall.html">moodle-backup-backupselectall</a></li>
+            
+                <li><a href="../modules/moodle-backup-confirmcancel.html">moodle-backup-confirmcancel</a></li>
+            
+                <li><a href="../modules/moodle-block_navigation-navigation.html">moodle-block_navigation-navigation</a></li>
+            
+                <li><a href="../modules/moodle-core-actionmenu.html">moodle-core-actionmenu</a></li>
+            
+                <li><a href="../modules/moodle-core-blockdraganddrop.html">moodle-core-blockdraganddrop</a></li>
+            
+                <li><a href="../modules/moodle-core-chooserdialogue.html">moodle-core-chooserdialogue</a></li>
+            
+                <li><a href="../modules/moodle-core-dock.html">moodle-core-dock</a></li>
+            
+                <li><a href="../modules/moodle-core-dragdrop.html">moodle-core-dragdrop</a></li>
+            
+                <li><a href="../modules/moodle-core-formchangechecker.html">moodle-core-formchangechecker</a></li>
+            
+                <li><a href="../modules/moodle-core-lockscroll.html">moodle-core-lockscroll</a></li>
+            
+                <li><a href="../modules/moodle-core-maintenancemodetimer.html">moodle-core-maintenancemodetimer</a></li>
+            
+                <li><a href="../modules/moodle-core-notification.html">moodle-core-notification</a></li>
+            
+                <li><a href="../modules/moodle-core-notification-ajaxexception.html">moodle-core-notification-ajaxexception</a></li>
+            
+                <li><a href="../modules/moodle-core-notification-alert.html">moodle-core-notification-alert</a></li>
+            
+                <li><a href="../modules/moodle-core-notification-confirm.html">moodle-core-notification-confirm</a></li>
+            
+                <li><a href="../modules/moodle-core-notification-dialogue.html">moodle-core-notification-dialogue</a></li>
+            
+                <li><a href="../modules/moodle-core-notification-exception.html">moodle-core-notification-exception</a></li>
+            
+                <li><a href="../modules/moodle-core-popuphelp.html">moodle-core-popuphelp</a></li>
+            
+                <li><a href="../modules/moodle-core-tooltip.html">moodle-core-tooltip</a></li>
+            
+                <li><a href="../modules/moodle-core-widget-focusafterhide.html">moodle-core-widget-focusafterhide</a></li>
+            
+                <li><a href="../modules/moodle-course-categoryexpander.html">moodle-course-categoryexpander</a></li>
+            
+                <li><a href="../modules/moodle-course-coursebase.html">moodle-course-coursebase</a></li>
+            
+                <li><a href="../modules/moodle-course-dragdrop.html">moodle-course-dragdrop</a></li>
+            
+                <li><a href="../modules/moodle-course-management.html">moodle-course-management</a></li>
+            
+                <li><a href="../modules/moodle-course-modchooser.html">moodle-course-modchooser</a></li>
+            
+                <li><a href="../modules/moodle-course-toolboxes.html">moodle-course-toolboxes</a></li>
+            
+                <li><a href="../modules/moodle-course-util.html">moodle-course-util</a></li>
+            
+                <li><a href="../modules/moodle-course-util-cm.html">moodle-course-util-cm</a></li>
+            
+                <li><a href="../modules/moodle-course-util-section.html">moodle-course-util-section</a></li>
+            
+                <li><a href="../modules/moodle-editor_atto-editor.html">moodle-editor_atto-editor</a></li>
+            
+                <li><a href="../modules/moodle-editor_atto-menu.html">moodle-editor_atto-menu</a></li>
+            
+                <li><a href="../modules/moodle-editor_atto-plugin.html">moodle-editor_atto-plugin</a></li>
+            
+                <li><a href="../modules/moodle-form-shortforms.html">moodle-form-shortforms</a></li>
+            
+                <li><a href="../modules/moodle-form-showadvanced.html">moodle-form-showadvanced</a></li>
+            
+                <li><a href="../modules/moodle-mod_quiz-autosave.html">moodle-mod_quiz-autosave</a></li>
+            
+                <li><a href="../modules/moodle-question-preview.html">moodle-question-preview</a></li>
+            
+                <li><a href="../modules/moodle-tool_capability-search.html">moodle-tool_capability-search</a></li>
+            
+                <li><a href="../modules/plugin-base.html">plugin-base</a></li>
+            
+                <li><a href="../modules/styling.html">styling</a></li>
+            
+                <li><a href="../modules/textarea.html">textarea</a></li>
+            
+                <li><a href="../modules/theme_bootstrapbase-bootstrap.html">theme_bootstrapbase-bootstrap</a></li>
+            
+                <li><a href="../modules/toolbar.html">toolbar</a></li>
+            
+                <li><a href="../modules/toolbarnav.html">toolbarnav</a></li>
+            
+            </ul>
+        </div>
+    </div>
+</div>
+
+            </div>
+        </div>
+        <div class="yui3-u-3-4">
+                <div id="api-options">
+        Show:
+        <label for="api-show-inherited">
+            <input type="checkbox" id="api-show-inherited" checked>
+            Inherited
+        </label>
+
+        <label for="api-show-protected">
+            <input type="checkbox" id="api-show-protected">
+            Protected
+        </label>
+
+        <label for="api-show-private">
+            <input type="checkbox" id="api-show-private">
+            Private
+        </label>
+        <label for="api-show-deprecated">
+            <input type="checkbox" id="api-show-deprecated">
+            Deprecated
+        </label>
+
+    </div>
+
+
+            <div class="apidocs">
+                <div id="docs-main">
+                    <div class="content">
+                        <h1 class="file-heading">File: mod/assign/feedback/editpdf/yui/src/editor/js/editor.js</h1>
+
+<div class="file">
+    <pre class="code prettyprint linenums">
+// This file is part of Moodle - http://moodle.org/
+//
+// Moodle is free software: you can redistribute it and/or modify
+// it under the terms of the GNU General Public License as published by
+// the Free Software Foundation, either version 3 of the License, or
+// (at your option) any later version.
+//
+// Moodle is distributed in the hope that it will be useful,
+// but WITHOUT ANY WARRANTY; without even the implied warranty of
+// MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+// GNU General Public License for more details.
+//
+// You should have received a copy of the GNU General Public License
+// along with Moodle.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+
+/**
+ * Provides an in browser PDF editor.
+ *
+ * @module moodle-assignfeedback_editpdf-editor
+ */
+
+/**
+ * EDITOR
+ * This is an in browser PDF editor.
+ *
+ * @namespace M.assignfeedback_editpdf
+ * @class editor
+ * @constructor
+ * @extends Y.Base
+ */
+EDITOR = function() {
+    EDITOR.superclass.constructor.apply(this, arguments);
+};
+EDITOR.prototype = {
+
+    /**
+     * The dialogue used for all action menu displays.
+     *
+     * @property type
+     * @type M.core.dialogue
+     * @protected
+     */
+    dialogue : null,
+
+    /**
+     * The number of pages in the pdf.
+     *
+     * @property pagecount
+     * @type Number
+     * @protected
+     */
+    pagecount : 0,
+
+    /**
+     * The active page in the editor.
+     *
+     * @property currentpage
+     * @type Number
+     * @protected
+     */
+    currentpage : 0,
+
+    /**
+     * A list of page objects. Each page has a list of comments and annotations.
+     *
+     * @property pages
+     * @type array
+     * @protected
+     */
+    pages : [],
+
+    /**
+     * The yui node for the loading icon.
+     *
+     * @property loadingicon
+     * @type Node
+     * @protected
+     */
+    loadingicon : null,
+
+    /**
+     * Image object of the current page image.
+     *
+     * @property pageimage
+     * @type Image
+     * @protected
+     */
+    pageimage : null,
+
+    /**
+     * YUI Graphic class for drawing shapes.
+     *
+     * @property graphic
+     * @type Graphic
+     * @protected
+     */
+    graphic : null,
+
+    /**
+     * Info about the current edit operation.
+     *
+     * @property currentedit
+     * @type M.assignfeedback_editpdf.edit
+     * @protected
+     */
+    currentedit : new M.assignfeedback_editpdf.edit(),
+
+    /**
+     * Current drawable.
+     *
+     * @property currentdrawable
+     * @type M.assignfeedback_editpdf.drawable|false
+     * @protected
+     */
+    currentdrawable : false,
+
+    /**
+     * Current drawables.
+     *
+     * @property drawables
+     * @type array(M.assignfeedback_editpdf.drawable)
+     * @protected
+     */
+    drawables : [],
+
+    /**
+     * Current comment when the comment menu is open.
+     * @property currentcomment
+     * @type M.assignfeedback_editpdf.comment
+     * @protected
+     */
+    currentcomment : null,
+
+    /**
+     * Current annotation when the select tool is used.
+     * @property currentannotation
+     * @type M.assignfeedback_editpdf.annotation
+     * @protected
+     */
+    currentannotation : null,
+
+    /**
+     * Last selected annotation tool
+     * @property lastannotationtool
+     * @type String
+     * @protected
+     */
+    lastanntationtool : &quot;pen&quot;,
+
+    /**
+     * The users comments quick list
+     * @property quicklist
+     * @type M.assignfeedback_editpdf.quickcommentlist
+     * @protected
+     */
+    quicklist : null,
+
+    /**
+     * The search comments window.
+     * @property searchcommentswindow
+     * @type M.core.dialogue
+     * @protected
+     */
+    searchcommentswindow : null,
+
+
+    /**
+     * The selected stamp picture.
+     * @property currentstamp
+     * @type String
+     * @protected
+     */
+    currentstamp : null,
+
+    /**
+     * The stamps.
+     * @property stamps
+     * @type Array
+     * @protected
+     */
+    stamps : [],
+
+    /**
+     * Prevent new comments from appearing
+     * immediately after clicking off a current
+     * comment
+     * @property editingcomment
+     * @type Boolean
+     * @public
+     */
+    editingcomment : false,
+
+    /**
+     * Called during the initialisation process of the object.
+     * @method initializer
+     */
+    initializer : function() {
+        var link;
+
+        link = Y.one(&#x27;#&#x27; + this.get(&#x27;linkid&#x27;));
+
+        if (link) {
+            link.on(&#x27;click&#x27;, this.link_handler, this);
+            link.on(&#x27;key&#x27;, this.link_handler, &#x27;down:13&#x27;, this);
+
+            this.currentedit.start = false;
+            this.currentedit.end = false;
+            this.quicklist = new M.assignfeedback_editpdf.quickcommentlist(this);
+        }
+    },
+
+    /**
+     * Called to show/hide buttons and set the current colours/stamps.
+     * @method refresh_button_state
+     */
+    refresh_button_state : function() {
+        var button, currenttoolnode, imgurl;
+
+        // Initalise the colour buttons.
+        button = Y.one(SELECTOR.COMMENTCOLOURBUTTON);
+
+        imgurl = M.util.image_url(&#x27;background_colour_&#x27; + this.currentedit.commentcolour, &#x27;assignfeedback_editpdf&#x27;);
+        button.one(&#x27;img&#x27;).setAttribute(&#x27;src&#x27;, imgurl);
+
+        if (this.currentedit.commentcolour === &#x27;clear&#x27;) {
+            button.one(&#x27;img&#x27;).setStyle(&#x27;borderStyle&#x27;, &#x27;dashed&#x27;);
+        } else {
+            button.one(&#x27;img&#x27;).setStyle(&#x27;borderStyle&#x27;, &#x27;solid&#x27;);
+        }
+
+        button = Y.one(SELECTOR.ANNOTATIONCOLOURBUTTON);
+        imgurl = M.util.image_url(&#x27;colour_&#x27; + this.currentedit.annotationcolour, &#x27;assignfeedback_editpdf&#x27;);
+        button.one(&#x27;img&#x27;).setAttribute(&#x27;src&#x27;, imgurl);
+
+        currenttoolnode = Y.one(TOOLSELECTOR[this.currentedit.tool]);
+        currenttoolnode.addClass(&#x27;assignfeedback_editpdf_selectedbutton&#x27;);
+        currenttoolnode.setAttribute(&#x27;aria-pressed&#x27;, &#x27;true&#x27;);
+
+        button = Y.one(SELECTOR.STAMPSBUTTON);
+        button.one(&#x27;img&#x27;).setAttrs({&#x27;src&#x27;: this.get_stamp_image_url(this.currentedit.stamp),
+                                    &#x27;height&#x27;: &#x27;16&#x27;,
+                                    &#x27;width&#x27;: &#x27;16&#x27;});
+    },
+
+    /**
+     * Called to get the bounds of the drawing region.
+     * @method get_canvas_bounds
+     */
+    get_canvas_bounds : function() {
+        var canvas = Y.one(SELECTOR.DRAWINGCANVAS),
+            offsetcanvas = canvas.getXY(),
+            offsetleft = offsetcanvas[0],
+            offsettop = offsetcanvas[1],
+            width = parseInt(canvas.getStyle(&#x27;width&#x27;), 10),
+            height = parseInt(canvas.getStyle(&#x27;height&#x27;), 10);
+
+        return new M.assignfeedback_editpdf.rect(offsetleft, offsettop, width, height);
+    },
+
+    /**
+     * Called to translate from window coordinates to canvas coordinates.
+     * @method get_canvas_coordinates
+     * @param M.assignfeedback_editpdf.point point in window coordinats.
+     */
+    get_canvas_coordinates : function(point) {
+        var bounds = this.get_canvas_bounds(),
+            newpoint = new M.assignfeedback_editpdf.point(point.x - bounds.x, point.y - bounds.y);
+
+        bounds.x = bounds.y = 0;
+
+        newpoint.clip(bounds);
+        return newpoint;
+    },
+
+    /**
+     * Called to translate from canvas coordinates to window coordinates.
+     * @method get_window_coordinates
+     * @param M.assignfeedback_editpdf.point point in window coordinats.
+     */
+    get_window_coordinates : function(point) {
+        var bounds = this.get_canvas_bounds(),
+            newpoint = new M.assignfeedback_editpdf.point(point.x + bounds.x, point.y + bounds.y);
+
+        return newpoint;
+    },
+
+    /**
+     * Called to open the pdf editing dialogue.
+     * @method link_handler
+     */
+    link_handler : function(e) {
+        var drawingcanvas;
+        e.preventDefault();
+
+        if (!this.dialogue) {
+            this.dialogue = new M.core.dialogue({
+                headerContent: this.get(&#x27;header&#x27;),
+                bodyContent: this.get(&#x27;body&#x27;),
+                footerContent: this.get(&#x27;footer&#x27;),
+                modal: true,
+                width: &#x27;840px&#x27;,
+                visible: false,
+                draggable: true
+            });
+
+            // Add custom class for styling.
+            this.dialogue.get(&#x27;boundingBox&#x27;).addClass(CSS.DIALOGUE);
+
+            this.loadingicon = Y.one(SELECTOR.LOADINGICON);
+
+            drawingcanvas = Y.one(SELECTOR.DRAWINGCANVAS);
+            this.graphic = new Y.Graphic({render : SELECTOR.DRAWINGCANVAS});
+
+            if (!this.get(&#x27;readonly&#x27;)) {
+                drawingcanvas.on(&#x27;gesturemovestart&#x27;, this.edit_start, null, this);
+                drawingcanvas.on(&#x27;gesturemove&#x27;, this.edit_move, null, this);
+                drawingcanvas.on(&#x27;gesturemoveend&#x27;, this.edit_end, null, this);
+
+                this.refresh_button_state();
+            }
+
+            this.load_all_pages();
+        }
+        this.dialogue.centerDialogue();
+        this.dialogue.show();
+    },
+
+    /**
+     * Called to load the information and annotations for all pages.
+     * @method load_all_pages
+     */
+    load_all_pages : function() {
+        var ajaxurl = AJAXBASE,
+            config,
+            checkconversionstatus,
+            ajax_error_total;
+
+        config = {
+            method: &#x27;get&#x27;,
+            context: this,
+            sync: false,
+            data : {
+                sesskey : M.cfg.sesskey,
+                action : &#x27;loadallpages&#x27;,
+                userid : this.get(&#x27;userid&#x27;),
+                attemptnumber : this.get(&#x27;attemptnumber&#x27;),
+                assignmentid : this.get(&#x27;assignmentid&#x27;)
+            },
+            on: {
+                success: function(tid, response) {
+                    this.all_pages_loaded(response.responseText);
+                },
+                failure: function(tid, response) {
+                    return new M.core.exception(response.responseText);
+                }
+            }
+        };
+
+        Y.io(ajaxurl, config);
+
+        // If pages are not loaded, check PDF conversion status for the progress bar.
+        if (this.pagecount &lt;= 0) {
+            checkconversionstatus = {
+                method: &#x27;get&#x27;,
+                context: this,
+                sync: false,
+                data : {
+                    sesskey : M.cfg.sesskey,
+                    action : &#x27;conversionstatus&#x27;,
+                    userid : this.get(&#x27;userid&#x27;),
+                    attemptnumber : this.get(&#x27;attemptnumber&#x27;),
+                    assignmentid : this.get(&#x27;assignmentid&#x27;)
+                },
+                on: {
+                    success: function(tid, response) {
+                        ajax_error_total = 0;
+                        if (this.pagecount === 0) {
+                            var pagetotal = this.get(&#x27;pagetotal&#x27;);
+
+                            // Update the progress bar.
+                            var progressbarcontainer = Y.one(SELECTOR.PROGRESSBARCONTAINER);
+                            var progressbar = progressbarcontainer.one(&#x27;.bar&#x27;);
+                            if (progressbar) {
+                                // Calculate progress.
+                                var progress = (response.response / pagetotal) * 100;
+                                progressbar.setStyle(&#x27;width&#x27;, progress + &#x27;%&#x27;);
+                                progressbarcontainer.setAttribute(&#x27;aria-valuenow&#x27;, progress);
+                            }
+
+                            // New ajax request delayed of a second.
+                            Y.later(1000, this, function () {
+                                Y.io(AJAXBASEPROGRESS, checkconversionstatus);
+                            });
+                        }
+                    },
+                    failure: function(tid, response) {
+                        ajax_error_total = ajax_error_total + 1;
+                        // We only continue on error if the all pages were not generated,
+                        // and if the ajax call did not produce 5 errors in the row.
+                        if (this.pagecount === 0 &amp;&amp; ajax_error_total &lt; 5) {
+                            Y.later(1000, this, function () {
+                                Y.io(AJAXBASEPROGRESS, checkconversionstatus);
+                            });
+                        }
+                        return new M.core.exception(response.responseText);
+                    }
+                }
+            };
+            // We start the AJAX &quot;generated page total number&quot; call a second later to give a chance to
+            // the AJAX &quot;combined pdf generation&quot; call to clean the previous submission images.
+            Y.later(1000, this, function () {
+                ajax_error_total = 0;
+                Y.io(AJAXBASEPROGRESS, checkconversionstatus);
+            });
+        }
+    },
+
+    /**
+     * The info about all pages in the pdf has been returned.
+     * @param string The ajax response as text.
+     * @protected
+     * @method all_pages_loaded
+     */
+    all_pages_loaded : function(responsetext) {
+        var data, i, j, comment, error;
+        try {
+            data = Y.JSON.parse(responsetext);
+            if (data.error || !data.pagecount) {
+                this.dialogue.hide();
+                // Display alert dialogue.
+                error = new M.core.alert({ message: M.util.get_string(&#x27;cannotopenpdf&#x27;, &#x27;assignfeedback_editpdf&#x27;) });
+                error.show();
+                return;
+            }
+        } catch (e) {
+            this.dialogue.hide();
+            // Display alert dialogue.
+            error = new M.core.alert({ title: M.util.get_string(&#x27;cannotopenpdf&#x27;, &#x27;assignfeedback_editpdf&#x27;)});
+            error.show();
+            return;
+        }
+
+        this.pagecount = data.pagecount;
+        this.pages = data.pages;
+
+        for (i = 0; i &lt; this.pages.length; i++) {
+            for (j = 0; j &lt; this.pages[i].comments.length; j++) {
+                comment = this.pages[i].comments[j];
+                this.pages[i].comments[j] = new M.assignfeedback_editpdf.comment(this,
+                                                                                 comment.gradeid,
+                                                                                 comment.pageno,
+                                                                                 comment.x,
+                                                                                 comment.y,
+                                                                                 comment.width,
+                                                                                 comment.colour,
+                                                                                 comment.rawtext);
+            }
+            for (j = 0; j &lt; this.pages[i].annotations.length; j++) {
+                data = this.pages[i].annotations[j];
+                this.pages[i].annotations[j] = this.create_annotation(data.type, data);
+            }
+        }
+
+        // Update the ui.
+        this.quicklist.load();
+        this.setup_navigation();
+        this.setup_toolbar();
+        this.change_page();
+    },
+
+    /**
+     * Get the full pluginfile url for an image file - just given the filename.
+     *
+     * @public
+     * @method get_stamp_image_url
+     * @param string filename
+     */
+    get_stamp_image_url : function(filename) {
+        var urls = this.get(&#x27;stampfiles&#x27;),
+            fullurl = &#x27;&#x27;;
+
+        Y.Array.each(urls, function(url) {
+            if (url.indexOf(filename) &gt; 0) {
+                fullurl = url;
+            }
+        }, this);
+
+        return fullurl;
+    },
+
+    /**
+     * Attach listeners and enable the color picker buttons.
+     * @protected
+     * @method setup_toolbar
+     */
+    setup_toolbar : function() {
+        var toolnode,
+            commentcolourbutton,
+            annotationcolourbutton,
+            searchcommentsbutton,
+            currentstampbutton,
+            stampfiles,
+            picker,
+            filename;
+
+        searchcommentsbutton = Y.one(SELECTOR.SEARCHCOMMENTSBUTTON);
+        searchcommentsbutton.on(&#x27;click&#x27;, this.open_search_comments, this);
+        searchcommentsbutton.on(&#x27;key&#x27;, this.open_search_comments, &#x27;down:13&#x27;, this);
+
+        if (this.get(&#x27;readonly&#x27;)) {
+            return;
+        }
+        // Setup the tool buttons.
+        Y.each(TOOLSELECTOR, function(selector, tool) {
+            toolnode = Y.one(selector);
+            toolnode.on(&#x27;click&#x27;, this.handle_tool_button, this, tool);
+            toolnode.on(&#x27;key&#x27;, this.handle_tool_button, &#x27;down:13&#x27;, this, tool);
+            toolnode.setAttribute(&#x27;aria-pressed&#x27;, &#x27;false&#x27;);
+        }, this);
+
+        // Set the default tool.
+
+        commentcolourbutton = Y.one(SELECTOR.COMMENTCOLOURBUTTON);
+        picker = new M.assignfeedback_editpdf.colourpicker({
+            buttonNode: commentcolourbutton,
+            colours: COMMENTCOLOUR,
+            iconprefix: &#x27;background_colour_&#x27;,
+            callback: function (e) {
+                var colour = e.target.getAttribute(&#x27;data-colour&#x27;);
+                if (!colour) {
+                    colour = e.target.ancestor().getAttribute(&#x27;data-colour&#x27;);
+                }
+                this.currentedit.commentcolour = colour;
+                this.handle_tool_button(e, &quot;comment&quot;);
+            },
+            context: this
+        });
+
+        annotationcolourbutton = Y.one(SELECTOR.ANNOTATIONCOLOURBUTTON);
+        picker = new M.assignfeedback_editpdf.colourpicker({
+            buttonNode: annotationcolourbutton,
+            iconprefix: &#x27;colour_&#x27;,
+            colours: ANNOTATIONCOLOUR,
+            callback: function (e) {
+                var colour = e.target.getAttribute(&#x27;data-colour&#x27;);
+                if (!colour) {
+                    colour = e.target.ancestor().getAttribute(&#x27;data-colour&#x27;);
+                }
+                this.currentedit.annotationcolour = colour;
+                if (this.lastannotationtool) {
+                    this.handle_tool_button(e, this.lastannotationtool);
+                } else {
+                    this.handle_tool_button(e, &quot;pen&quot;);
+                }
+            },
+            context: this
+        });
+
+        stampfiles = this.get(&#x27;stampfiles&#x27;);
+        if (stampfiles.length &lt;= 0) {
+            Y.one(TOOLSELECTOR.stamp).ancestor().hide();
+        } else {
+            filename = stampfiles[0].substr(stampfiles[0].lastIndexOf(&#x27;/&#x27;) + 1);
+            this.currentedit.stamp = filename;
+            currentstampbutton = Y.one(SELECTOR.STAMPSBUTTON);
+
+            picker = new M.assignfeedback_editpdf.stamppicker({
+                buttonNode: currentstampbutton,
+                stamps: stampfiles,
+                callback: function(e) {
+                    var stamp = e.target.getAttribute(&#x27;data-stamp&#x27;),
+                        filename;
+
+                    if (!stamp) {
+                        stamp = e.target.ancestor().getAttribute(&#x27;data-stamp&#x27;);
+                    }
+                    filename = stamp.substr(stamp.lastIndexOf(&#x27;/&#x27;));
+                    this.currentedit.stamp = filename;
+                    this.handle_tool_button(e, &quot;stamp&quot;);
+                },
+                context: this
+            });
+            this.refresh_button_state();
+        }
+    },
+
+    /**
+     * Change the current tool.
+     * @protected
+     * @method handle_tool_button
+     */
+    handle_tool_button : function(e, tool) {
+        var currenttoolnode;
+
+        e.preventDefault();
+
+        // Change style of the pressed button.
+        currenttoolnode = Y.one(TOOLSELECTOR[this.currentedit.tool]);
+        currenttoolnode.removeClass(&#x27;assignfeedback_editpdf_selectedbutton&#x27;);
+        currenttoolnode.setAttribute(&#x27;aria-pressed&#x27;, &#x27;false&#x27;);
+        this.currentedit.tool = tool;
+        if (tool !== &quot;comment&quot; &amp;&amp; tool !== &quot;select&quot; &amp;&amp; tool !== &quot;stamp&quot;) {
+            this.lastannotationtool = tool;
+        }
+        this.refresh_button_state();
+    },
+
+    /**
+     * JSON encode the current page data - stripping out drawable references which cannot be encoded.
+     * @protected
+     * @method stringify_current_page
+     * @return string
+     */
+    stringify_current_page : function() {
+        var comments = [],
+            annotations = [],
+            page,
+            i = 0;
+
+        for (i = 0; i &lt; this.pages[this.currentpage].comments.length; i++) {
+            comments[i] = this.pages[this.currentpage].comments[i].clean();
+        }
+        for (i = 0; i &lt; this.pages[this.currentpage].annotations.length; i++) {
+            annotations[i] = this.pages[this.currentpage].annotations[i].clean();
+        }
+
+        page = { comments : comments, annotations : annotations };
+
+        return Y.JSON.stringify(page);
+    },
+
+    /**
+     * Generate a drawable from the current in progress edit.
+     * @protected
+     * @method get_current_drawable
+     */
+    get_current_drawable : function() {
+        var comment,
+            annotation,
+            drawable = false;
+
+        if (!this.currentedit.start || !this.currentedit.end) {
+            return false;
+        }
+
+        if (this.currentedit.tool === &#x27;comment&#x27;) {
+            comment = new M.assignfeedback_editpdf.comment(this);
+            drawable = comment.draw_current_edit(this.currentedit);
+        } else {
+            annotation = this.create_annotation(this.currentedit.tool, {});
+            if (annotation) {
+                drawable = annotation.draw_current_edit(this.currentedit);
+            }
+        }
+
+        return drawable;
+    },
+
+    /**
+     * Redraw the active edit.
+     * @protected
+     * @method redraw_active_edit
+     */
+    redraw_current_edit : function() {
+        if (this.currentdrawable) {
+            this.currentdrawable.erase();
+        }
+        this.currentdrawable = this.get_current_drawable();
+    },
+
+    /**
+     * Event handler for mousedown or touchstart.
+     * @protected
+     * @param Event
+     * @method edit_start
+     */
+    edit_start : function(e) {
+        var canvas = Y.one(SELECTOR.DRAWINGCANVAS),
+            offset = canvas.getXY(),
+            scrolltop = canvas.get(&#x27;docScrollY&#x27;),
+            scrollleft = canvas.get(&#x27;docScrollX&#x27;),
+            point = {x : e.clientX - offset[0] + scrollleft,
+                     y : e.clientY - offset[1] + scrolltop},
+            selected = false,
+            lastannotation;
+
+        // Ignore right mouse click.
+        if (e.button === 3) {
+            return;
+        }
+
+        if (this.currentedit.starttime) {
+            return;
+        }
+
+        if (this.editingcomment) {
+            return;
+        }
+
+        this.currentedit.starttime = new Date().getTime();
+        this.currentedit.start = point;
+        this.currentedit.end = {x : point.x, y : point.y};
+
+        if (this.currentedit.tool === &#x27;select&#x27;) {
+            x = this.currentedit.end.x;
+            y = this.currentedit.end.y;
+            annotations = this.pages[this.currentpage].annotations;
+            // Find the first annotation whose bounds encompass the click.
+            Y.each(annotations, function(annotation) {
+                if (((x - annotation.x) * (x - annotation.endx)) &lt;= 0 &amp;&amp;
+                    ((y - annotation.y) * (y - annotation.endy)) &lt;= 0) {
+                    selected = annotation;
+                }
+            });
+
+            if (selected) {
+                lastannotation = this.currentannotation;
+                this.currentannotation = selected;
+                if (lastannotation &amp;&amp; lastannotation !== selected) {
+                    // Redraw the last selected annotation to remove the highlight.
+                    if (lastannotation.drawable) {
+                        lastannotation.drawable.erase();
+                        this.drawables.push(lastannotation.draw());
+                    }
+                }
+                // Redraw the newly selected annotation to show the highlight.
+                if (this.currentannotation.drawable) {
+                    this.currentannotation.drawable.erase();
+                }
+                this.drawables.push(this.currentannotation.draw());
+            }
+        }
+        if (this.currentannotation) {
+            // Used to calculate drag offset.
+            this.currentedit.annotationstart = { x : this.currentannotation.x,
+                                                 y : this.currentannotation.y };
+        }
+    },
+
+    /**
+     * Event handler for mousemove.
+     * @protected
+     * @param Event
+     * @method edit_move
+     */
+    edit_move : function(e) {
+        var bounds = this.get_canvas_bounds(),
+            canvas = Y.one(SELECTOR.DRAWINGCANVAS),
+            clientpoint = new M.assignfeedback_editpdf.point(e.clientX + canvas.get(&#x27;docScrollX&#x27;),
+                                                             e.clientY + canvas.get(&#x27;docScrollY&#x27;)),
+            point = this.get_canvas_coordinates(clientpoint);
+
+        // Ignore events out of the canvas area.
+        if (point.x &lt; 0 || point.x &gt; bounds.width || point.y &lt; 0 || point.y &gt; bounds.height) {
+            return;
+        }
+
+        if (this.currentedit.tool === &#x27;pen&#x27;) {
+            this.currentedit.path.push(point);
+        }
+
+        if (this.currentedit.tool === &#x27;select&#x27;) {
+            if (this.currentannotation &amp;&amp; this.currentedit) {
+                this.currentannotation.move( this.currentedit.annotationstart.x + point.x - this.currentedit.start.x,
+                                             this.currentedit.annotationstart.y + point.y - this.currentedit.start.y);
+            }
+        } else {
+            if (this.currentedit.start) {
+                this.currentedit.end = point;
+                this.redraw_current_edit();
+            }
+        }
+    },
+
+    /**
+     * Event handler for mouseup or touchend.
+     * @protected
+     * @param Event
+     * @method edit_end
+     */
+    edit_end : function() {
+        var duration,
+            comment,
+            annotation;
+
+        duration = new Date().getTime() - this.currentedit.start;
+
+        if (duration &lt; CLICKTIMEOUT || this.currentedit.start === false) {
+            return;
+        }
+
+        if (this.currentedit.tool === &#x27;comment&#x27;) {
+            if (this.currentdrawable) {
+                this.currentdrawable.erase();
+            }
+            this.currentdrawable = false;
+            comment = new M.assignfeedback_editpdf.comment(this);
+            if (comment.init_from_edit(this.currentedit)) {
+                this.pages[this.currentpage].comments.push(comment);
+                this.drawables.push(comment.draw(true));
+                this.editingcomment = true;
+            }
+        } else {
+            annotation = this.create_annotation(this.currentedit.tool, {});
+            if (annotation) {
+                if (this.currentdrawable) {
+                    this.currentdrawable.erase();
+                }
+                this.currentdrawable = false;
+                if (annotation.init_from_edit(this.currentedit)) {
+                    this.pages[this.currentpage].annotations.push(annotation);
+                    this.drawables.push(annotation.draw());
+                }
+            }
+        }
+
+        // Save the changes.
+        this.save_current_page();
+
+        // Reset the current edit.
+        this.currentedit.starttime = 0;
+        this.currentedit.start = false;
+        this.currentedit.end = false;
+        this.currentedit.path = [];
+    },
+
+    /**
+     * Factory method for creating annotations of the correct subclass.
+     * @public
+     * @method create_annotation
+     */
+    create_annotation : function(type, data) {
+        data.type = type;
+        data.editor = this;
+        if (type === &quot;line&quot;) {
+            return new M.assignfeedback_editpdf.annotationline(data);
+        } else if (type === &quot;rectangle&quot;) {
+            return new M.assignfeedback_editpdf.annotationrectangle(data);
+        } else if (type === &quot;oval&quot;) {
+            return new M.assignfeedback_editpdf.annotationoval(data);
+        } else if (type === &quot;pen&quot;) {
+            return new M.assignfeedback_editpdf.annotationpen(data);
+        } else if (type === &quot;highlight&quot;) {
+            return new M.assignfeedback_editpdf.annotationhighlight(data);
+        } else if (type === &quot;stamp&quot;) {
+            return new M.assignfeedback_editpdf.annotationstamp(data);
+        }
+        return false;
+    },
+
+    /**
+     * Save all the annotations and comments for the current page.
+     * @protected
+     * @method save_current_page
+     */
+    save_current_page : function() {
+        var ajaxurl = AJAXBASE,
+            config;
+
+        config = {
+            method: &#x27;post&#x27;,
+            context: this,
+            sync: false,
+            data : {
+                &#x27;sesskey&#x27; : M.cfg.sesskey,
+                &#x27;action&#x27; : &#x27;savepage&#x27;,
+                &#x27;index&#x27; : this.currentpage,
+                &#x27;userid&#x27; : this.get(&#x27;userid&#x27;),
+                &#x27;attemptnumber&#x27; : this.get(&#x27;attemptnumber&#x27;),
+                &#x27;assignmentid&#x27; : this.get(&#x27;assignmentid&#x27;),
+                &#x27;page&#x27; : this.stringify_current_page()
+            },
+            on: {
+                success: function(tid, response) {
+                    var jsondata;
+                    try {
+                        jsondata = Y.JSON.parse(response.responseText);
+                        if (jsondata.error) {
+                            return new M.core.ajaxException(jsondata);
+                        }
+                        Y.one(SELECTOR.UNSAVEDCHANGESDIV).addClass(&#x27;haschanges&#x27;);
+                    } catch (e) {
+                        return new M.core.exception(e);
+                    }
+                },
+                failure: function(tid, response) {
+                    return new M.core.exception(response.responseText);
+                }
+            }
+        };
+
+        Y.io(ajaxurl, config);
+
+    },
+
+    /**
+     * Event handler to open the comment search interface.
+     *
+     * @param Event e
+     * @protected
+     * @method open_search_comments
+     */
+    open_search_comments : function(e) {
+        if (!this.searchcommentswindow) {
+            this.searchcommentswindow = new M.assignfeedback_editpdf.commentsearch({
+                editor : this
+            });
+        }
+
+        this.searchcommentswindow.show();
+        e.preventDefault();
+    },
+
+    /**
+     * Redraw all the comments and annotations.
+     * @protected
+     * @method redraw
+     */
+    redraw : function() {
+        var i,
+            page;
+
+        page = this.pages[this.currentpage];
+        while (this.drawables.length &gt; 0) {
+            this.drawables.pop().erase();
+        }
+
+        for (i = 0; i &lt; page.annotations.length; i++) {
+            this.drawables.push(page.annotations[i].draw());
+        }
+        for (i = 0; i &lt; page.comments.length; i++) {
+            this.drawables.push(page.comments[i].draw(false));
+        }
+    },
+
+    /**
+     * Load the image for this pdf page and remove the loading icon (if there).
+     * @protected
+     * @method change_page
+     */
+    change_page : function() {
+        var drawingcanvas = Y.one(SELECTOR.DRAWINGCANVAS),
+            page,
+            previousbutton,
+            nextbutton;
+
+        previousbutton = Y.one(SELECTOR.PREVIOUSBUTTON);
+        nextbutton = Y.one(SELECTOR.NEXTBUTTON);
+
+        if (this.currentpage &gt; 0) {
+            previousbutton.removeAttribute(&#x27;disabled&#x27;);
+        } else {
+            previousbutton.setAttribute(&#x27;disabled&#x27;, &#x27;true&#x27;);
+        }
+        if (this.currentpage &lt; (this.pagecount - 1)) {
+            nextbutton.removeAttribute(&#x27;disabled&#x27;);
+        } else {
+            nextbutton.setAttribute(&#x27;disabled&#x27;, &#x27;true&#x27;);
+        }
+
+        page = this.pages[this.currentpage];
+        this.loadingicon.hide();
+        drawingcanvas.setStyle(&#x27;backgroundImage&#x27;, &#x27;url(&quot;&#x27; + page.url + &#x27;&quot;)&#x27;);
+
+        // Update page select.
+        Y.one(SELECTOR.PAGESELECT).set(&#x27;value&#x27;, this.currentpage);
+
+        this.redraw();
+    },
+
+    /**
+     * Now we know how many pages there are,
+     * we can enable the navigation controls.
+     * @protected
+     * @method setup_navigation
+     */
+    setup_navigation : function() {
+        var pageselect,
+            i,
+            option,
+            previousbutton,
+            nextbutton;
+
+        pageselect = Y.one(SELECTOR.PAGESELECT);
+
+        options = pageselect.all(&#x27;option&#x27;);
+        if (options.size() &lt;= 1) {
+            for (i = 0; i &lt; this.pages.length; i++) {
+                option = Y.Node.create(&#x27;&lt;option/&gt;&#x27;);
+                option.setAttribute(&#x27;value&#x27;, i);
+                option.setHTML(M.util.get_string(&#x27;pagenumber&#x27;, &#x27;assignfeedback_editpdf&#x27;, i+1));
+                pageselect.append(option);
+            }
+        }
+        pageselect.removeAttribute(&#x27;disabled&#x27;);
+        pageselect.on(&#x27;change&#x27;, function() {
+            this.currentpage = pageselect.get(&#x27;value&#x27;);
+            this.change_page();
+        }, this);
+
+        previousbutton = Y.one(SELECTOR.PREVIOUSBUTTON);
+        nextbutton = Y.one(SELECTOR.NEXTBUTTON);
+
+        previousbutton.on(&#x27;click&#x27;, this.previous_page, this);
+        previousbutton.on(&#x27;key&#x27;, this.previous_page, &#x27;down:13&#x27;, this);
+        nextbutton.on(&#x27;click&#x27;, this.next_page, this);
+        nextbutton.on(&#x27;key&#x27;, this.next_page, &#x27;down:13&#x27;, this);
+    },
+
+    /**
+     * Navigate to the previous page.
+     * @protected
+     * @method previous_page
+     */
+    previous_page : function(e) {
+        e.preventDefault();
+        this.currentpage--;
+        if (this.currentpage &lt; 0) {
+            this.currentpage = 0;
+        }
+        this.change_page();
+    },
+
+    /**
+     * Navigate to the next page.
+     * @protected
+     * @method next_page
+     */
+    next_page : function(e) {
+        e.preventDefault();
+        this.currentpage++;
+        if (this.currentpage &gt;= this.pages.length) {
+            this.currentpage = this.pages.length - 1;
+        }
+        this.change_page();
+    }
+
+
+
+};
+
+Y.extend(EDITOR, Y.Base, EDITOR.prototype, {
+    NAME : &#x27;moodle-assignfeedback_editpdf-editor&#x27;,
+    ATTRS : {
+        userid : {
+            validator : Y.Lang.isInteger,
+            value : 0
+        },
+        assignmentid : {
+            validator : Y.Lang.isInteger,
+            value : 0
+        },
+        attemptnumber : {
+            validator : Y.Lang.isInteger,
+            value : 0
+        },
+        header : {
+            validator : Y.Lang.isString,
+            value : &#x27;&#x27;
+        },
+        body : {
+            validator : Y.Lang.isString,
+            value : &#x27;&#x27;
+        },
+        footer : {
+            validator : Y.Lang.isString,
+            value : &#x27;&#x27;
+        },
+        linkid : {
+            validator : Y.Lang.isString,
+            value : &#x27;&#x27;
+        },
+        deletelinkid : {
+            validator : Y.Lang.isString,
+            value : &#x27;&#x27;
+        },
+        readonly : {
+            validator : Y.Lang.isBoolean,
+            value : true
+        },
+        stampfiles : {
+            validator : Y.Lang.isArray,
+            value : &#x27;&#x27;
+        },
+        pagetotal : {
+            validator : Y.Lang.isInteger,
+            value : 0
+        }
+    }
+});
+
+M.assignfeedback_editpdf = M.assignfeedback_editpdf || {};
+M.assignfeedback_editpdf.editor = M.assignfeedback_editpdf.editor || {};
+
+/**
+ * Init function - will create a new instance every time.
+ * @method editor.init
+ * @static
+ * @param {Object} params
+ */
+M.assignfeedback_editpdf.editor.init = M.assignfeedback_editpdf.editor.init || function(params) {
+    return new EDITOR(params);
+};
+
+    </pre>
+</div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="../assets/vendor/prettify/prettify-min.js"></script>
+<script>prettyPrint();</script>
+<script src="../assets/js/yui-prettify.js"></script>
+<script src="../assets/../api.js"></script>
+<script src="../assets/js/api-filter.js"></script>
+<script src="../assets/js/api-list.js"></script>
+<script src="../assets/js/api-search.js"></script>
+<script src="../assets/js/apidocs.js"></script>
+</body>
+</html>

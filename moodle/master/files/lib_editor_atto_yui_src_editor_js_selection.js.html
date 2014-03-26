@@ -1,0 +1,969 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>lib/editor/atto/yui/src/editor/js/selection.js - Moodle</title>
+    <link rel="stylesheet" href="http://yui.yahooapis.com/3.9.1/build/cssgrids/cssgrids-min.css">
+    <link rel="stylesheet" href="../assets/vendor/prettify/prettify-min.css">
+    <link rel="stylesheet" href="../assets/css/main.css" id="site_styles">
+    <link rel="shortcut icon" type="image/png" href="../assets/favicon.png">
+    <script src="http://yui.yahooapis.com/combo?3.9.1/build/yui/yui-min.js"></script>
+</head>
+<body class="yui3-skin-sam">
+
+<div id="doc">
+    <div id="hd" class="yui3-g header">
+        <div class="yui3-u-3-4">
+            
+                <h1><img src="../assets/css/logo.png" title="Moodle"></h1>
+            
+        </div>
+        <div class="yui3-u-1-4 version">
+            <em>API Docs for: </em>
+        </div>
+    </div>
+    <div id="bd" class="yui3-g">
+
+        <div class="yui3-u-1-4">
+            <div id="docs-sidebar" class="sidebar apidocs">
+                <div id="api-list">
+    <h2 class="off-left">APIs</h2>
+    <div id="api-tabview" class="tabview">
+        <ul class="tabs">
+            <li><a href="#api-classes">Classes</a></li>
+            <li><a href="#api-modules">Modules</a></li>
+        </ul>
+
+        <div id="api-tabview-filter">
+            <input type="search" id="api-filter" placeholder="Type to filter APIs">
+        </div>
+
+        <div id="api-tabview-panel">
+            <ul id="api-classes" class="apis classes">
+            
+                <li><a href="../classes/Bootstrap.Collapse.html">Bootstrap.Collapse</a></li>
+            
+                <li><a href="../classes/Bootstrap.Dropdown.html">Bootstrap.Dropdown</a></li>
+            
+                <li><a href="../classes/M.assignfeedback_editpdf.annotation.html">M.assignfeedback_editpdf.annotation</a></li>
+            
+                <li><a href="../classes/M.assignfeedback_editpdf.annotationhighlight.html">M.assignfeedback_editpdf.annotationhighlight</a></li>
+            
+                <li><a href="../classes/M.assignfeedback_editpdf.annotationline.html">M.assignfeedback_editpdf.annotationline</a></li>
+            
+                <li><a href="../classes/M.assignfeedback_editpdf.annotationoval.html">M.assignfeedback_editpdf.annotationoval</a></li>
+            
+                <li><a href="../classes/M.assignfeedback_editpdf.annotationpen.html">M.assignfeedback_editpdf.annotationpen</a></li>
+            
+                <li><a href="../classes/M.assignfeedback_editpdf.annotationrectangle.html">M.assignfeedback_editpdf.annotationrectangle</a></li>
+            
+                <li><a href="../classes/M.assignfeedback_editpdf.annotationstamp.html">M.assignfeedback_editpdf.annotationstamp</a></li>
+            
+                <li><a href="../classes/M.assignfeedback_editpdf.colourpicker.html">M.assignfeedback_editpdf.colourpicker</a></li>
+            
+                <li><a href="../classes/M.assignfeedback_editpdf.comment.html">M.assignfeedback_editpdf.comment</a></li>
+            
+                <li><a href="../classes/M.assignfeedback_editpdf.commentmenu.html">M.assignfeedback_editpdf.commentmenu</a></li>
+            
+                <li><a href="../classes/M.assignfeedback_editpdf.commentsearch.html">M.assignfeedback_editpdf.commentsearch</a></li>
+            
+                <li><a href="../classes/M.assignfeedback_editpdf.drawable.html">M.assignfeedback_editpdf.drawable</a></li>
+            
+                <li><a href="../classes/M.assignfeedback_editpdf.dropdown.html">M.assignfeedback_editpdf.dropdown</a></li>
+            
+                <li><a href="../classes/M.assignfeedback_editpdf.edit.html">M.assignfeedback_editpdf.edit</a></li>
+            
+                <li><a href="../classes/M.assignfeedback_editpdf.editor.html">M.assignfeedback_editpdf.editor</a></li>
+            
+                <li><a href="../classes/M.assignfeedback_editpdf.point.html">M.assignfeedback_editpdf.point</a></li>
+            
+                <li><a href="../classes/M.assignfeedback_editpdf.quickcomment.html">M.assignfeedback_editpdf.quickcomment</a></li>
+            
+                <li><a href="../classes/M.assignfeedback_editpdf.quickcommentlist.html">M.assignfeedback_editpdf.quickcommentlist</a></li>
+            
+                <li><a href="../classes/M.assignfeedback_editpdf.rect.html">M.assignfeedback_editpdf.rect</a></li>
+            
+                <li><a href="../classes/M.assignfeedback_editpdf.stamppicker.html">M.assignfeedback_editpdf.stamppicker</a></li>
+            
+                <li><a href="../classes/M.atto_accessibilitychecker.Button.html">M.atto_accessibilitychecker.Button</a></li>
+            
+                <li><a href="../classes/M.atto_accessibilityhelper.Button.html">M.atto_accessibilityhelper.Button</a></li>
+            
+                <li><a href="../classes/M.atto_align.button.html">M.atto_align.button</a></li>
+            
+                <li><a href="../classes/M.atto_backcolor.button.html">M.atto_backcolor.button</a></li>
+            
+                <li><a href="../classes/M.atto_bold.button.html">M.atto_bold.button</a></li>
+            
+                <li><a href="../classes/M.atto_charmap.button.html">M.atto_charmap.button</a></li>
+            
+                <li><a href="../classes/M.atto_clear.button.html">M.atto_clear.button</a></li>
+            
+                <li><a href="../classes/M.atto_collapse.button.html">M.atto_collapse.button</a></li>
+            
+                <li><a href="../classes/M.atto_emoticon.button.html">M.atto_emoticon.button</a></li>
+            
+                <li><a href="../classes/M.atto_equation.Button.html">M.atto_equation.Button</a></li>
+            
+                <li><a href="../classes/M.atto_fontcolor.button.html">M.atto_fontcolor.button</a></li>
+            
+                <li><a href="../classes/M.atto_html.button.html">M.atto_html.button</a></li>
+            
+                <li><a href="../classes/M.atto_image.Button.html">M.atto_image.Button</a></li>
+            
+                <li><a href="../classes/M.atto_indent.button.html">M.atto_indent.button</a></li>
+            
+                <li><a href="../classes/M.atto_italic.button.html">M.atto_italic.button</a></li>
+            
+                <li><a href="../classes/M.atto_link.button.html">M.atto_link.button</a></li>
+            
+                <li><a href="../classes/M.atto_managefiles.usedfiles.html">M.atto_managefiles.usedfiles</a></li>
+            
+                <li><a href="../classes/M.atto_media.Button.html">M.atto_media.Button</a></li>
+            
+                <li><a href="../classes/M.atto_noautolink.button.html">M.atto_noautolink.button</a></li>
+            
+                <li><a href="../classes/M.atto_orderedlist.button.html">M.atto_orderedlist.button</a></li>
+            
+                <li><a href="../classes/M.atto_rtl.button.html">M.atto_rtl.button</a></li>
+            
+                <li><a href="../classes/M.atto_strike.button.html">M.atto_strike.button</a></li>
+            
+                <li><a href="../classes/M.atto_subscript.button.html">M.atto_subscript.button</a></li>
+            
+                <li><a href="../classes/M.atto_superscript.button.html">M.atto_superscript.button</a></li>
+            
+                <li><a href="../classes/M.atto_table.Button.html">M.atto_table.Button</a></li>
+            
+                <li><a href="../classes/M.atto_title.button.html">M.atto_title.button</a></li>
+            
+                <li><a href="../classes/M.atto_underline.button.html">M.atto_underline.button</a></li>
+            
+                <li><a href="../classes/M.atto_undo.button.html">M.atto_undo.button</a></li>
+            
+                <li><a href="../classes/M.atto_unlink.button.html">M.atto_unlink.button</a></li>
+            
+                <li><a href="../classes/M.atto_unorderedlist.button.html">M.atto_unorderedlist.button</a></li>
+            
+                <li><a href="../classes/M.block_navigation.html">M.block_navigation</a></li>
+            
+                <li><a href="../classes/M.block_navigation.ActionKey.html">M.block_navigation.ActionKey</a></li>
+            
+                <li><a href="../classes/M.block_navigation.Branch.html">M.block_navigation.Branch</a></li>
+            
+                <li><a href="../classes/M.block_navigation.Tree.html">M.block_navigation.Tree</a></li>
+            
+                <li><a href="../classes/M.core.actionmenu.ActionMenu.html">M.core.actionmenu.ActionMenu</a></li>
+            
+                <li><a href="../classes/M.core.ajaxException.html">M.core.ajaxException</a></li>
+            
+                <li><a href="../classes/M.core.alert.html">M.core.alert</a></li>
+            
+                <li><a href="../classes/M.core.blockdraganddrop.BlockRegion.html">M.core.blockdraganddrop.BlockRegion</a></li>
+            
+                <li><a href="../classes/M.core.blockdraganddrop.LegacyManager.html">M.core.blockdraganddrop.LegacyManager</a></li>
+            
+                <li><a href="../classes/M.core.blockdraganddrop.Manager.html">M.core.blockdraganddrop.Manager</a></li>
+            
+                <li><a href="../classes/M.core.chooserdialogue.html">M.core.chooserdialogue</a></li>
+            
+                <li><a href="../classes/M.core.confirm.html">M.core.confirm</a></li>
+            
+                <li><a href="../classes/M.core.dialogue.html">M.core.dialogue</a></li>
+            
+                <li><a href="../classes/M.core.dock.ActionKey.html">M.core.dock.ActionKey</a></li>
+            
+                <li><a href="../classes/M.core.dock.Block.html">M.core.dock.Block</a></li>
+            
+                <li><a href="../classes/M.core.dock.Dock.html">M.core.dock.Dock</a></li>
+            
+                <li><a href="../classes/M.core.dock.DockedItem.html">M.core.dock.DockedItem</a></li>
+            
+                <li><a href="../classes/M.core.dock.Loader.html">M.core.dock.Loader</a></li>
+            
+                <li><a href="../classes/M.core.dock.Panel.html">M.core.dock.Panel</a></li>
+            
+                <li><a href="../classes/M.core.dock.TabHeightManager.html">M.core.dock.TabHeightManager</a></li>
+            
+                <li><a href="../classes/M.core.dragdrop.html">M.core.dragdrop</a></li>
+            
+                <li><a href="../classes/M.core.exception.html">M.core.exception</a></li>
+            
+                <li><a href="../classes/M.core.formchangechecker.html">M.core.formchangechecker</a></li>
+            
+                <li><a href="../classes/M.core.LockScroll.html">M.core.LockScroll</a></li>
+            
+                <li><a href="../classes/M.core.notification.html">M.core.notification</a></li>
+            
+                <li><a href="../classes/M.core.notification.info.html">M.core.notification.info</a></li>
+            
+                <li><a href="../classes/M.core.popuphelp.html">M.core.popuphelp</a></li>
+            
+                <li><a href="../classes/M.core.tooltip.html">M.core.tooltip</a></li>
+            
+                <li><a href="../classes/M.core.WidgetFocusAfterHide.html">M.core.WidgetFocusAfterHide</a></li>
+            
+                <li><a href="../classes/M.core_backup.backupselectall.html">M.core_backup.backupselectall</a></li>
+            
+                <li><a href="../classes/M.core_backup.confirmcancel.html">M.core_backup.confirmcancel</a></li>
+            
+                <li><a href="../classes/M.course.coursebase.html">M.course.coursebase</a></li>
+            
+                <li><a href="../classes/M.course.dragdrop.resource.html">M.course.dragdrop.resource</a></li>
+            
+                <li><a href="../classes/M.course.dragdrop.section.html">M.course.dragdrop.section</a></li>
+            
+                <li><a href="../classes/M.course.management.Category.html">M.course.management.Category</a></li>
+            
+                <li><a href="../classes/M.course.management.Console.html">M.course.management.Console</a></li>
+            
+                <li><a href="../classes/M.course.management.Course.html">M.course.management.Course</a></li>
+            
+                <li><a href="../classes/M.course.management.DragDrop.html">M.course.management.DragDrop</a></li>
+            
+                <li><a href="../classes/M.course.management.Item.html">M.course.management.Item</a></li>
+            
+                <li><a href="../classes/M.course.modchooser.html">M.course.modchooser</a></li>
+            
+                <li><a href="../classes/M.course.toolboxes.resources.html">M.course.toolboxes.resources</a></li>
+            
+                <li><a href="../classes/M.course.toolboxes.section.html">M.course.toolboxes.section</a></li>
+            
+                <li><a href="../classes/M.course.toolboxes.toolbox.html">M.course.toolboxes.toolbox</a></li>
+            
+                <li><a href="../classes/M.editor_atto.Editor.html">M.editor_atto.Editor</a></li>
+            
+                <li><a href="../classes/M.editor_atto.EditorClean.html">M.editor_atto.EditorClean</a></li>
+            
+                <li><a href="../classes/M.editor_atto.EditorFilepicker.html">M.editor_atto.EditorFilepicker</a></li>
+            
+                <li><a href="../classes/M.editor_atto.EditorPlugin.html">M.editor_atto.EditorPlugin</a></li>
+            
+                <li><a href="../classes/M.editor_atto.EditorPluginButtons.html">M.editor_atto.EditorPluginButtons</a></li>
+            
+                <li><a href="../classes/M.editor_atto.EditorPluginDialogue.html">M.editor_atto.EditorPluginDialogue</a></li>
+            
+                <li><a href="../classes/M.editor_atto.EditorSelection.html">M.editor_atto.EditorSelection</a></li>
+            
+                <li><a href="../classes/M.editor_atto.EditorStyling.html">M.editor_atto.EditorStyling</a></li>
+            
+                <li><a href="../classes/M.editor_atto.EditorTextArea.html">M.editor_atto.EditorTextArea</a></li>
+            
+                <li><a href="../classes/M.editor_atto.EditorToolbar.html">M.editor_atto.EditorToolbar</a></li>
+            
+                <li><a href="../classes/M.editor_atto.EditorToolbarNav.html">M.editor_atto.EditorToolbarNav</a></li>
+            
+                <li><a href="../classes/M.editor_atto.Menu.html">M.editor_atto.Menu</a></li>
+            
+                <li><a href="../classes/M.form.shortforms.html">M.form.shortforms</a></li>
+            
+                <li><a href="../classes/M.form.showadvanced.html">M.form.showadvanced</a></li>
+            
+                <li><a href="../classes/M.mod_quiz.autosave.html">M.mod_quiz.autosave</a></li>
+            
+                <li><a href="../classes/M.tool_capability.Search.html">M.tool_capability.Search</a></li>
+            
+                <li><a href="../classes/Moodle.core_course.util.html">Moodle.core_course.util</a></li>
+            
+                <li><a href="../classes/Moodle.core_course.util.cm.html">Moodle.core_course.util.cm</a></li>
+            
+                <li><a href="../classes/Moodle.core_course.util.section.html">Moodle.core_course.util.section</a></li>
+            
+                <li><a href="../classes/Moodle.theme_bootstrapbase.bootstrap.html">Moodle.theme_bootstrapbase.bootstrap</a></li>
+            
+                <li><a href="../classes/Y.BootstrapEngine.html">Y.BootstrapEngine</a></li>
+            
+                <li><a href="../classes/Y.Moodle.course.categoryexpander.html">Y.Moodle.course.categoryexpander</a></li>
+            
+            </ul>
+
+            <ul id="api-modules" class="apis modules">
+            
+                <li><a href="../modules/buttons.html">buttons</a></li>
+            
+                <li><a href="../modules/clean.html">clean</a></li>
+            
+                <li><a href="../modules/dialogue.html">dialogue</a></li>
+            
+                <li><a href="../modules/filepicker.html">filepicker</a></li>
+            
+                <li><a href="../modules/gallery-bootstrap-collapse.html">gallery-bootstrap-collapse</a></li>
+            
+                <li><a href="../modules/gallery-bootstrap-dropdown.html">gallery-bootstrap-dropdown</a></li>
+            
+                <li><a href="../modules/gallery-bootstrap-engine.html">gallery-bootstrap-engine</a></li>
+            
+                <li><a href="../modules/menu-base.html">menu-base</a></li>
+            
+                <li><a href="../modules/moodle-assignfeedback_editpdf-editor.html">moodle-assignfeedback_editpdf-editor</a></li>
+            
+                <li><a href="../modules/moodle-atto-managefiles-button.html">moodle-atto-managefiles-button</a></li>
+            
+                <li><a href="../modules/moodle-atto_accessibilitychecker-button.html">moodle-atto_accessibilitychecker-button</a></li>
+            
+                <li><a href="../modules/moodle-atto_accessibilityhelper-button.html">moodle-atto_accessibilityhelper-button</a></li>
+            
+                <li><a href="../modules/moodle-atto_align-button.html">moodle-atto_align-button</a></li>
+            
+                <li><a href="../modules/moodle-atto_backcolor-button.html">moodle-atto_backcolor-button</a></li>
+            
+                <li><a href="../modules/moodle-atto_bold-button.html">moodle-atto_bold-button</a></li>
+            
+                <li><a href="../modules/moodle-atto_charmap-button.html">moodle-atto_charmap-button</a></li>
+            
+                <li><a href="../modules/moodle-atto_clear-button.html">moodle-atto_clear-button</a></li>
+            
+                <li><a href="../modules/moodle-atto_collapse-button.html">moodle-atto_collapse-button</a></li>
+            
+                <li><a href="../modules/moodle-atto_emoticon-button.html">moodle-atto_emoticon-button</a></li>
+            
+                <li><a href="../modules/moodle-atto_html-button.html">moodle-atto_html-button</a></li>
+            
+                <li><a href="../modules/moodle-atto_image_alignment-button.html">moodle-atto_image_alignment-button</a></li>
+            
+                <li><a href="../modules/moodle-atto_indent-button.html">moodle-atto_indent-button</a></li>
+            
+                <li><a href="../modules/moodle-atto_italic-button.html">moodle-atto_italic-button</a></li>
+            
+                <li><a href="../modules/moodle-atto_link-button.html">moodle-atto_link-button</a></li>
+            
+                <li><a href="../modules/moodle-atto_managefiles-usedfiles.html">moodle-atto_managefiles-usedfiles</a></li>
+            
+                <li><a href="../modules/moodle-atto_media-button.html">moodle-atto_media-button</a></li>
+            
+                <li><a href="../modules/moodle-atto_noautolink-button.html">moodle-atto_noautolink-button</a></li>
+            
+                <li><a href="../modules/moodle-atto_orderedlist-button.html">moodle-atto_orderedlist-button</a></li>
+            
+                <li><a href="../modules/moodle-atto_rtl-button.html">moodle-atto_rtl-button</a></li>
+            
+                <li><a href="../modules/moodle-atto_strike-button.html">moodle-atto_strike-button</a></li>
+            
+                <li><a href="../modules/moodle-atto_subscript-button.html">moodle-atto_subscript-button</a></li>
+            
+                <li><a href="../modules/moodle-atto_superscript-button.html">moodle-atto_superscript-button</a></li>
+            
+                <li><a href="../modules/moodle-atto_table-button.html">moodle-atto_table-button</a></li>
+            
+                <li><a href="../modules/moodle-atto_title-button.html">moodle-atto_title-button</a></li>
+            
+                <li><a href="../modules/moodle-atto_underline-button.html">moodle-atto_underline-button</a></li>
+            
+                <li><a href="../modules/moodle-atto_undo-button.html">moodle-atto_undo-button</a></li>
+            
+                <li><a href="../modules/moodle-atto_unlink-button.html">moodle-atto_unlink-button</a></li>
+            
+                <li><a href="../modules/moodle-atto_unorderedlist-button.html">moodle-atto_unorderedlist-button</a></li>
+            
+                <li><a href="../modules/moodle-backup-backupselectall.html">moodle-backup-backupselectall</a></li>
+            
+                <li><a href="../modules/moodle-backup-confirmcancel.html">moodle-backup-confirmcancel</a></li>
+            
+                <li><a href="../modules/moodle-block_navigation-navigation.html">moodle-block_navigation-navigation</a></li>
+            
+                <li><a href="../modules/moodle-core-actionmenu.html">moodle-core-actionmenu</a></li>
+            
+                <li><a href="../modules/moodle-core-blockdraganddrop.html">moodle-core-blockdraganddrop</a></li>
+            
+                <li><a href="../modules/moodle-core-chooserdialogue.html">moodle-core-chooserdialogue</a></li>
+            
+                <li><a href="../modules/moodle-core-dock.html">moodle-core-dock</a></li>
+            
+                <li><a href="../modules/moodle-core-dragdrop.html">moodle-core-dragdrop</a></li>
+            
+                <li><a href="../modules/moodle-core-formchangechecker.html">moodle-core-formchangechecker</a></li>
+            
+                <li><a href="../modules/moodle-core-lockscroll.html">moodle-core-lockscroll</a></li>
+            
+                <li><a href="../modules/moodle-core-maintenancemodetimer.html">moodle-core-maintenancemodetimer</a></li>
+            
+                <li><a href="../modules/moodle-core-notification.html">moodle-core-notification</a></li>
+            
+                <li><a href="../modules/moodle-core-notification-ajaxexception.html">moodle-core-notification-ajaxexception</a></li>
+            
+                <li><a href="../modules/moodle-core-notification-alert.html">moodle-core-notification-alert</a></li>
+            
+                <li><a href="../modules/moodle-core-notification-confirm.html">moodle-core-notification-confirm</a></li>
+            
+                <li><a href="../modules/moodle-core-notification-dialogue.html">moodle-core-notification-dialogue</a></li>
+            
+                <li><a href="../modules/moodle-core-notification-exception.html">moodle-core-notification-exception</a></li>
+            
+                <li><a href="../modules/moodle-core-popuphelp.html">moodle-core-popuphelp</a></li>
+            
+                <li><a href="../modules/moodle-core-tooltip.html">moodle-core-tooltip</a></li>
+            
+                <li><a href="../modules/moodle-core-widget-focusafterhide.html">moodle-core-widget-focusafterhide</a></li>
+            
+                <li><a href="../modules/moodle-course-categoryexpander.html">moodle-course-categoryexpander</a></li>
+            
+                <li><a href="../modules/moodle-course-coursebase.html">moodle-course-coursebase</a></li>
+            
+                <li><a href="../modules/moodle-course-dragdrop.html">moodle-course-dragdrop</a></li>
+            
+                <li><a href="../modules/moodle-course-management.html">moodle-course-management</a></li>
+            
+                <li><a href="../modules/moodle-course-modchooser.html">moodle-course-modchooser</a></li>
+            
+                <li><a href="../modules/moodle-course-toolboxes.html">moodle-course-toolboxes</a></li>
+            
+                <li><a href="../modules/moodle-course-util.html">moodle-course-util</a></li>
+            
+                <li><a href="../modules/moodle-course-util-cm.html">moodle-course-util-cm</a></li>
+            
+                <li><a href="../modules/moodle-course-util-section.html">moodle-course-util-section</a></li>
+            
+                <li><a href="../modules/moodle-editor_atto-editor.html">moodle-editor_atto-editor</a></li>
+            
+                <li><a href="../modules/moodle-editor_atto-menu.html">moodle-editor_atto-menu</a></li>
+            
+                <li><a href="../modules/moodle-editor_atto-plugin.html">moodle-editor_atto-plugin</a></li>
+            
+                <li><a href="../modules/moodle-form-shortforms.html">moodle-form-shortforms</a></li>
+            
+                <li><a href="../modules/moodle-form-showadvanced.html">moodle-form-showadvanced</a></li>
+            
+                <li><a href="../modules/moodle-mod_quiz-autosave.html">moodle-mod_quiz-autosave</a></li>
+            
+                <li><a href="../modules/moodle-question-preview.html">moodle-question-preview</a></li>
+            
+                <li><a href="../modules/moodle-tool_capability-search.html">moodle-tool_capability-search</a></li>
+            
+                <li><a href="../modules/plugin-base.html">plugin-base</a></li>
+            
+                <li><a href="../modules/styling.html">styling</a></li>
+            
+                <li><a href="../modules/textarea.html">textarea</a></li>
+            
+                <li><a href="../modules/theme_bootstrapbase-bootstrap.html">theme_bootstrapbase-bootstrap</a></li>
+            
+                <li><a href="../modules/toolbar.html">toolbar</a></li>
+            
+                <li><a href="../modules/toolbarnav.html">toolbarnav</a></li>
+            
+            </ul>
+        </div>
+    </div>
+</div>
+
+            </div>
+        </div>
+        <div class="yui3-u-3-4">
+                <div id="api-options">
+        Show:
+        <label for="api-show-inherited">
+            <input type="checkbox" id="api-show-inherited" checked>
+            Inherited
+        </label>
+
+        <label for="api-show-protected">
+            <input type="checkbox" id="api-show-protected">
+            Protected
+        </label>
+
+        <label for="api-show-private">
+            <input type="checkbox" id="api-show-private">
+            Private
+        </label>
+        <label for="api-show-deprecated">
+            <input type="checkbox" id="api-show-deprecated">
+            Deprecated
+        </label>
+
+    </div>
+
+
+            <div class="apidocs">
+                <div id="docs-main">
+                    <div class="content">
+                        <h1 class="file-heading">File: lib/editor/atto/yui/src/editor/js/selection.js</h1>
+
+<div class="file">
+    <pre class="code prettyprint linenums">
+// This file is part of Moodle - http://moodle.org/
+//
+// Moodle is free software: you can redistribute it and/or modify
+// it under the terms of the GNU General Public License as published by
+// the Free Software Foundation, either version 3 of the License, or
+// (at your option) any later version.
+//
+// Moodle is distributed in the hope that it will be useful,
+// but WITHOUT ANY WARRANTY; without even the implied warranty of
+// MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+// GNU General Public License for more details.
+//
+// You should have received a copy of the GNU General Public License
+// along with Moodle.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+
+/**
+ * @module moodle-editor_atto-editor
+ * @submodule selection
+ */
+
+/**
+ * Selection functions for the Atto editor.
+ *
+ * See {{#crossLink &quot;M.editor_atto.Editor&quot;}}{{/crossLink}} for details.
+ *
+ * @namespace M.editor_atto
+ * @class EditorSelection
+ */
+
+function EditorSelection() {}
+
+EditorSelection.ATTRS= {
+};
+
+EditorSelection.prototype = {
+
+    /**
+     * List of saved selections per editor instance.
+     *
+     * @property _selections
+     * @private
+     */
+    _selections: null,
+
+    /**
+     * A unique identifier for the last selection recorded.
+     *
+     * @property _lastSelection
+     * @param lastselection
+     * @type string
+     * @private
+     */
+    _lastSelection: null,
+
+    /**
+     * Whether focus came from a click event.
+     *
+     * This is used to determine whether to restore the selection or not.
+     *
+     * @property _focusFromClick
+     * @type Boolean
+     * @default false
+     * @private
+     */
+    _focusFromClick: false,
+
+    /**
+     * Set up the watchers for selection save and restoration.
+     *
+     * @method setupSelectionWatchers
+     * @chainable
+     */
+    setupSelectionWatchers: function() {
+        // Save the selection when a change was made.
+        this.on(&#x27;atto:selectionchanged&#x27;, this.saveSelection, this);
+
+        this.editor.on(&#x27;focus&#x27;, this.restoreSelection, this);
+
+        // Do not restore selection when focus is from a click event.
+        this.editor.on(&#x27;mousedown&#x27;, function() {
+            this._focusFromClick = true;
+        }, this);
+
+        // Copy the current value back to the textarea when focus leaves us and save the current selection.
+        this.editor.on(&#x27;blur&#x27;, function() {
+            // Clear the _focusFromClick value.
+            this._focusFromClick = false;
+
+            // Update the original text area.
+            this.updateOriginal();
+        }, this);
+
+        return this;
+    },
+
+    /**
+     * Work out if the cursor is in the editable area for this editor instance.
+     *
+     * @method isActive
+     * @return {boolean}
+     */
+    isActive: function() {
+        var range = rangy.createRange(),
+            selection = rangy.getSelection();
+
+        if (!selection.rangeCount) {
+            // If there was no range count, then there is no selection.
+            return false;
+        }
+
+        // Check whether the range intersects the editor selection.
+        range.selectNode(this.editor.getDOMNode());
+        return range.intersectsRange(selection.getRangeAt(0));
+    },
+
+    /**
+     * Create a cross browser selection object that represents a YUI node.
+     *
+     * @method getSelectionFromNode
+     * @param {Node} YUI Node to base the selection upon.
+     * @return {[rangy.Range]}
+     */
+    getSelectionFromNode: function(node) {
+        var range = rangy.createRange();
+        range.selectNode(node.getDOMNode());
+        return [range];
+    },
+
+    /**
+     * Save the current selection to an internal property.
+     *
+     * This allows more reliable return focus, helping improve keyboard navigation.
+     *
+     * Should be used in combination with {{#crossLink &quot;M.editor_atto.EditorSelection/restoreSelection&quot;}}{{/crossLink}}.
+     *
+     * @method saveSelection
+     */
+    saveSelection: function() {
+        if (this.isActive()) {
+            this._selections = this.getSelection();
+        }
+    },
+
+    /**
+     * Restore any stored selection when the editor gets focus again.
+     *
+     * Should be used in combination with {{#crossLink &quot;M.editor_atto.EditorSelection/saveSelection&quot;}}{{/crossLink}}.
+     *
+     * @method restoreSelection
+     */
+    restoreSelection: function() {
+        if (!this._focusFromClick) {
+            if (this._selections) {
+                this.setSelection(this._selections);
+            }
+        }
+        this._focusFromClick = false;
+    },
+
+    /**
+     * Get the selection object that can be passed back to setSelection.
+     *
+     * @method getSelection
+     * @return {array} An array of rangy ranges.
+     */
+    getSelection: function() {
+        return rangy.getSelection().getAllRanges();
+    },
+
+    /**
+     * Check that a YUI node it at least partly contained by the current selection.
+     *
+     * @method selectionContainsNode
+     * @param {Node} The node to check.
+     * @return {boolean}
+     */
+    selectionContainsNode: function(node) {
+        return rangy.getSelection().containsNode(node.getDOMNode(), true);
+    },
+
+    /**
+     * Runs a filter on each node in the selection, and report whether the
+     * supplied selector(s) were found in the supplied Nodes.
+     *
+     * By default, all specified nodes must match the selection, but this
+     * can be controlled with the requireall property.
+     *
+     * @method selectionFilterMatches
+     * @param {String} selector
+     * @param {NodeList} [selectednodes] For performance this should be passed. If not passed, this will be looked up each time.
+     * @param {Boolean} [requireall=true] Used to specify that &quot;any&quot; match is good enough.
+     * @return {Boolean}
+     */
+    selectionFilterMatches: function(selector, selectednodes, requireall) {
+        if (typeof requireall === &#x27;undefined&#x27;) {
+            requireall = true;
+        }
+        if (!selectednodes) {
+            // Find this because it was not passed as a param.
+            selectednodes = this.getSelectedNodes();
+        }
+        var allmatch = selectednodes.size() &gt; 0,
+            anymatch = false;
+
+        var editor = this.editor,
+            stopFn = function(node) {
+                editor.contains(node);
+            };
+
+        selectednodes.each(function(node){
+            // Check each node, if it doesn&#x27;t match the tags AND is not within the specified tags then fail this thing.
+            if (requireall) {
+                // Check for at least one failure.
+                if (!allmatch || !node.ancestor(selector, true, stopFn)) {
+                    allmatch = false;
+                }
+            } else {
+                // Check for at least one match.
+                if (!anymatch &amp;&amp; node.ancestor(selector, true, stopFn)) {
+                    anymatch = true;
+                }
+            }
+        }, this);
+        if (requireall) {
+            return allmatch;
+        } else {
+            return anymatch;
+        }
+    },
+
+    /**
+     * Get the deepest possible list of nodes in the current selection.
+     *
+     * @method getSelectedNodes
+     * @return {NodeList}
+     */
+    getSelectedNodes: function() {
+        var results = new Y.NodeList(),
+            nodes,
+            selection,
+            range,
+            node,
+            i;
+
+        selection = rangy.getSelection();
+
+        if (selection.rangeCount) {
+            range = selection.getRangeAt(0);
+        } else {
+            // Empty range.
+            range = rangy.createRange();
+        }
+
+        if (range.collapsed) {
+            range = range.cloneRange();
+            range.selectNode(range.commonAncestorContainer);
+        }
+
+        nodes = range.getNodes();
+
+        for (i = 0; i &lt; nodes.length; i++) {
+            node = Y.one(nodes[i]);
+            if (this.editor.contains(node)) {
+                results.push(node);
+            }
+        }
+        return results;
+    },
+
+    /**
+     * Check whether the current selection has changed since this method was last called.
+     *
+     * If the selection has changed, the atto:selectionchanged event is also fired.
+     *
+     * @method _hasSelectionChanged
+     * @private
+     * @param {EventFacade} e
+     * @return {Boolean}
+     */
+    _hasSelectionChanged: function(e) {
+        var selection = rangy.getSelection(),
+            range,
+            changed = false;
+
+        if (selection.rangeCount) {
+            range = selection.getRangeAt(0);
+        } else {
+            // Empty range.
+            range = rangy.createRange();
+        }
+
+        if (this._lastSelection) {
+            if (!this._lastSelection.equals(range)) {
+                changed = true;
+                return this._fireSelectionChanged(e);
+            }
+        }
+        this._lastSelection = range;
+        return changed;
+    },
+
+    /**
+     * Fires the atto:selectionchanged event.
+     *
+     * When the selectionchanged event is fired, the following arguments are provided:
+     *   - event : the original event that lead to this event being fired.
+     *   - selectednodes :  an array containing nodes that are entirely selected of contain partially selected content.
+     *
+     * @method _fireSelectionChanged
+     * @private
+     * @param {EventFacade} e
+     */
+    _fireSelectionChanged: function(e) {
+        this.fire(&#x27;atto:selectionchanged&#x27;, {
+            event: e,
+            selectedNodes: this.getSelectedNodes()
+        });
+    },
+
+    /**
+     * Get the DOM node representing the common anscestor of the selection nodes.
+     *
+     * @method getSelectionParentNode
+     * @return {Element|boolean} The DOM Node for this parent, or false if no seletion was made.
+     */
+    getSelectionParentNode: function() {
+        var selection = rangy.getSelection();
+        if (selection.rangeCount) {
+            return selection.getRangeAt(0).commonAncestorContainer;
+        }
+        return false;
+    },
+
+    /**
+     * Set the current selection. Used to restore a selection.
+     *
+     * @method selection
+     * @param {array} ranges A list of rangy.range objects in the selection.
+     */
+    setSelection: function(ranges) {
+        var selection = rangy.getSelection();
+        selection.setRanges(ranges);
+    },
+
+    /**
+     * Change the formatting for the current selection.
+     *
+     * Also changes the selection to the newly formatted block (allows applying multiple styles to a block).
+     *
+     * @method formatSelectionBlock
+     * @param {String} [blocktag] Change the block level tag to this. Empty string, means do not change the tag.
+     * @param {Object} [attributes] The keys and values for attributes to be added/changed in the block tag.
+     * @return {Node|boolean} The Node that was formatted if a change was made, otherwise false.
+     */
+    formatSelectionBlock: function(blocktag, attributes) {
+        // First find the nearest ancestor of the selection that is a block level element.
+        var selectionparentnode = this.getSelectionParentNode(),
+            boundary,
+            cell,
+            nearestblock,
+            newcontent,
+            match,
+            replacement;
+
+        if (!selectionparentnode) {
+            // No selection, nothing to format.
+            return false;
+        }
+
+        boundary = this.editor;
+
+        selectionparentnode = Y.one(selectionparentnode);
+
+        // If there is a table cell in between the selectionparentnode and the boundary,
+        // move the boundary to the table cell.
+        // This is because we might have a table in a div, and we select some text in a cell,
+        // want to limit the change in style to the table cell, not the entire table (via the outer div).
+        cell = selectionparentnode.ancestor(function (node) {
+            var tagname = node.get(&#x27;tagName&#x27;);
+            if (tagname) {
+                tagname = tagname.toLowerCase();
+            }
+            return (node === boundary) ||
+                   (tagname === &#x27;td&#x27;) ||
+                   (tagname === &#x27;th&#x27;);
+        }, true);
+
+        if (cell) {
+            // Limit the scope to the table cell.
+            boundary = cell;
+        }
+
+        nearestblock = selectionparentnode.ancestor(this.BLOCK_TAGS.join(&#x27;, &#x27;), true);
+        if (nearestblock) {
+            // Check that the block is contained by the boundary.
+            match = nearestblock.ancestor(function (node) {
+                return node === boundary;
+            }, false);
+
+            if (!match) {
+                nearestblock = false;
+            }
+        }
+
+        // No valid block element - make one.
+        if (!nearestblock) {
+            // There is no block node in the content, wrap the content in a p and use that.
+            newcontent = Y.Node.create(&#x27;&lt;p&gt;&lt;/p&gt;&#x27;);
+            boundary.get(&#x27;childNodes&#x27;).each(function (child) {
+                newcontent.append(child.remove());
+            });
+            boundary.append(newcontent);
+            nearestblock = newcontent;
+        }
+
+        // Guaranteed to have a valid block level element contained in the contenteditable region.
+        // Change the tag to the new block level tag.
+        if (blocktag &amp;&amp; blocktag !== &#x27;&#x27;) {
+            // Change the block level node for a new one.
+            replacement = Y.Node.create(&#x27;&lt;&#x27; + blocktag + &#x27;&gt;&lt;/&#x27; + blocktag + &#x27;&gt;&#x27;);
+            // Copy all attributes.
+            replacement.setAttrs(nearestblock.getAttrs());
+            // Copy all children.
+            nearestblock.get(&#x27;childNodes&#x27;).each(function (child) {
+                child.remove();
+                replacement.append(child);
+            });
+
+            nearestblock.replace(replacement);
+            nearestblock = replacement;
+        }
+
+        // Set the attributes on the block level tag.
+        if (attributes) {
+            nearestblock.setAttrs(attributes);
+        }
+
+        // Change the selection to the modified block. This makes sense when we might apply multiple styles
+        // to the block.
+        var selection = this.getSelectionFromNode(nearestblock);
+        this.setSelection(selection);
+
+        return nearestblock;
+    },
+
+    /**
+     * Inserts the given HTML into the editable content at the currently focused point.
+     *
+     * @method insertContentAtFocusPoint
+     * @param {String} html
+     */
+    insertContentAtFocusPoint: function(html) {
+        var selection = rangy.getSelection(),
+            range,
+            node = Y.Node.create(html);
+        if (selection.rangeCount) {
+            range = selection.getRangeAt(0);
+        }
+        if (range) {
+            range.deleteContents();
+            range.insertNode(node.getDOMNode());
+        }
+    }
+
+};
+
+Y.Base.mix(Y.M.editor_atto.Editor, [EditorSelection]);
+
+    </pre>
+</div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="../assets/vendor/prettify/prettify-min.js"></script>
+<script>prettyPrint();</script>
+<script src="../assets/js/yui-prettify.js"></script>
+<script src="../assets/../api.js"></script>
+<script src="../assets/js/api-filter.js"></script>
+<script src="../assets/js/api-list.js"></script>
+<script src="../assets/js/api-search.js"></script>
+<script src="../assets/js/apidocs.js"></script>
+</body>
+</html>

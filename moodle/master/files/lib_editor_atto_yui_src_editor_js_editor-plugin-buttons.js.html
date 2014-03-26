@@ -1,0 +1,1396 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>lib/editor/atto/yui/src/editor/js/editor-plugin-buttons.js - Moodle</title>
+    <link rel="stylesheet" href="http://yui.yahooapis.com/3.9.1/build/cssgrids/cssgrids-min.css">
+    <link rel="stylesheet" href="../assets/vendor/prettify/prettify-min.css">
+    <link rel="stylesheet" href="../assets/css/main.css" id="site_styles">
+    <link rel="shortcut icon" type="image/png" href="../assets/favicon.png">
+    <script src="http://yui.yahooapis.com/combo?3.9.1/build/yui/yui-min.js"></script>
+</head>
+<body class="yui3-skin-sam">
+
+<div id="doc">
+    <div id="hd" class="yui3-g header">
+        <div class="yui3-u-3-4">
+            
+                <h1><img src="../assets/css/logo.png" title="Moodle"></h1>
+            
+        </div>
+        <div class="yui3-u-1-4 version">
+            <em>API Docs for: </em>
+        </div>
+    </div>
+    <div id="bd" class="yui3-g">
+
+        <div class="yui3-u-1-4">
+            <div id="docs-sidebar" class="sidebar apidocs">
+                <div id="api-list">
+    <h2 class="off-left">APIs</h2>
+    <div id="api-tabview" class="tabview">
+        <ul class="tabs">
+            <li><a href="#api-classes">Classes</a></li>
+            <li><a href="#api-modules">Modules</a></li>
+        </ul>
+
+        <div id="api-tabview-filter">
+            <input type="search" id="api-filter" placeholder="Type to filter APIs">
+        </div>
+
+        <div id="api-tabview-panel">
+            <ul id="api-classes" class="apis classes">
+            
+                <li><a href="../classes/Bootstrap.Collapse.html">Bootstrap.Collapse</a></li>
+            
+                <li><a href="../classes/Bootstrap.Dropdown.html">Bootstrap.Dropdown</a></li>
+            
+                <li><a href="../classes/M.assignfeedback_editpdf.annotation.html">M.assignfeedback_editpdf.annotation</a></li>
+            
+                <li><a href="../classes/M.assignfeedback_editpdf.annotationhighlight.html">M.assignfeedback_editpdf.annotationhighlight</a></li>
+            
+                <li><a href="../classes/M.assignfeedback_editpdf.annotationline.html">M.assignfeedback_editpdf.annotationline</a></li>
+            
+                <li><a href="../classes/M.assignfeedback_editpdf.annotationoval.html">M.assignfeedback_editpdf.annotationoval</a></li>
+            
+                <li><a href="../classes/M.assignfeedback_editpdf.annotationpen.html">M.assignfeedback_editpdf.annotationpen</a></li>
+            
+                <li><a href="../classes/M.assignfeedback_editpdf.annotationrectangle.html">M.assignfeedback_editpdf.annotationrectangle</a></li>
+            
+                <li><a href="../classes/M.assignfeedback_editpdf.annotationstamp.html">M.assignfeedback_editpdf.annotationstamp</a></li>
+            
+                <li><a href="../classes/M.assignfeedback_editpdf.colourpicker.html">M.assignfeedback_editpdf.colourpicker</a></li>
+            
+                <li><a href="../classes/M.assignfeedback_editpdf.comment.html">M.assignfeedback_editpdf.comment</a></li>
+            
+                <li><a href="../classes/M.assignfeedback_editpdf.commentmenu.html">M.assignfeedback_editpdf.commentmenu</a></li>
+            
+                <li><a href="../classes/M.assignfeedback_editpdf.commentsearch.html">M.assignfeedback_editpdf.commentsearch</a></li>
+            
+                <li><a href="../classes/M.assignfeedback_editpdf.drawable.html">M.assignfeedback_editpdf.drawable</a></li>
+            
+                <li><a href="../classes/M.assignfeedback_editpdf.dropdown.html">M.assignfeedback_editpdf.dropdown</a></li>
+            
+                <li><a href="../classes/M.assignfeedback_editpdf.edit.html">M.assignfeedback_editpdf.edit</a></li>
+            
+                <li><a href="../classes/M.assignfeedback_editpdf.editor.html">M.assignfeedback_editpdf.editor</a></li>
+            
+                <li><a href="../classes/M.assignfeedback_editpdf.point.html">M.assignfeedback_editpdf.point</a></li>
+            
+                <li><a href="../classes/M.assignfeedback_editpdf.quickcomment.html">M.assignfeedback_editpdf.quickcomment</a></li>
+            
+                <li><a href="../classes/M.assignfeedback_editpdf.quickcommentlist.html">M.assignfeedback_editpdf.quickcommentlist</a></li>
+            
+                <li><a href="../classes/M.assignfeedback_editpdf.rect.html">M.assignfeedback_editpdf.rect</a></li>
+            
+                <li><a href="../classes/M.assignfeedback_editpdf.stamppicker.html">M.assignfeedback_editpdf.stamppicker</a></li>
+            
+                <li><a href="../classes/M.atto_accessibilitychecker.Button.html">M.atto_accessibilitychecker.Button</a></li>
+            
+                <li><a href="../classes/M.atto_accessibilityhelper.Button.html">M.atto_accessibilityhelper.Button</a></li>
+            
+                <li><a href="../classes/M.atto_align.button.html">M.atto_align.button</a></li>
+            
+                <li><a href="../classes/M.atto_backcolor.button.html">M.atto_backcolor.button</a></li>
+            
+                <li><a href="../classes/M.atto_bold.button.html">M.atto_bold.button</a></li>
+            
+                <li><a href="../classes/M.atto_charmap.button.html">M.atto_charmap.button</a></li>
+            
+                <li><a href="../classes/M.atto_clear.button.html">M.atto_clear.button</a></li>
+            
+                <li><a href="../classes/M.atto_collapse.button.html">M.atto_collapse.button</a></li>
+            
+                <li><a href="../classes/M.atto_emoticon.button.html">M.atto_emoticon.button</a></li>
+            
+                <li><a href="../classes/M.atto_equation.Button.html">M.atto_equation.Button</a></li>
+            
+                <li><a href="../classes/M.atto_fontcolor.button.html">M.atto_fontcolor.button</a></li>
+            
+                <li><a href="../classes/M.atto_html.button.html">M.atto_html.button</a></li>
+            
+                <li><a href="../classes/M.atto_image.Button.html">M.atto_image.Button</a></li>
+            
+                <li><a href="../classes/M.atto_indent.button.html">M.atto_indent.button</a></li>
+            
+                <li><a href="../classes/M.atto_italic.button.html">M.atto_italic.button</a></li>
+            
+                <li><a href="../classes/M.atto_link.button.html">M.atto_link.button</a></li>
+            
+                <li><a href="../classes/M.atto_managefiles.usedfiles.html">M.atto_managefiles.usedfiles</a></li>
+            
+                <li><a href="../classes/M.atto_media.Button.html">M.atto_media.Button</a></li>
+            
+                <li><a href="../classes/M.atto_noautolink.button.html">M.atto_noautolink.button</a></li>
+            
+                <li><a href="../classes/M.atto_orderedlist.button.html">M.atto_orderedlist.button</a></li>
+            
+                <li><a href="../classes/M.atto_rtl.button.html">M.atto_rtl.button</a></li>
+            
+                <li><a href="../classes/M.atto_strike.button.html">M.atto_strike.button</a></li>
+            
+                <li><a href="../classes/M.atto_subscript.button.html">M.atto_subscript.button</a></li>
+            
+                <li><a href="../classes/M.atto_superscript.button.html">M.atto_superscript.button</a></li>
+            
+                <li><a href="../classes/M.atto_table.Button.html">M.atto_table.Button</a></li>
+            
+                <li><a href="../classes/M.atto_title.button.html">M.atto_title.button</a></li>
+            
+                <li><a href="../classes/M.atto_underline.button.html">M.atto_underline.button</a></li>
+            
+                <li><a href="../classes/M.atto_undo.button.html">M.atto_undo.button</a></li>
+            
+                <li><a href="../classes/M.atto_unlink.button.html">M.atto_unlink.button</a></li>
+            
+                <li><a href="../classes/M.atto_unorderedlist.button.html">M.atto_unorderedlist.button</a></li>
+            
+                <li><a href="../classes/M.block_navigation.html">M.block_navigation</a></li>
+            
+                <li><a href="../classes/M.block_navigation.ActionKey.html">M.block_navigation.ActionKey</a></li>
+            
+                <li><a href="../classes/M.block_navigation.Branch.html">M.block_navigation.Branch</a></li>
+            
+                <li><a href="../classes/M.block_navigation.Tree.html">M.block_navigation.Tree</a></li>
+            
+                <li><a href="../classes/M.core.actionmenu.ActionMenu.html">M.core.actionmenu.ActionMenu</a></li>
+            
+                <li><a href="../classes/M.core.ajaxException.html">M.core.ajaxException</a></li>
+            
+                <li><a href="../classes/M.core.alert.html">M.core.alert</a></li>
+            
+                <li><a href="../classes/M.core.blockdraganddrop.BlockRegion.html">M.core.blockdraganddrop.BlockRegion</a></li>
+            
+                <li><a href="../classes/M.core.blockdraganddrop.LegacyManager.html">M.core.blockdraganddrop.LegacyManager</a></li>
+            
+                <li><a href="../classes/M.core.blockdraganddrop.Manager.html">M.core.blockdraganddrop.Manager</a></li>
+            
+                <li><a href="../classes/M.core.chooserdialogue.html">M.core.chooserdialogue</a></li>
+            
+                <li><a href="../classes/M.core.confirm.html">M.core.confirm</a></li>
+            
+                <li><a href="../classes/M.core.dialogue.html">M.core.dialogue</a></li>
+            
+                <li><a href="../classes/M.core.dock.ActionKey.html">M.core.dock.ActionKey</a></li>
+            
+                <li><a href="../classes/M.core.dock.Block.html">M.core.dock.Block</a></li>
+            
+                <li><a href="../classes/M.core.dock.Dock.html">M.core.dock.Dock</a></li>
+            
+                <li><a href="../classes/M.core.dock.DockedItem.html">M.core.dock.DockedItem</a></li>
+            
+                <li><a href="../classes/M.core.dock.Loader.html">M.core.dock.Loader</a></li>
+            
+                <li><a href="../classes/M.core.dock.Panel.html">M.core.dock.Panel</a></li>
+            
+                <li><a href="../classes/M.core.dock.TabHeightManager.html">M.core.dock.TabHeightManager</a></li>
+            
+                <li><a href="../classes/M.core.dragdrop.html">M.core.dragdrop</a></li>
+            
+                <li><a href="../classes/M.core.exception.html">M.core.exception</a></li>
+            
+                <li><a href="../classes/M.core.formchangechecker.html">M.core.formchangechecker</a></li>
+            
+                <li><a href="../classes/M.core.LockScroll.html">M.core.LockScroll</a></li>
+            
+                <li><a href="../classes/M.core.notification.html">M.core.notification</a></li>
+            
+                <li><a href="../classes/M.core.notification.info.html">M.core.notification.info</a></li>
+            
+                <li><a href="../classes/M.core.popuphelp.html">M.core.popuphelp</a></li>
+            
+                <li><a href="../classes/M.core.tooltip.html">M.core.tooltip</a></li>
+            
+                <li><a href="../classes/M.core.WidgetFocusAfterHide.html">M.core.WidgetFocusAfterHide</a></li>
+            
+                <li><a href="../classes/M.core_backup.backupselectall.html">M.core_backup.backupselectall</a></li>
+            
+                <li><a href="../classes/M.core_backup.confirmcancel.html">M.core_backup.confirmcancel</a></li>
+            
+                <li><a href="../classes/M.course.coursebase.html">M.course.coursebase</a></li>
+            
+                <li><a href="../classes/M.course.dragdrop.resource.html">M.course.dragdrop.resource</a></li>
+            
+                <li><a href="../classes/M.course.dragdrop.section.html">M.course.dragdrop.section</a></li>
+            
+                <li><a href="../classes/M.course.management.Category.html">M.course.management.Category</a></li>
+            
+                <li><a href="../classes/M.course.management.Console.html">M.course.management.Console</a></li>
+            
+                <li><a href="../classes/M.course.management.Course.html">M.course.management.Course</a></li>
+            
+                <li><a href="../classes/M.course.management.DragDrop.html">M.course.management.DragDrop</a></li>
+            
+                <li><a href="../classes/M.course.management.Item.html">M.course.management.Item</a></li>
+            
+                <li><a href="../classes/M.course.modchooser.html">M.course.modchooser</a></li>
+            
+                <li><a href="../classes/M.course.toolboxes.resources.html">M.course.toolboxes.resources</a></li>
+            
+                <li><a href="../classes/M.course.toolboxes.section.html">M.course.toolboxes.section</a></li>
+            
+                <li><a href="../classes/M.course.toolboxes.toolbox.html">M.course.toolboxes.toolbox</a></li>
+            
+                <li><a href="../classes/M.editor_atto.Editor.html">M.editor_atto.Editor</a></li>
+            
+                <li><a href="../classes/M.editor_atto.EditorClean.html">M.editor_atto.EditorClean</a></li>
+            
+                <li><a href="../classes/M.editor_atto.EditorFilepicker.html">M.editor_atto.EditorFilepicker</a></li>
+            
+                <li><a href="../classes/M.editor_atto.EditorPlugin.html">M.editor_atto.EditorPlugin</a></li>
+            
+                <li><a href="../classes/M.editor_atto.EditorPluginButtons.html">M.editor_atto.EditorPluginButtons</a></li>
+            
+                <li><a href="../classes/M.editor_atto.EditorPluginDialogue.html">M.editor_atto.EditorPluginDialogue</a></li>
+            
+                <li><a href="../classes/M.editor_atto.EditorSelection.html">M.editor_atto.EditorSelection</a></li>
+            
+                <li><a href="../classes/M.editor_atto.EditorStyling.html">M.editor_atto.EditorStyling</a></li>
+            
+                <li><a href="../classes/M.editor_atto.EditorTextArea.html">M.editor_atto.EditorTextArea</a></li>
+            
+                <li><a href="../classes/M.editor_atto.EditorToolbar.html">M.editor_atto.EditorToolbar</a></li>
+            
+                <li><a href="../classes/M.editor_atto.EditorToolbarNav.html">M.editor_atto.EditorToolbarNav</a></li>
+            
+                <li><a href="../classes/M.editor_atto.Menu.html">M.editor_atto.Menu</a></li>
+            
+                <li><a href="../classes/M.form.shortforms.html">M.form.shortforms</a></li>
+            
+                <li><a href="../classes/M.form.showadvanced.html">M.form.showadvanced</a></li>
+            
+                <li><a href="../classes/M.mod_quiz.autosave.html">M.mod_quiz.autosave</a></li>
+            
+                <li><a href="../classes/M.tool_capability.Search.html">M.tool_capability.Search</a></li>
+            
+                <li><a href="../classes/Moodle.core_course.util.html">Moodle.core_course.util</a></li>
+            
+                <li><a href="../classes/Moodle.core_course.util.cm.html">Moodle.core_course.util.cm</a></li>
+            
+                <li><a href="../classes/Moodle.core_course.util.section.html">Moodle.core_course.util.section</a></li>
+            
+                <li><a href="../classes/Moodle.theme_bootstrapbase.bootstrap.html">Moodle.theme_bootstrapbase.bootstrap</a></li>
+            
+                <li><a href="../classes/Y.BootstrapEngine.html">Y.BootstrapEngine</a></li>
+            
+                <li><a href="../classes/Y.Moodle.course.categoryexpander.html">Y.Moodle.course.categoryexpander</a></li>
+            
+            </ul>
+
+            <ul id="api-modules" class="apis modules">
+            
+                <li><a href="../modules/buttons.html">buttons</a></li>
+            
+                <li><a href="../modules/clean.html">clean</a></li>
+            
+                <li><a href="../modules/dialogue.html">dialogue</a></li>
+            
+                <li><a href="../modules/filepicker.html">filepicker</a></li>
+            
+                <li><a href="../modules/gallery-bootstrap-collapse.html">gallery-bootstrap-collapse</a></li>
+            
+                <li><a href="../modules/gallery-bootstrap-dropdown.html">gallery-bootstrap-dropdown</a></li>
+            
+                <li><a href="../modules/gallery-bootstrap-engine.html">gallery-bootstrap-engine</a></li>
+            
+                <li><a href="../modules/menu-base.html">menu-base</a></li>
+            
+                <li><a href="../modules/moodle-assignfeedback_editpdf-editor.html">moodle-assignfeedback_editpdf-editor</a></li>
+            
+                <li><a href="../modules/moodle-atto-managefiles-button.html">moodle-atto-managefiles-button</a></li>
+            
+                <li><a href="../modules/moodle-atto_accessibilitychecker-button.html">moodle-atto_accessibilitychecker-button</a></li>
+            
+                <li><a href="../modules/moodle-atto_accessibilityhelper-button.html">moodle-atto_accessibilityhelper-button</a></li>
+            
+                <li><a href="../modules/moodle-atto_align-button.html">moodle-atto_align-button</a></li>
+            
+                <li><a href="../modules/moodle-atto_backcolor-button.html">moodle-atto_backcolor-button</a></li>
+            
+                <li><a href="../modules/moodle-atto_bold-button.html">moodle-atto_bold-button</a></li>
+            
+                <li><a href="../modules/moodle-atto_charmap-button.html">moodle-atto_charmap-button</a></li>
+            
+                <li><a href="../modules/moodle-atto_clear-button.html">moodle-atto_clear-button</a></li>
+            
+                <li><a href="../modules/moodle-atto_collapse-button.html">moodle-atto_collapse-button</a></li>
+            
+                <li><a href="../modules/moodle-atto_emoticon-button.html">moodle-atto_emoticon-button</a></li>
+            
+                <li><a href="../modules/moodle-atto_html-button.html">moodle-atto_html-button</a></li>
+            
+                <li><a href="../modules/moodle-atto_image_alignment-button.html">moodle-atto_image_alignment-button</a></li>
+            
+                <li><a href="../modules/moodle-atto_indent-button.html">moodle-atto_indent-button</a></li>
+            
+                <li><a href="../modules/moodle-atto_italic-button.html">moodle-atto_italic-button</a></li>
+            
+                <li><a href="../modules/moodle-atto_link-button.html">moodle-atto_link-button</a></li>
+            
+                <li><a href="../modules/moodle-atto_managefiles-usedfiles.html">moodle-atto_managefiles-usedfiles</a></li>
+            
+                <li><a href="../modules/moodle-atto_media-button.html">moodle-atto_media-button</a></li>
+            
+                <li><a href="../modules/moodle-atto_noautolink-button.html">moodle-atto_noautolink-button</a></li>
+            
+                <li><a href="../modules/moodle-atto_orderedlist-button.html">moodle-atto_orderedlist-button</a></li>
+            
+                <li><a href="../modules/moodle-atto_rtl-button.html">moodle-atto_rtl-button</a></li>
+            
+                <li><a href="../modules/moodle-atto_strike-button.html">moodle-atto_strike-button</a></li>
+            
+                <li><a href="../modules/moodle-atto_subscript-button.html">moodle-atto_subscript-button</a></li>
+            
+                <li><a href="../modules/moodle-atto_superscript-button.html">moodle-atto_superscript-button</a></li>
+            
+                <li><a href="../modules/moodle-atto_table-button.html">moodle-atto_table-button</a></li>
+            
+                <li><a href="../modules/moodle-atto_title-button.html">moodle-atto_title-button</a></li>
+            
+                <li><a href="../modules/moodle-atto_underline-button.html">moodle-atto_underline-button</a></li>
+            
+                <li><a href="../modules/moodle-atto_undo-button.html">moodle-atto_undo-button</a></li>
+            
+                <li><a href="../modules/moodle-atto_unlink-button.html">moodle-atto_unlink-button</a></li>
+            
+                <li><a href="../modules/moodle-atto_unorderedlist-button.html">moodle-atto_unorderedlist-button</a></li>
+            
+                <li><a href="../modules/moodle-backup-backupselectall.html">moodle-backup-backupselectall</a></li>
+            
+                <li><a href="../modules/moodle-backup-confirmcancel.html">moodle-backup-confirmcancel</a></li>
+            
+                <li><a href="../modules/moodle-block_navigation-navigation.html">moodle-block_navigation-navigation</a></li>
+            
+                <li><a href="../modules/moodle-core-actionmenu.html">moodle-core-actionmenu</a></li>
+            
+                <li><a href="../modules/moodle-core-blockdraganddrop.html">moodle-core-blockdraganddrop</a></li>
+            
+                <li><a href="../modules/moodle-core-chooserdialogue.html">moodle-core-chooserdialogue</a></li>
+            
+                <li><a href="../modules/moodle-core-dock.html">moodle-core-dock</a></li>
+            
+                <li><a href="../modules/moodle-core-dragdrop.html">moodle-core-dragdrop</a></li>
+            
+                <li><a href="../modules/moodle-core-formchangechecker.html">moodle-core-formchangechecker</a></li>
+            
+                <li><a href="../modules/moodle-core-lockscroll.html">moodle-core-lockscroll</a></li>
+            
+                <li><a href="../modules/moodle-core-maintenancemodetimer.html">moodle-core-maintenancemodetimer</a></li>
+            
+                <li><a href="../modules/moodle-core-notification.html">moodle-core-notification</a></li>
+            
+                <li><a href="../modules/moodle-core-notification-ajaxexception.html">moodle-core-notification-ajaxexception</a></li>
+            
+                <li><a href="../modules/moodle-core-notification-alert.html">moodle-core-notification-alert</a></li>
+            
+                <li><a href="../modules/moodle-core-notification-confirm.html">moodle-core-notification-confirm</a></li>
+            
+                <li><a href="../modules/moodle-core-notification-dialogue.html">moodle-core-notification-dialogue</a></li>
+            
+                <li><a href="../modules/moodle-core-notification-exception.html">moodle-core-notification-exception</a></li>
+            
+                <li><a href="../modules/moodle-core-popuphelp.html">moodle-core-popuphelp</a></li>
+            
+                <li><a href="../modules/moodle-core-tooltip.html">moodle-core-tooltip</a></li>
+            
+                <li><a href="../modules/moodle-core-widget-focusafterhide.html">moodle-core-widget-focusafterhide</a></li>
+            
+                <li><a href="../modules/moodle-course-categoryexpander.html">moodle-course-categoryexpander</a></li>
+            
+                <li><a href="../modules/moodle-course-coursebase.html">moodle-course-coursebase</a></li>
+            
+                <li><a href="../modules/moodle-course-dragdrop.html">moodle-course-dragdrop</a></li>
+            
+                <li><a href="../modules/moodle-course-management.html">moodle-course-management</a></li>
+            
+                <li><a href="../modules/moodle-course-modchooser.html">moodle-course-modchooser</a></li>
+            
+                <li><a href="../modules/moodle-course-toolboxes.html">moodle-course-toolboxes</a></li>
+            
+                <li><a href="../modules/moodle-course-util.html">moodle-course-util</a></li>
+            
+                <li><a href="../modules/moodle-course-util-cm.html">moodle-course-util-cm</a></li>
+            
+                <li><a href="../modules/moodle-course-util-section.html">moodle-course-util-section</a></li>
+            
+                <li><a href="../modules/moodle-editor_atto-editor.html">moodle-editor_atto-editor</a></li>
+            
+                <li><a href="../modules/moodle-editor_atto-menu.html">moodle-editor_atto-menu</a></li>
+            
+                <li><a href="../modules/moodle-editor_atto-plugin.html">moodle-editor_atto-plugin</a></li>
+            
+                <li><a href="../modules/moodle-form-shortforms.html">moodle-form-shortforms</a></li>
+            
+                <li><a href="../modules/moodle-form-showadvanced.html">moodle-form-showadvanced</a></li>
+            
+                <li><a href="../modules/moodle-mod_quiz-autosave.html">moodle-mod_quiz-autosave</a></li>
+            
+                <li><a href="../modules/moodle-question-preview.html">moodle-question-preview</a></li>
+            
+                <li><a href="../modules/moodle-tool_capability-search.html">moodle-tool_capability-search</a></li>
+            
+                <li><a href="../modules/plugin-base.html">plugin-base</a></li>
+            
+                <li><a href="../modules/styling.html">styling</a></li>
+            
+                <li><a href="../modules/textarea.html">textarea</a></li>
+            
+                <li><a href="../modules/theme_bootstrapbase-bootstrap.html">theme_bootstrapbase-bootstrap</a></li>
+            
+                <li><a href="../modules/toolbar.html">toolbar</a></li>
+            
+                <li><a href="../modules/toolbarnav.html">toolbarnav</a></li>
+            
+            </ul>
+        </div>
+    </div>
+</div>
+
+            </div>
+        </div>
+        <div class="yui3-u-3-4">
+                <div id="api-options">
+        Show:
+        <label for="api-show-inherited">
+            <input type="checkbox" id="api-show-inherited" checked>
+            Inherited
+        </label>
+
+        <label for="api-show-protected">
+            <input type="checkbox" id="api-show-protected">
+            Protected
+        </label>
+
+        <label for="api-show-private">
+            <input type="checkbox" id="api-show-private">
+            Private
+        </label>
+        <label for="api-show-deprecated">
+            <input type="checkbox" id="api-show-deprecated">
+            Deprecated
+        </label>
+
+    </div>
+
+
+            <div class="apidocs">
+                <div id="docs-main">
+                    <div class="content">
+                        <h1 class="file-heading">File: lib/editor/atto/yui/src/editor/js/editor-plugin-buttons.js</h1>
+
+<div class="file">
+    <pre class="code prettyprint linenums">
+// This file is part of Moodle - http://moodle.org/
+//
+// Moodle is free software: you can redistribute it and/or modify
+// it under the terms of the GNU General Public License as published by
+// the Free Software Foundation, either version 3 of the License, or
+// (at your option) any later version.
+//
+// Moodle is distributed in the hope that it will be useful,
+// but WITHOUT ANY WARRANTY; without even the implied warranty of
+// MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+// GNU General Public License for more details.
+//
+// You should have received a copy of the GNU General Public License
+// along with Moodle.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+
+/**
+ * @module moodle-editor_atto-plugin
+ * @submodule buttons
+ */
+
+/**
+ * Button functions for an Atto Plugin.
+ *
+ * See {{#crossLink &quot;M.editor_atto.EditorPlugin&quot;}}{{/crossLink}} for details.
+ *
+ * @namespace M.editor_atto
+ * @class EditorPluginButtons
+ */
+
+var MENUTEMPLATE = &#x27;&#x27; +
+        &#x27;&lt;button class=&quot;{{buttonClass}} atto_hasmenu&quot; &#x27; +
+            &#x27;tabindex=&quot;-1&quot; &#x27; +
+            &#x27;type=&quot;button&quot; &#x27; +
+            &#x27;title=&quot;{{title}}&quot;&gt;&#x27; +
+            &#x27;&lt;img class=&quot;icon&quot; aria-hidden=&quot;true&quot; role=&quot;presentation&quot; width=&quot;16&quot; height=&quot;16&quot; &#x27;+
+                &#x27;style=&quot;background-color:{{config.menuColor}};&quot; src=&quot;{{config.iconurl}}&quot; /&gt;&#x27; +
+            &#x27;&lt;img class=&quot;icon&quot; aria-hidden=&quot;true&quot; role=&quot;presentation&quot; width=&quot;16&quot; height=&quot;16&quot; src=&quot;{{image_url &quot;t/expanded&quot; &quot;moodle&quot;}}&quot;/&gt;&#x27; +
+        &#x27;&lt;/button&gt;&#x27;,
+    MENUDIALOGUE = &#x27;&#x27; +
+        &#x27;&lt;div class=&quot;{{config.buttonClass}} atto_menu&quot; &#x27; +
+            &#x27;style=&quot;min-width:{{config.innerOverlayWidth}};&quot;&gt;&#x27; +
+            &#x27;&lt;ul class=&quot;menu&quot;&gt;&#x27; +
+                &#x27;{{#each config.items}}&#x27; +
+                    &#x27;&lt;li role=&quot;presentation&quot; class=&quot;atto_menuentry&quot;&gt;&#x27; +
+                        &#x27;&lt;a href=&quot;#&quot; role=&quot;menuitem&quot; data-index=&quot;{{@index}}&quot;&gt;&#x27; +
+                            &#x27;{{{text}}}&#x27; +
+                        &#x27;&lt;/a&gt;&#x27; +
+                    &#x27;&lt;/li&gt;&#x27; +
+                &#x27;{{/each}}&#x27; +
+            &#x27;&lt;/ul&gt;&#x27; +
+        &#x27;&lt;/div&gt;&#x27;;
+
+var DISABLED = &#x27;disabled&#x27;,
+    HIGHLIGHT = &#x27;highlight&#x27;,
+    LOGNAME = &#x27;moodle-editor_atto-editor-plugin&#x27;,
+    CSS = {
+        EDITORWRAPPER: &#x27;.editor_atto_content&#x27;
+    };
+
+function EditorPluginButtons() {}
+
+EditorPluginButtons.ATTRS= {
+};
+
+EditorPluginButtons.prototype = {
+    /**
+     * All of the buttons that belong to this plugin instance.
+     *
+     * Buttons are stored by button name.
+     *
+     * @property buttons
+     * @type object
+     */
+    buttons: null,
+
+    /**
+     * A list of each of the button names.
+     *
+     * @property buttonNames
+     * @type array
+     */
+    buttonNames: null,
+
+    /**
+     * A read-only view of the current state for each button. Mappings are stored by name.
+     *
+     * Possible states are:
+     * &lt;ul&gt;
+     * &lt;li&gt;{{#crossLink &quot;M.editor_atto.EditorPluginButtons/ENABLED:property&quot;}}{{/crossLink}}; and&lt;/li&gt;
+     * &lt;li&gt;{{#crossLink &quot;M.editor_atto.EditorPluginButtons/DISABLED:property&quot;}}{{/crossLink}}.&lt;/li&gt;
+     * &lt;/ul&gt;
+     *
+     * @property buttonStates
+     * @type object
+     */
+    buttonStates: null,
+
+    /**
+     * The menus belonging to this plugin instance.
+     *
+     * @property menus
+     * @type object
+     */
+    menus: null,
+
+    /**
+     * The state for a disabled button.
+     *
+     * @property DISABLED
+     * @type Number
+     * @static
+     * @value 0
+     */
+    DISABLED: 0,
+
+    /**
+     * The state for an enabled button.
+     *
+     * @property ENABLED
+     * @type Number
+     * @static
+     * @value 1
+     */
+    ENABLED: 1,
+
+    /**
+     * The list of Event Handlers for buttons.
+     *
+     * @property _buttonHandlers
+     * @protected
+     * @type array
+     */
+    _buttonHandlers: null,
+
+    /**
+     * Hide handlers which are cancelled when the menu is hidden.
+     *
+     * @property _menuHideHandlers
+     * @protected
+     * @type array
+     */
+    _menuHideHandlers: null,
+
+    /**
+     * Add a button for this plugin to the toolbar.
+     *
+     * @method addButton
+     * @param {object} config The configuration for this button
+     * @param {string} [config.iconurl] The URL for the icon. If not specified, then the icon and component will be used instead.
+     * @param {string} [config.icon] The icon identifier.
+     * @param {string} [config.iconComponent=&#x27;core&#x27;] The icon component.
+     * @param {string} [config.keys] The shortcut key that can call this plugin from the keyboard.
+     * @param {string} [config.tags] The tags that trigger this button to be highlighted.
+     * @param {boolean} [config.tagMatchRequiresAll=false] Working in combination with the tags parameter, highlight
+     * this button when any match is good enough.
+     *
+     * See {{#crossLink &quot;M.editor_atto.EditorSelection/selectionFilterMatches:method&quot;}}{{/crossLink}} for more information.
+     * @param {string} [config.title=this.name] The string identifier in the plugin&#x27;s language file.
+     * @param {string} [config.buttonName=this.name] The name of the button. This is used in the buttons object, and if
+     * specified, in the class for the button.
+     * @param {function} config.callback A callback function to call when the button is clicked.
+     * @param {object} [config.callbackArgs] Any arguments to pass to the callback.
+     * @param {boolean} [config.wrapCallback=true] Whether to wrap the callback in default functionality.
+     * @return {Node} The Node representing the newly created button.
+     */
+    addButton: function(config) {
+        var group = this.get(&#x27;group&#x27;),
+            pluginname = this.name,
+            buttonClass = &#x27;atto_&#x27; + pluginname + &#x27;_button&#x27;,
+            button,
+            host = this.get(&#x27;host&#x27;);
+
+        if (config.exec) {
+            buttonClass = buttonClass + &#x27;_&#x27; + config.exec;
+        }
+
+        if (!config.buttonName) {
+            // Set a default button name - this is used as an identifier in the button object.
+            config.buttonName = config.exec || pluginname;
+        } else {
+            buttonClass = buttonClass + &#x27;_&#x27; + config.buttonName;
+        }
+
+        // Normalize icon configuration.
+        config = this._normalizeIcon(config);
+
+        if (!config.title) {
+            config.title = &#x27;pluginname&#x27;;
+        }
+        var title = M.util.get_string(config.title, &#x27;atto_&#x27; + pluginname);
+
+        // Create the actual button.
+        button = Y.Node.create(&#x27;&lt;button class=&quot;&#x27; + buttonClass + &#x27;&quot;&#x27; +
+                &#x27;tabindex=&quot;-1&quot;&gt;&#x27; +
+                    &#x27;&lt;img class=&quot;icon&quot; aria-hidden=&quot;true&quot; role=&quot;presentation&quot; width=&quot;16&quot; height=&quot;16&quot; src=&quot;&#x27; + config.iconurl + &#x27;&quot;/&gt;&#x27; +
+                &#x27;&lt;/button&gt;&#x27;);
+        button.setAttribute(&#x27;title&#x27;, title);
+
+        // Append it to the group.
+        group.append(button);
+
+        var currentfocus = this.toolbar.getAttribute(&#x27;aria-activedescendant&#x27;);
+        if (!currentfocus) {
+            // Initially set the first button in the toolbar to be the default on keyboard focus.
+            button.setAttribute(&#x27;tabindex&#x27;, &#x27;0&#x27;);
+            this.toolbar.setAttribute(&#x27;aria-activedescendant&#x27;, button.generateID());
+            this.get(&#x27;host&#x27;)._tabFocus = button;
+        }
+
+        // Normalize the callback parameters.
+        config = this._normalizeCallback(config);
+
+        // Add the standard click handler to the button.
+        this._buttonHandlers.push(
+            this.toolbar.delegate(&#x27;click&#x27;, config.callback, &#x27;.&#x27; + buttonClass, this)
+        );
+
+        // Handle button click via shortcut key.
+        if (config.keys) {
+            this._addKeyboardListener(config.callback, config.keys, buttonClass);
+        }
+
+        // Handle highlighting of the button.
+        if (config.tags) {
+            var tagMatchRequiresAll = null;
+            if (typeof config.tagMatchRequiresAll === &#x27;boolean&#x27;) {
+                tagMatchRequiresAll = config.tagMatchRequiresAll;
+            }
+            this._buttonHandlers.push(
+                host.on(&#x27;atto:selectionchanged&#x27;, function(e) {
+                    if (host.selectionFilterMatches(config.tags, e.selectedNodes, tagMatchRequiresAll)) {
+                        this.highlightButtons(config.buttonName);
+                    } else {
+                        this.unHighlightButtons(config.buttonName);
+                    }
+                }, this)
+            );
+        }
+
+        // Add the button reference to the buttons array for later reference.
+        this.buttonNames.push(config.buttonName);
+        this.buttons[config.buttonName] = button;
+        this.buttonStates[config.buttonName] = this.ENABLED;
+        return button;
+    },
+
+    /**
+     * Add a basic button which ties into the execCommand.
+     *
+     * See {{#crossLink &quot;M.editor_atto.EditorPluginButtons/addButton:method&quot;}}addButton{{/crossLink}} for full details of the optional parameters.
+     *
+     * @method addBasicButton
+     * @param {object} config The button configuration
+     * @param {string} config.exec The execCommand to call on the document.
+     * @param {string} [config.iconurl] The URL for the icon. If not specified, then the icon and component will be used instead.
+     * @param {string} [config.icon] The icon identifier.
+     * @param {string} [config.iconComponent=&#x27;core&#x27;] The icon component.
+     * @param {string} [config.keys] The shortcut key that can call this plugin from the keyboard.
+     * @param {string} [config.tags] The tags that trigger this button to be highlighted.
+     * @param {boolean} [config.tagMatchRequiresAll=false] Working in combination with the tags parameter, highlight
+     * this button when any match is good enough.
+     *
+     * See {{#crossLink &quot;M.editor_atto.EditorSelection/selectionFilterMatches:method&quot;}}{{/crossLink}} for more information.
+     * @param {string} [config.title=this.name] The string identifier in the plugin&#x27;s language file.
+     * @param {string} [config.buttonName=this.name] The name of the button. This is used in the buttons object, and if
+     * specified, in the class for the button.
+     * @param {boolean} [config.wrapCallback=true] Whether to wrap the callback in default functionality.
+     * @return {Node} The Node representing the newly created button.
+     */
+    addBasicButton: function(config) {
+        if (!config.exec) {
+            Y.log(&#x27;No exec command specified. Cannot proceed.&#x27;,
+                    &#x27;warn&#x27;, &#x27;moodle-editor_atto-plugin&#x27;);
+            return null;
+        }
+
+        // The default icon - true for most core plugins.
+        if (!config.icon) {
+            config.icon = &#x27;e/&#x27; + config.exec;
+        }
+
+        // The default callback.
+        config.callback = function() {
+            document.execCommand(config.exec, false, null);
+
+            // And mark the text area as updated.
+            this.markUpdated();
+        };
+
+        // Return the newly created button.
+        return this.addButton(config);
+    },
+
+    /**
+     * Add a menu for this plugin to the editor toolbar.
+     *
+     * @method addToolbarMenu
+     * @param {object} config The configuration for this button
+     * @param {string} [config.iconurl] The URL for the icon. If not specified, then the icon and component will be used instead.
+     * @param {string} [config.icon] The icon identifier.
+     * @param {string} [config.iconComponent=&#x27;core&#x27;] The icon component.
+     * @param {string} [config.title=this.name] The string identifier in the plugin&#x27;s language file.
+     * @param {string} [config.buttonName=this.name] The name of the button. This is used in the buttons object, and if
+     * specified, in the class for the button.
+     * @param {function} config.callback A callback function to call when the button is clicked.
+     * @param {object} [config.callbackArgs] Any arguments to pass to the callback.
+     * @param {boolean} [config.wrapCallback=true] Whether to wrap the callback in default functionality.
+     * @param {array} config.entries List of menu entries with the string (entry.text) and the handlers (entry.handler).
+     * @param {number} [config.overlayWidth=14] The width of the menu. This will be suffixed with the &#x27;em&#x27; unit.
+     * @param {string} [config.menuColor] menu icon background color
+     * @return {Node} The Node representing the newly created button.
+     */
+    addToolbarMenu: function(config) {
+        var group = this.get(&#x27;group&#x27;),
+            pluginname = this.name,
+            buttonClass = &#x27;atto_&#x27; + pluginname + &#x27;_button&#x27;,
+            button,
+            currentFocus;
+
+        if (!config.buttonName) {
+            // Set a default button name - this is used as an identifier in the button object.
+            config.buttonName = pluginname;
+        } else {
+            buttonClass = buttonClass + &#x27;_&#x27; + config.buttonName;
+        }
+
+        // Normalize icon configuration.
+        config = this._normalizeIcon(config);
+
+        if (!config.title) {
+            config.title = &#x27;pluginname&#x27;;
+        }
+        var title = M.util.get_string(config.title, &#x27;atto_&#x27; + pluginname);
+
+        if (!config.menuColor) {
+            config.menuColor = &#x27;transparent&#x27;;
+        }
+
+        // Create the actual button.
+        var template = Y.Handlebars.compile(MENUTEMPLATE);
+        button = Y.Node.create(template({
+            buttonClass: buttonClass,
+            config: config,
+            title: title
+        }));
+
+        // Append it to the group.
+        group.append(button);
+
+        currentFocus = this.toolbar.getAttribute(&#x27;aria-activedescendant&#x27;);
+        if (!currentFocus) {
+            // Initially set the first button in the toolbar to be the default on keyboard focus.
+            button.setAttribute(&#x27;tabindex&#x27;, &#x27;0&#x27;);
+            this.toolbar.setAttribute(&#x27;aria-activedescendant&#x27;, button.generateID());
+        }
+
+        // Add the standard click handler to the menu.
+        this._buttonHandlers.push(
+            this.toolbar.delegate(&#x27;click&#x27;, this._showToolbarMenu, &#x27;.&#x27; + buttonClass, this, config),
+            this.toolbar.delegate(&#x27;key&#x27;, this._showToolbarMenu, &#x27;40, 32, enter&#x27;, &#x27;.&#x27; + buttonClass, this, config)
+        );
+
+        // Add the button reference to the buttons array for later reference.
+        this.buttonNames.push(config.buttonName);
+        this.buttons[config.buttonName] = button;
+        this.buttonStates[config.buttonName] = this.ENABLED;
+
+        return button;
+    },
+
+    /**
+     * Display a toolbar menu.
+     *
+     * @method _showToolbarMenu
+     * @param {EventFacade} e
+     * @param {object} config The configuration for the whole toolbar.
+     * @param {Number} [config.overlayWidth=14] The width of the menu
+     * @private
+     */
+    _showToolbarMenu: function(e, config) {
+        // Prevent default primarily to prevent arrow press changes.
+        e.preventDefault();
+
+        if (!this.isEnabled()) {
+            // Exit early if the plugin is disabled.
+            return;
+        }
+
+        if (e.currentTarget.ancestor(&#x27;button&#x27;, true).hasAttribute(DISABLED)) {
+            // Exit early if the clicked button was disabled.
+            return;
+        }
+
+        var menuDialogue;
+
+        if (!this.menus[config.buttonClass]) {
+            if (!config.overlayWidth) {
+                config.overlayWidth = &#x27;14&#x27;;
+            }
+
+            if (!config.innerOverlayWidth) {
+                config.innerOverlayWidth = parseInt(config.overlayWidth, 10) - 2 + &#x27;em&#x27;;
+            }
+            config.overlayWidth = parseInt(config.overlayWidth, 10) + &#x27;em&#x27;;
+
+            // Create the actual button.
+            var template = Y.Handlebars.compile(MENUDIALOGUE),
+                menu = Y.Node.create(template({
+                    config: config
+                }));
+
+            // Create the dialogue.
+            this.menus[config.buttonClass] = new M.core.dialogue({
+                bodyContent: menu,
+                width: null,
+                visible: false,
+                center: false,
+                closeButton: false,
+                responsive: false,
+                extraClasses: [&#x27;editor_atto_menu&#x27;]
+            });
+
+            menuDialogue = this.menus[config.buttonClass];
+
+            // Hide the header node entirely.
+            menuDialogue.headerNode.hide();
+
+            // Handle menu item selection.
+            this._buttonHandlers.push(
+                menu.delegate(&#x27;click&#x27;, this._chooseMenuItem, &#x27;.atto_menuentry a&#x27;, this, config, menuDialogue),
+
+                // Select the menu item on space, and enter.
+                menu.delegate(&#x27;key&#x27;, this._chooseMenuItem, &#x27;32, enter&#x27;, &#x27;.atto_menuentry&#x27;, this, config, menuDialogue),
+
+                // Move up and down the menu on up/down.
+                menu.delegate(&#x27;key&#x27;, this._menuKeyboardNavigation, &#x27;down:38,40&#x27;, &#x27;.menu&#x27;, this),
+
+                // Hide the menu on left/right.
+                menu.delegate(&#x27;key&#x27;, this._hideMenu, &#x27;down:37,39&#x27;, &#x27;.menu&#x27;, this, menuDialogue)
+            );
+        }
+
+        // Ensure that we focus on this button next time.
+        var creatorButton = this.buttons[config.buttonName];
+        this.get(&#x27;host&#x27;)._setTabFocus(creatorButton);
+
+        // Get a reference to the menu dialogue.
+        menuDialogue = this.menus[config.buttonClass];
+
+        // Focus on the button by default after hiding this menu.
+        menuDialogue.set(&#x27;focusAfterHide&#x27;, creatorButton);
+
+        // Display the menu.
+        menuDialogue.show();
+
+        // Position it next to the button which opened it.
+        menuDialogue.align(this.buttons[config.buttonName], [Y.WidgetPositionAlign.TL, Y.WidgetPositionAlign.BL]);
+
+        // And focus on the first element in the menu.
+        menuDialogue.get(&#x27;boundingBox&#x27;).one(&#x27;a&#x27;).focus();
+
+        // Hide the menu when clicking outside of it.
+        this._menuHideHandlers.push(
+            menuDialogue.get(&#x27;boundingBox&#x27;).on(&#x27;focusoutside&#x27;, this._hideMenu, this, menuDialogue)
+        );
+    },
+
+    /**
+     * Hide a menu, removing all of the event handlers which trigger the hide.
+     *
+     * @method _hideMenu
+     * @param {EventFacade} e
+     * @param {M.core.dialogue} menuDialogue The Dialogue to hide.
+     * @private
+     */
+    _hideMenu: function(e, menuDialogue) {
+        menuDialogue.hide();
+        new Y.EventHandle(this._menuHideHandlers).detach();
+    },
+
+    /**
+     * Select a menu item and call the appropriate callbacks.
+     *
+     * @method _chooseMenuItem
+     * @param {EventFacade} e
+     * @param {object} config
+     * @param {M.core.dialogue} menuDialogue The Dialogue to hide.
+     * @private
+     */
+    _chooseMenuItem: function(e, config, menuDialogue) {
+            // Get the index from the clicked anchor.
+        var index = e.target.ancestor(&#x27;a&#x27;, true).getData(&#x27;index&#x27;),
+
+            // And the normalized callback configuration.
+            buttonConfig = this._normalizeCallback(config.items[index], config.globalItemConfig);
+
+        // Clear the focus after hide so that focus is returned to the editor and changes are made correctly.
+        menuDialogue.set(&#x27;focusAfterHide&#x27;, null);
+
+        // Call the callback for this button.
+        buttonConfig.callback(e, buttonConfig._callback, buttonConfig.callbackArgs);
+    },
+
+    /**
+     * Normalize and sanitize the configuration variables relating to callbacks.
+     *
+     * @method _normalizeCallback
+     * @param {object} config
+     * @param {function} config.callback A callback function to call when the button is clicked.
+     * @param {object} [config.callbackArgs] Any arguments to pass to the callback.
+     * @param {boolean} [config.wrapCallback=true] Whether to wrap the callback in default functionality.
+     * @param {object} [inheritFrom] A parent configuration that this configuration may inherit from.
+     * @return {object} The normalized configuration
+     * @private
+     */
+    _normalizeCallback: function(config, inheritFrom) {
+        if (config._callbackNormalized) {
+            // Return early if the callback has already been normalized.
+            return config;
+        }
+
+        if (!inheritFrom) {
+            // Create an empty inheritFrom to make life easier below.
+            inheritFrom = {};
+        }
+
+        // By default, we wrap the callback in function to prevent the default action, check whether the editor is
+        // active and focus it, and then mark the field as updated.
+        if (typeof config.wrapCallback === &#x27;undefined&#x27;) {
+            config.wrapCallback = inheritFrom.wrapCallback || true;
+        }
+
+        if (config.wrapCallback) {
+            config._callback = config.callback || inheritFrom.callback;
+            config.callback = Y.rbind(this._callbackWrapper, this, config._callback, config.callbackArgs);
+        } else {
+            config.callback = config.callback || inheritFrom.callback;
+        }
+
+        config._callbackNormalized = true;
+
+        return config;
+    },
+
+    /**
+     * Normalize and sanitize the configuration variables relating to icons.
+     *
+     * @method _normalizeIcon
+     * @param {object} config
+     * @param {string} [config.iconurl] The URL for the icon. If not specified, then the icon and component will be used instead.
+     * @param {string} [config.icon] The icon identifier.
+     * @param {string} [config.iconComponent=&#x27;core&#x27;] The icon component.
+     * @return {object} The normalized configuration
+     * @private
+     */
+    _normalizeIcon: function(config) {
+        if (!config.iconurl) {
+            // The default icon component.
+            if (!config.iconComponent) {
+                config.iconComponent = &#x27;core&#x27;;
+            }
+            config.iconurl = M.util.image_url(config.icon, config.iconComponent);
+        }
+
+        return config;
+    },
+
+    /**
+     * A wrapper in which to run the callbacks.
+     *
+     * This handles common functionality such as:
+     * &lt;ul&gt;
+     *  &lt;li&gt;preventing the default action; and&lt;/li&gt;
+     *  &lt;li&gt;focusing the editor if relevant.&lt;/li&gt;
+     * &lt;/ul&gt;
+     *
+     * @method _callbackWrapper
+     * @param {EventFacade} e
+     * @param {Function} callback The function to call which makes the relevant changes.
+     * @param {Array} [callbackArgs] The arguments passed to this callback.
+     * @private
+     */
+    _callbackWrapper: function(e, callback, callbackArgs) {
+        e.preventDefault();
+
+        if (!this.isEnabled()) {
+            // Exit early if the plugin is disabled.
+            return;
+        }
+
+        var creatorButton = e.currentTarget.ancestor(&#x27;button&#x27;, true);
+
+        if (creatorButton &amp;&amp; creatorButton.hasAttribute(DISABLED)) {
+            // Exit early if the clicked button was disabled.
+            return;
+        }
+
+        if (!this.get(&#x27;host&#x27;).isActive()) {
+            this.get(&#x27;host&#x27;).focus();
+        }
+
+        // Ensure that we focus on this button next time.
+        if (creatorButton) {
+            this.get(&#x27;host&#x27;)._setTabFocus(creatorButton);
+        }
+
+        // Build the arguments list, but remove the callback we&#x27;re calling.
+        var args = [e, callbackArgs];
+
+        // Actually call the callback now.
+        callback.apply(this, args);
+    },
+
+    /**
+     * Add a keyboard listener to call the callback.
+     *
+     * The keyConfig will take either an array of keyConfigurations, in
+     * which case _addKeyboardListener is called multiple times; an object
+     * containing an optional eventtype, optional container, and a set of
+     * keyCodes, or just a string containing the keyCodes.
+     *
+     * @method _addKeyboardListener
+     * @param {function} callback
+     * @param {array|object|string} keyConfig
+     * @param {string} [keyConfig.eventtype=key] The type of event
+     * @param {string} [keyConfig.container=.editor_atto_content] The containing element.
+     * @param {string} keyConfig.keyCodes The keycodes to user for the event.
+     * @private
+     *
+     */
+    _addKeyboardListener: function(callback, keyConfig, buttonName) {
+        var eventtype = &#x27;key&#x27;,
+            container = CSS.EDITORWRAPPER,
+            keys;
+
+        if (Y.Lang.isArray(keyConfig)) {
+            // If an Array was specified, call the add function for each element.
+            Y.Array.each(keyConfig, function(config) {
+                this._addKeyboardListener(callback, config);
+            }, this);
+
+            return this;
+
+        } else if (typeof keyConfig === &quot;object&quot;) {
+            if (keyConfig.eventtype) {
+                eventtype = keyConfig.eventtype;
+            }
+
+            if (keyConfig.container) {
+                container = keyConfig.container;
+            }
+
+            // Must be specified.
+            keys = keyConfig.keyCodes;
+
+        } else {
+            keys = this._getKeyEvent() + keyConfig + this._getDefaultMetaKey();
+
+        }
+
+        this._buttonHandlers.push(
+            this.editor.delegate(
+                eventtype,
+                callback,
+                keys,
+                container,
+                this
+            )
+        );
+
+        Y.log(&#x27;Atto shortcut registered: &#x27; + keys + &#x27; now triggers for &#x27; + buttonName,
+                &#x27;debug&#x27;, LOGNAME);
+    },
+
+    /**
+     * Determine if this plugin is enabled, based upon the state of it&#x27;s buttons.
+     *
+     * @method isEnabled
+     * @return {boolean}
+     */
+    isEnabled: function() {
+        // The first instance of an undisabled button will make this return true.
+        var found = Y.Object.some(this.buttonStates, function(button) {
+            return (button === this.ENABLED);
+        }, this);
+
+        return found;
+    },
+
+    /**
+     * Enable one button, or all buttons relating to this Plugin.
+     *
+     * If no button is specified, all buttons are disabled.
+     *
+     * @method disableButtons
+     * @param {String} [button] The name of a specific plugin to enable.
+     * @chainable
+     */
+    disableButtons: function(button) {
+        return this._setButtonState(false, button);
+    },
+
+    /**
+     * Enable one button, or all buttons relating to this Plugin.
+     *
+     * If no button is specified, all buttons are enabled.
+     *
+     * @method enableButtons
+     * @param {String} [button] The name of a specific plugin to enable.
+     * @chainable
+     */
+    enableButtons: function(button) {
+        return this._setButtonState(true, button);
+    },
+
+    /**
+     * Set the button state for one button, or all buttons associated with this plugin.
+     *
+     * @method _setButtonState
+     * @param {Boolean} enable Whether to enable this button.
+     * @param {String} [button] The name of a specific plugin to set state for.
+     * @chainable
+     * @private
+     */
+    _setButtonState: function(enable, button) {
+        var attributeChange = &#x27;setAttribute&#x27;;
+        if (enable) {
+            attributeChange = &#x27;removeAttribute&#x27;;
+        }
+        if (button) {
+            if (this.buttons[button]) {
+                this.buttons[button][attributeChange](DISABLED, DISABLED);
+                this.buttonStates[button] = enable ? this.ENABLED : this.DISABLED;
+            }
+        } else {
+            Y.Array.each(this.buttonNames, function(button) {
+                this.buttons[button][attributeChange](DISABLED, DISABLED);
+                this.buttonStates[button] = enable ? this.ENABLED : this.DISABLED;
+            }, this);
+        }
+
+        return this;
+    },
+
+    /**
+     * Highlight a button, or buttons in the toolbar.
+     *
+     * If no button is specified, all buttons are highlighted.
+     *
+     * @method highlightButtons
+     * @param {string} [button] If a plugin has multiple buttons, the specific button to highlight.
+     * @chainable
+     */
+    highlightButtons: function(button) {
+        return this._changeButtonHighlight(true, button);
+    },
+
+    /**
+     * Un-highlight a button, or buttons in the toolbar.
+     *
+     * If no button is specified, all buttons are un-highlighted.
+     *
+     * @method unHighlightButtons
+     * @param {string} [button] If a plugin has multiple buttons, the specific button to highlight.
+     * @chainable
+     */
+    unHighlightButtons: function(button) {
+        return this._changeButtonHighlight(false, button);
+    },
+
+    /**
+     * Highlight a button, or buttons in the toolbar.
+     *
+     * @method _changeButtonHighlight
+     * @param {boolean} highlight true
+     * @param {string} [button] If a plugin has multiple buttons, the specific button to highlight.
+     * @protected
+     * @chainable
+     */
+    _changeButtonHighlight: function(highlight, button) {
+        var method = &#x27;addClass&#x27;;
+
+        if (!highlight) {
+            method = &#x27;removeClass&#x27;;
+        }
+        if (button) {
+            if (this.buttons[button]) {
+                this.buttons[button][method](HIGHLIGHT);
+            }
+        } else {
+            Y.Object.each(this.buttons, function(button) {
+                button[method](HIGHLIGHT);
+            }, this);
+        }
+
+        return this;
+    },
+
+    /**
+     * Implement arrow-key navigation for the items in a toolbar menu.
+     *
+     * @method _menuKeyboardNavigation
+     * @param {EventFacade} e The keyboard event.
+     * @private
+     */
+    _menuKeyboardNavigation: function(e) {
+        // Prevent the default browser behaviour.
+        e.preventDefault();
+
+        // Get a list of all buttons in the menu.
+        var buttons = e.currentTarget.all(&#x27;a[role=&quot;menuitem&quot;]&#x27;);
+
+        // On cursor moves we loops through the buttons.
+        var found = false,
+            index = 0,
+            direction = 1,
+            checkCount = 0,
+            current = e.target.ancestor(&#x27;a[role=&quot;menuitem&quot;]&#x27;, true);
+
+        // Determine which button is currently selected.
+        while (!found &amp;&amp; index &lt; buttons.size()) {
+            if (buttons.item(index) === current) {
+                found = true;
+            } else {
+                index++;
+            }
+        }
+
+        if (!found) {
+            Y.log(&quot;Unable to find this menu item in the menu&quot;, &#x27;debug&#x27;, LOGNAME);
+            return;
+        }
+
+        if (e.keyCode === 38) {
+            // Moving up so reverse the direction.
+            direction = -1;
+        }
+
+        // Try to find the next
+        do {
+            index += direction;
+            if (index &lt; 0) {
+                index = buttons.size() - 1;
+            } else if (index &gt;= buttons.size()) {
+                // Handle wrapping.
+                index = 0;
+            }
+            next = buttons.item(index);
+
+            // Add a counter to ensure we don&#x27;t get stuck in a loop if there&#x27;s only one visible menu item.
+            checkCount++;
+            // Loop while:
+            // * we are not in a loop and have not already checked every button; and
+            // * we are on a different button; and
+            // * the next menu item is not hidden.
+        } while (checkCount &lt; buttons.size() &amp;&amp; next !== current &amp;&amp; next.hasAttribute(&#x27;hidden&#x27;));
+
+        if (next) {
+            next.focus();
+        }
+    },
+
+
+    /**
+     * Get the default meta key to use with keyboard events.
+     *
+     * On a Mac, this will be the &#x27;meta&#x27; key for Command; otherwise it will
+     * be the Control key.
+     *
+     * @method _getDefaultMetaKey
+     * @return {string}
+     * @private
+     */
+    _getDefaultMetaKey: function() {
+        if (Y.UA.os === &#x27;macintosh&#x27;) {
+            return &#x27;+meta&#x27;;
+        } else {
+            return &#x27;+ctrl&#x27;;
+        }
+    },
+
+    /**
+     * Get the standard key event to use for keyboard events.
+     *
+     * @method _getKeyEvent
+     * @return {string}
+     * @private
+     */
+    _getKeyEvent: function() {
+        return &#x27;down:&#x27;;
+    }
+};
+
+Y.Base.mix(Y.M.editor_atto.EditorPlugin, [EditorPluginButtons]);
+
+    </pre>
+</div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="../assets/vendor/prettify/prettify-min.js"></script>
+<script>prettyPrint();</script>
+<script src="../assets/js/yui-prettify.js"></script>
+<script src="../assets/../api.js"></script>
+<script src="../assets/js/api-filter.js"></script>
+<script src="../assets/js/api-list.js"></script>
+<script src="../assets/js/api-search.js"></script>
+<script src="../assets/js/apidocs.js"></script>
+</body>
+</html>
